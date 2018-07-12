@@ -1,0 +1,49 @@
+T1	Secondary-Partial 928 957	Corner, E.V., XI, pp. 172-197
+T2	Secondary-Partial 965 994	Corner, E.T., II, pp. 228-231
+T3	Secondary-Partial 1145 1195	Vi anelli, op. cìt., vol. II, pp. 112-115, 420-422
+T4	Author 928 935	Corner,
+T5	Author 965 972	Corner,
+T6	AbbreviatedTitle 936 941	E.V.,
+T7	AbbreviatedTitle 973 978	E.T.,
+T8	Volume 942 945	XI,
+T9	Pagination 946 957	pp. 172-197
+T10	Volume 979 982	II,
+T11	Pagination 983 994	pp. 228-231
+T12	Author 1145 1155	Vi anelli,
+T13	Abbreviation 1156 1165	op. cìt.,
+T14	Volume 1166 1174	vol. II,
+T15	Pagination 1175 1186	pp. 112-115
+T16	Pagination 1188 1195	420-422
+T17	Secondary-Full 1197 1218;1220 1274	A. Da Mosto, L’Archi- vio di Stato di Venezia, Roma 1937-40, vol. II, p. 172
+T18	Secondary-Full 1276 1294;1296 1347	M. De Biasi, Mala- mocco, una terra da riscoprire, Venezia 1983, p. 42
+T19	Secondary-Full 1349 1371;1373 1449	G. Mazzucco, Monasteri benedettini nella laguna veneziana, catalogo di mostra, Venezia 1983, p. 110
+T20	Author 1197 1209	A. Da Mosto,
+T21	Title 1210 1218;1220 1244	L’Archi- vio di Stato di Venezia,
+T22	PublicationPlace 1245 1249	Roma
+T23	PublicationYear 1250 1258	1937-40,
+T24	Volume 1259 1267	vol. II,
+T25	Pagination 1268 1274	p. 172
+T26	Author 1276 1288	M. De Biasi,
+T27	Title 1289 1294;1296 1327	Mala- mocco, una terra da riscoprire,
+T28	PublicationPlace 1328 1335	Venezia
+T29	PublicationYear 1336 1340	1983
+T30	Pagination 1342 1347	p. 42
+T31	Author 1349 1361	G. Mazzucco,
+T32	Title 1362 1371;1373 1428	Monasteri benedettini nella laguna veneziana, catalogo di mostra,
+T33	PublicationPlace 1429 1436	Venezia
+T34	PublicationYear 1437 1442	1983,
+T35	Pagination 1443 1449	p. 110
+T36	Primary-Full 1592 1608;1610 1635	A.S.V., S. Maria dell’orazione, b. 1 perg.
+T37	Archive 1592 1599	A.S.V.,
+T38	ArchivalReference 1600 1608;1610 1624	S. Maria dell’orazione,
+T39	Folder 1625 1635	b. 1 perg.
+T40	Primary-Full 2702 2733;2735 2745	A.S.V., S. Maria dell’orazione, b. 1 perg.
+T41	Archive 2702 2709	A.S.V.,
+T42	ArchivalReference 2710 2733	S. Maria dell’orazione,
+T43	Folder 2735 2745	b. 1 perg.
+T44	Primary-Partial 2851 2869	ibidem, b. 1 perg.
+T45	Primary-Partial 2871 2895;2897 2906	b. 1, libro dei capitoli 1635-1669
+T46	Abbreviation 2851 2858	ibidem,
+T47	Folder 2859 2869	b. 1 perg.
+T48	Folder 2871 2876	b. 1,
+T49	Attachment 2877 2895;2897 2906	libro dei capitoli 1635-1669

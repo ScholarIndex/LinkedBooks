@@ -1,0 +1,22 @@
+T1	Primary-Full 2223 2292;2294 2372;2374 2405	Hap, Fondo Porec (Fonso Parenzo), Liber Baptizatorum 1710-1734; 1734- 1745; 1745-1753; 1753-1765; 1766-1791; 1792-1804; Liber Defunctorum 1710-1733; 1733-1753;1753-1782; 1783-1807.
+T2	Archive 2223 2227	Hap,
+T3	ArchivalFond 2228 2256	Fondo Porec (Fonso Parenzo),
+T4	Registry 2257 2275	Liber Baptizatorum
+T5	Period 2276 2286	1710-1734;
+T6	Period 2287 2292;2294 2299	1734- 1745;
+T7	Period 2300 2310	1745-1753;
+T8	Period 2311 2321	1753-1765;
+T9	Period 2322 2332	1766-1791;
+T10	Period 2333 2343	1792-1804;
+T11	Registry 2344 2361	Liber Defunctorum
+T12	Period 2362 2372	1710-1733;
+T13	Period 2374 2384	1733-1753;
+T14	Period 2384 2394	1753-1782;
+T15	Period 2395 2404	1783-1807
+T16	Secondary-Full 2412 2483;2485 2521	N. Colak, Regesti marittimi croati nel Settecento. I parte. Navigazione nell’Adriatico, Padova 1985, p. 633.
+T17	Author 2412 2421	N. Colak,
+T18	Title 2422 2462	Regesti marittimi croati nel Settecento.
+T19	Volume 2463 2483;2485 2500	I parte. Navigazione nell’Adriatico,
+T20	PublicationPlace 2501 2507	Padova
+T21	PublicationYear 2508 2513	1985,
+T22	Pagination 2514 2521	p. 633.

@@ -1,0 +1,46 @@
+T1	Secondary-Partial 1788 1817	Paschini, op. cit., pp. 58-60
+T2	Secondary-Partial 1819 1857;1859 1874	S. Tramontin, La visita apostolica del 1581 a Venezia,
+T3	Secondary-Full 1875 1915	«Studi veneziani», 9 (1967), pp. 453-533
+R1	ContainedIN Arg1:T2 Arg2:T3	
+T4	Author 1788 1797	Paschini,
+T5	Abbreviation 1798 1807	op. cit.,
+T6	Pagination 1808 1817	pp. 58-60
+T7	Author 1819 1832	S. Tramontin,
+T8	Title 1833 1857;1859 1873	La visita apostolica del 1581 a Venezia
+T9	Title 1875 1893	«Studi veneziani»,
+T10	PublicationNumber-Year 1894 1903	9 (1967),
+T11	Pagination 1904 1915	pp. 453-533
+T12	Primary-Full 1924 1960	A.S.V., Senato terra, reg. 48 c. 147
+T13	Archive 1924 1931	A.S.V.,
+T14	ArchivalReference 1932 1945	Senato terra,
+T15	Registry 1946 1953	reg. 48
+T16	Cartulation 1954 1960	c. 147
+T17	Secondary-Full 1962 1991;1993 2042	F.A. Roberti, La battaglia di Lepanto e la devozione a S. Giustina, Verona 1975
+T18	Author 1962 1975	F.A. Roberti,
+T19	Title 1976 1991;1993 2030	La battaglia di Lepanto e la devozione a S. Giustina,
+T20	PublicationPlace 2031 2037	Verona
+T21	PublicationYear 2038 2042	1975
+T22	Primary-Full 2051 2086	A.S.V., Senato terra, reg. 83 c. 38
+T23	Secondary-Partial 2095 2121	Sansovino, op. cit., p. 20
+T24	Archive 2051 2058	A.S.V.,
+T25	ArchivalReference 2059 2072	Senato terra,
+T26	Registry 2073 2080	reg. 83
+T27	Cartulation 2081 2086	c. 38
+T28	Author 2095 2105	Sansovino,
+T29	Abbreviation 2106 2115	op. cit.,
+T30	Pagination 2116 2121	p. 20
+T31	Primary-Full 2381 2422	A.S.V., Compilazione leggi, b. 288 n. 807
+T32	Archive 2381 2388	A.S.V.,
+T33	ArchivalReference 2389 2408	Compilazione leggi,
+T34	Folder 2409 2415	b. 288
+T35	Numbering 2416 2422	n. 807
+T36	Primary-Partial 2424 2435;2437 2466	Cancelleria inferiore, doge, bb. 202, 259
+T37	ArchivalReference 2424 2435;2437 2447	Cancelleria inferiore,
+T38	ArchivalReference 2448 2453	doge,
+T39	Folder 2454 2462	bb. 202,
+T40	Folder 2463 2466	259
+T41	Primary-Partial 2476 2495	Ibidem, bb. 203-204
+T42	Abbreviation 2476 2483	Ibidem,
+T43	Folder 2484 2495	bb. 203-204
+T44	Primary-Partial 2511 2517	b. 259
+T45	Folder 2511 2517	b. 259

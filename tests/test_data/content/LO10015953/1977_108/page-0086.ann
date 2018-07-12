@@ -1,0 +1,60 @@
+T1	Secondary-Full 2695 2745	A. Banchieri, 1 trastulli della villa, Veneua 1627
+T2	Author 2695 2708	A. Banchieri,
+T3	Title 2709 2733	1 trastulli della villa,
+T4	PublicationPlace 2734 2740	Veneua
+T5	PublicationYear 2741 2745	1627
+T6	Secondary-Full 2365 2432;2434 2446	S. Maffei, Opere drammatiche e poesie varie, a c. di A. Avena, Bari 1928, p. 291
+T7	Author 2365 2375	S. Maffei,
+T8	Title 2376 2409	Opere drammatiche e poesie varie,
+T9	Editor 2410 2427	a c. di A. Avena,
+T10	PublicationPlace 2428 2432	Bari
+T11	PublicationYear 2434 2439	1928,
+T12	Pagination 2440 2446	p. 291
+T13	Secondary-Full 2582 2591;2593 2673	R. Polaz- zi. Il rigetto urbano. La nostra vita nelle città inospitali, Firenze 1973, p. 1
+T14	Author 2582 2591;2593 2596	R. Polaz- zi.
+T15	Title 2597 2654	Il rigetto urbano. La nostra vita nelle città inospitali,
+T16	PublicationPlace 2655 2662	Firenze
+T17	PublicationYear 2663 2668	1973,
+T18	Pagination 2669 2673	p. 1
+T19	Secondary-Partial 2164 2213	M. Aurigemma, La letteratura epica e didascalica,
+T20	Author 2164 2177	M. Aurigemma,
+T21	Title 2178 2213	La letteratura epica e didascalica,
+T22	Secondary-Full 2217 2227;2229 2308;2310 2357	11 Cinque- cento dal Rinascimento alla Controriforma (vol. IV, t. I de La letteratura ita- liana ..., a c. di Muscetta), Bari 1973, p. 486
+T23	Title 2217 2227;2229 2270	11 Cinque- cento dal Rinascimento alla Controriforma
+T24	PublicationSpecifications 2271 2308;2310 2339	(vol. IV, t. I de La letteratura ita- liana ..., a c. di Muscetta),
+T25	PublicationPlace 2340 2344	Bari
+T26	PublicationYear 2345 2350	1973,
+T27	Pagination 2351 2357	p. 486
+T28	Secondary-Full 2085 2148	A. F. Doni, I marmi, a c. di E. Chiorboli, I, Bari 1928, p. 195
+T29	Author 2085 2096	A. F. Doni,
+T30	Title 2097 2105	I marmi,
+T31	Editor 2106 2127	a c. di E. Chiorboli,
+T32	Volume 2128 2130	I,
+T33	PublicationPlace 2131 2135	Bari
+T34	PublicationYear 2136 2141	1928,
+T35	Pagination 2142 2148	p. 195
+T36	Secondary-Partial 1918 1963	B. Ruprecht, L’iconologia nella villa veneta,
+T37	Author 1918 1930	B. Ruprecht,
+T38	Title 1931 1963	L’iconologia nella villa veneta,
+T39	Secondary-Full 1967 1982;1984 2064;2066 2077	“Bollettino del centro di studi di arch. Andrea Palladio” (d’ora in poi: "C.I.S.A.”), io (1968), pp. 229-240
+R1	ContainedIN Arg1:T36 Arg2:T39	
+T40	Title 1967 1982;1984 2053	“Bollettino del centro di studi di arch. Andrea Palladio” (d’ora in poi: "C.I.S.A.”),
+T41	PublicationNumber-Year 2054 2064	io (1968),
+A1	OCRquality T41 MinorErrors
+T42	Pagination 2066 2077	pp. 229-240
+T43	Secondary-Partial 1815 1859	G. P. Gori, Ermes di Colloredo e il barocco,
+T44	Author 1815 1826	G. P. Gori,
+T45	Title 1827 1859	Ermes di Colloredo e il barocco,
+T46	Secondary-Full 1863 1881;1883 1905	"Ce fastu?”, 48-49 (1972-73), pp. 115-117
+R2	ContainedIN Arg1:T43 Arg2:T46	
+T47	Title 1863 1875	"Ce fastu?”,
+T48	PublicationNumber-Year 1876 1881;1883 1893	48-49 (1972-73),
+T49	Pagination 1894 1905	pp. 115-117
+T50	Secondary-Full 1717 1757;1759 1803	Giardino di agricoltura... (Venetia 1592 e, di nuovo, 1599 e 1612) di Marco Bussatti.
+T51	Title 1717 1743	Giardino di agricoltura...
+T52	PublicationPlace 1745 1752	Venetia
+T53	PublicationYear 1753 1757	1592
+T54	PublicationYear 1772 1776	1599
+T55	PublicationYear 1779 1783	1612
+T56	Author 1788 1802	Marco Bussatti
+R3	ContainedIN Arg1:T19 Arg2:T22	

@@ -1,0 +1,46 @@
+T1	Secondary-Partial 1904 1918	M., Ili, p. 81
+T2	Secondary-Partial 1922 1968;1970 2021	V. Cavazzocca Mazzanti, Tre accademie veronesi dei secoli XVII e XVIII (Cozza-Scherzanti-Gazzara),
+T3	Secondary-Full 2025 2047;2049 2106	"Atti e mem. dell’acc. di agr. SS. e LL. di Verona”, V s., 6 (1930), pp. 184-195
+R1	ContainedIN Arg1:T2 Arg2:T3	
+T4	AbbreviatedTitle 1904 1907	M.,
+T5	Volume 1908 1912	Ili,
+T6	Pagination 1913 1918	p. 81
+T7	Author 1922 1945	V. Cavazzocca Mazzanti,
+T8	Title 1946 1968;1970 2021	Tre accademie veronesi dei secoli XVII e XVIII (Cozza-Scherzanti-Gazzara),
+T9	Title 2025 2047;2049 2078	"Atti e mem. dell’acc. di agr. SS. e LL. di Verona”,
+T10	Series 2079 2084	V s.,
+T11	PublicationNumber-Year 2085 2094	6 (1930),
+T12	Pagination 2095 2106	pp. 184-195
+T13	Secondary-Partial 2236 2294;2296 2311	G. Fabris, Saggio d’una guida di Padova del notaio Antonio Monterosso ...,
+T14	Secondary-Full 2315 2375;2377 2402	"Atti e mem. della r. acc. di SS. LL. AA. di Padova”, n. s., 52 (1935-36), p. 159 n. i
+R2	ContainedIN Arg1:T13 Arg2:T14	
+T15	Secondary-Full 2422 2458;2460 2477	F. Croce, Carlo de’ Dottori, Firenze 1957, pp· 137-174
+T16	Secondary-Full 2493 2542	G. ToFFANiN, Il Cinquecento, Milano 19657, p. 497
+T17	Secondary-Partial 2558 2584	Alpago Novello, art. cit.,
+T18	Secondary-Full 2588 2623;2625 2631	"Archivio veneto", V s., 14 (1933), p. 25.
+R3	ContainedIN Arg1:T17 Arg2:T18	
+T19	Author 2236 2246	G. Fabris,
+T20	Title 2247 2294;2296 2311	Saggio d’una guida di Padova del notaio Antonio Monterosso ...,
+T21	Title 2315 2368	"Atti e mem. della r. acc. di SS. LL. AA. di Padova”,
+T22	Series 2369 2375	n. s.,
+T23	PublicationNumber-Year 2377 2390	52 (1935-36),
+T24	Pagination 2391 2397	p. 159
+T25	Note 2398 2402	n. i
+A1	OCRquality T25 MinorErrors
+T26	Author 2422 2431	F. Croce,
+T27	Title 2432 2450	Carlo de’ Dottori,
+T28	PublicationPlace 2451 2459	Firenze
+T29	PublicationYear 2460 2465	1957,
+T30	Pagination 2466 2477	pp· 137-174
+T31	Author 2493 2505	G. ToFFANiN,
+T32	Title 2506 2521	Il Cinquecento,
+T33	PublicationPlace 2522 2528	Milano
+T34	PublicationYear 2529 2535	19657,
+A2	OCRquality T34 MajorErrors
+T35	Pagination 2536 2542	p. 497
+T36	Author 2558 2573	Alpago Novello,
+T37	Abbreviation 2574 2584	art. cit.,
+T38	Title 2588 2606	"Archivio veneto",
+T39	Series 2607 2612	V s.,
+T40	PublicationNumber-Year 2613 2623	14 (1933),
+T41	Pagination 2625 2630	p. 25

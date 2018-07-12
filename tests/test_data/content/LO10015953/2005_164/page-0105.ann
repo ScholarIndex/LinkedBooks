@@ -1,0 +1,35 @@
+T1	Primary-Full 1993 2063	ASV, Consiglio dei X, Parti comuni, b. 923, alla data 22 dicembre 1721
+T2	Primary-Full 2071 2138	ASV, Consiglio dei X, Parti comuni, b. 906, alla data 7 giugno 1747
+T3	Primary-Full 2146 2226;2228 2299	ASV, Miscellanea di atti diversi manoscritti, Cancelleria ducale, b. 94, «scrit- tura» del Cancellier grande Giovanni Colombo alla data 2.0 Maggio 1769.
+T4	Primary-Full 2306 2386;2388 2458	ASV, Miscellanea di atti diversi manoscritti, Cancelleria ducale, b. 94, «scrit- tura» del Cancellier grande Giovanni Colombo alla data 20 Maggio 1769.
+T5	Secondary-Partial 2465 2543	V. Baldo, Alunni, maestri e scuole in Venezia alla fine del XVI secolo, p. 55.
+T6	Primary-Full 2550 2585	ASV, Notarile, testamenti, b. 1241.
+T7	Archive 1993 1997	ASV,
+T8	Archive 2071 2075	ASV,
+T9	Archive 2146 2150	ASV,
+T10	Archive 2306 2310	ASV,
+T11	Archive 2550 2554	ASV,
+T12	ArchivalReference 1998 2014	Consiglio dei X,
+T13	ArchivalReference 2076 2092	Consiglio dei X,
+T14	ArchivalReference 2015 2028	Parti comuni,
+T15	Folder 2029 2036	b. 923,
+T16	Date 2037 2063	alla data 22 dicembre 1721
+T17	ArchivalReference 2093 2106	Parti comuni,
+T18	Folder 2107 2114	b. 906,
+T19	Date 2115 2138	alla data 7 giugno 1747
+T20	ArchivalReference 2151 2191	Miscellanea di atti diversi manoscritti,
+T21	ArchivalReference 2192 2211	Cancelleria ducale,
+T22	Folder 2212 2218	b. 94,
+T23	Attachment 2219 2226;2228 2299	«scrit- tura» del Cancellier grande Giovanni Colombo alla data 2.0 Maggio 1769.
+T24	Date 2283 2298	2.0 Maggio 1769
+T25	ArchivalReference 2311 2351	Miscellanea di atti diversi manoscritti,
+T26	ArchivalReference 2352 2371	Cancelleria ducale,
+T27	Folder 2372 2378	b. 94,
+T28	Attachment 2379 2386;2388 2457	«scrit- tura» del Cancellier grande Giovanni Colombo alla data 20 Maggio 1769
+T29	Date 2443 2457	20 Maggio 1769
+T30	Author 2465 2474	V. Baldo,
+T31	Title 2475 2536	Alunni, maestri e scuole in Venezia alla fine del XVI secolo,
+T32	Pagination 2537 2542	p. 55
+T33	ArchivalReference 2555 2564	Notarile,
+T34	ArchivalReference 2565 2576	testamenti,
+T35	Folder 2577 2584	b. 1241

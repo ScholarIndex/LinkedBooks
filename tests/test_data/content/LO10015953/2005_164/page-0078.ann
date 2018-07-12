@@ -1,0 +1,12 @@
+T1	Primary-Full 2221 2295	ASVI, CRS 3031, Dimesse di Santa Croce, Memorie, carte sciolte, alla data.
+T2	Primary-Full 2302 2354	ASVI, CRS 1479, Corpus Domini, Libri degli alimenti.
+T3	Archive 2221 2226	ASVI,
+T4	Archive 2302 2307	ASVI,
+T5	ArchivalReference 2227 2236	CRS 3031,
+T6	ArchivalReference 2308 2317	CRS 1479,
+T7	ArchivalReference 2237 2260	Dimesse di Santa Croce,
+T8	ArchivalReference 2318 2332	Corpus Domini,
+T9	Registry 2333 2353	Libri degli alimenti
+T10	ArchivalReference 2261 2269	Memorie,
+T11	Cartulation 2270 2284	carte sciolte,
+T12	TopicDate 2285 2294	alla data

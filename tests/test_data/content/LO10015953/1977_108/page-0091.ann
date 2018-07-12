@@ -1,0 +1,70 @@
+T1	Secondary-Full 1416 1476	Il seminano di Udine... Cenni storici..., Udine 19062, p. 82
+T2	Title 1416 1457	Il seminano di Udine... Cenni storici...,
+T3	PublicationPlace 1458 1463	Udine
+T4	PublicationYear 1464 1470	19062,
+A1	OCRquality T4 MinorErrors
+T5	Pagination 1471 1476	p. 82
+T6	Secondary-Partial 1489 1505	D.B., IX, p. 116
+T7	Secondary-Full 1518 1582;1584 1601	G. Mantese, Memorie storiche della Chiesa vicentina, IV, Vicenza T974> PP· 793-808
+T8	AbbreviatedTitle 1489 1494	D.B.,
+T9	Volume 1495 1498	IX,
+T10	Pagination 1499 1505	p. 116
+T11	Author 1518 1529	G. Mantese,
+T12	Title 1530 1570	Memorie storiche della Chiesa vicentina,
+T13	Volume 1571 1574	IV,
+T14	PublicationPlace 1575 1582	Vicenza
+T15	PublicationYear 1584 1589	T974>
+A2	OCRquality T15 MajorErrors
+T16	Pagination 1590 1601	PP· 793-808
+T17	Secondary-Partial 1614 1677;1679 1686	G. D’Arcais Flores, Gregorio Barbarigo organizzatore di studi a Padova,
+T18	Author 1614 1633	G. D’Arcais Flores,
+T19	Title 1634 1677;1679 1685	Gregorio Barbarigo organizzatore di studi a Padova
+T20	Secondary-Full 1690 1746	Annuario per l’a.a. 1961-62..., Padova 1962, pp. 717-732
+T21	Title 1690 1721	Annuario per l’a.a. 1961-62...,
+R1	ContainedIN Arg1:T17 Arg2:T20	
+T22	PublicationPlace 1722 1728	Padova
+T23	PublicationYear 1729 1734	1962,
+T24	Pagination 1735 1746	pp. 717-732
+T25	Secondary-Partial 1749 1751;1753 1791	La pedagogia del santo Gregorio Barbarigo
+T26	Title 1749 1751;1753 1791	La pedagogia del santo Gregorio Barbarigo
+T27	Secondary-Full 1796 1830;1832 1876	"Atti e mem. dell’acc. patavina di SS. LL. AA.”, 72 (1959-60), III, pp. 151-154
+R2	ContainedIN Arg1:T25 Arg2:T27	
+T28	Title 1796 1830;1832 1845	"Atti e mem. dell’acc. patavina di SS. LL. AA.”,
+T29	PublicationNumber-Year 1846 1859	72 (1959-60),
+T30	Volume 1860 1864	III,
+T31	Pagination 1865 1876	pp. 151-154
+T32	Secondary-Full 2051 2116;2118 2156	Academia habita in funere ... Gregorii ... Barbadici ... ab alum- nis seminarii ..., Patavii 1697, p. XX
+T33	Title 2051 2115;2118 2136	Academia habita in funere ... Gregorii ... Barbadici ... ab alum nis seminarii ...,
+T34	PublicationPlace 2137 2144	Patavii
+T35	PublicationYear 2145 2150	1697,
+T36	Pagination 2151 2156	p. XX
+T37	Secondary-Full 2172 2229;2231 2265	La biblioteca Marciana nella sua nuove sede. XXVII aprile 1905, Venezia 1906, p. 107 n. 159.
+T38	Title 2172 2229;2231 2236	La biblioteca Marciana nella sua nuove sede. XXVII aprile 1905,
+T39	PublicationPlace 2237 2244	Venezia
+T40	PublicationYear 2245 2250	1906,
+T41	Pagination 2251 2257	p. 107
+T42	Note 2258 2264	n. 159
+T43	Secondary-Partial 2365 2392	D. B., VI, pp. 95, 497, 508
+T44	AbbreviatedTitle 2365 2371	D. B.,
+T45	Volume 2372 2375	VI,
+T46	Pagination 2376 2383	pp. 95,
+T47	Pagination 2384 2388	497,
+T48	Pagination 2389 2392	508
+T49	Secondary-Full 2456 2500	C. Jannaco, Il Seicento, Milano 19662, p. 91
+T50	Author 2456 2467	C. Jannaco,
+T51	Title 2468 2480	Il Seicento,
+T52	PublicationPlace 2481 2487	Milano
+T53	PublicationYear 2488 2494	19662,
+A3	OCRquality T53 MinorErrors
+T54	Pagination 2495 2500	p. 91
+T55	Secondary-Full 2590 2664	S. Savini Branca, Il collezionismo veneziano nel ’600, Padova 1965, p. 205
+T56	Author 2590 2607	S. Savini Branca,
+T57	Title 2608 2644	Il collezionismo veneziano nel ’600,
+T58	PublicationPlace 2645 2651	Padova
+T59	PublicationYear 2652 2657	1965,
+T60	Pagination 2658 2664	p. 205
+T61	Secondary-Full 2692 2748;2750 2780	G. F. Tomasini, Bibliothecae venetae manuscriptae publi- cae et privatae..., Utini 1650
+T62	Author 2692 2707	G. F. Tomasini,
+T63	Title 2708 2748;2750 2769	Bibliothecae venetae manuscriptae publi- cae et privatae...,
+T64	PublicationPlace 2770 2775	Utini
+T65	PublicationYear 2776 2780	1650

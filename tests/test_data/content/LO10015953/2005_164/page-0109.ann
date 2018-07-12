@@ -1,0 +1,23 @@
+T1	Primary-Full 2101 2147	ASV, Senato, Dispacci Roma, b. 210, f. 388-389
+T2	Primary-Full 2155 2183	ASP, Prove di nobiltà, b. 35
+T3	Primary-Full 2191 2262	ASV, Consiglio dei X, Parti comuni, b. 1343, alla data 16 novembre 1796
+T4	Primary-Full 2270 2350;2352 2422	ASV, Miscellanea di atti diversi manoscritti, Cancelleria ducale, b. 94, «scrit- tura» del Cancellier grande Giovanni Colombo alla data 20 Maggio 1769.
+T5	Archive 2101 2105	ASV,
+T6	Archive 2155 2159	ASP,
+T7	Archive 2191 2195	ASV,
+T8	Archive 2270 2274	ASV,
+T9	ArchivalReference 2106 2113	Senato,
+T10	ArchivalReference 2114 2128	Dispacci Roma,
+T11	Folder 2129 2136	b. 210,
+T12	Foliation 2137 2148	f. 388-389.
+T13	ArchivalReference 2160 2177	Prove di nobiltà,
+T14	ArchivalReference 2196 2212	Consiglio dei X,
+T15	ArchivalReference 2213 2226	Parti comuni,
+T16	ArchivalReference 2275 2315	Miscellanea di atti diversi manoscritti,
+T17	ArchivalReference 2316 2335	Cancelleria ducale,
+T18	Folder 2178 2183	b. 35
+T19	Folder 2227 2235	b. 1343,
+T20	Folder 2336 2342	b. 94,
+T21	Date 2236 2262	alla data 16 novembre 1796
+T22	Attachment 2343 2350;2352 2421	«scrit- tura» del Cancellier grande Giovanni Colombo alla data 20 Maggio 1769
+T23	Date 2407 2421	20 Maggio 1769

@@ -1,0 +1,40 @@
+T1	Primary-Full 1043 1107	ASVI, CRS 3013, Dimesse di Santa Croce, carte sciolte, alla data
+T2	Archive 1043 1048	ASVI,
+T3	ArchivalReference 1049 1058	CRS 3013,
+T4	ArchivalReference 1059 1082	Dimesse di Santa Croce,
+T5	Cartulation 1083 1097	carte sciolte,
+T6	TopicDate 1098 1107	alla data
+T7	Secondary-Partial 1302 1332	MANTESE, Memorie, IV/1, p. 351
+T8	Author 1302 1310	MANTESE,
+T9	Title 1311 1319	Memorie,
+T10	Volume 1320 1323	IV/
+T11	Tomo 1323 1325	1,
+T12	Pagination 1326 1332	p. 351
+T13	Secondary-Partial 1715 1769	H.L.M. Van RoOIJEN - G.D. Gordini, Crocigeri italiani,
+T14	Author 1715 1733	H.L.M. Van RoOIJEN
+T15	Author 1734 1749	- G.D. Gordini,
+T16	Title 1750 1769	Crocigeri italiani,
+T17	Secondary-Full 1773 1789;1791 1840	Dizionario degli Istituti di Perfezione, 3, Roma 1976, pp. 311-313
+R1	ContainedIN Arg1:T13 Arg2:T17	
+T18	Title 1773 1789;1791 1814	Dizionario degli Istituti di Perfezione,
+T19	Volume 1815 1817	3,
+T20	PublicationPlace 1818 1822	Roma
+T21	PublicationYear 1823 1828	1976,
+T22	Pagination 1829 1840	pp. 311-313
+T23	Primary-Full 1849 1924;1926 1930	ASVI, CRS 3013, Dimesse di Santa Croce, carte sciolte, alla data 5 febbraio 1656
+T24	Archive 1849 1854	ASVI,
+T25	ArchivalReference 1855 1864	CRS 3013,
+T26	ArchivalReference 1865 1888	Dimesse di Santa Croce,
+T27	Cartulation 1889 1903	carte sciolte,
+T28	Attachment 1904 1924;1926 1930	alla data 5 febbraio 1656
+T29	Date 1914 1924;1926 1930	5 febbraio 1656
+T30	Secondary-Partial 3264 3301	M. Raffaeli Cammarota, Carafa, Carlo,
+T31	Author 3264 3286	M. Raffaeli Cammarota,
+T32	Title 3287 3301	Carafa, Carlo,
+T33	Secondary-Full 3305 3326;3328 3370	Dizionario Biografico degli Italiani, 19, Roma 1976, pp. 513-517
+R2	ContainedIN Arg1:T30 Arg2:T33	
+T34	Title 3305 3326;3328 3343	Dizionario Biografico degli Italiani,
+T35	Volume 3344 3347	19,
+T36	PublicationPlace 3348 3352	Roma
+T37	PublicationYear 3353 3358	1976,
+T38	Pagination 3359 3370	pp. 513-517

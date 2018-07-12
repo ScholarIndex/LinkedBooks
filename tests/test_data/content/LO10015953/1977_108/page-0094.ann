@@ -1,0 +1,100 @@
+T1	Secondary-Full 766 831;833 851	F. Micanzio, Vita del P. Paolo dell’ordine de" Servi, Leida 1646, pp. 43-45, 62, 280
+T2	Author 766 778	F. Micanzio,
+T3	Title 779 819	Vita del P. Paolo dell’ordine de" Servi,
+T4	PublicationPlace 820 825	Leida
+T5	PublicationYear 826 831	1646,
+T6	Pagination 833 843	pp. 43-45,
+T7	Pagination 844 847	62,
+T8	Pagination 848 851	280
+T9	Secondary-Full 895 909;911 980	Marchands fla- mands à Venise. I (1568-1605), a c. di W. Brûlez, Bruxelles-Rome 1965
+T10	Title 895 909;911 941	Marchands fla- mands à Venise. I (1568-1605),
+T11	Editor 942 960	a c. di W. Brûlez,
+T12	PublicationPlace 961 970	Bruxelles
+T13	PublicationPlace 971 975	Rome
+T14	PublicationYear 976 980	1965
+T15	Secondary-Partial 1007 1050	P. Savio, Per l'epistolario di Paolo Sarpi,
+T16	Author 1007 1016	P. Savio,
+T17	Title 1017 1050	Per l'epistolario di Paolo Sarpi,
+T18	Secondary-Full 1054 1065;1067 1096	"Aevum", io (1936), pp. 30 n. i, 60 n. i.
+R1	ContainedIN Arg1:T15 Arg2:T18	
+T19	Title 1054 1062	"Aevum",
+T20	PublicationNumber-Year 1063 1065;1067 1074	io (1936),
+A1	OCRquality T20 MinorErrors
+T21	Pagination 1075 1081	pp. 30
+T22	Note 1082 1087	n. i,
+A2	OCRquality T22 MinorErrors
+T23	Pagination 1088 1090	60
+T24	Note 1091 1095	n. i
+A3	OCRquality T24 MinorErrors
+T25	Secondary-Full 1141 1166;1169 1216	J. Barnhard, La thériaque Etude historique et pharmacologique, Paris 1893
+T26	Author 1141 1153	J. Barnhard,
+T27	Title 1154 1167;1169 1205	La thériaque. Etude historique et pharmacologique,
+T28	PublicationPlace 1206 1211	Paris
+T29	PublicationYear 1212 1216	1893
+T30	Secondary-Full 1218 1245;1247 1330	A. Benedicenti, Malati, me- dici e farmacisti. Storia dei rimedi traverso i secoli..., Milano 1947, pp. 905-917
+T31	Author 1218 1233	A. Benedicenti,
+T32	Title 1234 1245;1247 1305	Malati, me- dici e farmacisti. Storia dei rimedi traverso i secoli...,
+T33	PublicationPlace 1306 1312	Milano
+T34	PublicationYear 1313 1318	1947,
+T35	Pagination 1319 1330	pp. 905-917
+T36	Secondary-Full 1333 1409;1411 1464	C. G. Gaia, Teriaca atque squinantiae medebatur. L’otorinolaringologia nella medicina pratica dei secoli XVII e XVIII, Milano 1974
+T37	Author 1333 1344	C. G. Gaia,
+T38	Title 1345 1409;1411 1452	Teriaca atque squinantiae medebatur. L’otorinolaringologia nella medicina pratica dei secoli XVII e XVIII,
+T39	PublicationPlace 1453 1459	Milano
+T40	PublicationYear 1460 1464	1974
+T41	Secondary-Full 1498 1568;1571 1579	G. Dian, Cenni storici sulla farmacia veneta, II ( = La teriaca), Vene zia 1901
+T42	Author 1498 1506	G. Dian,
+T43	Title 1507 1543	Cenni storici sulla farmacia veneta,
+T44	Volume 1544 1563	II ( = La teriaca),
+T45	PublicationPlace 1564 1569;1571 1574	Vene- zia
+T46	PublicationYear 1575 1579	1901
+T47	Secondary-Partial 1581 1612	A. Pilot, La teriaca veneziana,
+T48	Author 1581 1590	A. Pilot,
+T49	Title 1591 1612	La teriaca veneziana,
+T50	Secondary-Full 1616 1651;1653 1680	"Rivista mensile della città di Ve- nezia", 3 (1924), pp. 45-50
+R2	ContainedIN Arg1:T47 Arg2:T50	
+T51	Title 1616 1651;1653 1660	"Rivista mensile della città di Ve- nezia",
+T52	PublicationNumber-Year 1661 1670	3 (1924),
+T53	Pagination 1671 1680	pp. 45-50
+T54	Secondary-Full 1682 1727;1729 1779	U. Tergolina-Ghislanzoni-Brasco, La magnifica corte degli speziali di Verona, Verona 1933, p. 35
+T55	Author 1682 1694	U. Tergolina
+T56	Author 1695 1706	Ghislanzoni
+T57	Author 1707 1714	Brasco,
+T58	Title 1715 1727;1729 1760	La magnifica corte degli speziali di Verona,
+T59	PublicationPlace 1761 1767	Verona
+T60	PublicationYear 1768 1773	1933,
+T61	Pagination 1774 1779	p. 35
+T62	Secondary-Partial 1781 1806;1808 1884	G. B. Zanazzo, Lo statuto dei medici di Vicenza nell’anno 1555. Contributo alla storia della medicina,
+T63	Author 1781 1795	G. B. Zanazzo,
+T64	Title 1796 1806;1808 1884	Lo statuto dei medici di Vicenza nell’anno 1555. Contributo alla storia della medicina,
+T65	Secondary-Full 1889 1933	"Archivio veneto", Vs., 72 (1963), pp. 46-49
+T66	Title 1889 1907	"Archivio veneto",
+T67	Series 1908 1912	Vs.,
+T68	PublicationNumber-Year 1913 1923	72 (1963),
+T69	Pagination 1924 1933	pp. 46-49
+R3	ContainedIN Arg1:T62 Arg2:T65	
+T70	Secondary-Partial 2005 2048;2050 2122	E. Morpurgo, Lo Studio di Padova, le epide- mie ed i contagi durante il governo della Repubblica veneta (1405-iyqy),
+T71	Author 2005 2017	E. Morpurgo,
+T72	Title 2018 2048;2050 2122	Lo Studio di Padova, le epide- mie ed i contagi durante il governo della Repubblica veneta (1405-iyqy),
+T73	Secondary-Full 2127 2204;2206 2218	Memorie e documenti per la storia della università di Padova, I, Padova 1922, pp. 148, 149
+R4	ContainedIN Arg1:T70 Arg2:T73	
+T74	Title 2127 2188	Memorie e documenti per la storia della università di Padova,
+T75	Volume 2189 2191	I,
+T76	PublicationPlace 2192 2198	Padova
+T77	PublicationYear 2199 2204	1922,
+T78	Pagination 2206 2214	pp. 148,
+T79	Pagination 2215 2218	149
+T80	Secondary-Partial 2596 2610;2612 2687;2689 2710	A. Measso, Ca- restia e febbre maligna in tempi di peste. Consulti e provvedimenti a Udine negli anni /629-/630,
+T81	Secondary-Full 2714 2768;2770 2776	“Atti della accademia di Udine”, II s., 8 (1887-1890), p. 123
+R5	ContainedIN Arg1:T80 Arg2:T81	
+T82	Author 2596 2606	A. Measso,
+T83	Title 2607 2610;2612 2687;2689 2710	Ca- restia e febbre maligna in tempi di peste. Consulti e provvedimenti a Udine negli anni /629-/630,
+T84	Title 2714 2746	“Atti della accademia di Udine”,
+T85	Series 2747 2753	II s.,
+T86	PublicationNumber-Year 2754 2768	8 (1887-1890),
+T87	Pagination 2770 2776	p. 123
+T88	Secondary-Full 3021 3086;3088 3167;3169 3190	Nuovo et universale Theatro farmaceutico esposto alla luce da An- tonio De Sgobbis ... già priore del veneto collegio de gli farmacopei..., Vene- tia 1667, pp. 460-461
+T89	Title 3021 3086;3088 3161	Nuovo et universale Theatro farmaceutico esposto alla luce da An- tonio De Sgobbis ... già priore del veneto collegio de gli farmacopei...,
+T90	PublicationPlace 3162 3167;3169 3172	Vene- tia
+T91	PublicationYear 3173 3178	1667,
+T92	Pagination 3179 3190	pp. 460-461

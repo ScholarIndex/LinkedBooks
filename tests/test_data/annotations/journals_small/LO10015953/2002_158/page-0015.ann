@@ -1,0 +1,33 @@
+T1	Primary-Full 1975 2051;2053 2133	ASV, Consiglio dei X, Parti comuni, filza 58, supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X, alla data 23 Gennaio 1552 m.v..
+T2	Attachment 2021 2051;2053 2101	supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X,
+T3	Date 2102 2132	alla data 23 Gennaio 1552 m.v.
+T4	Archive 1975 1979	ASV,
+T5	ArchivalReference 1980 1996	Consiglio dei X,
+T6	ArchivalReference 1997 2010	Parti comuni,
+T7	Filza 2011 2020	filza 58,
+T8	Primary-Full 2140 2216;2218 2298	ASV, Consiglio dei X, Parti comuni, filza 64, supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X, alla data 28 Novembre 1554 m.v.
+T9	Archive 2140 2144	ASV,
+T10	ArchivalReference 2145 2161	Consiglio dei X,
+T11	ArchivalReference 2162 2175	Parti comuni,
+T12	Filza 2176 2185	filza 64,
+T13	Attachment 2186 2216;2218 2266	supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X,
+T14	Date 2267 2298	alla data 28 Novembre 1554 m.v.
+T15	Secondary-Partial 2306 2338	G. Trebbi, La società veneziana,
+T16	Secondary-Full 2342 2384;2386 2444	Storia di Venezia. Dal Rinascimento al Ba- rocco, a cura di G. Cozzi e P. PRODI, VI, Roma 1994,p. 136
+R1	ContainedIN Arg1:T15 Arg2:T16	
+T17	Author 2306 2316	G. Trebbi,
+T18	Title 2317 2337	La società veneziana
+T19	Title 2342 2384;2386 2392	Storia di Venezia. Dal Rinascimento al Ba- rocco,
+T20	Editor 2393 2411	a cura di G. Cozzi
+T21	Editor 2412 2423	e P. PRODI,
+T22	Volume 2424 2427	VI,
+T23	PublicationPlace 2428 2432	Roma
+T24	PublicationYear 2433 2438	1994,
+T25	Pagination 2438 2444	p. 136
+T26	Primary-Full 2452 2528;2530 2605	ASV, Consiglio dei X, Parti comuni, filza 58, supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X, alla data 29 novembre 1552
+T27	Archive 2452 2456	ASV,
+T28	ArchivalReference 2457 2473	Consiglio dei X,
+T29	ArchivalReference 2474 2487	Parti comuni,
+T30	Filza 2488 2497	filza 58,
+T31	Attachment 2498 2528;2530 2578	supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X,
+T32	Date 2579 2606	alla data 29 novembre 1552.

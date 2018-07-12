@@ -1,0 +1,43 @@
+T1	Secondary-Full 1739 1786	G. Getto, Paolo Sarpi, Firenze 19672, pp. 55-56
+T2	Author 1739 1748	G. Getto,
+T3	Title 1749 1761	Paolo Sarpi,
+T4	PublicationPlace 1762 1769	Firenze
+T5	PublicationYear 1770 1776	19672,
+A1	OCRquality T5 MajorErrors
+T6	Secondary-Partial 1790 1801;1803 1808	D. B., XVI, P· 24
+T7	AbbreviatedTitle 1790 1796	D. B.,
+T8	Volume 1797 1801	XVI,
+T9	Pagination 1803 1808	P· 24
+T10	Secondary-Partial 1822 1885;1887 1906	G. Occioni-Bonaffons, La scuola d’ “Instituta iuris” fondata in Udine nel secolo XV
+T11	Author 1822 1843	G. Occioni-Bonaffons,
+T12	Title 1844 1885;1887 1907	La scuola d’ “Instituta iuris” fondata in Udine nel secolo XV,
+T13	Secondary-Full 1911 1962;1964 1978	Prose e versi, per nozze Schiavi-Bressanutti, Udine 1884, pp. 7-33
+R1	ContainedIN Arg1:T10 Arg2:T13	
+T14	Title 1911 1956	Prose e versi, per nozze Schiavi-Bressanutti,
+T15	PublicationPlace 1957 1962	Udine
+T16	PublicationYear 1964 1969	1884,
+T17	Pagination 1970 1978	pp. 7-33
+T18	Secondary-Partial 2021 2046;2048 2075	V. Marchesi, Le scuole di Udine nei secoli XVI e XVII
+T19	Author 2021 2033	V. Marchesi,
+T20	Title 2034 2046;2048 2076	Le scuole di Udine nei secoli XVI e XVII,
+T21	Secondary-Full 2080 2124;2126 2159	"Annali del r. ist. tecnico di Udine Antonio Zanon”, II s., 8 (1890), pp. 1-18
+R2	ContainedIN Arg1:T18 Arg2:T21	
+T22	Title 2080 2124;2126 2133	"Annali del r. ist. tecnico di Udine Antonio Zanon”,
+T23	Series 2134 2140	II s.,
+T24	PublicationNumber-Year 2141 2150	8 (1890),
+T25	Pagination 2151 2159	pp. 1-18
+T26	Secondary-Full 2329 2398;2400 2411	R. De Maio, Riforma e miti nella Chiesa del Cinquecento, Napoli 1973, pp· 367-370
+T27	Author 2329 2340	R. De Maio,
+T28	Title 2341 2385	Riforma e miti nella Chiesa del Cinquecento,
+T29	PublicationPlace 2386 2392	Napoli
+T30	PublicationYear 2393 2398	1973,
+T31	Pagination 2400 2411	pp· 367-370
+T32	Secondary-Partial 2448 2493;2495 2534	A. Gaberlotto, Un capitolo di storta musicale presso la cattedrale padovana nel ’600,
+T33	Author 2448 2462	A. Gaberlotto,
+T34	Title 2463 2493;2495 2534	Un capitolo di storta musicale presso la cattedrale padovana nel ’600,
+T35	Secondary-Full 2538 2572;2574 2620	"Atti e mem. dell’acc. patavina di SS. LL. AA.”, n. s., 63 (1950-51), pp. 149-153
+R3	ContainedIN Arg1:T32 Arg2:T35	
+T36	Title 2538 2572;2574 2587	"Atti e mem. dell’acc. patavina di SS. LL. AA.”,
+T37	Series 2588 2594	n. s.,
+T38	PublicationNumber-Year 2595 2608	63 (1950-51),
+T39	Pagination 2609 2620	pp. 149-153

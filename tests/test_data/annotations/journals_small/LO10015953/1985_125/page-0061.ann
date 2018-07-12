@@ -1,0 +1,79 @@
+T1	Secondary-Partial 1346 1364	Ibidem, XI, p. 176
+T2	Secondary-Full 1372 1441;1444 1447	G. Penco, Storia della Chiesa in Italia, Milano 1982, vol. I, pp. 617 623
+T3	Abbreviation 1346 1353	Ibidem,
+T4	Volume 1354 1357	XI,
+T5	Pagination 1358 1364	p. 176
+T6	Author 1372 1381	G. Penco,
+T7	Title 1382 1412	Storia della Chiesa in Italia,
+T8	PublicationPlace 1413 1419	Milano
+T9	PublicationYear 1420 1425	1982,
+T10	Volume 1426 1433	vol. I,
+T11	Pagination 1434 1441	pp. 617
+T12	Pagination 1444 1447	623
+T13	Primary-Full 1455 1518	A.S.V., Maggior consiglio, reg. 27 Novus, c. 157v: 19 mar. 1550
+T14	Archive 1455 1462	A.S.V.,
+T15	ArchivalReference 1463 1481	Maggior consiglio,
+T16	Registry 1482 1496	reg. 27 Novus,
+T17	Cartulation 1497 1504	c. 157v
+T18	Date 1506 1518	19 mar. 1550
+T19	Secondary-Full 1606 1671	F. Basaldella, Gìudecca. Cenni storici, Venezia 1983, pp. 358-366
+T20	Author 1606 1620	F. Basaldella,
+T21	Title 1621 1645	Gìudecca. Cenni storici,
+T22	PublicationPlace 1646 1653	Venezia
+T23	PublicationYear 1654 1659	1983,
+T24	Pagination 1660 1671	pp. 358-366
+T25	Secondary-Partial 1679 1704	Corner, E.V., XII, pp. 44
+T26	Author 1679 1686	Corner,
+T27	AbbreviatedTitle 1687 1692	E.V.,
+T28	Volume 1693 1697	XII,
+T29	Pagination 1698 1704	pp. 44
+T30	Primary-Full 1733 1786	A.S.V., Senato terra, reg. 40, cc. 46, 129v, 165-165v
+T31	Archive 1733 1740	A.S.V.,
+T32	ArchivalReference 1741 1754	Senato terra,
+T33	Registry 1755 1763	reg. 40,
+T34	Cartulation 1764 1771	cc. 46,
+T35	Cartulation 1772 1777	129v,
+T36	Cartulation 1778 1786	165-165v
+T37	Primary-Partial 1954 1980	ibidem, reg. 71 cc. 62-62v
+T38	Abbreviation 1954 1961	ibidem,
+T39	Registry 1962 1969	reg. 71
+T40	Cartulation 1970 1980	cc. 62-62v
+T41	Primary-Partial 2038 2061	ibidem, reg. 220 c. 261
+T42	Abbreviation 2038 2045	ibidem,
+T43	Registry 2046 2054	reg. 220
+T44	Cartulation 2055 2061	c. 261
+T45	Secondary-Partial 2070 2092	Ibidem, reg. 39, c. 70
+T46	Abbreviation 2070 2077	Ibidem,
+T47	Registry 2078 2086	reg. 39,
+T48	Cartulation 2087 2092	c. 70
+T49	Secondary-Partial 2100 2167;2169 2246;2248 2303	A. Tessier, Ancora sopra alcune rare stampe fatte per le mani delle convertite nell'isola della Giudecca presso Venezia gli anni 1557, 1558, 1559 e sopra la veneta officina all’insegna della «speranza»
+T50	Secondary-Full 2318 2327;2329 2367	«Giornale di erudizione» nn. 23-24, Firenze 1890
+R1	ContainedIN Arg1:T49 Arg2:T50	
+T51	Author 2100 2111	A. Tessier,
+T52	Title 2112 2167;2169 2246;2248 2303	Ancora sopra alcune rare stampe fatte per le mani delle convertite nell'isola della Giudecca presso Venezia gli anni 1557, 1558, 1559 e sopra la veneta officina all’insegna della «speranza»
+T53	Title 2318 2327;2329 2343	«Giornale di erudizione»
+T54	PublicationNumber 2344 2354	nn. 23-24,
+T55	PublicationPlace 2355 2362	Firenze
+T56	PublicationYear 2363 2367	1890
+T57	Secondary-Full 2369 2402;2404 2454	P. Molmenti, La storia di Venezia nella vita privata, Bergamo 1928, vol. Ili, p. 360
+T58	Author 2369 2381	P. Molmenti,
+T59	Title 2382 2402;2404 2423	La storia di Venezia nella vita privata,
+T60	PublicationPlace 2424 2431	Bergamo
+T61	PublicationYear 2432 2437	1928,
+T62	Volume 2438 2447	vol. Ili,
+T63	Pagination 2448 2454	p. 360
+T64	Secondary-Partial 2456 2484	Basaldella, op. cit., p. 169
+T65	Author 2456 2467	Basaldella,
+T66	Abbreviation 2468 2477	op. cit.,
+T67	Pagination 2478 2484	p. 169
+T68	Primary-Full 2593 2634	A.S.V., Senato terra, f. 18, 20 nov. 1553
+T69	Primary-Partial 2636 2655	f. 24, 11 set. 1556
+T70	Primary-Partial 2657 2663;2665 2677	f. 26, 17 set. 1557
+T71	Archive 2593 2600	A.S.V.,
+T72	ArchivalReference 2601 2614	Senato terra,
+T73	Foliation 2615 2621	f. 18,
+T74	Date 2622 2634	20 nov. 1553
+T75	Foliation 2636 2642	f. 24,
+T76	Date 2643 2655	11 set. 1556
+T77	Foliation 2657 2663	f. 26,
+T78	Date 2665 2677	17 set. 1557

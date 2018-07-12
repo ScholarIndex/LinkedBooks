@@ -1,0 +1,31 @@
+T1	Primary-Full 1958 2033	ASV, Consiglio dei X, Parti comuni, b. 1154, alla data 29 gennaio 1769 m.v.
+T2	Secondary-Partial 2040 2123;2125 2136	P. ZOLLI, Prefazione della «raccolta de’ proverbii, detti, sentenze, parole e frasi veneziane»,
+T3	Secondary-Full 2137 2176	«Studi veneziani», 8 (1966), p. 575-576
+R1	ContainedIN Arg1:T2 Arg2:T3	
+T4	Secondary-Full 2184 2260;2262 2296	G. CASANOVA, Storia della mia vita, a cura di P. CHIARA e F. RONCORONI, III, (1764-1774), Milano 1989, p. 15-16
+T5	Primary-Full 2304 2381;2383 2462;2464 2481	ASV, Consiglio dei X, Parti comuni, b. 1154, «scrittura» del Cancellier gran- de Giovanni Colombo del 20 gennaio 1769 m.v. allegata alla deliberazione del 29 gennaio 1769 m.v.
+T6	Archive 1958 1962	ASV,
+T7	ArchivalReference 1963 1979	Consiglio dei X,
+T8	ArchivalReference 1980 1993	Parti comuni,
+T9	Folder 1994 2002	b. 1154,
+T10	Date 2003 2033	alla data 29 gennaio 1769 m.v.
+T11	Author 2040 2049	P. ZOLLI,
+T12	Title 2050 2123;2125 2136	Prefazione della «raccolta de’ proverbii, detti, sentenze, parole e frasi veneziane»,
+T13	Title 2137 2155	«Studi veneziani»,
+T14	PublicationNumber-Year 2156 2165	8 (1966),
+T15	Pagination 2166 2176	p. 575-576
+T16	Author 2184 2196	G. CASANOVA,
+T17	Title 2197 2219	Storia della mia vita,
+T18	Editor 2220 2239	a cura di P. CHIARA
+T19	Editor 2240 2255	e F. RONCORONI,
+T20	Volume 2256 2260;2262 2274	III, (1764-1774),
+T21	PublicationPlace 2275 2281	Milano
+T22	PublicationYear 2282 2287	1989,
+T23	Pagination 2288 2296	p. 15-16
+T24	Archive 2304 2308	ASV,
+T25	ArchivalReference 2309 2325	Consiglio dei X,
+T26	ArchivalReference 2326 2339	Parti comuni,
+T27	Folder 2340 2348	b. 1154,
+T28	Attachment 2349 2381;2383 2462;2464 2481	«scrittura» del Cancellier gran- de Giovanni Colombo del 20 gennaio 1769 m.v. allegata alla deliberazione del 29 gennaio 1769 m.v.
+T29	Date 2407 2427	20 gennaio 1769 m.v.
+T30	Date 2460 2462;2464 2481	29 gennaio 1769 m.v.

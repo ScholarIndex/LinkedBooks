@@ -1,0 +1,28 @@
+T1	Primary-Full 1803 1873	Biblioteca del Museo Correr, Venezia, Manoscritti Tron-Donà, C. 912/2,
+T2	Primary-Full 1925 1977	ASV, Archivio Grimani-Barbarìgo, B. 47, n° 19, c. 17
+T3	Primary-Full 1999 2068;2070 2100	ASV, Procuratori di San Marco, Ultra, B. 142 (commissaria P. Pesaro), quad. 3, c. 23, settembre 1529
+T4	Primary-Full 2108 2173	ASV, Maggior Consiglio, Spiritus, c. 98, s. d. (1298?), 19 giugno
+T5	Library 1803 1840	Biblioteca del Museo Correr, Venezia,
+T6	Archive 1841 1863	Manoscritti Tron-Donà,
+T7	Cartulation 1864 1873	C. 912/2,
+T8	Primary-Partial 1875 1917	Giornale Priuli, c. CVIIII (5 luglio 1524)
+T9	Archive 1875 1891	Giornale Priuli,
+T10	Cartulation 1892 1917	c. CVIIII (5 luglio 1524)
+T11	Date 1902 1917	(5 luglio 1524)
+T12	Archive 1925 1929	ASV,
+T13	ArchivalReference 1930 1957	Archivio Grimani-Barbarìgo,
+T14	Box 1958 1964	B. 47,
+T15	Numbering 1965 1971	n° 19,
+T16	Cartulation 1972 1977	c. 17
+T17	Archive 1999 2003	ASV,
+T18	ArchivalReference 2004 2029	Procuratori di San Marco,
+T19	ArchivalReference 2030 2036	Ultra,
+T20	Box 2037 2068	B. 142 (commissaria P. Pesaro),
+T21	Folder 2070 2078	quad. 3,
+T22	Cartulation 2079 2085	c. 23,
+T23	Year 2086 2100	settembre 1529
+T24	Archive 2108 2112	ASV,
+T25	ArchivalReference 2113 2131	Maggior Consiglio,
+T26	ArchivalReference 2132 2141	Spiritus,
+T27	Cartulation 2142 2148	c. 98,
+T28	Date 2149 2173	s. d. (1298?), 19 giugno

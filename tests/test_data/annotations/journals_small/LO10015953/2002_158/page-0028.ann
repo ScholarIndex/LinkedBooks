@@ -1,0 +1,55 @@
+T1	Secondary-Partial 1555 1600	Relazione di Roma di Bernardo Navagiero 1558,
+T2	Secondary-Full 1604 1631;1633 1711	Relazioni degli ambasciato- ri veneti al Senato edite da E. AlbÈRI, s. II, III, Firenze, 1846, p. 414-415.
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Title 1555 1600	Relazione di Roma di Bernardo Navagiero 1558,
+T4	Title 1604 1631;1633 1652	Relazioni degli ambasciato- ri veneti al Senato
+T5	Editor 1653 1672	edite da E. AlbÈRI,
+T6	Series 1673 1679	s. II,
+T7	Volume 1680 1684	III,
+T8	PublicationPlace 1685 1693	Firenze,
+T9	PublicationYear 1694 1699	1846,
+T10	Pagination 1700 1711	p. 414-415.
+T11	Secondary-Full 1718 1794;1796 1840	G. GULLINO, Marco Foscari (1477-1551). L’attività politica e diplomatica tra Venezia, Roma e Firenze, Milano 2000, p. 106
+T12	Author 1718 1729	G. GULLINO,
+T13	Title 1730 1794;1796 1820	Marco Foscari (1477-1551). L’attività politica e diplomatica tra Venezia, Roma e Firenze,
+T14	PublicationPlace 1821 1827	Milano
+T15	PublicationYear 1828 1833	2000,
+T16	Pagination 1834 1840	p. 106
+T17	Primary-Full 2029 2081	ASV, Archivio Proprio, Roma, filza 9, n° 83, c. 119v
+T18	Archive 2029 2033	ASV,
+T19	ArchivalReference 2034 2051	Archivio Proprio,
+T20	ArchivalReference 2052 2057	Roma,
+T21	Filza 2058 2066	filza 9,
+T22	Numbering 2067 2073	n° 83,
+T23	Cartulation 2074 2081	c. 119v
+T24	Primary-Full 2153 2170;2173 2209	ASV, Archivio Pro prio, Roma, filza 9, n° 102, c. 143r
+T25	Archive 2153 2157	ASV,
+T26	ArchivalReference 2158 2171;2173 2178	Archivio Pro- prio,
+T27	ArchivalReference 2179 2184	Roma,
+T28	Filza 2185 2193	filza 9,
+T29	Numbering 2194 2201	n° 102,
+T30	Cartulation 2202 2209	c. 143r
+T31	Primary-Full 2372 2423	ASV, Archivio Proprio, Roma, filza 8, n° 40, c. 85r
+T32	Archive 2372 2376	ASV,
+T33	ArchivalReference 2377 2394	Archivio Proprio,
+T34	ArchivalReference 2395 2400	Roma,
+T35	Filza 2401 2409	filza 8,
+T36	Numbering 2410 2416	n° 40,
+T37	Cartulation 2417 2423	c. 85r
+T38	Primary-Full 2504 2512;2514 2558	ASV, Ar- chivio Proprio, Roma, filza 8, n° 44, c. 96v
+T39	Archive 2504 2508	ASV,
+T40	ArchivalReference 2509 2512;2514 2529	Ar- chivio Proprio,
+T41	ArchivalReference 2530 2535	Roma,
+T42	Filza 2536 2544	filza 8,
+T43	Numbering 2545 2551	n° 44,
+T44	Cartulation 2552 2558	c. 96v
+T45	Secondary-Partial 2567 2609	Gullino, Marco Foscari (1477-1551), p. 48.
+T46	Author 2567 2575	Gullino,
+T47	AbbreviatedTitle 2576 2602	Marco Foscari (1477-1551),
+T48	Pagination 2603 2609	p. 48.
+T49	Primary-Full 2610 2641;2643 2677	ASV, Senato, Deliberazioni (Se- creta), Registro 69, c. 163v-164v.
+T50	Archive 2610 2614	ASV,
+T51	ArchivalReference 2615 2622	Senato,
+T52	ArchivalReference 2623 2641;2643 2650	Deliberazioni (Se- creta),
+T53	Registry 2651 2663	Registro 69,
+T54	Cartulation 2664 2677	c. 163v-164v.

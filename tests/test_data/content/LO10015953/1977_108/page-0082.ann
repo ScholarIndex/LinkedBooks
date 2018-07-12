@@ -1,0 +1,43 @@
+T1	Secondary-Partial 1171 1222	C. Pazzagli, Domande e consumi al convegno di Prato
+T2	Secondary-Full 1227 1243;1245 1267	"Studi Storici”, 15 (1974), pp. 708-714
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Secondary-Partial 1290 1325;1327 1335	S. Lombardini, Il convegno “Datini” di Prato
+T4	Secondary-Full 1340 1390	"Rivista storica italiana”, 86 (1974), pp. 800-809
+R2	ContainedIN Arg1:T3 Arg2:T4	
+T5	Secondary-Partial 1397 1409;1411 1465	A. G. Ricci, La sesta settimana ... dell’Istituto... "... Datini..i
+T6	Secondary-Full 1467 1490;1492 1525	“Rassegna degli archivi di stato”, 35 (1975), pp. 412-419
+T7	Author 1171 1183	C. Pazzagli,
+T8	Title 1184 1223	Domande e consumi al convegno di Prato,
+T9	Title 1227 1243	"Studi Storici”,
+T10	PublicationNumber-Year 1245 1255	15 (1974),
+T11	Pagination 1256 1267	pp. 708-714
+T12	Author 1290 1304	S. Lombardini,
+T13	Title 1305 1325;1327 1336	Il convegno “Datini” di Prato,
+T14	Title 1340 1367	"Rivista storica italiana”,
+T15	PublicationNumber-Year 1368 1378	86 (1974),
+T16	Pagination 1379 1390	pp. 800-809
+T17	Author 1397 1409	A. G. Ricci,
+T18	Title 1411 1464	La sesta settimana ... dell’Istituto... "... Datini..
+T19	Title 1467 1490;1492 1502	“Rassegna degli archivi di stato”,
+T20	PublicationNumber-Year 1503 1513	35 (1975),
+T21	Pagination 1514 1525	pp. 412-419
+T22	Secondary-Partial 1668 1721;1723 1759	C. Pecorella, Note per la classificazione delle acca- demie italiane dei secoli XVI-XVI1I,
+T23	Secondary-Full 1763 1801	"Studi sassaresi", III s., 1 (1967-68)
+R3	ContainedIN Arg1:T22 Arg2:T23	
+T24	Author 1668 1681	C. Pecorella,
+T25	Title 1682 1721;1723 1759	Note per la classificazione delle acca- demie italiane dei secoli XVI-XVI1I,
+T26	Title 1763 1781	"Studi sassaresi",
+T27	Series 1782 1789	III s.,
+T28	PublicationNumber-Year 1790 1801	1 (1967-68)
+T29	Secondary-Full 1847 1877;1879 1955;1957 2007	A. Asor Rosa a II Seicento. La nuova scienza e la crisi del barocco, Bari 1974 (vol. V, t. I de La lettera- tura italiana. Storia e testi, a c. di C. Muscetta
+T30	Author 1847 1859	A. Asor Rosa
+T31	Title 1862 1877;1879 1916	II Seicento. La nuova scienza e la crisi del barocco,
+T32	PublicationPlace 1917 1921	Bari
+T33	PublicationYear 1922 1926	1974
+T34	PublicationSpecifications 1927 1955;1957 2008	(vol. V, t. I de La lettera- tura italiana. Storia e testi, a c. di C. Muscetta)
+T35	Implicit 2208 2245	segnalazione di G. Barberi Squarotti,
+T36	Secondary-Full 2249 2272	"La Stampa" del 17 genn
+R4	ContainedIN Arg1:T35 Arg2:T36	
+T37	Author 2224 2245	G. Barberi Squarotti,
+T38	Title 2249 2260	"La Stampa"
+T39	Date 2265 2272	17 genn

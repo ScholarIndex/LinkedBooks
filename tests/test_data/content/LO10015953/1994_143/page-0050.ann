@@ -1,0 +1,37 @@
+T1	Secondary-Full 1478 1543;1545 1628;1630 1634	M. PahOR, Socijalni boji v obcini Piran od XV. do XVIII. stoletja (Latte sociali nel comune di Pirano dal XV al XVIII secolo), Lubiana 1972, pp. 175- 214,
+T2	Author 1478 1487	M. PahOR,
+T3	Title 1488 1543;1545 1605	Socijalni boji v obcini Piran od XV. do XVIII. stoletja (Latte sociali nel comune di Pirano dal XV al XVIII secolo),
+T4	PublicationPlace 1606 1613	Lubiana
+T5	PublicationYear 1614 1619	1972,
+T6	Pagination 1620 1628;1630 1633	pp. 175- 214
+T7	Secondary-Partial 1934 1978;1980 2049	M. BertoSa, Drustvene strukture u Istri 16.- 18. stoljeca (Le strutture sociali nell’Istria del XVI-XVIIl secolo),
+T8	Secondary-Full 2053 2071;2073 2144	Drustveni razvoj u Hrvarskoj (Lo sviluppo sociale in Croazia), Zagabria 1981, pp. 127 -152
+R1	ContainedIN Arg1:T7 Arg2:T8	
+T9	Author 1934 1945	M. BertoSa,
+T10	Title 1946 1978;1980 2049	Drustvene strukture u Istri 16.- 18. stoljeca (Le strutture sociali nell’Istria del XVI-XVIIl secolo),
+T11	Title 2053 2071;2073 2116	Drustveni razvoj u Hrvarskoj (Lo sviluppo sociale in Croazia),
+T12	PublicationPlace 2117 2125	Zagabria
+T13	PublicationYear 2126 2131	1981,
+T14	Pagination 2132 2145	pp. 127 -152.
+T15	Secondary-Partial 2220 2251;2253 2338;2340 2417	I. ËRCEG, Struktura stanovnist- va i niegova socijalno-ekonomska osnova u bivsoj mletackoj Istri (1803) (La struttura della popolazione e la sua base socio-economica nell’ex Istria veneta - 1803)
+T16	Secondary-Full 2418 2427;2429 2493	«Acta Hi- storico-Oeconomica Jugoslaviae» (= «AHOI»), IX, 1982, pp. 29-52.
+R2	ContainedIN Arg1:T15 Arg2:T16	
+T17	Author 2220 2229	I. ËRCEG,
+T18	Title 2230 2251;2253 2338;2340 2417	Struktura stanovnist- va i niegova socijalno-ekonomska osnova u bivsoj mletackoj Istri (1803) (La struttura della popolazione e la sua base socio-economica nell’ex Istria veneta - 1803)
+T19	Title 2418 2427;2429 2472	«Acta Hi- storico-Oeconomica Jugoslaviae» (= «AHOI»),
+T20	PublicationNumber-Year 2473 2482	IX, 1982,
+T21	Pagination 2483 2493	pp. 29-52.
+T22	Secondary-Full 2596 2601;2604 2661	B. Be nussi, Storia documentata diRovigno, Trieste-Rovigno 1978
+T23	Author 2596 2602;2604 2610	B. Be- nussi,
+T24	Title 2611 2640	Storia documentata diRovigno,
+T25	PublicationPlace 2641 2648	Trieste
+T26	PublicationPlace 2648 2656	-Rovigno
+T27	PublicationYear 2657 2662	1978.
+T28	Secondary-Partial 3127 3182	E. IVETIC, La società parentina del secondo Settecento,
+T29	Secondary-Full 3183 3186;3188 3271	«La Ricerca-Bollettino del Centro di Ricerche storiche di Rovigno», 3 (1992), pp. 21-23
+T30	Author 3127 3137	E. IVETIC,
+R3	ContainedIN Arg1:T28 Arg2:T29	
+T31	Title 3138 3182	La società parentina del secondo Settecento,
+T32	Title 3183 3186;3188 3251	«La Ricerca-Bollettino del Centro di Ricerche storiche di Rovigno»,
+T33	PublicationNumber-Year 3252 3261	3 (1992),
+T34	Pagination 3262 3271	pp. 21-23

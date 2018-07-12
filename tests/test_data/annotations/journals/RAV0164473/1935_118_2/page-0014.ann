@@ -1,0 +1,32 @@
+T1	Secondary-Partial 2274 2318	Storia della letteratura italiana,I, p. 138.
+T2	Title 2274 2308	Storia della letteratura italiana,
+T3	Volume 2308 2310	I,
+T4	Pagination 2311 2318	p. 138.
+T5	Secondary-Partial 2483 2512;2514 2534	Un viaggio elettorale,Napoli, Morano, 1920, p. 32.
+T6	Title 2483 2505	Un viaggio elettorale,
+T7	PublicationPlace 2505 2512	Napoli,
+T8	Publisher 2514 2521	Morano,
+T9	PublicationYear 2522 2527	1920,
+T10	Pagination 2528 2534	p. 32.
+T11	Secondary-Partial 2794 2826	Carattere di Dante e sua utopia,
+T12	Secondary-Partial 2829 2854	Saggi critici,II, p. 175.
+R1	ContainedIN Arg1:T11 Arg2:T12	
+T13	Title 2794 2826	Carattere di Dante e sua utopia,
+T14	Title 2829 2843	Saggi critici,
+T15	Volume 2843 2846	II,
+T16	Pagination 2847 2854	p. 175.
+T17	Secondary-Partial 2885 2943	G. Arcoleo, Francesco de Sanctis: L’eloquenza nell'Ateneo,
+T18	Secondary-Full 2946 2950;2953 3002	Stud e profili,Milano, Mondadori, 1926, I, pp. 268-80.
+R2	ContainedIN Arg1:T17 Arg2:T18	
+T19	Author 2885 2896	G. Arcoleo,
+T20	Title 2897 2943	Francesco de Sanctis: L’eloquenza nell'Ateneo,
+T21	Title 2946 2951;2953 2963	Studi e profili,
+T22	PublicationPlace 2963 2970	Milano,
+T23	Publisher 2971 2981	Mondadori,
+T24	PublicationYear 2982 2987	1926,
+T25	Volume 2988 2990	I,
+T26	Pagination 2991 3002	pp. 268-80.
+T27	Secondary-Partial 3249 3304	La letteratura italiana nel secolo decimonono,I, p. 256
+T28	Title 3249 3295	La letteratura italiana nel secolo decimonono,
+T29	Volume 3295 3297	I,
+T30	Pagination 3298 3304	p. 256

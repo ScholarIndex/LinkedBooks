@@ -1,0 +1,76 @@
+T1	Secondary-Partial 243 264	E.T., II, pp. 330-340
+A1	Continuation T1
+T2	AbbreviatedTitle 243 248	E.T.,
+T3	Volume 249 252	II,
+T4	Pagination 253 264	pp. 330-340
+T5	Secondary-Partial 700 713;715 728	Corner, E.V., VI, pp. 78-80
+T6	Secondary-Full 730 795;797 815	V. Piva, Il patriarcato di Venezia e le sue origini, vol. II, Ve- nezia 1960, p. 105
+T7	Author 700 707	Corner,
+T8	AbbreviatedTitle 708 713	E.V.,
+T9	Volume 715 718	VI,
+T10	Pagination 719 728	pp. 78-80
+T11	Author 730 738	V. Piva,
+T12	Title 739 782	Il patriarcato di Venezia e le sue origini,
+T13	Volume 783 791	vol. II,
+T14	PublicationPlace 792 795;797 802	Ve- nezia
+T15	PublicationYear 803 808	1960,
+T16	Pagination 809 815	p. 105
+T17	Secondary-Full 1046 1065;992 1044	nezia, Venezia 1870 V. Zanetti, La chiesa della Madonna dell’Orto in Ve-
+T18	Secondary-Full 1067 1115;1117 1139	A. Clarke, P. Rylands, The Church of the Madonna dell’Orto, London 1977
+T19	Secondary-Full 1141 1189;1191 1202	L. Moretti, Chiesa Madonna dell’Orto in Venezia, Torino 1981
+T20	Author 992 1003	V. Zanetti,
+T21	Title 1004 1044;1046 1052	La chiesa della Madonna dell’Orto in Ve- nezia,
+T22	PublicationPlace 1053 1060	Venezia
+T23	PublicationYear 1061 1065	1870
+T24	Author 1067 1077	A. Clarke,
+T25	Author 1078 1089	P. Rylands,
+T26	Title 1090 1115;1117 1127	The Church of the Madonna dell’Orto,
+T27	PublicationPlace 1128 1134	London
+T28	PublicationYear 1135 1139	1977
+T29	Author 1141 1152	L. Moretti,
+T30	Title 1153 1188	Chiesa Madonna dell’Orto in Venezia
+T31	PublicationPlace 1191 1197	Torino
+T32	PublicationYear 1198 1202	1981
+T33	Secondary-Partial 1390 1429;1431 1507	A. Niero, Testimonianze epigrafiche sul convento di S. Antonio Abate di Castello. Nota sul culto veneziano del Santo
+T34	Secondary-Full 1510 1551	«Studi Veneziani», VII, 1965, pp. 347-362
+R1	ContainedIN Arg1:T33 Arg2:T34	
+T35	Author 1390 1399	A. Niero,
+T36	Title 1400 1429;1431 1507	Testimonianze epigrafiche sul convento di S. Antonio Abate di Castello. Nota sul culto veneziano del Santo
+T37	Title 1510 1528	«Studi Veneziani»,
+T38	PublicationNumber-Year 1529 1539	VII, 1965,
+T39	Pagination 1540 1551	pp. 347-362
+T40	Secondary-Full 1563 1584;1586 1659	I. Ruffino, Fondo ar- chivistico-bibliografico per la storia ospedaliera antoniana, Torino 1980
+T41	Author 1563 1574	I. Ruffino,
+T42	Title 1575 1584;1586 1647	Fondo ar- chivistico-bibliografico per la storia ospedaliera antoniana,
+T43	PublicationPlace 1648 1654	Torino
+T44	PublicationYear 1655 1659	1980
+T45	Primary-Full 1826 1879	A.S.V., S. Giorgio in Alga, b. 1 perg.: 30 genn. 1344
+T46	Archive 1826 1833	A.S.V.,
+T47	ArchivalReference 1834 1853	S. Giorgio in Alga,
+T48	Folder 1854 1858	b. 1
+T49	Parchment 1859 1879	perg.: 30 genn. 1344
+T50	Date 1866 1879	30 genn. 1344
+T51	Secondary-Full 2016 2064;2066 2125	Historica monumenta ordinis S. Hieronymi congre- gationis B. Petri de Pisis, Venetiis 1728, pp. 115, 188-190
+T52	Title 2016 2064;2066 2093	Historica monumenta ordinis S. Hieronymi congre- gationis B. Petri de Pisis,
+T53	PublicationPlace 2094 2102	Venetiis
+T54	PublicationYear 2103 2108	1728,
+T55	Pagination 2109 2117	pp. 115,
+T56	Pagination 2118 2125	188-190
+T57	Secondary-Partial 2133 2146;2148 2161	Corner (E.V., VI, pp. 58-59
+T58	Author 2133 2139	Corner
+T59	AbbreviatedTitle 2141 2146	E.V.,
+T60	Volume 2148 2151	VI,
+T61	Pagination 2152 2161	pp. 58-59
+T62	Primary-Full 2631 2670	A.S.V., Commemoriali, reg. 7, cc. 97-98
+T63	Archive 2631 2638	A.S.V.,
+T64	ArchivalReference 2639 2652	Commemoriali,
+T65	Registry 2653 2660	reg. 7,
+T66	Cartulation 2661 2670	cc. 97-98
+T67	Secondary-Partial 3274 3312	F. Repetto, Eremiti dì Monte Segestere
+T68	Secondary-Full 3317 3324;3326 3340	D.I.P., III, 1175-1176
+R2	ContainedIN Arg1:T67 Arg2:T68	
+T69	Author 3274 3285	F. Repetto,
+T70	Title 3286 3312	Eremiti dì Monte Segestere
+T71	AbbreviatedTitle 3317 3324	D.I.P.,
+T72	Volume 3326 3330	III,
+T73	Pagination 3331 3340	1175-1176

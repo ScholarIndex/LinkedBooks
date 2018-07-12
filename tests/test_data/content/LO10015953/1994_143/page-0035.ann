@@ -1,0 +1,28 @@
+T1	Secondary-Partial 1804 1879	Camillo De Franceschi, Il Consiglio nobile di Parenzo e i profughi di Creta
+T2	Secondary-Partial 1881 1916	«AMSI» n. î., II, 1952, pp. 57-115.
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Author 1804 1826	Camillo De Franceschi,
+T4	Title 1827 1879	Il Consiglio nobile di Parenzo e i profughi di Creta
+T5	AbbreviatedTitle 1881 1887	«AMSI»
+T6	Other 1888 1894	n. î.,
+T7	PublicationNumber-Year 1895 1904	II, 1952,
+T8	Pagination 1905 1916	pp. 57-115.
+T9	Primary-Full 1946 2016;2018 2103;2105 2118	rchivio di Stato, Venezia (= ASV), Deputati ed Aggiunti alla Prowigion del Denaro pubblico, Anagrafi venete, 1766-1770, vol. V e Registro delle Anagrafi Ge- nerali (1790)
+T10	Archive 1945 1980	Archivio di Stato, Venezia (= ASV),
+T11	ArchivalReference 1981 2016;2018 2038	Deputati ed Aggiunti alla Prowigion del Denaro pubblico,
+T12	ArchivalReference 2039 2055	Anagrafi venete,
+T13	Period 2056 2066	1766-1770,
+T14	ArchivalUnit 2067 2073	vol. V
+T15	Registry 2074 2103;2105 2119	e Registro delle Anagrafi Ge- nerali (1790).
+T16	Secondary-Partial 2125 2172	Camillo De Franceschi, Il Consiglio, pp. 96-98.
+T17	Author 2125 2147	Camillo De Franceschi,
+T18	AbbreviatedTitle 2148 2161	Il Consiglio,
+T19	Pagination 2162 2172	pp. 96-98.
+T20	Secondary-Partial 2333 2342;2344 2414	G.F. Tom- MASINI, De' Commentari storici-geografici della Provincia dell’Istria,
+T21	Secondary-Full 2415 2427;2429 2466	«Archeografo Triestino» (= «AT»), IV, 1837, p. 137
+R2	ContainedIN Arg1:T20 Arg2:T21	
+T22	Author 2333 2342;2344 2351	G.F. Tom- MASINI,
+T23	Title 2352 2414	De' Commentari storici-geografici della Provincia dell’Istria,
+T24	Title 2415 2427;2429 2449	«Archeografo Triestino» (= «AT»),
+T25	PublicationNumber-Year 2450 2459	IV, 1837,
+T26	Pagination 2460 2467	p. 137.

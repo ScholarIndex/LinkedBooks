@@ -1,0 +1,17 @@
+T1	Secondary-Partial 2155 2172	M.A. VAN SPITAEL,
+T2	Secondary-Full 2176 2195;2197 2284;2286 2311	CRISTOFORO BuONDEL- MONTI, Descriptio insule Crete et Liber Insularum, cap. XI: Creta, ed. A.-M. V. S., Hi- raklion 1981, pp. 276-77.
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Author 2155 2172	M.A. VAN SPITAEL,
+T4	Author 2176 2195;2197 2203	CRISTOFORO BuONDEL- MONTI,
+T5	Title 2204 2263	Descriptio insule Crete et Liber Insularum, cap. XI: Creta,
+T6	PublicationSpecifications 2264 2280	ed. A.-M. V. S.,
+T7	PublicationPlace 2281 2284;2286 2293	Hi- raklion
+T8	PublicationYear 2294 2299	1981,
+T9	Pagination 2300 2311	pp. 276-77.
+T10	Secondary-Partial 2409 2417;2419 2446	VAN Spi- TAEL, op. cit., pp. 281-82.
+T11	Author 2409 2417;2419 2424	VAN Spi- TAEL,
+T12	Abbreviation 2425 2434	op. cit.,
+T13	Pagination 2435 2446	pp. 281-82.
+T14	Secondary-Partial 2492 2512	VAN SPITAEL, p. 283.
+T15	Author 2492 2504	VAN SPITAEL,
+T16	Pagination 2505 2511	p. 283

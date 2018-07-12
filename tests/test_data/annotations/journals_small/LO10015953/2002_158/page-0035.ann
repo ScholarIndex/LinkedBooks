@@ -1,0 +1,47 @@
+T1	Primary-Partial 1855 1907	[Milledonne], Vita di Antonio Milledonne, c. 73v-74r
+T2	Author 1855 1868	[Milledonne],
+T3	Title 1869 1896	Vita di Antonio Milledonne,
+T4	Cartulation 1897 1908	c. 73v-74r;
+T5	Primary-Full 1909 1921;1923 1953	ASV, Senato, Secreta, Registro 71, c. 138r.
+T6	Archive 1909 1913	ASV,
+T7	ArchivalReference 1914 1921	Senato,
+T8	ArchivalReference 1923 1931	Secreta,
+T9	Registry 1932 1944	Registro 71,
+T10	Cartulation 1945 1952	c. 138r
+T11	Primary-Partial 1961 2013	[MILLEDONNE], Vita d’Antonio Milledonne, c. 73r-74r.
+T12	Author 1961 1974	[MILLEDONNE],
+T13	Title 1975 2001	Vita d’Antonio Milledonne,
+T14	Cartulation 2002 2013	c. 73r-74r.
+T15	Primary-Full 2021 2097	ASV, Avogaria di Commun, Contratti di nozze Cittadini, Registro 157; c. 24r.
+T16	Archive 2021 2025	ASV,
+T17	ArchivalReference 2026 2045	Avogaria di Commun,
+T18	ArchivalReference 2046 2075	Contratti di nozze Cittadini,
+T19	Registry 2076 2089	Registro 157;
+T20	Cartulation 2090 2097	c. 24r.
+T21	Secondary-Partial 2099 2183;2185 2205	A. Bellavitis, La famiglia «cittadina» veneziana nel XVI secolo: dote e successione. Le leggi e le fonti,
+T22	Secondary-Full 2206 2249	«Studi veneziani», N.S. 30 (1995), p. 55-68
+R1	ContainedIN Arg1:T21 Arg2:T22	
+T23	Author 2099 2113	A. Bellavitis,
+T24	Title 2114 2183;2185 2205	La famiglia «cittadina» veneziana nel XVI secolo: dote e successione. Le leggi e le fonti,
+T25	Title 2206 2224	«Studi veneziani»,
+T26	Series 2225 2229	N.S.
+T27	PublicationNumber-Year 2230 2240	30 (1995),
+T28	Pagination 2241 2249	p. 55-68
+T29	Secondary-Partial 2251 2270;2272 2359;2361 2402	A. BELLAVITIS, «Per cittadini metterete ...». La stratificazione della società veneziana cinquecentesca tra norma giuridica e riconoscimento sociale,
+T30	Secondary-Full 2403 2445	«Quaderni storici», 89 (1995), p. 359-383.
+T31	Author 2251 2265	A. BELLAVITIS,
+T32	Title 2266 2270;2272 2359;2361 2402	«Per cittadini metterete ...». La stratificazione della società veneziana cinquecentesca tra norma giuridica e riconoscimento sociale,
+T33	Title 2403 2422	«Quaderni storici»,
+T34	PublicationNumber-Year 2423 2433	89 (1995),
+T35	Pagination 2434 2444	p. 359-383
+T36	Primary-Full 2453 2502	ASV, Archivio Proprio, Francia, filza 4, deperita
+T37	Archive 2453 2457	ASV,
+T38	ArchivalReference 2458 2475	Archivio Proprio,
+T39	ArchivalReference 2476 2484	Francia,
+T40	Filza 2485 2502	filza 4, deperita
+T41	Primary-Full 2504 2529;2531 2590	ASV, Dispacci degli Amba- sciatori al Senato, RubricariFrancia, filza Cl, fi 55r-57r.
+T42	Archive 2504 2508	ASV,
+T43	ArchivalReference 2509 2529;2531 2550	Dispacci degli Amba- sciatori al Senato,
+T44	ArchivalReference 2551 2568	RubricariFrancia,
+T45	Filza 2569 2578	filza Cl,
+T46	Foliation 2579 2590	fi 55r-57r.

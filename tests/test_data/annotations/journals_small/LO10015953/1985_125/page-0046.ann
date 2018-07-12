@@ -1,0 +1,57 @@
+T1	Secondary-Partial 1232 1260	Corner, E.V., I, pp. 303-314
+T2	Secondary-Full 1262 1296;1298 1376;1378 1458;1460 1490	F. Driuzzo, Cenni sopra una lignea statua del XV secolo rappresentante S. Ludovico arcivescovo di Tolosa, intorno aUa chiesa a lui dedicata, sulla sua vita, nonché sopra un raro dipinto di Giam- battista Tiepolo, Venezia 1845
+T3	Author 1262 1273	F. Driuzzo,
+T4	Title 1274 1296;1298 1376;1378 1457;1460 1477	Cenni sopra una lignea statua del XV secolo rappresentante S. Ludovico arcivescovo di Tolosa, intorno aUa chiesa a lui dedicata, sulla sua vita, nonché sopra un raro dipinto di Giam battista Tiepolo,
+T5	PublicationPlace 1478 1485	Venezia
+T6	PublicationYear 1486 1490	1845
+T7	Secondary-Full 1492 1537;1540 1559	A. Schiavini, S. Alvise e la sua chiesa in Ve nezia, Venezia 1951
+T8	Author 1492 1505	A. Schiavini,
+T9	Title 1506 1537;1540 1546	S. Alvise e la sua chiesa in Ve nezia,
+T10	PublicationPlace 1547 1554	Venezia
+T11	PublicationYear 1555 1559	1951
+T12	Secondary-Partial 1713 1720;1722 1744	Corner, E.T., I, pp. 42, 60-61
+T13	Secondary-Partial 1746 1798	V. Piva, op. cit., vol. I, Venezia 1938, pp. 197-198
+T14	Author 1713 1720	Corner,
+T15	AbbreviatedTitle 1722 1727	E.T.,
+T16	Volume 1728 1730	I,
+T17	Pagination 1731 1738	pp. 42,
+T18	Pagination 1739 1744	60-61
+T19	Author 1746 1754	V. Piva,
+T20	Abbreviation 1755 1764	op. cit.,
+T21	Volume 1765 1772	vol. I,
+T22	PublicationPlace 1773 1780	Venezia
+T23	PublicationYear 1781 1786	1938,
+T24	Pagination 1787 1798	pp. 197-198
+T25	Secondary-Partial 1925 1951	Corner, Έ.Τ., I, pp. 56-57
+T26	Secondary-Partial 1960 2028	G. Cracco, La fondazione dei canonici secolari di S. Giorgio in Alga
+T27	Author 1925 1932	Corner,
+T28	AbbreviatedTitle 1933 1938	Έ.Τ.,
+T29	Volume 1939 1941	I,
+T30	Pagination 1942 1951	pp. 56-57
+T31	Author 1960 1970	G. Cracco,
+T32	Title 1971 2028	La fondazione dei canonici secolari di S. Giorgio in Alga
+T33	Secondary-Full 2031 2097	«Rivista di storia della Chiesa in Italia», XIII (1959), pp. 70-81
+R1	ContainedIN Arg1:T26 Arg2:T33	
+T34	Title 2031 2074	«Rivista di storia della Chiesa in Italia»,
+T35	PublicationNumber-Year 2075 2087	XIII (1959),
+T36	Pagination 2088 2097	pp. 70-81
+T37	Secondary-Partial 2099 2112;2114 2189;2191 2225	S. Tramontin, La cultura monastica dal primo patriarca Lorenzo Giustiniani ai camaldolesi Paolo Giustiniani e Pietro Querini
+T38	Secondary-Full 2230 2272;2274 2295	Storia della cultura veneta, Vicenza 1980, voi. 3/1, pp. 431-457
+R2	ContainedIN Arg1:T37 Arg2:T38	
+T39	Author 2099 2112	S. Tramontin,
+T40	Title 2114 2189;2191 2225	La cultura monastica dal primo patriarca Lorenzo Giustiniani ai camaldolesi Paolo Giustiniani e Pietro Querini
+T41	Title 2230 2258	Storia della cultura veneta,
+T42	PublicationPlace 2259 2266	Vicenza
+T43	PublicationYear 2267 2271	1980
+T44	Volume 2274 2281	voi. 3/
+T45	Tomo 2281 2283	1,
+T46	Pagination 2284 2295	pp. 431-457
+T47	Secondary-Full 2297 2354;2356 2434;2436 2497	Riforma delle chiesa, cultura e spiritualità nel Quattro- cento veneto (Atti del convegno per il VI centenario della nascita di Ludovico Barbo [1382-1443]), Cesena, Badia di S. Maria del Monte, 1984
+T48	Title 2297 2354;2356 2434;2436 2455	Riforma delle chiesa, cultura e spiritualità nel Quattro- cento veneto (Atti del convegno per il VI centenario della nascita di Ludovico Barbo [1382-1443]),
+T49	PublicationPlace 2456 2492	Cesena, Badia di S. Maria del Monte,
+T50	PublicationYear 2493 2497	1984
+T51	Secondary-Partial 2767 2795	Corner, E.V., XII, pp. 23-38
+T52	Author 2767 2774	Corner,
+T53	AbbreviatedTitle 2775 2780	E.V.,
+T54	Volume 2781 2785	XII,
+T55	Pagination 2786 2795	pp. 23-38

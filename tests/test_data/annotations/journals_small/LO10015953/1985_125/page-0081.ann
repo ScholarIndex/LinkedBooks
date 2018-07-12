@@ -1,0 +1,37 @@
+T1	Secondary-Full 1384 1443	statistica degli archivi della Regione Veneta, Venezia 1881
+A1	Continuation T1
+T2	Title 1384 1430	statistica degli archivi della Regione Veneta,
+A2	Continuation T2
+T3	PublicationPlace 1431 1438	Venezia
+T4	PublicationYear 1439 1444	1881,
+T5	Primary-Full 1753 1777;1779 1835	Archivio della Curia Ve- scovile, Atti delle visite pastorali, IV f. non numerati
+T6	Archive 1753 1777;1779 1787	Archivio della Curia Ve- scovile,
+T7	ArchivalReference 1788 1816	Atti delle visite pastorali,
+T8	Numbering 1817 1819	IV
+T9	Foliation 1820 1835	f. non numerati
+T10	Secondary-Partial 2019 2053;2055 2100	Zalin G., Economia agraria e inse- diamento di villa tra medioevo e rinascimento
+T11	Author 2019 2028	Zalin G.,
+T12	Title 2029 2053;2055 2100	Economia agraria e inse- diamento di villa tra medioevo e rinascimento
+T13	Secondary-Full 2105 2129;2131 2153	«La villa nel Veronese», Verona 1975, pp. 51-86
+T14	Title 2105 2129	«La villa nel Veronese»,
+R1	ContainedIN Arg1:T10 Arg2:T13	
+T15	PublicationPlace 2131 2137	Verona
+T16	PublicationYear 2138 2143	1975,
+T17	Pagination 2144 2153	pp. 51-86
+T18	Secondary-Partial 2194 2205;2207 2286;2288 2313	Coppola G., L'agricoltura di alcune pievi della pianura irrigua milanese nei dati catastali della metà del secolo XVI
+T19	Secondary-Full 2318 2365;2367 2425	«Contributi dell’Istituto di Storia Economica e Sociale», I, a cura di M. Romani, Milano 1973, pp. 185-286
+R2	ContainedIN Arg1:T18 Arg2:T19	
+T20	Author 2194 2205	Coppola G.,
+T21	Title 2207 2286;2288 2313	L'agricoltura di alcune pievi della pianura irrigua milanese nei dati catastali della metà del secolo XVI
+T22	Title 2318 2365;2367 2376	«Contributi dell’Istituto di Storia Economica e Sociale»,
+T23	Volume 2377 2379	I,
+T24	Editor 2380 2400	a cura di M. Romani,
+T25	PublicationPlace 2401 2407	Milano
+T26	PublicationYear 2408 2413	1973,
+T27	Pagination 2414 2425	pp. 185-286
+T28	Secondary-Full 2527 2575;2577 2650;2652 2664	Grassi P., Locatio ad longum tempus. Locazione e rapporti reali di godimento nella problematica del diritto comune, Milano 1963, p. 265
+T29	Author 2527 2537	Grassi P.,
+T30	Title 2538 2575;2577 2643	Locatio ad longum tempus. Locazione e rapporti reali di godimento nella problematica del diritto comune,
+T31	PublicationPlace 2644 2650	Milano
+T32	PublicationYear 2652 2657	1963,
+T33	Pagination 2658 2664	p. 265

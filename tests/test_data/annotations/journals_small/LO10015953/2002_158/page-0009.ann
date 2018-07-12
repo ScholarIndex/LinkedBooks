@@ -1,0 +1,79 @@
+T1	Primary-Full 1307 1374;1376 1414	BCP, mss. C.M. 361, [Antonio Milledonne], Vita d’Antonio Milledonne secretario del Consiglio di X, c. 68r.
+T2	Library 1307 1311	BCP,
+T3	Codex 1312 1326	mss. C.M. 361,
+T4	Author 1327 1348	[Antonio Milledonne],
+T5	Title 1349 1374;1376 1406	Vita d’Antonio Milledonne secretario del Consiglio di X,
+T6	Cartulation 1407 1414	c. 68r.
+T7	Primary-Full 1421 1497;1499 1577	ASV, Consiglio dei X, Parti comuni, filza 50, supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X, alla data 30 Luglio 1550 m.v.
+T8	Archive 1421 1425	ASV,
+T9	ArchivalReference 1426 1442	Consiglio dei X,
+T10	ArchivalReference 1443 1456	Parti comuni,
+T11	Filza 1457 1466	filza 50,
+T12	Attachment 1467 1497;1499 1547	supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X,
+T13	Date 1548 1577	alla data 30 Luglio 1550 m.v.
+T14	Primary-Full 1584 1665;1667 1679	ASV, Tassini, Cittadini, X, Miscellanea codici, serie Io, Storia veneta, registro 13, c. 206r;
+T15	Archive 1584 1588	ASV,
+T16	ArchivalReference 1589 1597	Tassini,
+T17	ArchivalFond 1589 1631	Tassini, Cittadini, X, Miscellanea codici,
+T18	ArchivalSeries 1728 1737;1738 1752	serie Io, Storia veneta,
+T20	Cartulation 1769 1774	c 73r
+T21	Primary-Full 1776 1845;1847 1872	ASV, TODERINI, Cittadinanze, Miscellanea codici, serie Io, Storia ve- neta, registro 5, c. 567r
+T22	Archive 1776 1780	ASV,
+T23	ArchivalFond 1781 1824	TODERINI, Cittadinanze, Miscellanea codici,
+T19	Registry 1753 1756;1758 1768	re- gistro 11,
+T24	ArchivalSeries 1825 1845;1847 1852	serie Io, Storia ve- neta,
+T25	Registry 1853 1864	registro 5,
+T26	Cartulation 1865 1872	c. 567r
+T27	Primary-Full 1874 1935;1937 2020;2022 2036	ASV, Consiglio dei X, Parti comuni, filza 58, supplica di An- tonio Milledonne allegata alla deliberazione del Consiglio dei X, alla data 23 Gen- naio 1552 m.v.
+T28	Archive 1874 1878	ASV,
+T29	ArchivalReference 1879 1895	Consiglio dei X,
+T30	ArchivalReference 1896 1909	Parti comuni,
+T31	Filza 1910 1919	filza 58,
+T32	Attachment 1920 1935;1937 2002	supplica di An- tonio Milledonne allegata alla deliberazione del Consiglio dei X,
+T33	Date 2003 2020;2022 2036	alla data 23 Gen- naio 1552 m.v.
+T34	Primary-Full 2039 2104;2106 2189;2191 2204	ASV, Consiglio dei X, Parti comuni, filza 64, supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X, alla data del 28 Novem- bre 1554 m.v.
+T35	Archive 2039 2043	ASV,
+T36	ArchivalReference 2044 2060	Consiglio dei X,
+T37	ArchivalReference 2061 2074	Parti comuni,
+T38	Filza 2075 2084	filza 64,
+T39	Attachment 2085 2104;2106 2165	supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X,
+T40	Date 2166 2189;2191 2204	alla data del 28 Novem- bre 1554 m.v.
+T41	Secondary-Full 2212 2283;2285 2302	Marín Sañudo, I Diarii, XLI, Venezia 1894, (ristampa anastatica Bologna 1969), p. 342-345
+T42	Author 2212 2225	Marín Sañudo,
+T43	Title 2226 2235	I Diarii,
+T44	Numbering 2236 2240	XLI,
+T45	PublicationPlace 2241 2248	Venezia
+T46	PublicationYear 2249 2254	1894,
+T47	PublicationSpecifications 2255 2283;2285 2291	(ristampa anastatica Bologna 1969),
+T48	Pagination 2292 2302	p. 342-345
+T49	Primary-Full 2310 2387;2389 2419	ASV, Miscellanea Codici, serie Io, Storia veneta. Registro 21, BARBARO, Arbo- ri de’ patritii veneti, p. 483
+T50	Archive 2310 2314	ASV,
+T51	ArchivalFond 2315 2334	Miscellanea Codici,
+T52	ArchivalSeries 2335 2359	serie Io, Storia veneta.
+T53	Registry 2360 2387;2389 2412	Registro 21, BARBARO, Arbo- ri de’ patritii veneti,
+T54	Pagination 2413 2419	p. 483
+T55	Primary-Full 2517 2557;2559 2576	ASV, Avogaria di Común, Palla d’oro, bu- sta 165, c. 309r;
+T56	Archive 2517 2521	ASV,
+T57	ArchivalReference 2522 2540	Avogaria di Común,
+T58	ArchivalReference 2541 2553	Palla d’oro,
+T59	Folder 2554 2557;2559 2567	bu- sta 165,
+T60	Cartulation 2568 2575	c. 309r
+T61	Primary-Full 2577 2642;2644 2654	ASV, Avogaria di Común, Necrologio Nobili (1526-1616), busta 159, alla data.
+T62	Archive 2577 2581	ASV,
+T63	ArchivalReference 2582 2600	Avogaria di Común,
+T64	ArchivalReference 2601 2631	Necrologio Nobili (1526-1616),
+T65	Folder 2632 2642	busta 159,
+T66	Date 2644 2654	alla data.
+T67	Primary-Full 2661 2727	ASV, Avogaria di Común, Matrimoni libro d’oro, Registro 87, c. 265
+T68	Archive 2661 2665	ASV,
+T69	ArchivalReference 2666 2684	Avogaria di Común,
+T70	ArchivalReference 2685 2707	Matrimoni libro d’oro,
+T71	Registry 2708 2720	Registro 87,
+T72	Cartulation 2721 2728	c. 265r
+T73	Primary-Full 2730 2734;2736 2823;2825 2841	ASV, Dieci Savi alle decime in Rialto, Redecima 1514, registro 1471, c. 496, ditta di Giaco- mo Antonio Orio.
+T74	Archive 2730 2733	ASV
+T75	ArchivalFond 2736 2769	Dieci Savi alle decime in Rialto,
+T76	ArchivalSeries 2770 2784	Redecima 1514,
+T77	Registry 2785 2799	registro 1471,
+T78	Cartulation 2800 2807	c. 496,
+T79	Other 2808 2823;2825 2841	ditta di Giaco- mo Antonio Orio.

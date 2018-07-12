@@ -1,0 +1,30 @@
+T1	Primary-Full 2025 2068	ASV, Giudici di Petizion, Inventari, b. 463
+T2	Secondary-Partial 2076 2123	M. ZORZI, La stampa, la circolazione del libro,
+T3	Secondary-Full 2127 2157;2159 2248;2250 2290	Storia di Venezia dalle origi- ni alla caduta della Serenissima, Vili, l’ultima fase della Serenissima, a cura di P. Del Negro e P. Preto, Roma 2002, p. 840-841.
+T4	Primary-Full 2291 2319	ASV, Prove di nobiltà, b. 30
+T5	Primary-Full 2327 2370	ASV, Giudici di Petizion, Inventari, b. 463
+T6	Primary-Full 2378 2411	BMCV, mss. Gradenigo 192, f. 302.
+T7	Archive 2025 2029	ASV,
+T8	Archive 2291 2295	ASV,
+T9	Archive 2327 2331	ASV,
+T10	Archive 2378 2383	BMCV,
+T11	ArchivalReference 2030 2050	Giudici di Petizion,
+T12	ArchivalReference 2051 2061	Inventari,
+T13	Folder 2062 2069	b. 463.
+T14	Author 2076 2085	M. ZORZI,
+T15	Title 2086 2123	La stampa, la circolazione del libro,
+T16	Title 2127 2156;2159 2192	Storia di Venezia dalle origi ni alla caduta della Serenissima,
+T17	Volume 2193 2231	Vili, l’ultima fase della Serenissima,
+T18	Editor 2232 2248;2250 2255	a cura di P. Del Negro
+T19	Editor 2256 2267	e P. Preto,
+T20	PublicationPlace 2268 2272	Roma
+T21	PublicationYear 2273 2278	2002,
+T22	Pagination 2279 2289	p. 840-841
+T23	ArchivalReference 2296 2313	Prove di nobiltà,
+T24	Folder 2314 2319	b. 30
+T25	ArchivalReference 2332 2352	Giudici di Petizion,
+T26	ArchivalReference 2353 2363	Inventari,
+T27	Folder 2364 2370	b. 463
+T28	Numbering 2384 2403	mss. Gradenigo 192,
+T29	Foliation 2404 2410	f. 302
+R1	ContainedIN Arg1:T2 Arg2:T3	

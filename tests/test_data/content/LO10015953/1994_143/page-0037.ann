@@ -1,0 +1,32 @@
+T1	Secondary-Full 1990 2067;2069 2089	B. Vergottin, Breve saggio d’istoria antica e moderna della città di Parenzo, Venezia 1796, p. 49;
+T2	Author 1990 2003	B. Vergottin,
+T3	Title 2004 2067	Breve saggio d’istoria antica e moderna della città di Parenzo,
+T4	PublicationPlace 2069 2076	Venezia
+T5	PublicationYear 2077 2082	1796,
+T6	Pagination 2083 2089	p. 49;
+T7	Secondary-Full 2090 2152;2154 2193	A. VENTORA, Nobiltà e popolo nella società veneta del Quattro- cento e Cinquecento, Bari 1964, p. 163.
+T8	Author 2090 2101	A. VENTORA,
+T9	Title 2102 2152;2154 2174	Nobiltà e popolo nella società veneta del Quattro- cento e Cinquecento,
+T10	PublicationPlace 2175 2179	Bari
+T11	PublicationYear 2180 2185	1964,
+T12	Pagination 2186 2193	p. 163.
+T13	Secondary-Partial 2205 2265	Camillo De Franceschi, L'antico Palazzo pretorio di Parenzo,
+T14	Secondary-Partial 2266 2273;2275 2297	«AMSI», XLV, 1933, pp. 354-364
+R1	ContainedIN Arg1:T13 Arg2:T14	
+T15	AbbreviatedTitle 2266 2273	«AMSI»,
+T16	PublicationNumber-Year 2275 2285	XLV, 1933,
+T17	Pagination 2286 2298	pp. 354-364.
+T18	Secondary-Partial 2305 2352	Camillo De Franceschi, Il Consiglio, pp. 87-96.
+T19	Author 2305 2327	Camillo De Franceschi,
+T20	AbbreviatedTitle 2328 2341	Il Consiglio,
+T21	Pagination 2342 2352	pp. 87-96.
+T22	Secondary-Partial 2359 2377	Ibidem, pp. 80-81.
+T23	Abbreviation 2359 2366	Ibidem,
+T24	Pagination 2367 2377	pp. 80-81.
+T25	Secondary-Partial 2384 2438	F. Babudri, 1 vescovi di Parenzo e la loro cronologia,
+T26	Secondary-Partial 2439 2460;2462 2466	«AMSI», XXV, 1909, p. 274.
+T27	Author 2384 2395	F. Babudri,
+T28	Title 2396 2438	1 vescovi di Parenzo e la loro cronologia,
+T29	AbbreviatedTitle 2439 2446	«AMSI»,
+T30	PublicationNumber-Year 2447 2457	XXV, 1909,
+T31	Pagination 2458 2460;2462 2466	p. 274.

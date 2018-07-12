@@ -1,0 +1,39 @@
+T1	Primary-Full 1886 1966;1968 2038	ASV, Miscellanea di atti diversi manoscritti, Cancelleria ducale, b. 94, «scrit- tura» del Cancellier grande Giovanni Colombo alla data 20 Maggio 1769.
+T2	Primary-Full 2045 2122;2124 2204;2206 2210	ASV, Consiglio dei X, Parti comuni, b. 1142, «scrittura» del Cancellier gran- de Giovanni Colombo del 19 aprile 1768 allegata alla deliberazione del 29 aprile 1768
+T3	Secondary-Partial 2218 2282	ZannINI, Burocrazia e burocrati a Venezia in età moderna, p. 176
+T4	Primary-Full 2290 2364	ASV, Consiglio dei X, Parti comuni, b. 931, alla data 9 febbraio 1723 m.v.
+T5	Secondary-Partial 2424 2447;2449 2537	F. LUCCHETTA, Lo studio delle lingue orientali nella scuola per Dragomanni di Venezia alla fine del XVII secolo,
+T6	Secondary-Full 2539 2593	«Quaderni di studi arabi», 5-6 (1987-1988), p. 479-498
+T7	Primary-Full 2601 2675	ASV, Consiglio dei X, Parti comuni, b. 906, alla data 8 febbraio 1717 m.v.
+T8	Archive 1886 1890	ASV,
+T9	Archive 2045 2049	ASV,
+T10	Archive 2290 2294	ASV,
+T11	Archive 2601 2605	ASV,
+T12	ArchivalReference 1891 1931	Miscellanea di atti diversi manoscritti,
+T13	ArchivalReference 1932 1951	Cancelleria ducale,
+T14	Folder 1952 1958	b. 94,
+T15	Attachment 1959 1966;1968 2037	«scrit- tura» del Cancellier grande Giovanni Colombo alla data 20 Maggio 1769
+T16	Date 2023 2037	20 Maggio 1769
+T17	ArchivalReference 2050 2066	Consiglio dei X,
+T18	ArchivalReference 2067 2080	Parti comuni,
+T19	Folder 2081 2089	b. 1142,
+T20	Attachment 2090 2122;2124 2204;2206 2210	«scrittura» del Cancellier gran- de Giovanni Colombo del 19 aprile 1768 allegata alla deliberazione del 29 aprile 1768
+T21	Date 2148 2162	19 aprile 1768
+T22	Date 2195 2204;2206 2210	29 aprile 1768
+T23	Author 2218 2226	ZannINI,
+T24	Title 2227 2275	Burocrazia e burocrati a Venezia in età moderna,
+T25	Pagination 2276 2282	p. 176
+T26	ArchivalReference 2295 2311	Consiglio dei X,
+T27	ArchivalReference 2312 2325	Parti comuni,
+T28	Folder 2326 2333	b. 931,
+T29	Date 2334 2364	alla data 9 febbraio 1723 m.v.
+T30	Author 2424 2437	F. LUCCHETTA,
+T31	Title 2438 2447;2449 2537	Lo studio delle lingue orientali nella scuola per Dragomanni di Venezia alla fine del XVII secolo,
+R1	ContainedIN Arg1:T5 Arg2:T6	
+T32	Title 2539 2565	«Quaderni di studi arabi»,
+T33	PublicationNumber-Year 2566 2582	5-6 (1987-1988),
+T34	Pagination 2583 2593	p. 479-498
+T35	ArchivalReference 2606 2622	Consiglio dei X,
+T36	ArchivalReference 2623 2636	Parti comuni,
+T37	Folder 2637 2644	b. 906,
+T38	Period 2645 2675	alla data 8 febbraio 1717 m.v.

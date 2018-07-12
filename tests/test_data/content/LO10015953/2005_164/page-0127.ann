@@ -1,0 +1,10 @@
+T1	Secondary-Partial 1470 1547	E. IvetiC, Storiografie nazionali e interpretazioni della Dalmazia medievale,
+T2	Secondary-Full 1552 1636;1638 1662	Venezia e la Dalmazia anno Mille. Secoli di vicende comuni, a cura di N. FIORENTINI, Treviso 2002, pp. 95-116
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Author 1470 1480	E. IvetiC,
+T4	Title 1481 1547	Storiografie nazionali e interpretazioni della Dalmazia medievale,
+T5	Title 1552 1611	Venezia e la Dalmazia anno Mille. Secoli di vicende comuni,
+T6	Editor 1612 1636	a cura di N. FIORENTINI,
+T7	PublicationPlace 1638 1645	Treviso
+T8	PublicationYear 1646 1651	2002,
+T9	Pagination 1652 1662	pp. 95-116

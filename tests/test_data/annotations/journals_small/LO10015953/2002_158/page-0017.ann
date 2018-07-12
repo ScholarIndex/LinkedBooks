@@ -1,0 +1,46 @@
+T1	Primary-Full 1638 1714;1716 1792	ASV, Consiglio dei X, Parti comuni, filza 117, supplica di Antonio Milledon- ne allegata alla deliberazione del Consiglio dei X, alla data 17 Giugno 1573
+T2	Archive 1638 1642	ASV,
+T3	ArchivalReference 1643 1659	Consiglio dei X,
+T4	ArchivalReference 1660 1673	Parti comuni,
+T5	Filza 1674 1684	filza 117,
+T6	Attachment 1685 1714;1716 1767	supplica di Antonio Milledon- ne allegata alla deliberazione del Consiglio dei X,
+T7	Date 1768 1792	alla data 17 Giugno 1573
+T8	Secondary-Partial 1794 1800;1802 1834	R. Za- GO, Foscarini, Giacomo (Jacopo),
+T9	Secondary-Full 1838 1870	DBI, 49, Roma (1997), p. 365-370
+T10	Author 1794 1800;1802 1805	R. Za- GO,
+T11	Title 1806 1834	Foscarini, Giacomo (Jacopo),
+T12	AbbreviatedTitle 1838 1842	DBI,
+R1	ContainedIN Arg1:T8 Arg2:T9	
+T13	Volume 1843 1846	49,
+T14	PublicationPlace 1847 1851	Roma
+T15	PublicationYear 1852 1859	(1997),
+T16	Pagination 1860 1870	p. 365-370
+T17	Primary-Full 1872 1884;1886 1972;1974 2023	Marco Trivi- SANO, L'immortalità di Giovanni Battista Ballarino, cavaliere della serenissima Repub- blica di Venetia gran cancelliere, Venetia, 1671.
+T18	Author 1872 1884;1886 1891	Marco Trivi- SANO,
+T19	Title 1892 1972;1974 2008	L'immortalità di Giovanni Battista Ballarino, cavaliere della serenissima Repub- blica di Venetia gran cancelliere,
+T20	PublicationPlace 2009 2017	Venetia,
+T21	PublicationYear 2018 2023	1671.
+T22	Secondary-Full 2372 2453;2455 2474	R. PALMER, The Studio of Venice and its graduates in the sixteenth century, Trie- ste 1983, p. 99-100
+T23	Author 2372 2382	R. PALMER,
+T24	Title 2383 2447	The Studio of Venice and its graduates in the sixteenth century,
+T25	PublicationPlace 2448 2453;2455 2458	Trie- ste
+T26	PublicationYear 2459 2464	1983,
+T27	Pagination 2465 2474	p. 99-100
+T28	Secondary-Partial 2476 2546;2548 2590	F. LUCCHETTA, ho studio delle lingue orientali nella scuola per drago- manni di Venena alla fine del XVII secolo,
+T29	Secondary-Full 2591 2632;2635 2642	«Quaderni di studi arabi» 5-6 (1987-1988) p. 479.
+R2	ContainedIN Arg1:T28 Arg2:T29	
+T30	Author 2476 2489	F. LUCCHETTA,
+T31	Title 2490 2546;2548 2590	ho studio delle lingue orientali nella scuola per drago- manni di Venena alla fine del XVII secolo,
+T32	Title 2591 2616	«Quaderni di studi arabi»
+T33	PublicationNumber-Year 2617 2633	5-6 (1987-1988),
+T34	Pagination 2635 2642	p. 479.
+T35	Primary-Partial 2649 2697	[Milledonne], Vita d'Antonio Milledonne, c. 75V.
+T36	Author 2649 2662	[Milledonne],
+T37	Title 2663 2689	Vita d'Antonio Milledonne,
+T38	Cartulation 2690 2697	c. 75V.
+T39	Primary-Full 2704 2754	ASV, Consiglio dei X, Comune, registro 18, c. 24r,
+T40	Archive 2704 2708	ASV,
+T41	ArchivalReference 2709 2725	Consiglio dei X,
+T42	ArchivalReference 2726 2733	Comune,
+T43	Registry 2734 2746	registro 18,
+T44	Cartulation 2747 2754	c. 24r,

@@ -1,0 +1,10 @@
+2017-02-02 12:08:49,767 root         INFO     The logger was initialised
+2017-02-02 12:08:49,767 __main__     DEBUG    initialising the ContentIngester
+2017-02-02 12:08:49,771 __main__     DEBUG    Connected to Collection(Database(MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True), 'linkedbooks_test'), 'metadata')
+2017-02-02 12:08:49,771 __main__     DEBUG    Initialisation parameters:
+2017-02-02 12:08:49,771 __main__     DEBUG    "db_host" = localhost
+2017-02-02 12:08:49,771 __main__     DEBUG    "db_name" = linkedbooks_test
+2017-02-02 12:08:49,771 __main__     DEBUG    "collection_name" = metadata
+2017-02-02 12:08:49,771 __main__     DEBUG    "username" = scripty
+2017-02-02 12:08:49,771 __main__     DEBUG    "password" = L1nk3dB00ks
+2017-02-02 12:08:49,771 __main__     DEBUG    "authentication_database" = admin

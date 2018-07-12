@@ -1,0 +1,35 @@
+T1	Secondary-Partial 1917 1964	ROSSO, Una burocrazia di antico regime, p. 343.
+T2	Secondary-Partial 2008 2048;2050 2071	TREBBI, La cancelleria veneta nei secoli XVI e XVII, p. 89-90.
+T3	Secondary-Partial 2072 2134;2136 2165	M. CASINI, Realtà e simboli del Cancellier grande veneziano in età moderna (Secc. XVI-XVII),
+T4	Secondary-Full 2166 2208	«Studi veneziani», N.S. 22 (1991), p. 210.
+R1	ContainedIN Arg1:T3 Arg2:T4	
+T5	Secondary-Partial 2209 2217;2219 2278	ZANNINI, Burocrazia e burocrati a Venezia in età moderna, p. 130-132
+T6	Author 1917 1923	ROSSO,
+T7	Title 1924 1956	Una burocrazia di antico regime,
+T8	Pagination 1957 1963	p. 343
+T9	Author 2008 2015	TREBBI,
+T10	Title 2016 2048;2050 2061	La cancelleria veneta nei secoli XVI e XVII,
+T11	Pagination 2062 2070	p. 89-90
+T12	Author 2072 2082	M. CASINI,
+T13	Title 2083 2134;2136 2165	Realtà e simboli del Cancellier grande veneziano in età moderna (Secc. XVI-XVII),
+T14	Title 2166 2184	«Studi veneziani»,
+T15	Series 2185 2189	N.S.
+T16	PublicationNumber-Year 2190 2200	22 (1991),
+T17	Pagination 2201 2207	p. 210
+T18	Author 2209 2217	ZANNINI,
+T19	Title 2219 2267	Burocrazia e burocrati a Venezia in età moderna,
+T20	Pagination 2268 2278	p. 130-132
+T21	Primary-Full 2286 2360	ASV, Consiglio dei X, Parti comuni, b. 1154, alla data 16 gennaio 1769 m.v
+T22	Primary-Full 2368 2445;2447 2526;2528 2545	ASV, Consiglio dei X, Parti comuni, b. 1154, «scrittura» del Cancellier gran- de Giovanni Colombo del 20 gennaio 1769 m.v. allegata alla deliberazione del 29 gennaio 1769 m.v.
+T23	Archive 2286 2290	ASV,
+T24	Archive 2368 2372	ASV,
+T25	ArchivalReference 2291 2307	Consiglio dei X,
+T26	ArchivalReference 2308 2321	Parti comuni,
+T27	Folder 2322 2330	b. 1154,
+T28	Date 2331 2361	alla data 16 gennaio 1769 m.v.
+T29	ArchivalReference 2373 2389	Consiglio dei X,
+T30	ArchivalReference 2390 2403	Parti comuni,
+T31	Folder 2404 2412	b. 1154,
+T32	Attachment 2413 2445;2447 2526;2528 2545	«scrittura» del Cancellier gran- de Giovanni Colombo del 20 gennaio 1769 m.v. allegata alla deliberazione del 29 gennaio 1769 m.v.
+T33	Date 2471 2491	20 gennaio 1769 m.v.
+T34	Date 2524 2526;2528 2544	29 gennaio 1769 m.v

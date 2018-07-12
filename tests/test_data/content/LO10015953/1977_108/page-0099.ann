@@ -1,0 +1,54 @@
+T1	Secondary-Partial 1558 1571	M., II, p. 94
+T2	AbbreviatedTitle 1558 1561	M.,
+T3	Volume 1562 1565	II,
+T4	Pagination 1566 1571	p. 94
+T5	Secondary-Partial 1584 1651;1653 1677	A. Favaro, 1 successori di Galileo nello studio di Padova fino alla caduta della Repubblica,
+T6	Author 1584 1594	A. Favaro,
+T7	Title 1595 1651;1653 1677	1 successori di Galileo nello studio di Padova fino alla caduta della Repubblica,
+T8	Secondary-Full 1681 1729;1731 1737	“Nuovo Archivio veneto”, n. s., 33 (1917), P. I, p. 152
+T9	Title 1681 1704	“Nuovo Archivio veneto”
+T10	Series 1706 1712	n. s.,
+T11	PublicationNumber-Year 1713 1723	33 (1917),
+T12	Pagination 1731 1737	p. 152
+R1	ContainedIN Arg1:T5 Arg2:T8	
+T13	Secondary-Full 1837 1889;1891 1903	Lettere di uomini dotti..., a c. di G. A. Bonicelli, Venezia 1807
+T14	AbbreviatedTitle 1837 1864	Lettere di uomini dotti...,
+T15	Editor 1865 1889	a c. di G. A. Bonicelli,
+T16	PublicationPlace 1891 1898	Venezia
+T17	PublicationYear 1899 1903	1807
+T18	Secondary-Partial 2045 2051;2053 2082	A. Ma- sini, Note su Giovanni Poleni
+T19	Secondary-Full 2087 2129;2131 2173	“Atti e Mem. dell’accademia di SS. LL. AA. in Padova”, n. s., 42 (1925-26), pp. 27-30
+R2	ContainedIN Arg1:T18 Arg2:T19	
+T20	Author 2045 2051;2053 2058	A. Ma- sini,
+T21	Title 2059 2083	Note su Giovanni Poleni,
+T22	Title 2087 2129;2131 2142	“Atti e Mem. dell’accademia di SS. LL. AA. in Padova”,
+T23	Series 2143 2149	n. s.,
+T24	PublicationNumber-Year 2150 2163	42 (1925-26),
+T25	Pagination 2164 2173	pp. 27-30
+T26	Secondary-Partial 2309 2322	M., IV, p. 34
+T27	AbbreviatedTitle 2309 2312	M.,
+T28	Volume 2313 2316	IV,
+T29	Pagination 2317 2322	p. 34
+T30	Secondary-Partial 2335 2397;2399 2414	A. Stella, Intorno al medico padovano Nicolò Buccella, anabat- tista del '500,
+T31	Secondary-Full 2418 2481;2483 2490	"Atti e mem. dell’acc. patavina di SS. LL. AA. ", 74 (1961-62), P. Ili,
+R3	ContainedIN Arg1:T30 Arg2:T31	
+T32	Author 2335 2345	A. Stella,
+T33	Title 2346 2397;2399 2414	Intorno al medico padovano Nicolò Buccella, anabat- tista del '500,
+T34	Title 2418 2467	"Atti e mem. dell’acc. patavina di SS. LL. AA. ",
+T35	PublicationNumber-Year 2468 2481	74 (1961-62),
+T36	Pagination 2483 2490	P. Ili,
+T37	Secondary-Partial 2491 2523	Mem. di SS. Mor. LL. AA., p. 343
+T38	AbbreviatedTitle 2491 2516	Mem. di SS. Mor. LL. AA.,
+T39	Pagination 2517 2523	p. 343
+T40	Secondary-Partial 2527 2545	D. B., XIV, p. 751
+T41	AbbreviatedTitle 2527 2533	D. B.,
+T42	Volume 2534 2538	XIV,
+T43	Pagination 2539 2545	p. 751
+T44	Secondary-Partial 2754 2799;2802 2881;2883 2917	G. Oncaro, La scoperta della circolazione pol monare e la diffusione della “Christianismi restitutio’’ di Michele Serveto nel XVI secolo in Italia e nel Veneto,
+T45	Secondary-Full 2921 2952	"Episteme”, 5 (1971), pp. 3-44)
+R4	ContainedIN Arg1:T44 Arg2:T45	
+T46	Author 2754 2764	G. Oncaro,
+T47	Title 2765 2800;2802 2881;2883 2917	La scoperta della circolazione pol- monare e la diffusione della “Christianismi restitutio’’ di Michele Serveto nel XVI secolo in Italia e nel Veneto,
+T48	Title 2921 2932	"Episteme”,
+T49	PublicationNumber-Year 2933 2942	5 (1971),
+T50	Pagination 2943 2951	pp. 3-44

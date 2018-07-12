@@ -1,0 +1,60 @@
+T1	Secondary-Partial 1625 1688	G. COZZI, Il Consiglio dei X e l’«auttorità suprema» (1580-83),
+T2	Secondary-Full 1692 1701;1703 1788;1790 1821	G. Cozzi, Repubblica di Venezia e Stati italiani. Politica e giustizia dal secolo XVI al secolo XVIII, Torino, 1982, p. 145-174
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Author 1625 1634	G. COZZI,
+T4	Title 1635 1688	Il Consiglio dei X e l’«auttorità suprema» (1580-83),
+T5	Author 1692 1701	G. Cozzi,
+T6	Title 1703 1788;1790 1796	Repubblica di Venezia e Stati italiani. Politica e giustizia dal secolo XVI al secolo XVIII,
+T7	PublicationPlace 1797 1804	Torino,
+T8	PublicationYear 1805 1810	1982,
+T9	Pagination 1811 1821	p. 145-174
+T10	Secondary-Partial 1828 1874	G. COZZI, Venezia, una Repubblica di principi?
+T11	Secondary-Full 1875 1901;1903 1921	«Studi veneziani», N.S. 12 (1986), p. 139-157
+R2	ContainedIN Arg1:T10 Arg2:T11	
+T12	Author 1828 1837	G. COZZI,
+T13	Title 1838 1874	Venezia, una Repubblica di principi?
+T14	Title 1875 1893	«Studi veneziani»,
+T15	Series 1894 1898	N.S.
+T16	PublicationNumber 1899 1901	12
+T17	PublicationYear 1903 1910	(1986),
+T18	Pagination 1911 1921	p. 139-157
+T19	Secondary-Full 1928 2007;2009 2032	E. BeSTA, Il Senato veneziano (Origine, Costituzione, Attribuzione e Riti), Ve- nezia, 1899, p. 146-151
+T20	Author 1928 1937	E. BeSTA,
+T21	Title 1938 2003	Il Senato veneziano (Origine, Costituzione, Attribuzione e Riti),
+T22	PublicationPlace 2004 2007;2009 2015	Ve- nezia,
+T23	PublicationYear 2016 2021	1899,
+T24	Pagination 2022 2032	p. 146-151
+T25	Secondary-Full 2034 2094;2096 2181;2183 2186	G. Maranini, La Costituzione di Venezia. Dopo la serrata del Maggior Consiglio, II, Firenze 1974 (ristampa anastatica dell’edizione 1931), p. 420- 431
+T26	Author 2034 2046	G. Maranini,
+T27	Title 2047 2094;2096 2114	La Costituzione di Venezia. Dopo la serrata del Maggior Consiglio,
+T28	Volume 2115 2118	II,
+T29	PublicationPlace 2119 2126	Firenze
+T30	PublicationYear 2127 2131	1974
+T31	PublicationSpecifications 2132 2173	(ristampa anastatica dell’edizione 1931),
+T32	Pagination 2174 2181;2183 2187	p. 420- 431.
+T33	Secondary-Partial 2193 2266;2268 2274	M.J.C. LOWRY, The reform of the Council of ten, 1582-3: an unsettled pro- blem?,
+T34	Secondary-Partial 2275 2316	«Studi veneziani», 13 (1971) , p. 275-309
+R3	ContainedIN Arg1:T33 Arg2:T34	
+T35	Author 2193 2206	M.J.C. LOWRY,
+T36	Title 2207 2266;2268 2274	The reform of the Council of ten, 1582-3: an unsettled pro- blem?,
+T37	Title 2275 2293	«Studi veneziani»,
+T38	PublicationNumber-Year 2294 2305	13 (1971) ,
+T39	Pagination 2306 2316	p. 275-309
+T40	Secondary-Partial 2323 2396	G. TREBBI, Venezia tra '500 e '600 nell’opera storica di Andrea Morosini,
+T41	Secondary-Full 2397 2402;2404 2446	«Stu- di veneziani», N.S., 24 (1992), p. 77 segg
+R4	ContainedIN Arg1:T40 Arg2:T41	
+T42	Author 2323 2333	G. TREBBI,
+T43	Title 2334 2396	Venezia tra '500 e '600 nell’opera storica di Andrea Morosini,
+T44	Title 2397 2402;2404 2418	«Stu- di veneziani»,
+T45	Series 2419 2424	N.S.,
+T46	PublicationNumber-Year 2425 2435	24 (1992),
+T47	Pagination 2436 2446	p. 77 segg
+T48	Secondary-Partial 2449 2490;2492 2545	G. COZZI, Il Doge Nicolò Contarmi. Ricer- che sul patriziato veneziano agli inizi del Seicento,
+T49	Secondary-Full 2549 2582;2584 2653	Venezia barocca. Conflitti di uo- mini e idee nella crisi del Seicento veneziano, Venezia 1995, p. 3-44
+R5	ContainedIN Arg1:T48 Arg2:T49	
+T50	Author 2449 2458	G. COZZI,
+T51	Title 2459 2490;2492 2545	Il Doge Nicolò Contarmi. Ricer- che sul patriziato veneziano agli inizi del Seicento,
+T52	Title 2549 2582;2584 2631	Venezia barocca. Conflitti di uo- mini e idee nella crisi del Seicento veneziano,
+T53	PublicationPlace 2632 2639	Venezia
+T54	PublicationYear 2640 2645	1995,
+T55	Pagination 2646 2653	p. 3-44

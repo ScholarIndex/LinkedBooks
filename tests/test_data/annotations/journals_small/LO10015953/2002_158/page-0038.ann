@@ -1,0 +1,19 @@
+T1	Primary-Full 2114 2129	+, n° 29, c. 5V
+A1	Continuation T1
+T2	Registry 2114 2116	+,
+T3	Numbering 2117 2123	n° 29,
+T4	Cartulation 2124 2129	c. 5V
+T5	Primary-Full 2218 2277;2279 2304	ASV, Dispacci degli Ambasciatori al Senato, Rubricari Roma, Registro +, n° 31, c. 6r.
+T6	Archive 2218 2222	ASV,
+T7	ArchivalReference 2223 2261	Dispacci degli Ambasciatori al Senato,
+T8	ArchivalReference 2262 2277	Rubricari Roma,
+T9	Registry 2279 2290	Registro +,
+T10	Numbering 2291 2297	n° 31,
+T11	Cartulation 2298 2303	c. 6r
+T12	Primary-Full 2388 2470;2472 2477	ASV, Dispacci degli Ambasciatori al Senato, Rubricari Roma, Registro +, n° 109, c. 18''.
+T13	Archive 2388 2392	ASV,
+T14	ArchivalReference 2393 2431	Dispacci degli Ambasciatori al Senato,
+T15	ArchivalReference 2432 2447	Rubricari Roma,
+T16	Registry 2448 2459	Registro +,
+T17	Numbering 2460 2467	n° 109,
+T18	Cartulation 2468 2469;2472 2476	c 18''

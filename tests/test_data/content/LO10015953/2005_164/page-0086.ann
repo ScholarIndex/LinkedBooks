@@ -1,0 +1,17 @@
+T1	Primary-Full 2185 2262;2264 2290	ASVI, Notai Vicema, Giovanni Ceccatoni, b. 2807, alle date: 20 aprile 1702,23 aprile 1702,9 maggio 1702.
+T2	Primary-Full 2297 2365	ASVI, CRS 1492, Corpus Domini, Processi, mazzo III η. XVI, 11 maggio
+T3	Archive 2185 2190	ASVI,
+T4	Archive 2297 2302	ASVI,
+T5	ArchivalFond 2191 2204	Notai Vicema,
+T6	Notary 2205 2224	Giovanni Ceccatoni,
+T7	Folder 2225 2233	b. 2807,
+T8	Attachment 2234 2262;2264 2289	alle date: 20 aprile 1702,23 aprile 1702,9 maggio 1702
+T9	Date 2245 2260	20 aprile 1702,
+T10	Date 2260 2262;2264 2276	23 aprile 1702,
+T11	Date 2276 2289	9 maggio 1702
+T12	ArchivalReference 2303 2312	CRS 1492,
+T13	ArchivalReference 2313 2327	Corpus Domini,
+T14	ArchivalReference 2328 2337	Processi,
+T15	Mazzo 2338 2347	mazzo III
+T16	Numbering 2348 2355	η. XVI,
+T17	Date 2356 2365	11 maggio

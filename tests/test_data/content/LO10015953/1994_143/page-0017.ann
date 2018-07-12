@@ -1,0 +1,8 @@
+T1	Secondary-Partial 2251 2260;2262 2347	J. HEERS, La mode et les marchés des draps de laine: Gênes et la montagne à la fin du moyen âge
+T2	Secondary-Full 2352 2391	«Annales E.S.C.», XXVI (1971), p. 1107.
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Author 2251 2259	J. HEERS
+T4	Title 2262 2347	La mode et les marchés des draps de laine: Gênes et la montagne à la fin du moyen âge
+T5	Title 2352 2369	«Annales E.S.C.»,
+T6	PublicationNumber-Year 2370 2382	XXVI (1971),
+T7	Pagination 2383 2391	p. 1107.

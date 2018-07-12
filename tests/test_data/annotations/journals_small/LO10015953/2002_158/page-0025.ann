@@ -1,0 +1,63 @@
+T2	Author 1518 1532	G. Chittolini,
+T3	Citation 1533 1555	Honore dell’ufficiale,
+T1	Secondary-Partial 1518 1555	G. Chittolini, Honore dell’ufficiale,
+T4	Secondary-Full 1559 1590;1592 1672	Florence and Milan: comparisons and relations, a cura di C. H. Smith e G.C. Garfagnini, I, Firenze 1989, p. 101-
+T5	Title 1559 1590;1592 1606	Florence and Milan: comparisons and relations,
+T6	Editor 1607 1628	a cura di C. H. Smith
+T7	Editor 1629 1647	e G.C. Garfagnini,
+T8	Volume 1648 1650	I,
+T9	PublicationPlace 1651 1658	Firenze
+T10	PublicationYear 1659 1664	1989,
+T11	Pagination 1665 1672;1674 1677	p. 101- 133
+T12	Primary-Full 1685 1755	ASV, Consiglio dei X, Farti comuni, filza 53, alla data 1 aprile 1551.
+T13	Archive 1685 1689	ASV,
+T14	ArchivalReference 1690 1706	Consiglio dei X,
+T15	ArchivalReference 1707 1720	Farti comuni,
+T16	Filza 1721 1730	filza 53,
+T17	Date 1731 1755	alla data 1 aprile 1551.
+T18	Primary-Full 1762 1835;1837 1857	ASV, Esecutori contra la Bestemmia, Rotatorio Terminazioni 1542-1560, bu- sta 56, c. 117v-118r
+T19	Archive 1762 1766	ASV,
+T20	ArchivalReference 1767 1797	Esecutori contra la Bestemmia,
+T21	ArchivalReference 1798 1831	Rotatorio Terminazioni 1542-1560,
+T22	Folder 1832 1835;1837 1844	bu- sta 56,
+T23	Cartulation 1845 1857	c. 117v-118r
+T24	Primary-Full 1859 1924;1926 2010	BNM, mss. it., VII, 1667 (=8459), Elenco degli ordinari, estraor- dinari, segretari di Pregadi e cancellieri grandi dal sec. XIII fino al XVII, c. 6V;
+T25	Library 1859 1863	BNM,
+T26	Codex 1864 1892	mss. it., VII, 1667 (=8459),
+T27	Title 1893 1924;1926 2003	Elenco degli ordinari, estraor- dinari, segretari di Pregadi e cancellieri grandi dal sec. XIII fino al XVII,
+T28	Cartulation 2004 2010	c. 6V;
+T29	Primary-Full 2011 2015;2017 2073	ASV, Consiglio dei X, Comuni (1551-1552), Registro 20, c. 36v
+T30	Archive 2011 2015	ASV,
+T31	ArchivalReference 2017 2033	Consiglio dei X,
+T32	ArchivalReference 2034 2053	Comuni (1551-1552),
+T33	Registry 2054 2066	Registro 20,
+T34	Cartulation 2067 2073	c. 36v
+T35	Primary-Full 2076 2101;2103 2141	ASV, Consiglio dei X, Co- muni (1551-1552), Registro 20, c. 36v.
+T36	Archive 2076 2080	ASV,
+T37	ArchivalReference 2081 2097	Consiglio dei X,
+T38	ArchivalReference 2098 2101;2103 2120	Co- muni (1551-1552),
+T39	Registry 2121 2133	Registro 20,
+T40	Cartulation 2134 2140	c. 36v
+T41	Secondary-Partial 2148 2173	A. VENTURA, Introduzione,
+T42	Secondary-Full 2177 2225;2227 2285	Relazioni degli ambasciatori veneti al Senato, a cura di A. Ventura, I, Roma-Bari, 1976, pp. XXVIII-XXXIII;
+R1	ContainedIN Arg1:T41 Arg2:T42	
+T43	Author 2148 2159	A. VENTURA,
+T44	Title 2160 2173	Introduzione,
+T45	Title 2177 2223	Relazioni degli ambasciatori veneti al Senato,
+T46	Editor 2224 2225;2227 2246	a cura di A. Ventura,
+T47	Volume 2247 2249	I,
+T48	PublicationPlace 2250 2254	Roma
+T49	PublicationPlace 2254 2260	-Bari,
+T50	PublicationYear 2261 2266	1976,
+T51	Pagination 2267 2285	pp. XXVIII-XXXIII;
+T52	Secondary-Partial 2286 2304;2306 2393;2395 2412	A. Zannini, Econo- mic and social aspects of the crisis of Venetian diplomacy in the seventeenth and eigh- teenth centuries,
+T53	Author 2286 2297	A. Zannini,
+T54	Title 2298 2304;2306 2393;2395 2412	Econo- mic and social aspects of the crisis of Venetian diplomacy in the seventeenth and eigh- teenth centuries,
+T55	Secondary-Full 2416 2482;2484 2566;2568 2588	Politics and diplomacy in early modern Italy. The structure of di- plomatic pratice, 1450-1800, edited by D. Frigo, translated by A. BELTON, Cambrid- ge 2000, p. 138-141.
+R2	ContainedIN Arg1:T52 Arg2:T55	
+T56	Title 2416 2482;2484 2512	Politics and diplomacy in early modern Italy. The structure of di- plomatic pratice, 1450-1800,
+T57	Editor 2513 2532	edited by D. Frigo,
+T58	Other 2533 2557	translated by A. BELTON,
+T59	PublicationPlace 2558 2566;2568 2570	Cambrid- ge
+T60	PublicationYear 2571 2576	2000,
+T61	Pagination 2577 2588	p. 138-141.

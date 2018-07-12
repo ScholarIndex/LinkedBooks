@@ -1,0 +1,51 @@
+T1	Primary-Full 1740 1788	A.S.V., Governo, 1“ dom. austriaca, 1798, VIII/8
+T2	Secondary-Full 1797 1866;1868 1882	Bollettino delle leggi del Regno d’Italia, Milano 1806, parte II, pp. 809-820 n. 160
+T3	Secondary-Partial 1891 1938	Ibidem, Milano 1805, parte I, pp. 123-135 n. 45
+T4	Archive 1740 1747	A.S.V.,
+T5	ArchivalReference 1748 1756	Governo,
+T6	ArchivalReference 1757 1775	1“ dom. austriaca,
+T7	Year 1776 1781	1798,
+T8	Numbering 1782 1788	VIII/8
+T9	Title 1797 1839	Bollettino delle leggi del Regno d’Italia,
+T10	PublicationPlace 1840 1846	Milano
+T11	PublicationYear 1847 1852	1806,
+T12	Volume 1853 1862	parte II,
+T13	Pagination 1863 1866;1868 1875	pp. 809-820
+T14	Note 1876 1882	n. 160
+T15	Abbreviation 1891 1898	Ibidem,
+T16	PublicationPlace 1899 1905	Milano
+T17	PublicationYear 1906 1910	1805
+T18	Volume 1912 1920	parte I,
+T19	Pagination 1921 1932	pp. 123-135
+T20	Note 1933 1938	n. 45
+T21	Secondary-Full 1951 1958;1960 2036;2038 2045	B. Ber- toli, Chiesa società stato nel Veneto della Restaurazione, Vicenza 1985, pp. 235-255
+T22	Author 1951 1958;1960 1965	B. Ber- toli,
+T23	Title 1966 2018	Chiesa società stato nel Veneto della Restaurazione,
+T24	PublicationPlace 2019 2026	Vicenza
+T25	PublicationYear 2027 2032	1985,
+T26	Pagination 2033 2036;2038 2045	pp. 235-255
+T27	Primary-Full 2101 2124;2126 2179	A.S.V., Prefettura del- l’Adriatico, b. 16 nn. 48, 49, 52, 54, 55, 62, 66, 69
+T28	Primary-Partial 2188 2208	Ibidem, b. 16 n. 211
+T29	Primary-Partial 2328 2355	Ibidem, b. 16 nn. 3, 48, 62
+T30	Secondary-Partial 2368 2395;2397 2404	Piva, op. cil., vol. I, pp. 259-260
+T31	Primary-Full 2470 2516	A.S.V., Prefettura dell’Adriatico, b. 16 n. 54
+T32	Archive 2101 2108	A.S.V.,
+T33	ArchivalReference 2109 2124;2126 2138	Prefettura del- l’Adriatico,
+T34	Folder 2139 2144	b. 16
+T35	Numbering 2145 2179	nn. 48, 49, 52, 54, 55, 62, 66, 69
+T36	Abbreviation 2188 2195	Ibidem,
+T37	Folder 2196 2201	b. 16
+T38	Numbering 2202 2208	n. 211
+T39	Primary-Partial 2210 2216	b. 279
+T40	Folder 2210 2217	b. 279.
+T41	Abbreviation 2328 2335	Ibidem,
+T42	Folder 2336 2341	b. 16
+T43	Numbering 2342 2355	nn. 3, 48, 62
+T44	Author 2368 2373	Piva,
+T45	Abbreviation 2374 2383	op. cil.,
+T46	Volume 2384 2391	vol. I,
+T47	Pagination 2392 2395;2397 2404	pp. 259-260
+T48	Archive 2470 2477	A.S.V.,
+T49	ArchivalReference 2478 2504	Prefettura dell’Adriatico,
+T50	Folder 2505 2510	b. 16
+T51	Numbering 2511 2516	n. 54

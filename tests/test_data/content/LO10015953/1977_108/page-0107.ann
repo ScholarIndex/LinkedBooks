@@ -1,0 +1,44 @@
+T1	Secondary-Partial 1718 1771	F. D. Ragni, L’antico stemma dell’accademia di Udine,
+T2	Secondary-Full 1776 1838	"Atti dell’accademia di Udine”, VI s., 2 (1935-36), pp. 69-77)
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Author 1718 1730	F. D. Ragni,
+T4	Title 1731 1771	L’antico stemma dell’accademia di Udine,
+T5	Title 1776 1807	"Atti dell’accademia di Udine”,
+T6	Series 1808 1814	VI s.,
+T7	PublicationNumber-Year 1815 1827	2 (1935-36),
+T8	Pagination 1828 1837	pp. 69-77
+T9	Secondary-Partial 1852 1875	L. Puppi, "Ignoto Deo",
+T10	Secondary-Full 1879 1916	"Arte veneta”, 23 (1969), pp. 169-180
+R2	ContainedIN Arg1:T9 Arg2:T10	
+T11	Author 1852 1861	L. Puppi,
+T12	Title 1862 1875	"Ignoto Deo",
+T13	Title 1879 1893	"Arte veneta”,
+T14	PublicationNumber-Year 1894 1904	23 (1969),
+T15	Pagination 1905 1916	pp. 169-180
+T16	Secondary-Full 2142 2199	V. Perroni, Biblioteca bresciana, II, Brescia 1816, p. 89
+T17	Author 2142 2153	V. Perroni,
+T18	Title 2154 2175	Biblioteca bresciana,
+T19	Volume 2176 2179	II,
+T20	PublicationPlace 2180 2187	Brescia
+T21	PublicationYear 2188 2193	1816,
+T22	Pagination 2194 2199	p. 89
+T23	Secondary-Full 2266 2288;2290 2354	Rime de gli accademici Occulti con le loro imprese et discorsi, Brescia 1568, lì. 40-44
+T24	Title 2266 2288;2290 2330	Rime de gli accademici Occulti con le loro imprese et discorsi,
+T25	PublicationPlace 2331 2338	Brescia
+T26	PublicationYear 2339 2344	1568,
+T27	Pagination 2345 2354	lì. 40-44
+T28	Secondary-Full 2847 2853;2855 2926	S. Am- mirato, Il Rota overo delle imprese. Dialogo, Firenze 1598, pp. 118-119
+T29	Author 2847 2853;2855 2862	S. Am- mirato,
+T30	Title 2863 2900	Il Rota overo delle imprese. Dialogo,
+T31	PublicationPlace 2901 2908	Firenze
+T32	PublicationYear 2909 2914	1598,
+T33	Pagination 2915 2926	pp. 118-119
+T34	Secondary-Partial 3041 3084	A. Battistella, L’accademia degli Sventati,
+T35	Secondary-Full 3089 3146	"Atti dell’accademia di Udine”, V s., 7 (1927-28), p. 149
+R3	ContainedIN Arg1:T34 Arg2:T35	
+T36	Author 3041 3056	A. Battistella,
+T37	Title 3057 3084	L’accademia degli Sventati,
+T38	Title 3089 3120	"Atti dell’accademia di Udine”,
+T39	Series 3121 3126	V s.,
+T40	PublicationNumber-Year 3127 3139	7 (1927-28),
+T41	Pagination 3140 3146	p. 149

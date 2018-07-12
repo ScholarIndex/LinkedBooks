@@ -1,0 +1,16 @@
+T1	Primary-Partial 2161 2183	Ibidem, cc. ic>4v-i05r
+T2	Primary-Partial 2191 2206	Ìbidem, c. I38v
+T3	Primary-Partial 2213 2242	Ibidem, reg. 13a, cc. 25v-26r
+T4	Primary-Partial 2306 2338	Senato Mar, reg. 23, cc. 25v-26r
+T5	Abbreviation 2161 2168	Ibidem,
+T6	Abbreviation 2191 2198	Ìbidem,
+T7	Abbreviation 2213 2220	Ibidem,
+T8	Cartulation 2169 2183	cc. ic>4v-i05r
+A1	OCRquality T8 MajorErrors
+T9	Cartulation 2199 2206	c. I38v
+A2	OCRquality T9 MinorErrors
+T10	Registry 2221 2230	reg. 13a,
+T11	Cartulation 2231 2242	cc. 25v-26r
+T12	ArchivalReference 2306 2317	Senato Mar,
+T13	Registry 2318 2326	reg. 23,
+T14	Cartulation 2327 2338	cc. 25v-26r

@@ -1,0 +1,43 @@
+T1	Secondary-Partial 1827 1859	Dandolo, op. cit., p. 275, 16-30
+T2	Author 1827 1835	Dandolo,
+T3	Abbreviation 1836 1845	op. cit.,
+T4	Pagination 1846 1853	p. 275,
+T5	Pagination 1854 1859	16-30
+T6	Secondary-Partial 1903 1932	Corner, E.V., IX, pp. 135-172
+T7	Author 1903 1910	Corner,
+T8	AbbreviatedTitle 1911 1916	E.V.,
+T9	Volume 1917 1920	IX,
+T10	Pagination 1921 1932	pp. 135-172
+T11	Secondary-Full 1978 2041	P.F. Kehr, Italia pontificia, Berlin 1961, VII, parte II, p. 99
+T12	Author 1978 1988	P.F. Kehr,
+T13	Title 1989 2007	Italia pontificia,
+T14	PublicationPlace 2008 2014	Berlin
+T15	PublicationYear 2015 2020	1961,
+T16	Volume 2021 2025	VII,
+T17	Tomo 2026 2035	parte II,
+T18	Pagination 2036 2041	p. 99
+T19	Secondary-Partial 2068 2097	Corner, E.V., IX, pp. 156-157
+T20	Author 2068 2075	Corner,
+T21	AbbreviatedTitle 2076 2081	E.V.,
+T22	Volume 2082 2085	IX,
+T23	Pagination 2086 2097	pp. 156-157
+T24	Primary-Full 2129 2198;2200 2205	Archivio di Stato di Venezia (in seguito A.S.V.), S. Andrea del Lido, b. 40
+T25	Archive 2129 2178	Archivio di Stato di Venezia (in seguito A.S.V.),
+T26	ArchivalReference 2179 2198	S. Andrea del Lido,
+T27	Folder 2200 2205	b. 40
+T28	Secondary-Full 2239 2282;2285 2360	Corner, Ecclesiae torcéllanae antiquis monu mentis nunc etiam primum editis illustratae, Venetiis 1749, II, pp. 261-262
+T29	Author 2239 2246	Corner,
+T30	Title 2247 2283;2285 2329	Ecclesiae torcéllanae antiquis monu- mentis nunc etiam primum editis illustratae,
+T31	PublicationPlace 2330 2338	Venetiis
+T32	PublicationYear 2339 2343	1749
+T33	Volume 2345 2348	II,
+T34	Pagination 2349 2360	pp. 261-262
+T35	Primary-Full 2402 2437	A.S.V., S. Maria degli Angeli, b. 9
+T36	Archive 2402 2409	A.S.V.,
+T37	ArchivalReference 2410 2432	S. Maria degli Angeli,
+T38	Folder 2433 2437	b. 9
+T39	Secondary-Full 2472 2515;2517 2580	V. Zanetti, Del monastero e della chiesa di S. Maria degli Angeli di Murano. Memorie storiche, Venezia 1863
+T40	Author 2472 2483	V. Zanetti,
+T41	Title 2484 2515;2517 2567	Del monastero e della chiesa di S. Maria degli Angeli di Murano. Memorie storiche,
+T42	PublicationPlace 2568 2575	Venezia
+T43	PublicationYear 2576 2580	1863

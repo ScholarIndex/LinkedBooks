@@ -1,0 +1,10 @@
+T1	Secondary-Partial 2236 2288;2290 2357	F. Melis, La diffusione nel Mediterraneo occidentale dei panni di Wervicq e della altre città della Lys intorno al 1400,
+T2	Secondary-Partial 2361 2381;2383 2453	ID., I mercanti ita- liani nell’Europa medievale e rinasàmentale, Firenze 1990, pp. 317-344
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Author 2236 2245	F. Melis,
+T4	Title 2246 2288;2290 2357	La diffusione nel Mediterraneo occidentale dei panni di Wervicq e della altre città della Lys intorno al 1400,
+T5	Abbreviation 2361 2365	ID.,
+T6	Title 2366 2381;2383 2427	I mercanti ita- liani nell’Europa medievale e rinasàmentale,
+T7	PublicationPlace 2428 2435	Firenze
+T8	PublicationYear 2436 2441	1990,
+T9	Pagination 2442 2453	pp. 317-344

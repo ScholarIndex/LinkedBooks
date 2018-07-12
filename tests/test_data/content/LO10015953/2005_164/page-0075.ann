@@ -1,0 +1,26 @@
+T1	Primary-Full 1207 1281;1283 1326	ASVI, Corporazioni religiose soppresse (d’ora in poi CRS) 3012, Dimesse di Santa Croce, Libro degli alimenti 1680-1728
+T2	Archive 1207 1212	ASVI,
+T3	ArchivalReference 1213 1270	Corporazioni religiose soppresse (d’ora in poi CRS) 3012,
+T4	ArchivalReference 1271 1281;1283 1295	Dimesse di Santa Croce,
+T5	Registry 1296 1326	Libro degli alimenti 1680-1728
+T6	Primary-Full 2265 2270;2272 2318	ASVI, CRS 2875, Dimesse di Santa Maria Nova, c. 323r
+T7	Primary-Partial 2347 2354;2356 2359	ib., c. 67r
+T8	Archive 2265 2270	ASVI,
+T9	ArchivalReference 2272 2281	CRS 2875,
+T10	ArchivalReference 2282 2310	Dimesse di Santa Maria Nova,
+T11	Cartulation 2311 2318	c. 323r
+T12	Cartulation 2352 2354;2356 2359	c. 67r
+T13	Primary-Full 2752 2771;2773 2828	ASVI, CRS 3031, Di- messe di Santa Croce, Memorie, carte sciolte, alla data
+T14	Archive 2752 2757	ASVI,
+T15	ArchivalReference 2758 2767	CRS 3031,
+T16	ArchivalReference 2768 2771;2773 2794	Di- messe di Santa Croce,
+T17	ArchivalReference 2795 2803	Memorie,
+T18	Cartulation 2804 2818	carte sciolte,
+T19	TopicDate 2819 2828	alla data
+T20	Primary-Full 2951 3017	ASVI, Notai Vicenza, Francesco Marchesini, b. 11856, 7 aprile 1673
+T21	Archive 2951 2956	ASVI,
+T22	ArchivalFond 2957 2971	Notai Vicenza,
+T23	Notary 2972 2993	Francesco Marchesini,
+T24	Folder 2994 3003	b. 11856,
+T25	Date 3004 3017	7 aprile 1673
+T26	Abbreviation 2347 2351	ib.,

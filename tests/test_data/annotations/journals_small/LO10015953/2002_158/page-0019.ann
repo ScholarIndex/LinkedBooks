@@ -1,0 +1,37 @@
+T1	Secondary-Partial 1947 2024;2026 2073	F. Chabod, Stipendi nominali e busta paga effettiva dei funzionari dell’ammi- nistrazione milanese alla fine del Cinquecento,
+T2	Secondary-Full 2077 2113;2115 2144	Miscellanea in onore di Roberto Ces- si, II, Roma 1958, p. 188-213
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Author 1947 1957	F. Chabod,
+T4	Title 1958 2024;2026 2073	Stipendi nominali e busta paga effettiva dei funzionari dell’ammi- nistrazione milanese alla fine del Cinquecento,
+T5	Title 2077 2113;2115 2118	Miscellanea in onore di Roberto Ces- si,
+T6	Volume 2119 2122	II,
+T7	PublicationPlace 2123 2127	Roma
+T8	PublicationYear 2128 2133	1958,
+T9	Pagination 2134 2144	p. 188-213
+T10	Secondary-Full 2146 2201;2203 2275	A. ZANNINI, Burocrazia e burocrati a Venezia in età mo- derna: i cittadini originari (sec. XVI-XVIll), Venezia 1993, p. 138-151.
+T11	Author 2146 2157	A. ZANNINI,
+T12	Title 2158 2201;2203 2249	Burocrazia e burocrati a Venezia in età mo- derna: i cittadini originari (sec. XVI-XVIll),
+T13	PublicationPlace 2250 2257	Venezia
+T14	PublicationYear 2258 2263	1993,
+T15	Pagination 2264 2275	p. 138-151.
+T16	Primary-Full 2282 2358;2360 2440	ASV, Consiglio dei X, Parti comuni, filza 58, supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X, alla data 23 Gennaio 1552 m.v..
+T17	Archive 2282 2286	ASV,
+T18	ArchivalReference 2287 2303	Consiglio dei X,
+T19	ArchivalReference 2304 2317	Parti comuni,
+T20	Filza 2318 2327	filza 58,
+T21	Attachment 2328 2358;2360 2408	supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X,
+T22	Date 2409 2439	alla data 23 Gennaio 1552 m.v.
+T23	Primary-Full 2447 2523;2525 2599	ASV, Consiglio dei X, Parti comuni, filza 65, supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X, alla data 27 giugno 1555.
+T24	Archive 2447 2451	ASV,
+T25	ArchivalReference 2452 2468	Consiglio dei X,
+T26	ArchivalReference 2469 2482	Parti comuni,
+T27	Filza 2483 2492	filza 65,
+T28	Attachment 2493 2523;2525 2573	supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X,
+T29	Date 2574 2599	alla data 27 giugno 1555.
+T30	Primary-Full 2606 2682;2684 2758	ASV, Consiglio dei X, Parti comuni, filza 65, supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X, alla data 27 giugno 1555.
+T31	Archive 2606 2610	ASV,
+T32	ArchivalReference 2611 2627	Consiglio dei X,
+T33	ArchivalReference 2628 2641	Parti comuni,
+T34	Filza 2642 2651	filza 65,
+T35	Attachment 2652 2682;2684 2732	supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X,
+T36	Date 2733 2758	alla data 27 giugno 1555.

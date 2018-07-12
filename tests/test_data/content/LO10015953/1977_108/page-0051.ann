@@ -1,0 +1,23 @@
+T1	Primary-Full 2108 2156	ASV, Provveditori al sai, Rubricario 7a, c. I52r
+T2	Primary-Partial 2164 2179	Ibidem, c. i52r
+T3	Primary-Partial 2186 2220	Collegio del sal, reg. 13a, c. 84v
+T4	Primary-Full 2229 2293;2295 2312	ASV, Consiglio dei Dieci, Mandati dei Capi dei X ai Camerlenghi, 1543_I553> c· 2V-
+T5	Primary-Partial 2319 2332	Ibidem, c. 3r
+T6	Archive 2108 2112	ASV,
+T7	Archive 2229 2233	ASV,
+T8	ArchivalReference 2113 2133	Provveditori al sai,
+T9	ArchivalReference 2134 2148	Rubricario 7a,
+T10	Cartulation 2149 2156	c. I52r
+A1	OCRquality T10 MajorErrors
+T11	Abbreviation 2164 2171	Ibidem,
+T12	Cartulation 2172 2179	c. i52r
+T13	ArchivalReference 2186 2203	Collegio del sal,
+T14	Registry 2204 2212	reg. 13a
+T15	Cartulation 2214 2220	c. 84v
+T16	ArchivalReference 2234 2254	Consiglio dei Dieci,
+T17	ArchivalReference 2255 2293	Mandati dei Capi dei X ai Camerlenghi,
+T18	Year 2295 2304	1543_I553
+T19	Cartulation 2306 2312	c· 2V-
+A2	OCRquality T19 MinorErrors
+T20	Abbreviation 2319 2326	Ibidem,
+T21	Cartulation 2327 2332	c. 3r

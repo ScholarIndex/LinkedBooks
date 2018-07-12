@@ -1,0 +1,63 @@
+T1	Primary-Full 1289 1355;1357 1360	A.S.V., Governo, Ia dom. austriaca, 1802, XII/52, XII/192, XXVIII/ 163
+T2	Primary-Partial 1369 1389	Ibidem, 1798, VIII/8
+T3	Archive 1289 1296	A.S.V.,
+T4	ArchivalReference 1297 1305	Governo,
+T5	ArchivalReference 1306 1324	Ia dom. austriaca,
+T6	Year 1325 1330	1802,
+T7	Numbering 1331 1338	XII/52,
+T8	Numbering 1339 1347	XII/192,
+T9	Numbering 1348 1355;1357 1360	XXVIII/ 163
+T10	Abbreviation 1369 1376	Ibidem,
+T11	Year 1377 1382	1798,
+T12	Numbering 1383 1389	VIII/8
+T13	Primary-Partial 2061 2081	Ibidem, 1798, VIII/9
+T14	Primary-Partial 2098 2112	1800 eccl./167
+T15	Secondary-Full 2121 2183	A. Zorzi, Venezia scomparsa, Milano 1977, vol. II, pp. 416-417
+T16	Primary-Full 2192 2233	A.S.V., Deputazione alle cause pie, b. 49
+T17	Secondary-Partial 2242 2279	Zorzi, op. cit., vol. II, pp. 422-423
+T18	Primary-Full 2288 2329	A.S.V., Deputazione alle cause pie, b. 49
+T19	Primary-Partial 2342 2357;2359 2382	Prefettura del- l’Adriatico, b. 16 n. 3
+T20	Primary-Partial 2391 2411	Ibidem, b. 279 n. 34
+T21	Primary-Partial 2413 2420	b. 346;
+T22	Primary-Full 2436 2477	A.S.V., Deputazione alle cause pie, b. 49
+T23	Secondary-Partial 2486 2521	Da Mosto, op. cit., vol. II, p. 136
+T24	Abbreviation 2061 2068	Ibidem,
+T25	Year 2069 2074	1798,
+T26	Numbering 2075 2081	VIII/9
+T27	Primary-Partial 2083 2096	1799, VIII/25
+T28	Year 2083 2088	1799,
+T29	Numbering 2089 2096	VIII/25
+T30	Year 2098 2102	1800
+T31	Numbering 2103 2112	eccl./167
+T32	Author 2121 2130	A. Zorzi,
+T33	Title 2131 2149	Venezia scomparsa,
+T34	PublicationPlace 2150 2156	Milano
+T35	PublicationYear 2157 2162	1977,
+T36	Volume 2163 2171	vol. II,
+T37	Pagination 2172 2183	pp. 416-417
+T38	Archive 2192 2199	A.S.V.,
+T39	Title 2200 2227	Deputazione alle cause pie,
+T40	Folder 2228 2233	b. 49
+T41	Author 2242 2248	Zorzi,
+T42	Abbreviation 2249 2258	op. cit.,
+T43	Volume 2259 2267	vol. II,
+T44	Pagination 2268 2279	pp. 422-423
+T45	Archive 2288 2295	A.S.V.,
+T46	ArchivalReference 2296 2323	Deputazione alle cause pie,
+T47	Folder 2324 2329	b. 49
+T48	ArchivalReference 2342 2357;2359 2371	Prefettura del- l’Adriatico,
+T49	Folder 2372 2377	b. 16
+T50	Numbering 2378 2382	n. 3
+T51	Abbreviation 2391 2398	Ibidem,
+T52	Folder 2399 2405	b. 279
+T53	Numbering 2406 2411	n. 34
+T54	Folder 2413 2419	b. 346
+T55	Folder 2421 2427	b. 349
+T56	Primary-Partial 2421 2427	b. 349
+T57	Archive 2436 2443	A.S.V.,
+T58	ArchivalReference 2444 2471	Deputazione alle cause pie,
+T59	Folder 2472 2477	b. 49
+T60	Author 2486 2495	Da Mosto,
+T61	Abbreviation 2496 2505	op. cit.,
+T62	Volume 2506 2514	vol. II,
+T63	Pagination 2515 2521	p. 136

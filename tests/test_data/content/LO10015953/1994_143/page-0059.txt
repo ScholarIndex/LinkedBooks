@@ -1,0 +1,21 @@
+58
+EGIDIO IVETIC
+Tab. n. 3 - Parenzo 1775:
+Servi, lavoranti ed estranei al nucleo famigliare.
+^oñe
+Servo
+Cameriere
+Lavorante
+Famiglio
+Estraneo
+TOTALE
+9
+1
+11
+21
+1 10 0,61
+ 1 0,06
+2 2 0,10
+1 1 0,06
+16 27 1,82
+20 41 2,74

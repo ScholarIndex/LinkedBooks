@@ -1,0 +1,14 @@
+T1	Secondary-Partial 2344 2422	B. ZlLIOTTO, Aspetti di vita politica ed economica nell’lstria del Settecento,
+T2	Secondary-Full 2424 2490	«Pagine Istriane» (= «PI»), IV s., 14 (1965), (Π Quaderno), p. 20.
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Author 2344 2356	B. ZlLIOTTO,
+T4	Title 2357 2422	Aspetti di vita politica ed economica nell’lstria del Settecento,
+T5	Title 2424 2451	«Pagine Istriane» (= «PI»),
+T6	Series 2452 2458	IV s.,
+T7	PublicationNumber-Year 2459 2469	14 (1965),
+T8	Other 2470 2483	(Π Quaderno),
+T9	Pagination 2484 2490	p. 20.
+T10	Secondary-Partial 2497 2545	Camillo De Franceschi, Il Consiglio cit., p. 96.
+T11	Author 2497 2519	Camillo De Franceschi,
+T12	AbbreviatedTitle 2520 2538	Il Consiglio cit.,
+T13	Pagination 2539 2545	p. 96.

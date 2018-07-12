@@ -1,0 +1,80 @@
+T1	Secondary-Partial 1282 1339	P. Molmenti, Un medico ciarlatano del secolo decimosesto,
+T2	Author 1282 1294	P. Molmenti,
+T3	Title 1295 1339	Un medico ciarlatano del secolo decimosesto,
+T4	Secondary-Full 1344 1375	"Il Marzocco”, 27 (1922), n. 49
+R1	ContainedIN Arg1:T1 Arg2:T4	
+T5	Title 1344 1358	"Il Marzocco”,
+T6	PublicationNumber-Year 1359 1369	27 (1922),
+T7	Numbering 1370 1375	n. 49
+T8	Secondary-Full 1388 1454;1456 1461	A. Favaro, Galileo Galilei e lo studio di Padova, II, Padova 1966, p. 66
+T9	Author 1388 1398	A. Favaro,
+T10	Title 1399 1437	Galileo Galilei e lo studio di Padova,
+T11	Volume 1438 1441	II,
+T12	PublicationPlace 1442 1448	Padova
+T13	PublicationYear 1449 1454	1966,
+T14	Pagination 1456 1461	p. 66
+T15	Secondary-Full 1464 1511	Galileo Galilei a Padova..., Padova 1967, p. 15
+T16	Title 1464 1492	Galileo Galilei a Padova...,
+T17	PublicationPlace 1493 1499	Padova
+T18	PublicationYear 1500 1505	1967,
+T19	Pagination 1506 1511	p. 15
+T20	Secondary-Full 1514 1535;1537 1573	A. Simioni, Storia di Padova..., Padova 1968, p. 871 n. 11
+T21	Author 1514 1525	A. Simioni,
+T22	Title 1526 1535;1537 1547	Storia di Padova...,
+T23	PublicationPlace 1548 1554	Padova
+T24	PublicationYear 1555 1560	1968,
+T25	Pagination 1561 1567	p. 871
+T26	Note 1568 1573	n. 11
+T27	Secondary-Full 1586 1653;1655 1678	P. Molmenti, La storia di Venezia nella vita privata ..., III, Ber- gamo 19297, p. 283 n. 2
+T28	Author 1586 1598	P. Molmenti,
+T29	Title 1599 1643	La storia di Venezia nella vita privata ...,
+T30	Volume 1644 1648	III,
+T31	PublicationPlace 1649 1653;1655 1659	Ber- gamo
+T32	PublicationYear 1660 1666	19297,
+A1	OCRquality T32 MajorErrors
+T33	Pagination 1667 1673	p. 283
+T34	Note 1674 1678	n. 2
+T35	Secondary-Partial 1691 1755	A. Belloni, Un professore anticruscante alFuniversità di Padova,
+T36	Secondary-Full 1760 1811	“Archivio veneto-tridentino”, 1 (1922), pp. 264-265
+R2	ContainedIN Arg1:T35 Arg2:T36	
+T37	Author 1691 1702	A. Belloni,
+T38	Title 1703 1755	Un professore anticruscante alFuniversità di Padova,
+T39	Title 1760 1789	“Archivio veneto-tridentino”,
+T40	PublicationNumber-Year 1790 1799	1 (1922),
+T41	Pagination 1800 1811	pp. 264-265
+T42	Secondary-Partial 1819 1855	G. Loredan, Vita del cavalier Marino
+T43	Author 1819 1830	G. Loredan,
+T44	Title 1831 1856	Vita del cavalier Marino,
+T45	Secondary-Full 1860 1888;1890 1912	G. B. Marino, La lira, P. I, Venetia 1674, p. Vili.
+R3	ContainedIN Arg1:T42 Arg2:T45	
+T46	Author 1860 1873	G. B. Marino,
+T47	Title 1874 1888	La lira, P. I,
+T48	PublicationPlace 1890 1897	Venetia
+T49	PublicationYear 1898 1903	1674,
+T50	Pagination 1904 1911	p. Vili
+T51	Secondary-Partial 1924 1980	Molmenti, ... Venezia nella vita privata..., III, p. 283
+T52	Author 1924 1933	Molmenti,
+T53	Title 1934 1968	... Venezia nella vita privata...,
+T54	Volume 1969 1973	III,
+T55	Pagination 1974 1980	p. 283
+T56	Secondary-Full 2067 2143;2145 2156	N. Badaloni, Antonio Conti. Un abate libero pensatore tra Newton e Voltaire, Milano 1968
+T57	Author 2067 2079	N. Badaloni,
+T58	Title 2080 2143	Antonio Conti. Un abate libero pensatore tra Newton e Voltaire,
+T59	PublicationPlace 2145 2151	Milano
+T60	PublicationYear 2152 2156	1968
+T61	Secondary-Full 2169 2233;2235 2283	G. Mantese, / mille libri che si leggevano e vendevano a Vicenza alla fine del secolo XVI, Vicenza 1968, pp. 7-47
+T62	Author 2169 2180	G. Mantese,
+T63	Title 2181 2233;2235 2260	/ mille libri che si leggevano e vendevano a Vicenza alla fine del secolo XVI,
+T64	PublicationPlace 2261 2268	Vicenza
+T65	PublicationYear 2269 2274	1968,
+T66	Pagination 2275 2284	pp. 7-47.
+T67	Secondary-Partial 2525 2544;2546 2603	A. Fa varo, Amici e corrispondenti di Galileo. IX. Giovanni Camillo Gloriosi,
+T68	Secondary-Full 2607 2624;2626 2676	"Atti dei r. 1st. Ven. di SS.LL.AA”, 63 (1903-04), P. II, p. 15 n. 3
+R4	ContainedIN Arg1:T67 Arg2:T68	
+T69	Author 2525 2536	A. Fa varo,
+T70	Title 2537 2544;2546 2603	Amici e corrispondenti di Galileo. IX. Giovanni Camillo Gloriosi,
+T71	Title 2607 2624;2626 2644	"Atti dei r. 1st. Ven. di SS.LL.AA”,
+T72	PublicationNumber-Year 2645 2658	63 (1903-04),
+T73	Pagination 2659 2665	P. II,
+T74	Pagination 2666 2671	p. 15
+T75	Note 2672 2676	n. 3

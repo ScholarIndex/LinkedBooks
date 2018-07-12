@@ -1,0 +1,24 @@
+T1	Secondary-Full 2011 2089	M. WEBER, Economia e società, introduzione di P. ROSSI, IV, Milano 1980, p. 59
+T2	Primary-Full 2097 2125	ASP, Prove di nobiltà, b. 59
+T3	Primary-Full 2133 2213;2215 2269	ASV, Miscellanea di atti diversi manoscritti, Cancelleria ducale, b. 93, «scrit- tura» del Cancellier grande alla data 3 Settembre 1766
+T4	Primary-Full 2277 2359;2361 2441;2443 2447	ASV, Cassiere della bolla ducale, Atti relativi alla «casselletta» a beneficio dei segretari, «scrittura» del Cancellier grande Giovanni Colombo alla data 7 Agosto 1766
+T5	Author 2011 2020	M. WEBER,
+T6	Title 2021 2040	Economia e società,
+T7	Editor 2041 2066	introduzione di P. ROSSI,
+T8	Volume 2067 2070	IV,
+T9	PublicationPlace 2071 2077	Milano
+T10	PublicationYear 2078 2083	1980,
+T11	Pagination 2084 2089	p. 59
+T12	Archive 2097 2101	ASP,
+T13	ArchivalReference 2102 2119	Prove di nobiltà,
+T14	Folder 2120 2125	b. 59
+T15	Archive 2133 2137	ASV,
+T16	Archive 2277 2281	ASV,
+T17	ArchivalReference 2138 2178	Miscellanea di atti diversi manoscritti,
+T18	ArchivalReference 2179 2198	Cancelleria ducale,
+T19	Folder 2199 2205	b. 93,
+T20	Attachment 2206 2213;2215 2269	«scrit- tura» del Cancellier grande alla data 3 Settembre 1766
+T21	Date 2253 2269	3 Settembre 1766
+T22	ArchivalReference 2282 2310	Cassiere della bolla ducale,
+T23	Attachment 2311 2359;2361 2441;2443 2447	Atti relativi alla «casselletta» a beneficio dei segretari, «scrittura» del Cancellier grande Giovanni Colombo alla data 7 Agosto 1766
+T24	Date 2433 2441;2443 2447	7 Agosto 1766

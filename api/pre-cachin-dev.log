@@ -1,0 +1,53 @@
+Pre-caching references...
+Fetching references from http://cdh-dhlabpc6.epfl.ch:8888/api/references/
+There are 826911 references to cache
+0 (out of 826911) calls have failed: retrying now...
+826911/826911 books are cached: 0 books missing
+Sam Aug  5 00:08:34 CEST 2017
+/home/mromanello/.pyenv/versions/lb-refactored/bin/python
+Pre-caching books...
+Fetching books from http://cdh-dhlabpc6.epfl.ch:8888/api/books/
+There are 12420 books to cache
+1 (out of 12420) calls have failed: retrying now...
+12402/12420 books are cached: 18 books missing
+Pre-caching primary sources...
+Fetching primary sources from http://cdh-dhlabpc6.epfl.ch:8888/api/primary_sources/%s
+There are 14272 primary sources to cache
+1 (out of 14272) calls have failed: retrying now...
+14272/14272 primary sources are cached: 0 primary sources missing
+Pre-caching articles...
+Fetching articles from http://cdh-dhlabpc6.epfl.ch:8888/api/articles/
+There are 5496 articles to cache
+0 (out of 5496) calls have failed: retrying now...
+5496/5496 articles are cached: 0 articles missing
+Pre-caching authors...
+Fetching authors from http://cdh-dhlabpc6.epfl.ch:8888/api/authors/
+There are 12160 authors to cache
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/595fa168fe7683316b2df965 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/595fa180fe7683316b2dfb53 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/595fbab0fe76834ec2f6c02c 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/595fab1dfe768339c4f6c0b8 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/595fa1e1fe7683316b2e016a 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/595fa1f8fe7683316b2e02cc 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/595fa1fffe7683316b2e0322 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/595fc60efe76835096f6c037 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/595f9d24fe7683316b2dc452 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/595fcf64fe7683509bf6c046 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/595fcf64fe7683509bf6c048 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/595fcf65fe7683509bf6c04a 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/595fcf65fe7683509bf6c04c 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/595fcf69fe7683509bf6c052 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/5960bb77fe768368c40e83a7 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/5960bb78fe768368c40e83a9 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/5960bb78fe768368c40e83ab 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/5964b117fe76833f67c8a7ba 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/5964b118fe76833f67c8a7be 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/5964b11afe76833f67c8a7c5 404
+http://cdh-dhlabpc6.epfl.ch:8888/api/authors/5964b11dfe76833f63c8a7ba 404
+33 (out of 12160) calls have failed: retrying now...
+12108/12160 authors are cached: 52 authors missing
+Pre-caching references...
+Fetching references from http://cdh-dhlabpc6.epfl.ch:8888/api/references/
+There are 826911 references to cache
+0 (out of 826911) calls have failed: retrying now...
+826911/826911 references are cached: 0 references missing

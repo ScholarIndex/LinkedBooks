@@ -1,0 +1,23 @@
+T1	Primary-Full 2204 2254	ASVI, Fondo famiglia Capra, libro 23, cc. 83r-84r.
+T2	Primary-Full 2261 2323	ASVI, Notai Vicenza, Offredo Offredi, b. 12761,28 maggio 1735.
+T3	Primary-Full 2330 2382	ASVI, Fondo famiglia Capra, libro 24, cc. 557r-560r.
+T4	Primary-Full 2389 2462	ASVI, CRS 3031, Dimesse diSanta Croce, Memorie, carte sciolte, alla data.
+T5	Archive 2204 2209	ASVI,
+T6	Archive 2261 2266	ASVI,
+T7	Archive 2330 2335	ASVI,
+T8	Archive 2389 2394	ASVI,
+T9	ArchivalFond 2210 2231	Fondo famiglia Capra,
+T10	Registry 2232 2241	libro 23,
+T11	Cartulation 2242 2254	cc. 83r-84r.
+T12	ArchivalFond 2267 2281	Notai Vicenza,
+T13	Notary 2282 2298	Offredo Offredi,
+T14	Folder 2299 2308	b. 12761,
+T15	Date 2308 2322	28 maggio 1735
+T16	ArchivalFond 2336 2357	Fondo famiglia Capra,
+T17	Registry 2358 2367	libro 24,
+T18	Cartulation 2368 2381	cc. 557r-560r
+T19	ArchivalReference 2395 2404	CRS 3031,
+T20	ArchivalReference 2405 2427	Dimesse diSanta Croce,
+T21	ArchivalReference 2428 2436	Memorie,
+T22	Cartulation 2437 2451	carte sciolte,
+T23	TopicDate 2452 2461	alla data

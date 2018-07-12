@@ -1,0 +1,30 @@
+T1	Primary-Full 1201 1218;1220 1302;1304 1316	Archivio DI STATO DI VlCENZA — d’ora in poi ASVI —, Fondo familia Capra, libro 20, c. 187r-v, scrit- tura privata
+T2	Archive 1201 1218;1220 1253	Archivio DI STATO DI VlCENZA — d’ora in poi ASVI —,
+T3	ArchivalFond 1254 1274	Fondo familia Capra,
+T4	Registry 1275 1284	libro 20,
+T5	Cartulation 1285 1295	c. 187r-v,
+T6	Attachment 1296 1302;1304 1316	scrit- tura privata
+T7	Primary-Full 1453 1470;1472 1555	ASVI, Fondo fami- glia Capra, catastico, libro 5, n. 4132, scrittura privata in Parma, 7 gennaio 1664
+T8	Primary-Full 1816 1868	ASVI, Fondo famiglia Capra, libro 25, cc. 274r e ss.
+T9	Archive 1453 1458	ASVI,
+T10	ArchivalFond 1459 1470;1472 1483	Fondo fami- glia Capra,
+T11	ArchivalReference 1484 1494	catastico,
+T12	Registry 1495 1503	libro 5,
+T13	Numbering 1504 1512	n. 4132,
+T14	Attachment 1513 1555	scrittura privata in Parma, 7 gennaio 1664
+T15	Date 1541 1555	7 gennaio 1664
+T16	Archive 1816 1821	ASVI,
+T17	ArchivalFond 1822 1843	Fondo famiglia Capra,
+T18	Registry 1844 1853	libro 25,
+T19	Cartulation 1854 1868	cc. 274r e ss.
+T20	Secondary-Full 1925 1950;1952 2012	G. ZARRI, Recinti. Donne, clausura e matrimonio nella prima età moderna, Bologna 2000,
+T21	Author 1925 1934	G. ZARRI,
+T22	Title 1935 1950;1952 1998	Recinti. Donne, clausura e matrimonio nella prima età moderna,
+T23	PublicationPlace 1999 2006	Bologna
+T24	PublicationYear 2007 2012	2000,
+T25	Secondary-Partial 2059 2097	M. SONNET, Leducazione di una giovane,
+T26	Author 2059 2069	M. SONNET,
+T27	Title 2070 2097	Leducazione di una giovane,
+T28	Secondary-Full 2101 2120	Storia delle donne.
+R1	ContainedIN Arg1:T25 Arg2:T28	
+T29	Title 2101 2119	Storia delle donne

@@ -1,0 +1,40 @@
+T1	Secondary-Full 1869 1890;1892 1969	S. AntoLJAK, Renesan- sa hrvatske historiografije. Dosadasnje, sadasnje i buduce zadace, Pazin 1996
+T2	Author 1869 1881	S. AntoLJAK,
+T3	Title 1882 1890;1892 1958	Renesan- sa hrvatske historiografije. Dosadasnje, sadasnje i buduce zadace,
+T4	PublicationPlace 1959 1964	Pazin
+T5	PublicationYear 1965 1969	1996
+T6	Secondary-Partial 2010 2048;2050 2085	J. Grubb, When Myths Loose Power: Four Decades of Venetian Historiography,
+T7	Secondary-Full 2086 2131;2133 2138	«Journal of Modern History», 58/1 (1986), pp. 43-94
+R1	ContainedIN Arg1:T6 Arg2:T7	
+T8	Author 2010 2019	J. Grubb,
+T9	Title 2020 2048;2050 2084	When Myths Loose Power: Four Decades of Venetian Historiography
+T10	Title 2086 2114	«Journal of Modern History»,
+T11	PublicationNumber-Year 2115 2127	58/1 (1986),
+T12	Pagination 2128 2131;2133 2138	pp. 43-94
+T13	Secondary-Partial 2140 2210	M. KnAPTON, «Nobiltà e popolo» e un trentennio di storiografia veneta,
+T14	Secondary-Full 2211 2216;2218 2263	«Nuo- va Rivista Storica», 83/1 (1998), pp. 167-192
+R2	ContainedIN Arg1:T13 Arg2:T14	
+T15	Author 2140 2151	M. KnAPTON,
+T16	Title 2152 2210	«Nobiltà e popolo» e un trentennio di storiografia veneta,
+T17	Title 2211 2216;2218 2238	«Nuo- va Rivista Storica»,
+T18	PublicationNumber-Year 2239 2251	83/1 (1998),
+T19	Pagination 2252 2263	pp. 167-192
+T20	Secondary-Partial 2278 2304;2306 2337	G. Trebbi, «Studi Venezia- ni». La prima serie (1959-1976)
+T21	Secondary-Full 2342 2395;2397 2432	Introduzione all’uso delle riviste storiche. Un corso dilezioni, Trieste 1994, pp. 91-107
+R3	ContainedIN Arg1:T20 Arg2:T21	
+T22	Author 2278 2288	G. Trebbi,
+T23	Title 2289 2304;2306 2337	«Studi Venezia- ni». La prima serie (1959-1976)
+T24	Title 2342 2395;2397 2407	Introduzione all’uso delle riviste storiche. Un corso dilezioni,
+T25	PublicationPlace 2408 2415	Trieste
+T26	PublicationYear 2416 2421	1994,
+T27	Pagination 2422 2432	pp. 91-107
+T28	Secondary-Partial 2477 2521;2523 2540	E. IVETIC, L'Adriatico nella visione storica di Roberto Cessi,
+T29	Secondary-Full 2544 2611;2613 2669	Tempi, uomini ed eventi di Storia veneta. Studi in onore di Federi- co Seneca, a cura di S. PERINI, Rovigo 2003, pp. 329-332
+R4	ContainedIN Arg1:T28 Arg2:T29	
+T30	Author 2477 2487	E. IVETIC,
+T31	Title 2488 2521;2523 2539	L'Adriatico nella visione storica di Roberto Cessi
+T32	Title 2544 2610;2613 2623	Tempi, uomini ed eventi di Storia veneta. Studi in onore di Federi co Seneca,
+T33	Editor 2624 2644	a cura di S. PERINI,
+T34	PublicationPlace 2645 2651	Rovigo
+T35	PublicationYear 2652 2657	2003,
+T36	Pagination 2658 2669	pp. 329-332

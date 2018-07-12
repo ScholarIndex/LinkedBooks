@@ -1,0 +1,61 @@
+T1	Secondary-Full 1607 1670;1672 1681	G. Brunacci, Vita di Gio. Francesco Loredano ..., Venetia 1662, pp. 19-20
+T2	Author 1607 1619	G. Brunacci,
+T3	Title 1620 1656	Vita di Gio. Francesco Loredano ...,
+T4	PublicationPlace 1657 1664	Venetia
+T5	PublicationYear 1665 1670	1662,
+T6	Pagination 1672 1681	pp. 19-20
+T7	Secondary-Partial 1693 1745	L. Puppi, Le residenze di Pietro Bembo “in padoana",
+T8	Secondary-Full 1749 1758;1760 1781	"L’arte”, 7-8 (1969), pp. 30-65
+T9	Secondary-Partial 1784 1838	Un letterato in villa: Giangiorgio Trissino a Cricoli,
+T10	Secondary-Full 1843 1878	"Arte veneta”, 25 (1971), pp. 72-91
+R1	ContainedIN Arg1:T7 Arg2:T8	
+R2	ContainedIN Arg1:T9 Arg2:T10	
+T11	Author 1693 1702	L. Puppi,
+T12	Title 1703 1745	Le residenze di Pietro Bembo “in padoana",
+T13	Title 1749 1758	"L’arte”,
+T14	PublicationNumber-Year 1760 1771	7-8 (1969),
+T15	Pagination 1772 1781	pp. 30-65
+T16	Title 1784 1838	Un letterato in villa: Giangiorgio Trissino a Cricoli,
+T17	Title 1843 1857	"Arte veneta”,
+T18	PublicationNumber-Year 1858 1868	25 (1971),
+T19	Pagination 1869 1878	pp. 72-91
+T20	Secondary-Partial 1893 1931	M. Muraro, Civiltà delle ville venete,
+T21	Secondary-Full 1935 1958;1960 2027	Arte in Europa. Scritti di storia dell’arte in onore di Edoardo Arslan, Milano 1966, p. 541
+R3	ContainedIN Arg1:T20 Arg2:T21	
+T22	Author 1893 1903	M. Muraro,
+T23	Title 1904 1931	Civiltà delle ville venete,
+T24	Title 1935 1958;1960 2007	Arte in Europa. Scritti di storia dell’arte in onore di Edoardo Arslan,
+T25	PublicationPlace 2008 2014	Milano
+T26	PublicationYear 2015 2020	1966,
+T27	Pagination 2021 2027	p. 541
+T28	Secondary-Partial 2039 2105;2107 2160	A. Ventura, Considerazioni sull’agricoltura veneta e sulla accumu- lazione originaria del capitale nei secoli XVI e XVU,
+T29	Secondary-Full 2164 2182;2184 2203	"Studi storici”, 9 (1968), pp. 674-722
+R4	ContainedIN Arg1:T28 Arg2:T29	
+T30	Author 2039 2050	A. Ventura,
+T31	Title 2051 2105;2107 2159	Considerazioni sull’agricoltura veneta e sulla accumu- lazione originaria del capitale nei secoli XVI e XVU
+T32	Title 2164 2180	"Studi storici”,
+T33	PublicationNumber-Year 2181 2182;2184 2191	9 (1968),
+T34	Pagination 2192 2203	pp. 674-722
+T35	Secondary-Full 2220 2259;2261 2283	Agricoltura e sviluppo del capitalismo, Roma 1970, pp. 519-560
+R5	ContainedIN Arg1:T28 Arg2:T35	
+T36	Title 2220 2259	Agricoltura e sviluppo del capitalismo,
+T37	PublicationPlace 2261 2265	Roma
+T38	PublicationYear 2266 2271	1970,
+T39	Pagination 2272 2283	pp. 519-560
+T40	Secondary-Partial 2382 2439;2441 2481	C. Poni, Ricerche sugli inventori bolognesi della macchi- na seminatrice alla fine del secolo XVI,
+T41	Author 2382 2390	C. Poni,
+T42	Title 2391 2439;2441 2481	Ricerche sugli inventori bolognesi della macchi- na seminatrice alla fine del secolo XVI,
+T43	Secondary-Full 2485 2523;2525 2545	"Rivista storica italiana”, 76 (1964), pp. 458-462, 468-469
+R6	ContainedIN Arg1:T40 Arg2:T43	
+T44	Title 2485 2512	"Rivista storica italiana”,
+T45	PublicationNumber-Year 2513 2523	76 (1964),
+T46	Pagination 2525 2537	pp. 458-462,
+T47	Pagination 2538 2545	468-469
+T48	Secondary-Partial 2557 2625;2627 2673	C. Beutler, Un chapitre de la sensibilité collective: la littérature agricole en Europe continentale au XVI siècle,
+T49	Author 2557 2568	C. Beutler,
+T50	Title 2569 2625;2627 2673	Un chapitre de la sensibilité collective: la littérature agricole en Europe continentale au XVI siècle,
+T51	Secondary-Full 2677 2698;2700 2713	"Annales", 28 (1973), pp. 1280-1301
+T52	Title 2677 2687	"Annales",
+T53	PublicationNumber-Year 2688 2698	28 (1973),
+T54	Pagination 2700 2713	pp. 1280-1301
+R7	ContainedIN Arg1:T48 Arg2:T51	

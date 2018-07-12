@@ -1,0 +1,69 @@
+T1	Secondary-Partial 1538 1547;1549 1626	D. Forti, I drammi pastorali del 1600 e le rappresentazioni a Venezia prima del teatro,
+T2	Secondary-Full 1631 1671	"Ateneo Veneto”, 26 (1903), I, pp. 25-40
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Author 1538 1547	D. Forti,
+T4	Title 1549 1626	I drammi pastorali del 1600 e le rappresentazioni a Venezia prima del teatro,
+T5	Title 1631 1647	"Ateneo Veneto”,
+T6	PublicationNumber-Year 1648 1658	26 (1903),
+T7	Tomo 1659 1661	I,
+T8	Pagination 1662 1671	pp. 25-40
+T9	Secondary-Partial 1748 1785;1787 1801	A. Tortoreto, Le favole della selva e della riviera,
+T10	Secondary-Full 1805 1831	"Aevum”, 46 (1972), p. 507
+R2	ContainedIN Arg1:T9 Arg2:T10	
+T11	Author 1748 1761	A. Tortoreto,
+T12	Title 1762 1785;1787 1801	Le favole della selva e della riviera,
+T13	Title 1805 1813	"Aevum”,
+T14	PublicationNumber-Year 1814 1824	46 (1972),
+T15	Pagination 1825 1831	p. 507
+T16	Secondary-Partial 1848 1891	B. Brunelli Bonetti, Le "delizie" di Vanzo,
+T17	Secondary-Full 1895 1907;1909 1971	"Atti e mem. dell’acc. patavina di SS. LL. AA.", n. s., 60 (1947-48), p. 67
+R3	ContainedIN Arg1:T16 Arg2:T17	
+T18	Author 1848 1868	B. Brunelli Bonetti,
+T19	Title 1869 1891	Le "delizie" di Vanzo,
+T20	Title 1895 1907;1909 1944	"Atti e mem. dell’acc. patavina di SS. LL. AA.",
+T21	Series 1945 1951	n. s.,
+T22	PublicationNumber-Year 1952 1965	60 (1947-48),
+T23	Pagination 1966 1971	p. 67
+T24	Secondary-Full 1984 2053;2055 2059	D. Merlini, Saggio di ricerche sulla satira contro il villano, Torino 1894
+T25	Author 1984 1995	D. Merlini,
+T26	Title 1996 2046	Saggio di ricerche sulla satira contro il villano,
+T27	PublicationPlace 2047 2053	Torino
+T28	PublicationYear 2055 2059	1894
+T29	Secondary-Full 2070 2136;2138 2170	P. S. Leicht, Operai artigiani agricoltori in Italia dal secolo VI al XVI, Milano 1946, pp. 183-186
+T30	Author 2070 2083	P. S. Leicht,
+T31	Title 2084 2136;2138 2145	Operai artigiani agricoltori in Italia dal secolo VI al XVI,
+T32	PublicationPlace 2146 2152	Milano
+T33	PublicationYear 2153 2158	1946,
+T34	Pagination 2159 2170	pp. 183-186
+T35	Secondary-Partial 2345 2376;2378 2448	E. Concina, Per la "conditione” contadina nel secondo cinquecento. Note al villano in Tommaso Garzoni,
+T36	Author 2345 2356	E. Concina,
+T37	Title 2357 2376;2378 2448	Per la "conditione” contadina nel secondo cinquecento. Note al villano in Tommaso Garzoni,
+T38	Secondary-Full 2453 2499	"Archivio veneto”, V s., 138 (1974), pp. 71-92
+R4	ContainedIN Arg1:T35 Arg2:T38	
+T39	Title 2453 2471	"Archivio veneto”,
+T40	Series 2472 2477	V s.,
+T41	PublicationNumber-Year 2478 2489	138 (1974),
+T42	Pagination 2490 2499	pp. 71-92
+T43	Secondary-Partial 2513 2574;2576 2584	F. Bandini, Lingua e cultura nella poesia di Magagnò, Menon e Begotto,
+T44	Secondary-Full 2588 2623	"Odeo olimpico”, 8 (1969-70), p. 41
+R5	ContainedIN Arg1:T43 Arg2:T44	
+T45	Author 2513 2524	F. Bandini,
+T46	Title 2525 2574;2576 2584	Lingua e cultura nella poesia di Magagnò, Menon e Begotto,
+T47	Title 2588 2604	"Odeo olimpico”,
+T48	PublicationNumber-Year 2605 2617	8 (1969-70),
+T49	Pagination 2618 2623	p. 41
+T50	Secondary-Full 2867 2889;2891 2972;2974 2978	L. Firpo, introducendo l’antologia La città ideale nel Rinascimento, a c. di G. C. Sciolla, Torino 1975, p. 7
+T51	Author 2867 2876	L. Firpo,
+T52	Title 2903 2936	La città ideale nel Rinascimento,
+T53	Editor 2937 2959	a c. di G. C. Sciolla,
+T54	PublicationPlace 2960 2966	Torino
+T55	PublicationYear 2967 2972	1975,
+T56	Pagination 2974 2978	p. 7
+T57	Secondary-Partial 3018 3055;3057 3090	F. Bandini, Note alla “Littera di Ru- zante a messier Marco Alvarotto”,
+T58	Secondary-Partial 3091 3120	ibid., 5 (1964-65), pp. 65-66
+R6	ContainedIN Arg1:T57 Arg2:T58	
+T59	Author 3018 3029	F. Bandini,
+T60	Title 3030 3055;3057 3090	Note alla “Littera di Ru- zante a messier Marco Alvarotto”,
+T61	Abbreviation 3091 3097	ibid.,
+T62	PublicationNumber-Year 3098 3110	5 (1964-65),
+T63	Pagination 3111 3120	pp. 65-66

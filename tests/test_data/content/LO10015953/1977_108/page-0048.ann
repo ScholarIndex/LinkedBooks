@@ -1,0 +1,38 @@
+T1	Primary-Full 1665 1735;1737 1792	ASV, Consiglio dei Dieci, Archivio del Camerlengo del Consiglio dei X, Mandati dei Capi dei X al Camerlengo, 1543-1553, c. 68v
+T2	Archive 1665 1669	ASV,
+T3	ArchivalReference 1670 1690	Consiglio dei Dieci,
+T4	ArchivalReference 1691 1735	Archivio del Camerlengo del Consiglio dei X,
+T5	ArchivalReference 1737 1774	Mandati dei Capi dei X al Camerlengo,
+T6	Year 1775 1785	1543-1553,
+T7	Cartulation 1786 1792	c. 68v
+T8	Secondary-Partial 1815 1867;1869 1894	G. Luzzatto, Per la stona delle costruzioni navali a Venezia nei secoli XV-XVI
+T9	Author 1815 1827	G. Luzzatto,
+T10	Title 1828 1867;1869 1895	Per la stona delle costruzioni navali a Venezia nei secoli XV-XVI,
+T11	Secondary-Full 1899 1948;1950 1972	"Miscellanea di studi storici in onore di Camillo Manfroni”, Padova 1931
+R1	ContainedIN Arg1:T8 Arg2:T11	
+T12	Title 1899 1948;1950 1960	"Miscellanea di studi storici in onore di Camillo Manfroni”,
+T13	PublicationPlace 1961 1967	Padova
+T14	PublicationYear 1968 1973	1931,
+T15	Secondary-Full 1988 2026;2028 2046	"Studi di storia economica veneziana", Padova 1954, 37-52
+R2	ContainedIN Arg1:T8 Arg2:T15	
+T16	Title 1988 2026	"Studi di storia economica veneziana",
+T17	PublicationPlace 2028 2034	Padova
+T18	PublicationYear 2035 2040	1954,
+T19	Pagination 2041 2046	37-52
+T20	Secondary-Partial 2048 2097;2099 2106	R. Romano, La marine marchande vénitienne au XVIe siècle,
+T21	Author 2048 2058	R. Romano,
+T22	Title 2059 2097;2099 2106	La marine marchande vénitienne au XVIe siècle,
+T23	Secondary-Full 2110 2172;2174 2219	M. Mollat éd., Les sources de l’Histoire maritime en Europe du Moyen Age au XVIIIe siècle, Paris 1962, 33-68
+R3	ContainedIN Arg1:T20 Arg2:T23	
+T24	Editor 2110 2124	M. Mollat éd.,
+T25	Title 2125 2172;2174 2201	Les sources de l’Histoire maritime en Europe du Moyen Age au XVIIIe siècle,
+T26	PublicationPlace 2202 2207	Paris
+T27	PublicationYear 2208 2213	1962,
+T28	Pagination 2214 2219	33-68
+T29	Secondary-Full 2324 2397;2399 2439	J. C. Hocquet, Le sel et la fortune de Venise. Les structures du commerce maritime, Paris 1978, parte IV, cap. XII
+T30	Author 2324 2338	J. C. Hocquet,
+T31	Title 2339 2397;2399 2408	Le sel et la fortune de Venise. Les structures du commerce maritime,
+T32	PublicationPlace 2409 2414	Paris
+T33	PublicationYear 2415 2420	1978,
+T34	Volume 2421 2430	parte IV,
+T35	Chapter 2431 2440	cap. XII.

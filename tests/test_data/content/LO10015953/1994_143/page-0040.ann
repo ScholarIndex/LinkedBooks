@@ -1,0 +1,18 @@
+T1	Secondary-Partial 2344 2394	G. De Totto, Feudi e feudatari dell’Istria veneta,
+T2	Author 2344 2356	G. De Totto,
+T3	Title 2357 2394	Feudi e feudatari dell’Istria veneta,
+T4	Secondary-Partial 2395 2418;2420 2435	«AMSI», XLI-XLII, 1939- 1940, pp. 68-77
+R1	ContainedIN Arg1:T1 Arg2:T4	
+T5	AbbreviatedTitle 2395 2402	«AMSI»,
+T6	PublicationNumber-Year 2403 2418;2420 2425	XLI-XLII, 1939- 1940,
+T7	Pagination 2426 2436	pp. 68-77.
+T8	Secondary-Partial 2443 2480	G. RADOSSI, Gli Albertini di Parenzo,
+T9	Author 2443 2454;2481 2512	G. RADOSSI, «ACRSR», II, 1972, pp. 209-248.
+R2	ContainedIN Arg1:T8 Arg2:T9	
+T10	Title 2455 2480	Gli Albertini di Parenzo,
+T11	AbbreviatedTitle 2481 2489	«ACRSR»,
+T12	PublicationNumber-Year 2490 2499	II, 1972,
+T13	Pagination 2500 2512	pp. 209-248.
+T14	Secondary-Partial 2519 2539	Ibidem, pp. 245-247.
+T15	Abbreviation 2519 2526	Ibidem,
+T16	Pagination 2527 2538	pp. 245-247

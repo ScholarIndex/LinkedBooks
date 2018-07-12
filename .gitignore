@@ -1,0 +1,26 @@
+*.pyc
+.ipynb_checkpoints/
+.env
+env/
+docs/_build/
+._.*
+._*
+__pycache__
+.DS_Store
+.cache
+
+# ignore files too large for github
+reference_parsing/model_dev/data/annotated_dataset.json
+disambiguation/primary/model_dev/models/asve_ids.pkl
+
+# ignore files containing passwords
+etc/
+api/config/*.cfg
+annotation_connector/config_files/*.conf
+reference_parsing/config.conf
+reference_parsing/scripts/config.conf
+tests/tests.conf*
+metadata_importer/config.conf
+disambiguation/primary/config.conf
+disambiguation/primary/model_dev/config.conf
+disambiguation/primary/scripts/config.conf

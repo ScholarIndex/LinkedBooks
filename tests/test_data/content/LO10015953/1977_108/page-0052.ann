@@ -1,0 +1,26 @@
+T1	Primary-Full 1705 1742	ASV, Senato Mar, reg. 34, cc. 7ov-7ir
+T2	Primary-Partial 1750 1772	ìbidem, reg. 30, c. 45
+T3	Primary-Full 1780 1834	ASV, Provveditori al sai, Capitolare ia, cc. I2iv-i22r
+T4	Primary-Partial 1842 1857	ìbidem, c. I24r
+T5	Secondary-Partial 1859 1885	Hocquet, op. cit., cap. IX
+T6	Primary-Full 2145 2192	ASV, Provveditori in Zecca, reg. 20 (1561-1570)
+T7	Archive 1705 1709	ASV,
+T8	ArchivalReference 1710 1721	Senato Mar,
+T9	Registry 1722 1730	reg. 34,
+T10	Cartulation 1731 1742	cc. 7ov-7ir
+T11	Abbreviation 1750 1757	ìbidem,
+T12	Registry 1758 1766	reg. 30,
+T13	Cartulation 1767 1772	c. 45
+T14	Archive 1780 1784	ASV,
+T15	ArchivalReference 1785 1805	Provveditori al sai,
+T16	ArchivalReference 1806 1820	Capitolare ia,
+T17	Cartulation 1821 1835	cc. I2iv-i22r.
+T18	Abbreviation 1842 1849	ìbidem,
+T19	Cartulation 1850 1858	c. I24r.
+T20	Responsible 1859 1867	Hocquet,
+T21	Abbreviation 1868 1877	op. cit.,
+T22	Chapter 1878 1885	cap. IX
+T23	Archive 2145 2149	ASV,
+T24	ArchivalReference 2150 2172	Provveditori in Zecca,
+T25	Registry 2173 2193	reg. 20 (1561-1570),
+T26	Year 2181 2192	(1561-1570)

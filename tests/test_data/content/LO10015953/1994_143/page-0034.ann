@@ -1,0 +1,21 @@
+T1	Secondary-Partial 1159 1189	Benussi, L’htria, pp. 369-388.
+T2	Author 1159 1167	Benussi,
+T3	AbbreviatedTitle 1168 1176	L’htria,
+T4	Pagination 1177 1188	pp. 369-388
+T5	Secondary-Partial 2718 2764;2766 2778	P. STANCOVICH, Biografia degli uomini distinti dell’Istria,
+T6	Secondary-Partial 2779 2804	«ACRSR», IV, 1973, p. 240
+R1	ContainedIN Arg1:T5 Arg2:T6	
+T7	Author 2718 2732	P. STANCOVICH,
+T8	Title 2733 2764;2766 2778	Biografia degli uomini distinti dell’Istria,
+T9	AbbreviatedTitle 2779 2787	«ACRSR»,
+T10	PublicationNumber-Year 2788 2797	IV, 1973,
+T11	Pagination 2798 2804	p. 240
+T12	Secondary-Partial 2816 2852;2854 2866	F. Babudri, Parenzo nella storia ec- clesiastica,
+T13	Secondary-Partial 2867 2893	«AMSI», XXVI, 1910, p. 142
+R2	ContainedIN Arg1:T12 Arg2:T13	
+T14	Author 2816 2827	F. Babudri,
+T15	Title 2828 2852;2854 2866	Parenzo nella storia ec- clesiastica,
+T16	AbbreviatedTitle 2867 2874	«AMSI»,
+T17	PublicationNumber-Year 2875 2886	XXVI, 1910,
+T18	PublicationYear 2881 2886	1910,
+T19	Pagination 2887 2895	p. 142).

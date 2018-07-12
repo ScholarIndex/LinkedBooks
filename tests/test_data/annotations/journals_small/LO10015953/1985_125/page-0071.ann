@@ -1,0 +1,41 @@
+T1	Secondary-Full 1517 1537;1539 1609	V. Zanetti, Guida di Murano e delle sue celebri fornaci vetrarie, Venezia 1866, pp. 167-168
+T2	Primary-Full 1843 1889	A.S.V., Governo, 2° dom. austriaca, 1816, L/10
+T3	Author 1517 1528	V. Zanetti,
+T4	Title 1529 1537;1539 1583	Guida di Murano e delle sue celebri fornaci vetrarie,
+T5	PublicationPlace 1584 1591	Venezia
+T6	PublicationYear 1592 1597	1866,
+T7	Pagination 1598 1609	pp. 167-168
+T8	Archive 1843 1850	A.S.V.,
+T9	ArchivalReference 1851 1859	Governo,
+T10	ArchivalReference 1860 1878	2° dom. austriaca,
+T11	Year 1879 1884	1816,
+T12	Numbering 1885 1889	L/10
+T13	Secondary-Full 2048 2089	furono in origine destinati, Venezia 1869
+T14	Secondary-Partial 1937 1955	Tassini, op. cit.,
+T15	Author 1937 1945	Tassini,
+T16	Abbreviation 1946 1955	op. cit.,
+T18	Author 1966 1968;1970 1978	G. Tassini,
+T19	Title 1979 2046;2048 2076	Edifici di Venezia distrutti o volti ad uso diverso da quello a cui furono in origine destinati,
+T20	PublicationPlace 2077 2084	Venezia
+T21	PublicationYear 2085 2089	1869
+T17	Secondary-Full 2101 2123;2125 2156	G. Lorenzetti, Venezia e il suo estuario, Venezia 1963
+T22	Secondary-Partial 2166 2182	¿orzi, op. cit.,
+T23	Primary-Full 2247 2282;2284 2322	A.S.V., Governo, 2“ dom. austrìaca, allegati, b. 142 (1824 prot. n. 34736)
+T24	Author 2101 2115	G. Lorenzetti,
+T25	Title 2116 2123;2125 2143	Venezia e il suo estuario,
+T26	PublicationPlace 2144 2151	Venezia
+T27	PublicationYear 2152 2157	1963,
+T28	Author 2166 2172	¿orzi,
+A1	OCRquality T28 MinorErrors
+T29	Abbreviation 2173 2181	op. cit.
+T30	Archive 2247 2254	A.S.V.,
+T31	ArchivalReference 2255 2263	Governo,
+T32	ArchivalReference 2264 2282	2“ dom. austrìaca,
+T33	Attachment 2284 2293	allegati,
+T34	Folder 2294 2300	b. 142
+T35	Protocollo 2307 2321	prot. n. 34736
+T36	Year 2302 2306	1824
+T37	Secondary-Partial 2813 2843	Niero-Vio, op. cit., pp. 14-16
+T38	Author 2813 2823	Niero-Vio,
+T39	Abbreviation 2824 2833	op. cit.,
+T40	Pagination 2834 2843	pp. 14-16

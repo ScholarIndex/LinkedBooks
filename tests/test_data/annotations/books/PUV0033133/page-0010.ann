@@ -1,0 +1,262 @@
+T1	Secondary-Full 24 35;37 92;94 97	Pacelli, V. 1984 Caravaggio. Le sette opere di misericordia, Saler- no.
+T2	Secondary-Partial 121 152;99 114	“Il pittore Francesco Polazzo”, Pallucchini, R.
+T3	Secondary-Full 116 120;153 172;174 201	1934 Rivista della Città di Venezia, 13, pp. 327-44.
+R1	ContainedIN Arg1:T2 Arg2:T3	
+T4	Secondary-Partial 203 254;256 261	1960 La pittura veneziana del Settecento, Venezia - Roma.
+T5	Secondary-Partial 263 309	1981 La pittura veneziana del Seicento, Milano
+T6	Secondary-Partial 328 373;375 384	“Una ‘Parabola del buon Samaritano’ di Jacopo Bassano”,
+T7	Author 24 35	Pacelli, V.
+T8	PublicationYear 37 41	1984
+T9	Title 42 85	Caravaggio. Le sette opere di misericordia,
+T10	PublicationPlace 86 92;94 97	Saler- no.
+T11	Author 99 114	Pallucchini, R.
+T12	PublicationYear 116 120	1934
+T13	Title 121 152	“Il pittore Francesco Polazzo”,
+T14	Title 153 172;174 185	Rivista della Città di Venezia,
+T15	Volume 186 189	13,
+T16	Pagination 190 201	pp. 327-44.
+T17	PublicationYear 203 207	1960
+T18	Title 208 244	La pittura veneziana del Settecento,
+T19	PublicationPlace 245 254	Venezia -
+T20	PublicationPlace 256 261	Roma.
+T21	PublicationYear 263 267	1981
+T22	Title 268 302	La pittura veneziana del Seicento,
+T23	PublicationPlace 303 309	Milano
+T24	Title 328 373;375 384	“Una ‘Parabola del buon Samaritano’ di Jacopo Bassano”,
+T25	Secondary-Full 323 327;385 413	1987 Arte Veneta, 41, pp. 135-138
+R2	ContainedIN Arg1:T6 Arg2:T25	
+T26	PublicationYear 323 327	1987
+T27	Title 385 397	Arte Veneta,
+T28	Volume 398 401	41,
+T29	Pagination 402 413	pp. 135-138
+T30	Secondary-Full 415 442;444 493	Pallucchini, R. - Rossi, P. 1982 Tintoretto. Le opere sacre e profane, Milano
+T31	Author 415 432	Pallucchini, R. -
+T32	Author 431 442	- Rossi, P.
+T33	PublicationYear 444 448	1982
+T34	Title 449 486	Tintoretto. Le opere sacre e profane,
+T35	PublicationPlace 487 493	Milano
+T36	Secondary-Partial 507 517;524 569;571 579	Palmer, R. “Physicians and Surgeons in Sixteenth Century Venice”,
+T37	Secondary-Full 519 523;580 613	1979 Medical History, 23, pp· 451-460.
+R3	ContainedIN Arg1:T36 Arg2:T37	
+T38	Author 507 517	Palmer, R.
+T39	PublicationYear 519 523	1979
+T40	Title 524 569;571 579	“Physicians and Surgeons in Sixteenth Century Venice”,
+T41	Title 580 596	Medical History,
+T42	Volume 597 600	23,
+T43	Pagination 601 613	pp· 451-460.
+T44	Secondary-Partial 615 665;667 703	1983 The Studio of Venice and its Graduates in the Sixteenth Century, Trieste - Padova.
+T45	PublicationYear 615 619	1983
+T46	Title 620 665;667 685	The Studio of Venice and its Graduates in the Sixteenth Century,
+T47	PublicationPlace 686 695	Trieste -
+T48	PublicationPlace 696 703	Padova.
+T49	Secondary-Partial 705 724;731 778;780 806	Palumbo Fossati, C. “Gli architetti del Seicento Antonio e Giuseppe Sardi e il loro ambiente”,
+T50	Secondary-Full 726 730;807 831;833 865	1986 Bollettino storico della Svizzera italiana, 96, pp. 5-81.
+R4	ContainedIN Arg1:T49 Arg2:T50	
+T51	Author 705 724	Palumbo Fossati, C.
+T52	PublicationYear 726 730	1986
+T53	Title 731 778;780 806	“Gli architetti del Seicento Antonio e Giuseppe Sardi e il loro ambiente”,
+T54	Title 807 831;833 851	Bollettino storico della Svizzera italiana,
+T55	Volume 852 855	96,
+T56	Pagination 856 865	pp. 5-81.
+T57	Secondary-Full 867 880;882 936;938 974	Pampaloni, G. 1961 Lo spedale di S. Maria Nuova e la costruzione del loggiato di B. Buontalenti, Firenze.
+T58	Author 867 880	Pampaloni, G.
+T59	PublicationYear 882 886	1961
+T60	Title 887 936;938 965	Lo spedale di S. Maria Nuova e la costruzione del loggiato di B. Buontalenti,
+T61	PublicationPlace 966 974	Firenze.
+T62	Secondary-Full 1042 1046;976 988;990 1040	dra. Panofsky, E. 1969 Problems in Titian, Mostly Lconographic, Lon-
+T63	Author 976 988	Panofsky, E.
+T64	PublicationYear 990 994	1969
+T65	Title 995 1035	Problems in Titian, Mostly Lconographic,
+T66	PublicationPlace 1036 1040;1042 1046	Lon- dra.
+T67	Secondary-Full 1048 1061;1063 1119;1121 1166	Pao letti, P. 1893-97 L’architettura e la scultura del Rinascimento in Venezia, ricerche storico-artistiche, Venezia
+T68	Author 1048 1061	Pao letti, P.
+T69	PublicationYear 1063 1070	1893-97
+T70	Title 1071 1119;1121 1158	L’architettura e la scultura del Rinascimento in Venezia, ricerche storico-artistiche,
+T71	PublicationPlace 1159 1166	Venezia
+T72	Secondary-Partial 1180 1192;1199 1242;1244 1288;1290 1297	Paschini, P. “Le Compagnie del Divino Amore e la benefi- cenza pubblica nei primi decenni del Cinque- cento”,
+T73	Secondary-Full 1194 1198;1301 1339;1341 1373	1945 Tre ricerche sulla storia della chiesa nel Cinquecento, Roma, pp. 3-88.
+R5	ContainedIN Arg1:T72 Arg2:T73	
+T74	Author 1180 1192	Paschini, P.
+T75	PublicationYear 1194 1198	1945
+T76	Title 1199 1242;1244 1288;1290 1297	“Le Compagnie del Divino Amore e la benefi- cenza pubblica nei primi decenni del Cinque- cento”,
+T77	Title 1301 1339;1341 1357	Tre ricerche sulla storia della chiesa nel Cinquecento,
+T78	PublicationPlace 1358 1363	Roma,
+T79	Pagination 1364 1373	pp. 3-88.
+T80	Secondary-Partial 1375 1386;1393 1446;1448 1473	Pastore, A. “Strutture assistenziali fra Chiesa e Stato nell’Ita- lia della Controriforma”,
+T81	Secondary-Full 1388 1392;1477 1490;1492 1542;1544 1587;1589 1600	1986 AA.W., Storia d’Italia, Annali 9, La Chiesa e il potere politico dal Medioevo all’età contemporanea, Torino, pp. 433-65.
+R6	ContainedIN Arg1:T80 Arg2:T81	
+T82	PublicationYear 1388 1392	1986
+T83	Title 1393 1446;1448 1473	“Strutture assistenziali fra Chiesa e Stato nell’Ita- lia della Controriforma”,
+T84	Abbreviation 1477 1483	AA.W.,
+T85	Title 1484 1490;1492 1501	Storia d’Italia,
+T86	Volume 1502 1542;1544 1579	Annali 9, La Chiesa e il potere politico dal Medioevo all’età contemporanea,
+T87	PublicationPlace 1580 1587	Torino,
+T88	Pagination 1589 1600	pp. 433-65.
+T89	Secondary-Full 4050 4060;4062 4114;4116 4164	Pullan, B. 1971 Rich and Poor in Renaissance Venice, the Social Institutionsofa Catholic State, to 1620, Oxford.
+T90	Secondary-Partial 4171 4215;4217 4225	“Poveri, mendicanti e vagabondi (secoli XIV- XVIII)”,
+T91	Secondary-Full 4166 4170;4229 4264;4266 4315;4317 4349	1978 C. Vivanti - R. Romano (a cura di), Storia d'Italia: Annali I. Dal feudalesimo al ca- pitalismo, Torino, pp. 981-1047.
+R7	ContainedIN Arg1:T90 Arg2:T91	
+T92	Secondary-Partial 4351 4405;4407 4422	1982' La politica sociale della Repubblica di Venezia, 1500-1620, Roma
+T93	Secondary-Partial 4473 4518;4520 4530	“The Old Catholicism, the New Catholicism and the Poor”,
+T95	Author 4050 4060	Pullan, B.
+T96	PublicationYear 4062 4066	1971
+T97	Title 4067 4114;4116 4156	Rich and Poor in Renaissance Venice, the Social Institutionsofa Catholic State, to 1620,
+T98	PublicationPlace 4157 4164	Oxford.
+T99	PublicationYear 4166 4170	1978
+T100	Title 4171 4215;4217 4225	“Poveri, mendicanti e vagabondi (secoli XIV- XVIII)”,
+T101	Editor 4229 4241	C. Vivanti -
+T102	Editor 4242 4264	R. Romano (a cura di),
+T103	Title 4266 4282	Storia d'Italia:
+T104	Volume 4283 4315;4317 4327	Annali I. Dal feudalesimo al ca- pitalismo,
+T105	PublicationPlace 4328 4335	Torino,
+T106	Pagination 4336 4349	pp. 981-1047.
+T107	PublicationYear 4351 4356	1982'
+T108	Title 4357 4405;4407 4417	La politica sociale della Repubblica di Venezia, 1500-1620,
+T109	PublicationPlace 4418 4422	Roma
+T111	Title 4473 4518;4520 4530	“The Old Catholicism, the New Catholicism and the Poor”,
+T94	Secondary-Full 3960 3971;3973 4024;4026 4048	Predelli, R 1901 I libri commemoriali della Repubblica di Vene- zia. Regesti, Venezia.
+T110	Author 3960 3971	Predelli, R
+T112	PublicationYear 3973 3977	1901
+T113	Title 3978 4024;4026 4039	I libri commemoriali della Repubblica di Vene- zia. Regesti,
+T114	PublicationPlace 4040 4048	Venezia.
+T115	Secondary-Partial 3828 3838;3845 3874	Prandi, A. “Spiritualità e sensibilità”,
+T116	Secondary-Full 3840 3844;3878 3895;3897 3946;3948 3958	1967 V. Branca (a cura di), Sensibilità e razionalità del ’700, Venezia, pp. 65-94.
+R8	ContainedIN Arg1:T115 Arg2:T116	
+T117	Author 3828 3838	Prandi, A.
+T118	PublicationYear 3840 3844	1967
+T119	Title 3845 3874	“Spiritualità e sensibilità”,
+T120	Editor 3878 3895;3897 3901	V. Branca (a cura di),
+T121	Title 3902 3937	Sensibilità e razionalità del ’700,
+T122	PublicationPlace 3938 3946	Venezia,
+T123	Pagination 3948 3958	pp. 65-94.
+T124	Secondary-Partial 1602 1611;1618 1667;1669 1692	Pavan, E. “Police des moeurs, société et politique à Venise à la fin du Moyen Age”,
+T125	Secondary-Full 1613 1617;1693 1715;1717 1728	1980 Revue Historique, 264, pp. 242-65.
+R9	ContainedIN Arg1:T124 Arg2:T125	
+T126	Author 1602 1611	Pavan, E.
+T127	PublicationYear 1613 1617	1980
+T128	Title 1618 1667;1669 1692	“Police des moeurs, société et politique à Venise à la fin du Moyen Age”,
+T129	Title 1693 1710	Revue Historique,
+T130	PublicationNumber 1711 1715	264,
+T131	Pagination 1717 1728	pp. 242-65.
+T132	Secondary-Full 1730 1742;1744 1790	Pecchiai, P. 1927 L’Ospedale Maggiore di Milano..., Milano.
+T133	Author 1730 1742	Pecchiai, P.
+T134	PublicationYear 1744 1748	1927
+T135	Title 1749 1782	L’Ospedale Maggiore di Milano...,
+T136	PublicationPlace 1783 1790	Milano.
+T137	Secondary-Partial 1792 1804;1811 1848	Pedani, Μ.P. “Monasteri di Agostiniane a Venezia”,
+T138	Secondary-Full 1806 1810;1849 1857;1859 1882	1985 Archivio Veneto, 125, pp. 35-78.
+R10	ContainedIN Arg1:T137 Arg2:T138	
+T139	Author 1792 1804	Pedani, Μ.P.
+T140	PublicationYear 1806 1810	1985
+T141	Title 1811 1848	“Monasteri di Agostiniane a Venezia”,
+T142	Title 1849 1857;1859 1866	Archivio Veneto,
+T143	PublicationNumber 1867 1871	125,
+T144	Pagination 1872 1882	pp. 35-78.
+T145	Secondary-Partial 1884 1894;1901 1952	Peroni, A. “L’architettura e la scultura nei secoli XV e XVI”,
+T146	Secondary-Full 1896 1900;1957 2001	1963 Storia di Brescia, II, Brescia, pp. 619-887.
+R11	ContainedIN Arg1:T145 Arg2:T146	
+T147	Author 1884 1894	Peroni, A.
+T148	PublicationYear 1896 1900	1963
+T149	Title 1901 1952	“L’architettura e la scultura nei secoli XV e XVI”,
+T150	Title 1957 1975	Storia di Brescia,
+T151	Volume 1976 1979	II,
+T152	PublicationPlace 1980 1988	Brescia,
+T153	Pagination 1989 2001	pp. 619-887.
+T154	Secondary-Partial 2008 2054	“Residenza signorile e costruzioni pubbliche”,
+T155	Secondary-Full 2003 2007;2059 2123;2125 2135	1978 Pavia, architetture dell ’età sforzesca, Torino, Paceli - Pullan pp. 9-103.
+T156	PublicationYear 2003 2007	1978
+T157	Title 2008 2054	“Residenza signorile e costruzioni pubbliche”,
+T158	Title 2059 2099	Pavia, architetture dell ’età sforzesca,
+T159	PublicationPlace 2100 2107	Torino,
+T160	Publisher 2108 2116	Paceli -
+T161	Publisher 2117 2123	Pullan
+T162	Pagination 2125 2135	pp. 9-103.
+T163	Secondary-Partial 2137 2149;2156 2182	Piccioni, L. “Fra abati e mangiapreti”,
+T164	Secondary-Full 2151 2155;2186 2208;2210 2256;2258 2277	I912 Scritti vari di erudi- zione e di critica in onore di Rodolfo Renier, Torino, pp. 361-70.
+R12	ContainedIN Arg1:T163 Arg2:T164	
+T165	Author 2137 2149	Piccioni, L.
+T166	PublicationYear 2151 2155	I912
+T167	Title 2156 2182	“Fra abati e mangiapreti”,
+T168	Title 2186 2208;2210 2256	Scritti vari di erudi- zione e di critica in onore di Rodolfo Renier,
+T169	PublicationPlace 2258 2265	Torino,
+T170	Pagination 2266 2277	pp. 361-70.
+T171	Secondary-Full 2279 2289;2291 2318	PlGLER, A. 1974 Barockthemen, Budapest
+T172	Author 2279 2289	PlGLER, A.
+T173	PublicationYear 2291 2295	1974
+T174	Title 2296 2309	Barockthemen,
+T175	PublicationYear 2310 2318	Budapest
+T176	Secondary-Full 2331 2343;2345 2367	Pignatti, T. 1976 Veronese, Venezia
+T177	Author 2331 2343	Pignatti, T.
+T178	PublicationYear 2345 2349	1976
+T179	Title 2350 2359	Veronese,
+T180	PublicationPlace 2360 2367	Venezia
+T181	Secondary-Partial 2380 2384;2398 2427	1981 Le scuole di Venezia, Milano.
+T182	PublicationYear 2380 2384	1981
+T183	Title 2398 2419	Le scuole di Venezia,
+T184	PublicationPlace 2420 2427	Milano.
+T185	Secondary-Partial 2429 2439;2446 2495;2497 2532	Pilo, G.M. “Giuseppe Angeli e le pubbliche istituzioni d’as- sistenza a Venezia nel Settecento”,
+T186	Secondary-Full 2441 2445;2533 2542;2544 2559	1980 Paragone, 363, pp. 47-51.
+R13	ContainedIN Arg1:T185 Arg2:T186	
+T187	PublicationYear 2441 2445	1980
+T188	Title 2446 2495;2497 2532	“Giuseppe Angeli e le pubbliche istituzioni d’as- sistenza a Venezia nel Settecento”,
+T189	Title 2533 2542	Paragone,
+T190	PublicationNumber 2544 2548	363,
+T191	Pagination 2549 2559	pp. 47-51.
+T192	Secondary-Full 2561 2565;2635 2664	1981 Antichità Viva, 20, pp. 7-14.
+T193	Secondary-Partial 2566 2614;2616 2634	“Nicolas Régnier e lo ‘Spedale di SS. Giovanni e Paolo’ a Venezia”,
+R14	ContainedIN Arg1:T193 Arg2:T192	
+T194	PublicationYear 2561 2565	1981
+T195	Title 2566 2614;2616 2634	“Nicolas Régnier e lo ‘Spedale di SS. Giovanni e Paolo’ a Venezia”,
+T196	Title 2635 2650	Antichità Viva,
+T197	PublicationNumber 2651 2654	20,
+T198	Pagination 2655 2664	pp. 7-14.
+T199	Secondary-Partial 2666 2719;2721 2771;2773 2814	19821 Lorenzo Giustiniani. Due imprese pittoriche fra Sei e Settecento a Venezia. San Pietro di Castello e Santa Maria delle Penitenti, Pordenone.
+T200	PublicationYear 2666 2671	19821
+T201	Title 2672 2719;2721 2771;2773 2803	Lorenzo Giustiniani. Due imprese pittoriche fra Sei e Settecento a Venezia. San Pietro di Castello e Santa Maria delle Penitenti,
+T202	PublicationPlace 2804 2814	Pordenone.
+T203	Secondary-Partial 2822 2872;2874 2922;2924 2973	“I dipinti secenteschi dell’Ospedaletto (con altri delle pubbliche istituzioni veneziane di Ricove- ro e di Educazione): alcune precisazioni e note”,
+T204	Secondary-Full 2816 2821;2978 3023;3025 3070;3072 3081	19822 V. Sgarbi (a cura di), Studi barocchi /2. “Le ricche minere della pittura veneziana”, Roma, pp. 9-68.
+R15	ContainedIN Arg1:T203 Arg2:T204	
+T206	PublicationYear 2816 2821	19822
+T207	Title 2822 2872;2874 2922;2924 2973	“I dipinti secenteschi dell’Ospedaletto (con altri delle pubbliche istituzioni veneziane di Ricove- ro e di Educazione): alcune precisazioni e note”,
+T208	Editor 2978 3000	V. Sgarbi (a cura di),
+T209	Title 3001 3015	Studi barocchi
+T205	Volume 3016 3023;3025 3064	/2. “Le ricche minere della pittura veneziana”,
+T210	PublicationPlace 3065 3070	Roma,
+T211	Pagination 3072 3081	pp. 9-68.
+T212	Secondary-Partial 3089 3133;3135 3183;3185 3231;3233 3282;3284 3329;3331 3376;3378 3420	“Nicola Grassi, Jacopo Amigoni, Jacopo Mane- schi (e altri): aspetti e problemi della pittura veneziana del Settecento nella prospettiva del rococò europeo. A. Due brevi cicli del Grassi; B. Nicola Grassi e l’arredo dell’Ospedaletto; C. Qualche considerazione suH'Amigoni; D. I sof- fitti delle Penitenti di Jacopo Maneschi”,
+T213	Secondary-Full 3083 3088;3424 3426;3428 3477;3479 3527;3529 3547	19823 A. Rizzi (a cura di), A.tti del congresso intemazio- nale di studi Nicola Grassi e il rococò europeo, Udine, pp. 127-76.
+R16	ContainedIN Arg1:T212 Arg2:T213	
+T214	PublicationYear 3083 3088	19823
+T215	Title 3089 3133;3135 3183;3185 3231;3233 3282;3284 3329;3331 3376;3378 3420	“Nicola Grassi, Jacopo Amigoni, Jacopo Mane- schi (e altri): aspetti e problemi della pittura veneziana del Settecento nella prospettiva del rococò europeo. A. Due brevi cicli del Grassi; B. Nicola Grassi e l’arredo dell’Ospedaletto; C. Qualche considerazione suH'Amigoni; D. I sof- fitti delle Penitenti di Jacopo Maneschi”,
+T216	Editor 3424 3426;3428 3446	A. Rizzi (a cura di),
+T217	Title 3447 3477;3479 3527	A.tti del congresso intemazio- nale di studi Nicola Grassi e il rococò europeo,
+T218	PublicationPlace 3529 3535	Udine,
+T219	Pagination 3536 3547	pp. 127-76.
+T220	Secondary-Full 3763 3781;3783 3826	Pope Hennessey, J. 1971 Italian Renaissance Sculpture, Londra.
+T221	PublicationYear 3783 3787	1971
+T222	Title 3788 3818	Italian Renaissance Sculpture,
+T223	PublicationPlace 3819 3826	Londra.
+T224	Author 3763 3781	Pope Hennessey, J.
+T225	Secondary-Partial 3676 3725	“Il ritratto di Lazzaro Zen di Francesco Guardi”,
+T226	Secondary-Full 3670 3675;3727 3761	19853 Paragone, 419-421-423, pp. 274-78.
+R17	ContainedIN Arg1:T225 Arg2:T226	
+T227	PublicationYear 3670 3675	19853
+T228	Title 3676 3725	“Il ritratto di Lazzaro Zen di Francesco Guardi”,
+T229	Title 3727 3736	Paragone,
+T230	PublicationNumber 3737 3741	419-
+T231	PublicationNumber 3741 3745	421-
+T232	PublicationNumber 3744 3748	-423
+T233	Pagination 3750 3761	pp. 274-78.
+T234	Secondary-Partial 3610 3662;3664 3668	19852 La chiesa dello “Spedaletto” in Venezia, Vene- zia.
+T235	PublicationYear 3610 3615	19852
+T236	Title 3616 3656	La chiesa dello “Spedaletto” in Venezia,
+T237	PublicationPlace 3657 3662;3664 3668	Vene- zia.
+T238	Secondary-Partial 3555 3581	“Pietro Ricchi a Venezia,”
+T239	Secondary-Full 3549 3554;3582 3600;3602 3607	19851 Paragone, 427, pp. 23-40
+R18	ContainedIN Arg1:T238 Arg2:T239	
+T240	PublicationYear 3549 3554	19851
+T241	Title 3555 3581	“Pietro Ricchi a Venezia,”
+T242	Title 3582 3590	Paragone
+T243	PublicationNumber 3592 3596	427,
+T244	Pagination 3597 3600;3602 3608	pp. 23-40.

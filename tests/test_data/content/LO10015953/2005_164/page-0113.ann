@@ -1,0 +1,57 @@
+T1	Secondary-Partial 1149 1213	La Repubblica di Venezia in Morea. Un diritto per il nuovo regno
+T2	Title 1149 1213	La Repubblica di Venezia in Morea. Un diritto per il nuovo regno
+A1	Continuation T1
+T3	Secondary-Full 1218 1233;1236 1326;1328 1410	G. COZZI, La so cietà veneta e il suo diritto. Saggi su questioni matrimoniali, giustizia penale, politica del diritto, sopravvivenza del diritto veneto nell’Ottocento, Venezia 2000, p. 273
+T4	Secondary-Partial 1418 1467	E. A. Cicogna, Delle iscrizioni veneziane, p. 511
+T5	Primary-Full 1469 1493;1495 1581;1583 1621	ASV, Miscellanea di atti diversi manoscritti, Cancelleria ducale, b. 94, «scrittura» del Cancellier grande Gio- vanni Colombo alla data 20 Maggio 1769
+T6	Primary-Full 1623 1660;1662 1747	BMCV, mss. Cicogna 3577, Notizie bio- grafiche intorno al conte Giuseppe Maria Giacomazzi ed alcuni suoi opuscoli, c.c.n.n.
+T7	Secondary-Partial 1769 1830;1832 1838	M. GOTTARDI, Stato e camere tra Veneto austriaco e Regno d’I- talia,
+T8	Secondary-Full 1842 1912;1914 1967	Dopo la Serenissima. Società, amministrazione e cultura nell’Ottocento Veneto, a cura di D. CALABI, Venezia 2001, p. 118-121
+T9	Secondary-Partial 1975 2003	G. Scarabello, Il Settecento
+T10	Secondary-Full 2008 2046;2048 2132;2134 2161	G. Cozzi - M. Knapton - G. Scarabello, La Repubblica di Venezia nell’età moderna. Dal 1517 alla fine della Repubblica, XII, II, Torino 1992, p. 637-641
+T11	Primary-Full 2169 2249;2251 2320	ASV, Miscellanea di atti diversi manoscritti, Cancelleria ducale, b. 94, «scrit- tura» del Cancellier grande Giovanni Colombo alla data 20 Maggio 1769
+T12	Author 1218 1227	G. COZZI,
+T13	Title 1228 1234;1236 1326;1328 1389	La so- cietà veneta e il suo diritto. Saggi su questioni matrimoniali, giustizia penale, politica del diritto, sopravvivenza del diritto veneto nell’Ottocento,
+T14	PublicationPlace 1390 1397	Venezia
+T15	PublicationYear 1398 1403	2000,
+T16	Pagination 1404 1410	p. 273
+T17	Author 1418 1432	E. A. Cicogna,
+T18	Title 1433 1460	Delle iscrizioni veneziane,
+T19	Pagination 1461 1467	p. 511
+T20	Archive 1469 1473	ASV,
+T21	ArchivalReference 1474 1493;1495 1515	Miscellanea di atti diversi manoscritti,
+T22	ArchivalReference 1516 1535	Cancelleria ducale,
+T23	Folder 1536 1542	b. 94,
+T24	Attachment 1543 1581;1583 1621	«scrittura» del Cancellier grande Gio- vanni Colombo alla data 20 Maggio 1769
+T25	Date 1607 1621	20 Maggio 1769
+T26	Archive 1623 1628	BMCV,
+T27	Numbering 1629 1647	mss. Cicogna 3577,
+T28	Title 1648 1660;1662 1738	Notizie bio- grafiche intorno al conte Giuseppe Maria Giacomazzi ed alcuni suoi opuscoli,
+T29	Cartulation 1739 1747	c.c.n.n.
+T30	Author 1769 1781	M. GOTTARDI,
+T31	Title 1782 1829;1832 1838	Stato e camere tra Veneto austriaco e Regno d’I talia,
+R1	ContainedIN Arg1:T1 Arg2:T3	
+R2	ContainedIN Arg1:T7 Arg2:T8	
+R3	ContainedIN Arg1:T9 Arg2:T10	
+T32	Title 1842 1912;1914 1921	Dopo la Serenissima. Società, amministrazione e cultura nell’Ottocento Veneto,
+T33	Editor 1922 1942	a cura di D. CALABI,
+T34	PublicationPlace 1943 1950	Venezia
+T35	PublicationYear 1951 1956	2001,
+T36	Pagination 1957 1967	p. 118-121
+T37	Author 1975 1989	G. Scarabello,
+T38	Title 1990 2004	Il Settecento,
+T39	Author 2008 2016	G. Cozzi
+T40	Author 2017 2029	- M. Knapton
+T41	Author 2030 2046	- G. Scarabello,
+T42	Title 2048 2127	La Repubblica di Venezia nell’età moderna. Dal 1517 alla fine della Repubblica,
+T43	Volume 2128 2132	XII,
+T44	Tomo 2134 2137	II,
+T45	PublicationPlace 2138 2144	Torino
+T46	PublicationYear 2145 2150	1992,
+T47	Pagination 2151 2161	p. 637-641
+T48	Archive 2169 2173	ASV,
+T49	ArchivalReference 2174 2214	Miscellanea di atti diversi manoscritti,
+T50	ArchivalReference 2215 2234	Cancelleria ducale,
+T51	Folder 2235 2241	b. 94,
+T52	Attachment 2242 2249;2251 2320	«scrit- tura» del Cancellier grande Giovanni Colombo alla data 20 Maggio 1769
+T53	Date 2306 2320	20 Maggio 1769

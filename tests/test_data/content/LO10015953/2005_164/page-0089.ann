@@ -1,0 +1,43 @@
+T1	Primary-Full 1905 1957;1959 1989	BBV, Ms. 2958, G. Dian, Notizie storiche di Vicenza, fascicolo I (1700-1750), c. 6r
+T2	Primary-Full 1993 2041;2043 2055	BBV, Ms. 3218, B. Bressan, Cronaca vicentina dal 1700 al 1846
+T3	Archive 1905 1909	BBV,
+T4	Archive 1993 1997	BBV,
+T5	Numbering 1910 1919	Ms. 2958,
+T6	Numbering 1998 2007	Ms. 3218,
+T7	Author 1920 1928	G. Dian,
+T8	Author 2008 2019	B. Bressan,
+T9	Title 1929 1957	Notizie storiche di Vicenza,
+T10	Fascicolo 1959 1983	fascicolo I (1700-1750),
+T11	Cartulation 1984 1989	c. 6r
+T12	Title 2020 2041;2043 2055	Cronaca vicentina dal 1700 al 1846
+T13	Secondary-Partial 2096 2133	Paolin, Lo spazio del silenzio, p. 40
+T14	Author 2096 2103	Paolin,
+T15	Title 2104 2127	Lo spazio del silenzio,
+T16	Pagination 2128 2133	p. 40
+T17	Primary-Full 2313 2386	BBV, Ms. 3389, Da Schio, Persone memorabili in Vicenza, Capra (tavola IX)
+T18	Primary-Full 2394 2463;2465 2476	ASVI, Notai Vicenza, Francesco Antonio Gobbati di Paolo, b. 12321, 27 maggio 1702
+T19	Primary-Full 2484 2550	ASVI, Notai Vicenza, Giuseppe Ceccatoni, b. 2807,27 novembre 1706.
+T20	Primary-Full 2557 2624;2626 2660	ASVI, Notai Vicenza, Giovanni Francesco Regaù, b. 3254, 22-23 marzo 1736,28 maggio 1736,11 giugno 1736
+T21	Archive 2313 2317	BBV,
+T22	Numbering 2318 2327	Ms. 3389,
+T23	Author 2328 2337	Da Schio,
+T24	Title 2338 2368	Persone memorabili in Vicenza,
+T25	Attachment 2369 2386	Capra (tavola IX)
+T26	Table 2375 2386	(tavola IX)
+T27	Archive 2394 2399	ASVI,
+T28	Archive 2484 2489	ASVI,
+T29	Archive 2557 2562	ASVI,
+T30	ArchivalFond 2400 2414	Notai Vicenza,
+T31	ArchivalFond 2490 2504	Notai Vicenza,
+T32	ArchivalFond 2563 2577	Notai Vicenza,
+T33	Notary 2415 2450	Francesco Antonio Gobbati di Paolo,
+T34	Folder 2451 2460	b. 12321,
+T35	Date 2461 2463;2465 2476	27 maggio 1702
+T36	Notary 2505 2524	Giuseppe Ceccatoni,
+T37	Folder 2525 2533	b. 2807,
+T38	Date 2533 2549	27 novembre 1706
+T39	Notary 2578 2603	Giovanni Francesco Regaù,
+T40	Folder 2604 2612	b. 3254,
+T41	Date 2613 2624;2626 2631	22-23 marzo 1736,
+T42	Date 2631 2646	28 maggio 1736,
+T43	Date 2646 2660	11 giugno 1736

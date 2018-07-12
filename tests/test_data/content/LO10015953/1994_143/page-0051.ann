@@ -1,0 +1,13 @@
+T1	Secondary-Partial 2695 2720	Benussi, Parenzo, p. 201.
+T2	Author 2695 2703	Benussi,
+T3	AbbreviatedTitle 2704 2712	Parenzo,
+T4	Pagination 2713 2719	p. 201
+T5	Secondary-Partial 2554 2608;2610 2650	G. RADOSSI - A. PAULETICH, Repertorio alfabetico delle Cronache di Rovigno di Antonio Angelini,
+T6	Secondary-Partial 2651 2687	«ACRSR», VII, 1976-1977, pp. 205-425
+R1	ContainedIN Arg1:T5 Arg2:T6	
+T7	Author 2554 2566	G. RADOSSI -
+T8	Author 2567 2580	A. PAULETICH,
+T9	Title 2581 2608;2610 2650	Repertorio alfabetico delle Cronache di Rovigno di Antonio Angelini,
+T10	AbbreviatedTitle 2651 2659	«ACRSR»,
+T11	PublicationNumber-Year 2660 2675	VII, 1976-1977,
+T12	Pagination 2676 2688	pp. 205-425.

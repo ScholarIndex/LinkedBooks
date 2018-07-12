@@ -1,0 +1,45 @@
+T2	Archive 270 276	A.S.V.
+T3	ArchivalReference 277 289	(S. Spirito,
+T4	Folder 290 294	b. 1
+T1	Primary-Full 270 294	A.S.V. (S. Spirito, b. 1
+T5	Primary-Partial 296 331;333 352	Miscellanea atti diplomatici e pri- vati, b. 34 n. 1016
+T6	ArchivalReference 296 331;333 338	Miscellanea atti diplomatici e pri- vati,
+T7	Folder 339 344	b. 34
+T8	Numbering 345 352	n. 1016
+T9	Secondary-Partial 474 521	B. Rano, Canonici regolari dello Spirito Santo,
+T10	Secondary-Full 525 541;543 546	D.I.P., II, 151- 154
+R1	ContainedIN Arg1:T9 Arg2:T10	
+T11	Author 474 482	B. Rano,
+T12	Title 483 521	Canonici regolari dello Spirito Santo,
+T13	AbbreviatedTitle 525 532	D.I.P.,
+T14	Volume 533 536	II,
+T15	Pagination 537 541;543 546	151- 154
+T16	Secondary-Partial 548 582	Id., Garofoli (Garofali) Gabriele,
+T17	Secondary-Partial 583 604	ibidem, IV, 1033-1034
+R2	ContainedIN Arg1:T16 Arg2:T17	
+T18	Abbreviation 548 552	Id.,
+T19	Title 553 582	Garofoli (Garofali) Gabriele,
+T20	Abbreviation 583 590	ibidem,
+T21	Volume 591 594	IV,
+T22	Pagination 595 604	1033-1034
+T23	Secondary-Partial 677 697;699 710	G. Ferrarese, Bondu- mier Andrea
+T24	Secondary-Full 715 776;778 785	Dizionario biografico degli Italiani, vol. XI, Roma 1969, pp. 739-740
+R3	ContainedIN Arg1:T23 Arg2:T24	
+T25	Author 677 690	G. Ferrarese,
+T26	Title 691 697;699 710	Bondu- mier Andrea
+T27	Title 715 752	Dizionario biografico degli Italiani,
+T28	Volume 753 761	vol. XI,
+T29	PublicationPlace 762 766	Roma
+T30	PublicationYear 767 772	1969,
+T31	Pagination 773 776;778 785	pp. 739-740
+T32	Secondary-Partial 2071 2098	Corner, Suppl., pp. 378-383
+T33	Author 2071 2078	Corner,
+T34	Title 2079 2086	Suppl.,
+T35	Pagination 2087 2098	pp. 378-383
+T36	Secondary-Full 2100 2136;2138 2195	G. Vianelli, Nuova serie dei vescovi di Malamocco e Chioggìa, Venezia 1790, vol. II, pp. 56-57
+T37	Author 2100 2112	G. Vianelli,
+T38	Title 2113 2136;2138 2162	Nuova serie dei vescovi di Malamocco e Chioggìa,
+T39	PublicationPlace 2163 2170	Venezia
+T40	PublicationYear 2171 2176	1790,
+T41	Volume 2177 2185	vol. II,
+T42	Pagination 2186 2195	pp. 56-57

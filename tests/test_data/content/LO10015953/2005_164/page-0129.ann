@@ -1,0 +1,16 @@
+T1	Secondary-Full 2247 2263	1944-46 (2 voi.)
+A1	Continuation T1
+T2	PublicationYear 2247 2254	1944-46
+T3	PublicationSpecifications 2255 2263	(2 voi.)
+T4	Secondary-Full 2275 2335;2337 2366	Storia di Venezia, Roma, Istituto dell’Enciclopedia italiana Treccani, 1992-2001 (12 voi.)
+T5	Secondary-Full 2385 2450;2452 2474	Deliberazioni del Maggior Consiglio di Venezia. Vol. I, a cura di R. CESSI, Bologna 1950
+T6	Title 2275 2293	Storia di Venezia,
+T7	PublicationPlace 2294 2299	Roma,
+T8	Publisher 2300 2335;2337 2346	Istituto dell’Enciclopedia italiana Treccani,
+T9	PublicationYear 2347 2356	1992-2001
+T10	PublicationSpecifications 2357 2366	(12 voi.)
+T11	Title 2385 2432	Deliberazioni del Maggior Consiglio di Venezia.
+T12	Volume 2433 2440	Vol. I,
+T13	Editor 2441 2450;2452 2461	a cura di R. CESSI,
+T14	PublicationPlace 2462 2469	Bologna
+T15	PublicationYear 2470 2474	1950

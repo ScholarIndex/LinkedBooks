@@ -1,0 +1,30 @@
+T1	Secondary-Partial 2083 2138	PAGANI, Gli ordirti, cap. VI, p. 4 e cap. XI, pp. 10-11
+T2	Secondary-Partial 2151 2161;2163 2181	Zariu, Re- cinti, pp. 472-473
+T3	Author 2083 2090	PAGANI,
+T4	Title 2091 2103	Gli ordirti,
+T5	Chapter 2104 2112	cap. VI,
+T6	Pagination 2113 2117	p. 4
+T7	Chapter 2118 2128	e cap. XI,
+T8	Pagination 2129 2138	pp. 10-11
+T9	Author 2151 2157	Zariu,
+T10	Title 2158 2161;2163 2169	Re- cinti,
+T11	Pagination 2170 2181	pp. 472-473
+T12	Primary-Full 2189 2261	ASVI, CRS 3031, Dimesse diSanta Croce, Memorie, carte sciolte, alla data
+T13	Primary-Full 2269 2342;2344 2348	ASVI, CRS 3031, Dimesse diSanta Croce, Memorie, carte sciolte, 1 dicembre 1686
+T14	Archive 2189 2194	ASVI,
+T15	Archive 2269 2274	ASVI,
+T16	ArchivalReference 2195 2204	CRS 3031,
+T17	ArchivalReference 2275 2284	CRS 3031,
+T18	ArchivalReference 2205 2227	Dimesse diSanta Croce,
+T19	ArchivalReference 2285 2307	Dimesse diSanta Croce,
+T20	ArchivalReference 2228 2236	Memorie,
+T21	ArchivalReference 2308 2316	Memorie,
+T22	Cartulation 2237 2251	carte sciolte,
+T23	TopicDate 2252 2261	alla data
+T24	Cartulation 2317 2331	carte sciolte,
+T25	Date 2332 2342;2344 2348	1 dicembre 1686
+T26	Secondary-Full 2356 2435;2437 2472	G. Dellai, Schiavon e Longa. Storia di due comunità e di un territorio nell’al- ta pianura vicentina, Vicenza 1994,
+T27	Author 2356 2366	G. Dellai,
+T28	Title 2367 2435;2437 2458	Schiavon e Longa. Storia di due comunità e di un territorio nell’al- ta pianura vicentina,
+T29	PublicationPlace 2459 2466	Vicenza
+T30	PublicationYear 2467 2472	1994,

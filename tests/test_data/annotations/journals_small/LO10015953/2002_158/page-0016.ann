@@ -1,0 +1,24 @@
+T1	Primary-Full 2000 2076;2078 2155	ASV, Consiglio dei X, Farti comuni, filza 117, supplica di Antonio Milledon- ne allegata alla deliberazione del Consiglio dei X, alla data 17 Giugno 1573.
+T2	Archive 2000 2004	ASV,
+T3	ArchivalReference 2005 2021	Consiglio dei X,
+T4	ArchivalReference 2022 2035	Farti comuni,
+T5	Filza 2036 2046	filza 117,
+T6	Attachment 2047 2076;2078 2129	supplica di Antonio Milledon- ne allegata alla deliberazione del Consiglio dei X,
+T7	Date 2130 2155	alla data 17 Giugno 1573.
+T8	Primary-Full 2162 2224	ASV, Capi del Consiglio dei X, Notatorio, Registro 17 c. 135r.
+T9	Archive 2162 2166	ASV,
+T10	ArchivalReference 2167 2192	Capi del Consiglio dei X,
+T11	ArchivalReference 2193 2203	Notatorio,
+T12	Registry 2204 2215	Registro 17
+T13	Cartulation 2216 2224	c. 135r.
+T14	Primary-Partial 2231 2283	[Milledonne], Vita d’Antonio Milledonne, c. 69v-70v.
+T15	Author 2231 2244	[Milledonne],
+T16	Title 2245 2271	Vita d’Antonio Milledonne,
+T17	Cartulation 2272 2283	c. 69v-70v.
+T18	Primary-Full 2290 2365;2367 2453	ASV, Archivio Tiepolo, IIo Consegna, Summario di imprese fatte, et servitii prestati al pubblico da diversi huomini insigni della famiglia Thiepolo, b. 96, cc.nn.
+T19	Archive 2290 2294	ASV,
+T20	ArchivalReference 2295 2312	Archivio Tiepolo,
+T21	ArchivalReference 2313 2326	IIo Consegna,
+T22	ArchivalReference 2327 2365;2367 2439	Summario di imprese fatte, et servitii prestati al pubblico da diversi huomini insigni della famiglia Thiepolo,
+T23	Folder 2440 2446	b. 96,
+T24	Cartulation 2447 2453	cc.nn.

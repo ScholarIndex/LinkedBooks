@@ -1,0 +1,39 @@
+T1	Primary-Full 1765 1793	ASP, Prove di nobiltà, b. 48
+T2	Primary-Full 1801 1829	ASP, Prove di nobiltà, b. 50
+T3	Secondary-Partial 1837 1915;1917 1928	P. Del NEGRO, Istituzioni, spazi e progetti culturali nella Padova del secondo Settecento,
+T4	Secondary-Full 1932 2006;2009 2034	Cultura, intellettuali e circolazione delle idee nel '700, a cura di R. PA STA, Milano 1990, p. 166.
+T5	Secondary-Partial 2041 2119;2121 2164	P. Del Negro, Appunti sul patriziato veneziano, la cultura e la politica della ricerca scientifica nel secondo Settecento,
+T6	Secondary-Full 2168 2208;2211 2232	La Specola dell’Università di Padova, Pa dova 1986, p. 252-253
+T7	Primary-Full 2240 2268	ASP, Prove di nobiltà, b. 51
+T8	Primary-Full 2276 2303	ASP, Prove di nobiltà, b. 3
+T9	Primary-Full 2311 2340	ASP, Prove di nobiltà, b. 105
+T10	Archive 1765 1769	ASP,
+T11	Archive 1801 1805	ASP,
+T12	Archive 2240 2244	ASP,
+T13	Archive 2276 2280	ASP,
+T14	Archive 2311 2315	ASP,
+T15	ArchivalReference 1770 1787	Prove di nobiltà,
+T16	ArchivalReference 1806 1823	Prove di nobiltà,
+T17	ArchivalReference 2245 2262	Prove di nobiltà,
+T18	ArchivalReference 2281 2298	Prove di nobiltà,
+T19	ArchivalReference 2316 2333	Prove di nobiltà,
+T20	Folder 1788 1793	b. 48
+T21	Folder 1824 1829	b. 50
+T22	Folder 2263 2268	b. 51
+T23	Folder 2299 2303	b. 3
+T24	Folder 2334 2340	b. 105
+T25	Author 1837 1850	P. Del NEGRO,
+T26	Title 1851 1915;1917 1927	Istituzioni, spazi e progetti culturali nella Padova del secondo Settecento
+T27	Title 1932 1990	Cultura, intellettuali e circolazione delle idee nel '700,
+T28	Editor 1991 2006;2009 2013	a cura di R. PA STA,
+T29	PublicationPlace 2014 2020	Milano
+T30	PublicationYear 2021 2026	1990,
+T31	Pagination 2027 2033	p. 166
+T32	Author 2041 2054	P. Del Negro,
+T33	Title 2055 2119;2121 2163	Appunti sul patriziato veneziano, la cultura e la politica della ricerca scientifica nel secondo Settecento
+T34	Title 2168 2205	La Specola dell’Università di Padova,
+T35	PublicationPlace 2206 2208;2211 2215	Pa dova
+T36	PublicationYear 2216 2221	1986,
+T37	Pagination 2222 2232	p. 252-253
+R1	ContainedIN Arg1:T3 Arg2:T4	
+R2	ContainedIN Arg1:T5 Arg2:T6	

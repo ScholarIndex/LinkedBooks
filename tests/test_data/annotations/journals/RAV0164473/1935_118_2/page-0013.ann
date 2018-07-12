@@ -1,0 +1,18 @@
+T1	Secondary-Partial 3139 3188	Storia della letteratura italiana,I, pp. 324-325.
+T2	Title 3139 3173	Storia della letteratura italiana,
+T3	Volume 3173 3175	I,
+T4	Pagination 3176 3188	pp. 324-325.
+T5	Secondary-Partial 3363 3394	La Critica,X, (19x2), pp. 390-1
+T6	Title 3363 3374	La Critica,
+T7	PublicationNumber-Year 3374 3384	X, (19x2),
+T8	Pagination 3385 3394	pp. 390-1
+T9	Secondary-Partial 3883 3922;3924 3971	Paolo Arcari, Il problema religioso nel sentimento e nella meditazione di F. de Sanctis
+T10	Secondary-Full 3974 4005;4007 4075	Miscellanea di studi critici in onore di Vincenzo Crescini,Cividale, tip. Stagni, 1927, pp. 231-313.
+R1	ContainedIN Arg1:T9 Arg2:T10	
+T11	Author 3883 3896	Paolo Arcari,
+T12	Title 3897 3922;3924 3971	Il problema religioso nel sentimento e nella meditazione di F. de Sanctis
+T13	Title 3974 4005;4007 4034	Miscellanea di studi critici in onore di Vincenzo Crescini,
+T14	PublicationPlace 4034 4043	Cividale,
+T15	Publisher 4044 4056	tip. Stagni,
+T16	PublicationYear 4057 4062	1927,
+T17	Pagination 4063 4075	pp. 231-313.

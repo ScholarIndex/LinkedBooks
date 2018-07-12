@@ -1,0 +1,32 @@
+T1	Primary-Full 1528 1545;1547 1567	A.S.V., S. Lucia, b. 1, catastico c. 5
+T2	Secondary-Partial 1775 1788;1790 1807	Corner, E.V., Vili, pp. 338-339
+T3	Archive 1528 1535	A.S.V.,
+T4	ArchivalReference 1536 1545	S. Lucia,
+T5	Folder 1547 1552	b. 1,
+T6	Numbering 1553 1567	catastico c. 5
+T7	Author 1775 1782	Corner,
+T8	AbbreviatedTitle 1783 1788	E.V.,
+T9	Volume 1790 1795	Vili,
+T10	Pagination 1796 1807	pp. 338-339
+T11	Secondary-Full 1988 2040;2042 2120;2122 2208	M. Ricci, I/ monastero del Corpus Christi di Venezia fra Tre-Quattrocento (con una silloge di trentadue documenti inediti), tesi di laurea, rei. A. Rigon, Università di Padova, fac. di lettere e filosofia, a.a. 1982-83
+T12	Author 1988 1997	M. Ricci,
+T13	Title 1998 2040;2042 2112	I/ monastero del Corpus Christi di Venezia fra Tre-Quattrocento (con una silloge di trentadue documenti inediti),
+T14	PublicationSpecifications 2113 2120;2122 2129	tesi di laurea,
+T15	Editor 2130 2144	rei. A. Rigon,
+T16	PublicationPlace 2145 2166	Università di Padova,
+T17	PublicationSpecifications 2167 2195	fac. di lettere e filosofia,
+T18	PublicationYear 2196 2208	a.a. 1982-83
+T19	Primary-Full 2217 2251	A.S.V., Senato terra, reg. 5 c. 13
+T20	Archive 2217 2224	A.S.V.,
+T21	ArchivalReference 2225 2238	Senato terra,
+T22	Registry 2239 2245	reg. 5
+T23	Cartulation 2246 2251	c. 13
+T24	Secondary-Partial 2253 2284	Corner, E.V., Vili, pp. 351-352
+T25	Author 2253 2260	Corner,
+T26	AbbreviatedTitle 2261 2266	E.V.,
+T27	Volume 2267 2272	Vili,
+T28	Pagination 2273 2284	pp. 351-352
+T29	Secondary-Partial 2781 2801	Ibidem, pp. 334, 337
+T30	Abbreviation 2781 2788	Ibidem,
+T31	Pagination 2789 2797	pp. 334,
+T32	Pagination 2798 2801	337

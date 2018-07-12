@@ -1,0 +1,31 @@
+T1	Primary-Full 1736 1813	BNM, mss. it., VII, 601 (= 7950), Magni cancellarii venetiorum, c. 105Γ-119Γ.
+T2	Library 1736 1740	BNM,
+T3	Codex 1741 1769	mss. it., VII, 601 (= 7950),
+T4	Title 1770 1799	Magni cancellarii venetiorum,
+T5	Cartulation 1800 1812	c. 105Γ-119Γ
+T6	Secondary-Full 1820 1903;1905 1945	M. CASINI, I gesti del principe. La festa politica a Firenze e Venezia in età rina- scimentale, Venezia 1996, p. 64, nota 93
+T7	Author 1820 1830	M. CASINI,
+T8	Title 1831 1903;1905 1916	I gesti del principe. La festa politica a Firenze e Venezia in età rina- scimentale,
+T9	PublicationPlace 1917 1924	Venezia
+T10	PublicationYear 1925 1930	1996,
+T11	Pagination 1931 1937	p. 64,
+T12	Note 1938 1945	nota 93
+T13	Primary-Full 1953 2024;2026 2052	ASV, Esecutori contra la Bestemmia, Notatorio Terminazioni (1542-1560), busta 56, c. 81r, 98v-99r.
+T14	Archive 1953 1957	ASV,
+T15	ArchivalReference 1958 1988	Esecutori contra la Bestemmia,
+T16	ArchivalReference 1989 2024	Notatorio Terminazioni (1542-1560),
+T17	Folder 2026 2035	busta 56,
+T18	Cartulation 2036 2051	c. 81r, 98v-99r
+T19	Secondary-Partial 2053 2115;2117 2147	R. DEROSAS, Moralità e giustizia a Venezia nel '500 -‘600: gli Esecutori contro la bestemmia,
+T20	Secondary-Full 2151 2206;2208 2259	Stato società e giustizia nella Repubblica Veneta (see. XV- XVIII), a cura di G. Cozzi, Roma, 1980, p. 484.
+R1	ContainedIN Arg1:T19 Arg2:T20	
+T21	Author 2053 2064	R. DEROSAS,
+T22	Title 2065 2115;2117 2147	Moralità e giustizia a Venezia nel '500 -‘600: gli Esecutori contro la bestemmia,
+T23	Title 2151 2206;2208 2218	Stato società e giustizia nella Repubblica Veneta (see. XV- XVIII)
+T24	Editor 2220 2239	a cura di G. Cozzi,
+T25	PublicationPlace 2240 2245	Roma,
+T26	PublicationYear 2246 2251	1980,
+T27	Pagination 2252 2258	p. 484
+T28	Secondary-Full 2266 2345	G. COZZI, Religione, moralità e giustizia a Venezia: Vicende della magistratura
+T29	Author 2266 2275	G. COZZI,
+T30	Title 2276 2345	Religione, moralità e giustizia a Venezia: Vicende della magistratura

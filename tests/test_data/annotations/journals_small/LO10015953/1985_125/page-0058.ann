@@ -1,0 +1,46 @@
+T1	Primary-Full 1841 1915;1917 1920	A.S.V., Consiglio dei dieci, codici, reg. 114, «De virginibus...» cc. 12v- 13v
+T2	Archive 1841 1848	A.S.V.,
+T3	ArchivalReference 1849 1869	Consiglio dei dieci,
+T4	ArchivalReference 1870 1877	codici,
+T5	Registry 1878 1887	reg. 114,
+T6	Attachment 1888 1906	«De virginibus...»
+T7	Cartulation 1907 1914;1917 1920	cc. 12v 13v
+T8	Secondary-Full 1986 1996;1998 2035	F. Seneca, Venezia e papa Giulio II, Padova 1962
+T9	Author 1986 1996	F. Seneca,
+T10	Title 1998 2023	Venezia e papa Giulio II,
+T11	PublicationPlace 2024 2030	Padova
+T12	PublicationYear 2031 2035	1962
+T13	Primary-Full 2042 2079	A.S.V., Senato terra, reg. 16, c. 113
+T14	Archive 2042 2049	A.S.V.,
+T15	ArchivalReference 2050 2063	Senato terra,
+T16	Registry 2064 2072	reg. 16,
+T17	Cartulation 2073 2080	c. 113.
+T18	Primary-Full 2189 2240;2242 2252	A.S.V., Provveditori sopra monasteri, b. 1, reg. I, cc. 20v-21
+T19	Archive 2189 2196	A.S.V.,
+T20	ArchivalReference 2197 2226	Provveditori sopra monasteri,
+T21	Folder 2227 2232	b. 1,
+T22	Registry 2233 2240	reg. I,
+T23	Cartulation 2242 2252	cc. 20v-21
+T24	Secondary-Full 2261 2319	A. Niero, I patriarchi di Venezia, Venezia 1961, pp. 55-72
+T25	Author 2261 2270	A. Niero,
+T26	Title 2271 2295	I patriarchi di Venezia,
+T27	PublicationPlace 2296 2303	Venezia
+T28	PublicationYear 2304 2308	1961
+T29	Pagination 2310 2319	pp. 55-72
+T30	Secondary-Partial 2321 2329;2331 2373	Musolino - Niero - Tramontin, op. cit., pp. 260-264
+T31	Author 2321 2329	Musolino
+T32	Author 2331 2338	- Niero
+T33	Author 2339 2351	- Tramontin,
+T34	Abbreviation 2352 2361	op. cit.,
+T35	Pagination 2362 2373	pp. 260-264
+T36	Primary-Full 2381 2415	A.S.V., Compilazione leggi, b. 288
+T37	Archive 2381 2388	A.S.V.,
+T38	ArchivalReference 2389 2408	Compilazione leggi,
+T39	Folder 2409 2415	b. 288
+T40	Secondary-Full 2539 2583	M. Sañudo, Diari, Venezia 1887, voi. 18, 323
+T41	Author 2539 2549	M. Sañudo,
+T42	Title 2550 2556	Diari,
+T43	PublicationPlace 2557 2564	Venezia
+T44	PublicationYear 2565 2569	1887
+T45	Volume 2571 2579	voi. 18,
+T46	Numbering 2580 2583	323

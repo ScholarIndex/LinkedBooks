@@ -1,0 +1,35 @@
+T1	Secondary-Partial 1720 1779	U. Baronceixi, L’accademia agraria di Brescia (sec. XVIII),
+T2	Secondary-Full 1784 1830	“'Archivio storico lombardo”, 97 (1970), p. 42
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Author 1720 1734	U. Baronceixi,
+T4	Secondary-Full 1878 1904;1906 1949	A. Ríos, L’accademia degli Aspiranti di Conegliano, Chieri 1902, p. 13
+T5	Author 1878 1886	A. Ríos,
+T6	Secondary-Full 2018 2059;2061 2143;2145 2217	M. A. Gentilini, L'accademia degli “Aspi- ranti’’ di Conegliano nel quadro della politica agraria veneziana, tesi di laurea, dell’a. a. 1969-70, presso la facoltà di lett. e fil. dell’un, di Padova
+T7	Title 1735 1779	L’accademia agraria di Brescia (sec. XVIII),
+T8	Title 1784 1813	“'Archivio storico lombardo”,
+T9	PublicationNumber-Year 1814 1824	97 (1970),
+T10	Pagination 1825 1830	p. 42
+T11	Title 1887 1904;1906 1930	L’accademia degli Aspiranti di Conegliano,
+T12	PublicationPlace 1931 1937	Chieri
+T13	PublicationYear 1938 1943	1902,
+T14	Pagination 1944 1949	p. 13
+T15	Author 2018 2034	M. A. Gentilini,
+T16	Title 2035 2059;2061 2127	L'accademia degli “Aspi- ranti’’ di Conegliano nel quadro della politica agraria veneziana,
+T17	PublicationSpecifications 2128 2143	tesi di laurea,
+T18	PublicationYear 2145 2164	dell’a. a. 1969-70,
+T19	PublicationPlace 2165 2217	presso la facoltà di lett. e fil. dell’un, di Padova
+T20	Secondary-Full 2379 2385;2387 2461;2463 2518	A. Ca- gnoli. Storia dell’accademia d’agricoltura commercio ed arti di Verona per l’anno /792... letta li io aprile /793, s. 1. d., p. 29
+T21	Author 2379 2385;2387 2393	A. Ca- gnoli.
+T22	Title 2394 2461;2463 2502	Storia dell’accademia d’agricoltura commercio ed arti di Verona per l’anno /792... letta li io aprile /793,
+T23	PublicationYear 2503 2512	s. 1. d.,
+T24	Pagination 2513 2518	p. 29
+T25	Secondary-Full 2527 2598;2600 2675;2677 2739	Z. Betti, Nella ... apertura ... della ... accad. di agricoltura... ra- gionamento ... recitato nel fine... del reggimento di... Francesco Donà ca- pitano ... socio protettore della medesima, Verona 1780, p. 17
+T26	PublicationPlace 2721 2727	Verona
+T27	PublicationYear 2728 2733	1780,
+T28	Pagination 2734 2739	p. 17
+T29	Secondary-Full 2753 2815;2817 2850	Solenne dispensa dei premi agricoli fatta dall’accademia Olim- pica di Vicenza ..., Vicenza 1867
+T30	Title 2753 2815;2817 2837	Solenne dispensa dei premi agricoli fatta dall’accademia Olim- pica di Vicenza ...,
+T31	PublicationPlace 2838 2845	Vicenza
+T32	PublicationYear 2846 2850	1867
+T33	Author 2527 2536	Z. Betti,
+T34	Title 2537 2598;2600 2675;2677 2720	Nella ... apertura ... della ... accad. di agricoltura... ra- gionamento ... recitato nel fine... del reggimento di... Francesco Donà ca- pitano ... socio protettore della medesima,

@@ -1,0 +1,42 @@
+T1	Primary-Full 1952 2001	ASVI, Fondo familia Capra, libro 23, cc. 31r-32r.
+T2	Primary-Full 2008 2082;2084 2147	ASVI, Fondo famiglia Capra, Catastico Processi, libro 8, mazzo XIV n.1-14, 17 marzo 1701, Fede di battesimo del conte Lodovico Chiericati.
+T3	Primary-Full 2173 2227;2229 2238	ASVI, Notai Vicenza, Giuseppe Gandin, b. 11402,20 ago- sto 1701.
+T4	Primary-Full 2323 2396	ASVI, CRS 1492, Corpus Domini, Processi, mazzo III n. XVI, 11 maggio 1702
+T5	Primary-Full 2543 2558;2560 2617	ASVI, CRS 1492, Corpus Domini, Processi, mazzo III n. XVI, 11 maggio 1702
+T6	Primary-Full 2626 2697;2699 2712	Archivio di Stato di Venezia, Quarantia Civil Nuova, Accordi, b. 416,13 gennaio 1702.
+T7	Archive 1952 1957	ASVI,
+T8	Archive 2008 2013	ASVI,
+T9	ArchivalFond 1958 1978	Fondo familia Capra,
+T10	Registry 1979 1988	libro 23,
+T11	Cartulation 1989 2001	cc. 31r-32r.
+T12	ArchivalFond 2014 2035	Fondo famiglia Capra,
+T13	ArchivalSeries 2036 2055	Catastico Processi,
+T14	Registry 2056 2064	libro 8,
+T15	Mazzo 2065 2074	mazzo XIV
+T16	Numbering 2075 2082	n.1-14,
+T17	Date 2084 2098	17 marzo 1701,
+T18	Attachment 2099 2147	Fede di battesimo del conte Lodovico Chiericati.
+T19	Archive 2173 2178	ASVI,
+T20	Archive 2323 2328	ASVI,
+T21	ArchivalFond 2179 2193	Notai Vicenza,
+T22	Notary 2194 2210	Giuseppe Gandin,
+T23	Folder 2211 2220	b. 11402,
+T24	Date 2220 2227;2229 2237	20 ago- sto 1701
+T25	ArchivalReference 2329 2338	CRS 1492,
+T26	ArchivalReference 2339 2353	Corpus Domini,
+T27	ArchivalReference 2354 2363	Processi,
+T28	Mazzo 2364 2373	mazzo III
+T29	Numbering 2374 2381	n. XVI,
+T30	Date 2382 2396	11 maggio 1702
+T31	Archive 2543 2548	ASVI,
+T32	ArchivalReference 2549 2558	CRS 1492,
+T33	ArchivalReference 2560 2574	Corpus Domini,
+T34	ArchivalReference 2575 2584	Processi,
+T35	Mazzo 2585 2594	mazzo III
+T36	Numbering 2595 2602	n. XVI,
+T37	Date 2603 2617	11 maggio 1702
+T38	Archive 2626 2655	Archivio di Stato di Venezia,
+T39	ArchivalReference 2656 2678	Quarantia Civil Nuova,
+T40	ArchivalReference 2679 2687	Accordi,
+T41	Folder 2688 2695	b. 416,
+T42	Date 2695 2697;2699 2711	13 gennaio 1702

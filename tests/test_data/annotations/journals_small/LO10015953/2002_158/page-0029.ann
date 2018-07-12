@@ -1,0 +1,16 @@
+T1	Primary-Full 2227 2297	ASV, Capi del Consiglio dei X, Lettere di Ambasciatori Roma, busta 24;
+T2	Archive 2227 2231	ASV,
+T3	ArchivalReference 2232 2257	Capi del Consiglio dei X,
+T4	ArchivalReference 2258 2287	Lettere di Ambasciatori Roma,
+T5	Folder 2288 2297	busta 24;
+T6	Secondary-Partial 2298 2300;2302 2383	A. Zannini, Economie and social aspects of the crisis of Venetian diplomacy, p. 134;
+T7	Author 2298 2300;2302 2310	A. Zannini,
+T8	Title 2311 2375	Economie and social aspects of the crisis of Venetian diplomacy,
+T9	Pagination 2376 2383	p. 134;
+T10	Primary-Full 2455 2468;2470 2508	ASV, Archivio Proprio, Roma, filza 8, n° 63, c. 135v
+T11	Archive 2455 2459	ASV,
+T12	ArchivalReference 2460 2468;2470 2478	Archivio Proprio,
+T13	ArchivalReference 2479 2483	Roma
+T14	Filza 2485 2493	filza 8,
+T15	Numbering 2494 2500	n° 63,
+T16	Cartulation 2501 2508	c. 135v

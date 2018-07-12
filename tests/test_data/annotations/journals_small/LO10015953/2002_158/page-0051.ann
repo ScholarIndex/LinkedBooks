@@ -1,0 +1,51 @@
+T1	Primary-Full 1621 1675	ASV, Notarile, Testamenti, b. 1259, testamento n° 577,
+T2	Archive 1621 1625	ASV,
+T3	ArchivalReference 1626 1647	Notarile, Testamenti,
+T4	Folder 1648 1656	b. 1259,
+T5	Numbering 1657 1675	testamento n° 577,
+T6	Secondary-Partial 1878 1954;1956 1965	G. COZZI, Una vicenda della Venezia Barocca. Marco Trevisan e la sua «eroica amicizia»
+T7	Secondary-Full 1969 2046;2048 2077	Venezia barocca. Conflitti di uomini e idee nella crisi del Seicento venezia- no, Venezia 1995, p. 337-341.
+R1	ContainedIN Arg1:T6 Arg2:T7	
+T8	Author 1878 1887	G. COZZI,
+T9	Title 1888 1954;1956 1965	Una vicenda della Venezia Barocca. Marco Trevisan e la sua «eroica amicizia»
+T10	Title 1969 2046;2048 2051	Venezia barocca. Conflitti di uomini e idee nella crisi del Seicento venezia- no,
+T11	PublicationPlace 2052 2059	Venezia
+T12	PublicationYear 2060 2065	1995,
+T13	Pagination 2066 2076	p. 337-341
+T14	Secondary-Full 2085 2148	p Preto, Peste e società a Venezia, 1576, Vicenza 19842, p. 19.
+T15	Author 2085 2093	p Preto,
+T16	Title 2094 2126	Peste e società a Venezia, 1576,
+T17	PublicationPlace 2127 2134	Vicenza
+T18	PublicationYear 2135 2141	19842,
+T19	Pagination 2142 2148	p. 19.
+T20	Secondary-Partial 2156 2196	Preto, Peste e società a Venezia, p. 146
+T21	Author 2156 2162	Preto,
+T22	Title 2163 2189	Peste e società a Venezia,
+T23	Pagination 2190 2196	p. 146
+T24	Primary-Full 2198 2230;2232 2314;2317 2367	ASV, Avogaria di Común, Cittadi- nanze originarie, busta 368/8, n°87, approvata il 10 Maggio 1611, prova di cittadi nanza di Zuan Francesco Cenigo Milledonne, cc. nn.
+T25	Archive 2198 2202	ASV,
+T26	ArchivalReference 2203 2221	Avogaria di Común,
+T27	ArchivalReference 2222 2230;2232 2249	Cittadi- nanze originarie,
+T28	Folder 2250 2262	busta 368/8,
+T29	Numbering 2263 2315;2317 2359	n°87, approvata il 10 Maggio 1611, prova di cittadi- nanza di Zuan Francesco Cenigo Milledonne,
+T30	Cartulation 2360 2367	cc. nn.
+T31	Primary-Full 2375 2450;2452 2530	ASV, Consiglio dei X, Parti comuni, filza 125, supplica di Sebastian Cenigo allegata alla deliberazione del Consiglio dei X, alla data 9 gennaio 1575 m.v.
+T32	Archive 2375 2379	ASV,
+T33	ArchivalReference 2380 2396	Consiglio dei X,
+T34	ArchivalReference 2397 2410	Parti comuni,
+T35	Filza 2411 2421	filza 125,
+T36	Attachment 2422 2450;2452 2500	supplica di Sebastian Cenigo allegata alla deliberazione del Consiglio dei X,
+T37	Date 2501 2530	alla data 9 gennaio 1575 m.v.
+T38	Secondary-Partial 2536 2594	Tucci, Carriere popolane e dinastie di mestiere a Venezia,
+T39	Secondary-Full 2598 2620;2622 2706;2708 2779	Gerarchie economiche e gerarchie sociali secoli XII-XVIII. Atti della «Dodicesima Settimana di Studi» 18-23 Aprile 1980, a cura di A. Guarducci, s. II, 12, Prato, 1990, p. 817-851
+R2	ContainedIN Arg1:T38 Arg2:T39	
+T40	Author 2536 2542	Tucci,
+T41	Title 2543 2594	Carriere popolane e dinastie di mestiere a Venezia,
+T42	Title 2598 2620;2622 2706;2708 2720	Gerarchie economiche e gerarchie sociali secoli XII-XVIII. Atti della «Dodicesima Settimana di Studi» 18-23 Aprile 1980,
+T43	Editor 2721 2744	a cura di A. Guarducci,
+T44	Numbering 2745 2751	s. II,
+T45	Numbering 2748 2751	II,
+T46	Numbering 2752 2755	12,
+T47	PublicationPlace 2756 2762	Prato,
+T48	PublicationYear 2763 2768	1990,
+T49	Pagination 2769 2780	p. 817-851.

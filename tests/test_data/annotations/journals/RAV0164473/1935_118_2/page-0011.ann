@@ -1,0 +1,36 @@
+T1	Secondary-Partial 2747 2789;2791 2803	E. Cione, Gli eccidi torinesi e De Sanctis giornalista,
+T2	Secondary-Full 2806 2852	Nuova Rivista Storica,XVI, (1932), fase. V-VI)
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Author 2747 2756	E. Cione,
+T4	Title 2757 2789;2791 2803	Gli eccidi torinesi e De Sanctis giornalista,
+T5	Title 2806 2828	Nuova Rivista Storica,
+T6	PublicationNumber-Year 2828 2840	XVI, (1932),
+T7	Fascicolo 2841 2852	fase. V-VI)
+T8	Secondary-Full 2865 2874;2876 2960;2962 3028	Un dimen- ticato discorso politico di F. de Sanctispresentato all’ Accademia di Scienze morali e politiche della Società Reale da E. Cione, Napoli, Torella, 1934
+T9	Title 2865 2874;2876 2960;2962 3006	Un dimen- ticato discorso politico di F. de Sanctispresentato all’ Accademia di Scienze morali e politiche della Società Reale da E. Cione,
+T10	PublicationPlace 3007 3014	Napoli,
+T11	Publisher 3015 3023	Torella,
+T12	PublicationYear 3024 3028	1934
+T14	Secondary-Partial 3081 3131	« Satana e le Grazie», leggenda di Giovanni Prati,
+T13	Secondary-Partial 3134 3158	Saggi critici,I, p. 155.
+R2	ContainedIN Arg1:T14 Arg2:T13	
+T15	Title 3081 3131	« Satana e le Grazie», leggenda di Giovanni Prati,
+T16	Title 3134 3148	Saggi critici,
+T17	Volume 3148 3150	I,
+T18	Pagination 3151 3158	p. 155.
+T19	Secondary-Partial 3163 3175	Ivi, p. 161.
+T20	Abbreviation 3163 3167	Ivi,
+T21	Pagination 3168 3175	p. 161.
+T22	Secondary-Partial 3180 3205	Studio sopra Emilio Zola,
+T23	Secondary-Partial 3208 3234	Saggi critici,III, p. 360.
+R3	ContainedIN Arg1:T22 Arg2:T23	
+T24	Title 3180 3205	Studio sopra Emilio Zola,
+T25	Title 3208 3222	Saggi critici,
+T26	Volume 3222 3226	III,
+T27	Pagination 3227 3234	p. 360.
+T28	Secondary-Full 3239 3311;3313 3343	[Discorso ristampato nell’opuscolo] Agli elettori del collegio di Sessa, [Torino], Botta, [1861], p. 9.
+T29	Title 3239 3311	[Discorso ristampato nell’opuscolo] Agli elettori del collegio di Sessa,
+T30	PublicationPlace 3313 3322	[Torino],
+T31	Publisher 3323 3329	Botta,
+T32	PublicationYear 3330 3337	[1861],
+T33	Pagination 3338 3343	p. 9.

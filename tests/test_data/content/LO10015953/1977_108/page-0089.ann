@@ -1,0 +1,44 @@
+T1	Secondary-Full 1466 1506;1508 1548	Silvestro Castellini {Storia della città di Vicenza..., XIV, Vicenza 1822, p. 200
+T2	Author 1466 1486	Silvestro Castellini
+T3	Title 1487 1506;1508 1522	{Storia della città di Vicenza...,
+T4	Volume 1523 1527	XIV,
+T5	PublicationPlace 1528 1535	Vicenza
+T6	PublicationYear 1536 1541	1822,
+T7	Pagination 1542 1548	p. 200
+T8	Secondary-Full 1565 1630;1632 1652	Astutie de’ villani sententiose e belle composte per Lorenzo Pic- cinini, Trevigi 1624
+T9	Title 1565 1630;1632 1639	Astutie de’ villani sententiose e belle composte per Lorenzo Pic- cinini,
+T10	PublicationPlace 1640 1647	Trevigi
+T11	PublicationYear 1648 1652	1624
+T12	Secondary-Partial 2111 2122;2124 2199;2201 2208	J. Le Goff, Les paysans et le monde rural dans la littérature du haut Moyen Age (Ve-VIe siècles
+T13	Secondary-Full 2214 2281;2283 2300	Agricoltura e mondo rurale in occidente nell’alto Medioevo, Spoleto 1966, pp. 740-741
+R1	ContainedIN Arg1:T12 Arg2:T13	
+T14	Author 2111 2122	J. Le Goff,
+T15	Title 2124 2199;2201 2210	Les paysans et le monde rural dans la littérature du haut Moyen Age (Ve-VIe siècles),
+T16	Title 2214 2273	Agricoltura e mondo rurale in occidente nell’alto Medioevo,
+T17	PublicationPlace 2274 2281	Spoleto
+T18	PublicationYear 2283 2288	1966,
+T19	Pagination 2289 2300	pp. 740-741
+T20	Secondary-Full 2313 2377;2379 2430	G. C. Croce, Bertoldo e Bertoldino (col Cacasenno di A. Banchie- ri), a c. di G. P. Dossena, Milano 1974, pp. 21-22.
+T21	Author 2313 2325	G. C. Croce,
+T22	Title 2326 2377;2379 2383	Bertoldo e Bertoldino (col Cacasenno di A. Banchie- ri),
+T23	Editor 2384 2406	a c. di G. P. Dossena,
+T24	PublicationPlace 2407 2413	Milano
+T25	PublicationYear 2414 2419	1974,
+T26	Pagination 2420 2429	pp. 21-22
+T27	Secondary-Full 2445 2507	G. Galasso, Croce, Gramsci e altri storici, Milano 1969, p. 99
+T28	Author 2445 2456	G. Galasso,
+T29	Title 2457 2488	Croce, Gramsci e altri storici,
+T30	PublicationPlace 2489 2495	Milano
+T31	PublicationYear 2496 2501	1969,
+T32	Pagination 2502 2507	p. 99
+T33	Secondary-Full 2691 2741	M. Lelli, Dialettica della città, Bari 1974, p. 74
+T34	Author 2691 2700	M. Lelli,
+T35	Title 2701 2724	Dialettica della città,
+T36	PublicationPlace 2725 2729	Bari
+T37	PublicationYear 2730 2735	1974,
+T38	Pagination 2736 2741	p. 74
+T39	Secondary-Full 2848 2911;2913 2955	AA. VV., La città come forma simbolica. Saggi sulla teoria del- l’architettura nel Rinascimento, Roma 1973
+T40	Abbreviation 2848 2856	AA. VV.,
+T41	Title 2857 2911;2913 2945	La città come forma simbolica. Saggi sulla teoria del- l’architettura nel Rinascimento,
+T42	PublicationPlace 2946 2950	Roma
+T43	PublicationYear 2951 2955	1973

@@ -1,0 +1,30 @@
+T1	Secondary-Partial 1832 1865;1867 1922	V. Cox, The Single Self: Feminist Thought and the Marriage Market in Early Modern Venice,
+T2	Secondary-Full 1923 1947;1949 1975	«Renaissance Quarterly», XLVIII (1995), pp. 513-581
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Title 1923 1947	«Renaissance Quarterly»,
+T4	Author 1832 1839	V. Cox,
+T5	Title 1840 1865;1867 1922	The Single Self: Feminist Thought and the Marriage Market in Early Modern Venice,
+T6	PublicationNumber-Year 1949 1963	XLVIII (1995),
+T7	Pagination 1964 1975	pp. 513-581
+T8	Secondary-Full 2140 2171;2173 2233	J.G. SPERLING, Convents and the body politic in late Renaissance Venice, Chicago-London 1999
+T9	Author 2140 2154	J.G. SPERLING,
+T10	Title 2155 2171;2173 2213	Convents and the body politic in late Renaissance Venice,
+T11	PublicationPlace 2214 2221	Chicago
+T12	PublicationPlace 2221 2228	-London
+T13	PublicationYear 2229 2233	1999
+T14	Secondary-Full 3035 3102	F. Medioli, L«inferno monacale» di Arcangela Tarabotti, Torino 1990
+T15	Author 3035 3046	F. Medioli,
+T16	Title 3047 3090	L«inferno monacale» di Arcangela Tarabotti,
+T17	PublicationPlace 3091 3097	Torino
+T18	PublicationYear 3098 3102	1990
+T19	Secondary-Partial 3106 3181	Lo spazio del chiostro: clausura, costrizione e protezione nel XVII secolo,
+T20	Secondary-Full 3185 3192;3194 3277;3279 3332	Tempi e spazi di vita femminile tra medioevo ed età moderna, a cura di S. Seidel Menchi, A. Jacobson Schutte, T. Huehn, Bologna 1999, pp. 353-373
+R2	ContainedIN Arg1:T19 Arg2:T20	
+T21	Title 3106 3181	Lo spazio del chiostro: clausura, costrizione e protezione nel XVII secolo,
+T22	Title 3185 3192;3194 3246	Tempi e spazi di vita femminile tra medioevo ed età moderna,
+T23	Editor 3247 3274	a cura di S. Seidel Menchi,
+T24	Editor 3275 3277;3279 3296	A. Jacobson Schutte,
+T25	Editor 3297 3306	T. Huehn,
+T26	PublicationPlace 3307 3314	Bologna
+T27	PublicationYear 3315 3320	1999,
+T28	Pagination 3321 3332	pp. 353-373

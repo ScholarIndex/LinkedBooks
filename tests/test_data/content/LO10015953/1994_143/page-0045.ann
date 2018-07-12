@@ -1,0 +1,16 @@
+T1	Secondary-Full 1972 2033	A. Berlam, Mura, torri e case antiche a Parenzo, Parenzo 1934
+T2	Author 1972 1982	A. Berlam,
+T3	Title 1983 2020	Mura, torri e case antiche a Parenzo,
+T4	PublicationPlace 2021 2028	Parenzo
+T5	PublicationYear 2029 2033	1934
+T6	Secondary-Partial 2298 2342	Collomp, Famiglie. Abitazioni e coabitaziom,
+T7	Secondary-Full 2346 2386;2388 2456	La vita privata dal Rinascimento all Il- luminismo, a cura di P. AriÉS-M. Aymard, Roma-Bari 1987, pp. 395-425
+R1	ContainedIN Arg1:T6 Arg2:T7	
+T8	Author 2298 2306	Collomp,
+T9	Title 2307 2342	Famiglie. Abitazioni e coabitaziom,
+T10	Title 2346 2386;2388 2398	La vita privata dal Rinascimento all Il- luminismo,
+T11	Editor 2399 2428	a cura di P. AriÉS-M. Aymard,
+T12	PublicationPlace 2429 2433	Roma
+T13	PublicationPlace 2433 2438	-Bari
+T14	PublicationYear 2439 2444	1987,
+T15	Pagination 2445 2456	pp. 395-425

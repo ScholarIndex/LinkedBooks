@@ -1,0 +1,50 @@
+T1	Secondary-Partial 1566 1647	di Antonio Milledonne secretano del Consiglio dei X, da altro secretario scritta,
+T2	Title 1566 1647	di Antonio Milledonne secretano del Consiglio dei X, da altro secretario scritta,
+T3	Secondary-Full 1649 1701	«Studi storici Luigi Simeoni», 50 (2000), p. 250-265
+R1	ContainedIN Arg1:T1 Arg2:T3	
+T4	Title 1649 1679	«Studi storici Luigi Simeoni»,
+T5	PublicationNumber-Year 1680 1690	50 (2000),
+T6	Pagination 1691 1701	p. 250-265
+T7	Secondary-Partial 1703 1730;1732 1816;1818 1855	M. GALTAROSSA, Vita d’Anto- nio Milledonne secretario del Consiglio di X (1522-1588). Contributo alla concezione del «servitio» burocratico a Venezia,
+T8	Secondary-Full 1856 1896	«Studi veneziani», 39 (2000), p. 239-252
+T9	Author 1703 1717	M. GALTAROSSA,
+T10	Title 1718 1730;1732 1816;1818 1855	Vita d’Anto- nio Milledonne secretario del Consiglio di X (1522-1588). Contributo alla concezione del «servitio» burocratico a Venezia,
+T11	Title 1856 1874	«Studi veneziani»,
+T12	PublicationNumber-Year 1875 1885	39 (2000),
+T13	Pagination 1886 1896	p. 239-252
+T14	Secondary-Partial 1903 1958	G. Trebbi, La cancelleria veneta nei secoli XVI e XVII,
+T15	Secondary-Full 1959 1979;1981 2024	«Annali della Fonda- zione Luigi Einaudi», 14 (1980), p. 117-119
+R2	ContainedIN Arg1:T14 Arg2:T15	
+T16	Author 1903 1913	G. Trebbi,
+T17	Title 1914 1958	La cancelleria veneta nei secoli XVI e XVII,
+T18	Title 1959 1979;1981 2002	«Annali della Fonda- zione Luigi Einaudi»,
+T19	PublicationNumber-Year 2003 2013	14 (1980),
+T20	Pagination 2014 2024	p. 117-119
+T21	Secondary-Partial 2031 2085	A. VENTURA, Scrittori politici e scritture di governo,
+T22	Secondary-Full 2089 2115;2117 2203;2205 2240	Storia della cultura vene- ta, III/I, Oal primo Quattrocento al concilio di Trento, a cura di G. Arnaldi - M. Pa- store STOCCHI, Vicenza 1981, p. 513
+T23	Author 2031 2042	A. VENTURA,
+T24	Title 2043 2085	Scrittori politici e scritture di governo,
+T25	Title 2089 2115;2117 2120	Storia della cultura vene- ta,
+T26	Volume 2121 2173	III/I, Oal primo Quattrocento al concilio di Trento,
+R3	ContainedIN Arg1:T21 Arg2:T22	
+T27	Editor 2174 2194	a cura di G. Arnaldi
+T28	Editor 2195 2203;2205 2219	- M. Pa- store STOCCHI,
+T29	PublicationPlace 2220 2227	Vicenza
+T30	PublicationYear 2228 2233	1981,
+T31	Pagination 2234 2240	p. 513
+T32	Secondary-Partial 2248 2327;2329 2338	A. STELLA, La regolazione delle pubbliche entrate e la crisi politica veneziana del 1582,
+T33	Secondary-Full 2342 2408	Miscellanea in onore di Roberto Cessi, II, Roma, 1958, p. 165, 170
+R4	ContainedIN Arg1:T32 Arg2:T33	
+T34	Author 2248 2258	A. STELLA,
+T35	Title 2259 2327;2329 2337	La regolazione delle pubbliche entrate e la crisi politica veneziana del 1582
+T36	Title 2342 2380	Miscellanea in onore di Roberto Cessi,
+T37	Volume 2381 2384	II,
+T38	PublicationPlace 2385 2390	Roma,
+T39	PublicationYear 2391 2396	1958,
+T40	Pagination 2397 2408	p. 165, 170
+T41	Secondary-Partial 2416 2463	LOWRY, The reform of the Council of Ten, p. 284
+T42	Author 2416 2422	LOWRY,
+T43	Title 2423 2456	The reform of the Council of Ten,
+T44	Pagination 2457 2463	p. 284
+A1	Continuation T1
+A2	Continuation T2

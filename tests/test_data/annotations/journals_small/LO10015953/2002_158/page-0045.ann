@@ -1,0 +1,33 @@
+T1	Primary-Full 2062 2139	ASV, Consiglio dei X, Parti comuni, filza 96, alla data 23 gennaio 1565 m.v..
+T2	Archive 2062 2066	ASV,
+T3	ArchivalReference 2067 2083	Consiglio dei X,
+T4	ArchivalReference 2084 2097	Parti comuni,
+T5	Filza 2098 2107	filza 96,
+T6	Date 2108 2139	alla data 23 gennaio 1565 m.v..
+T7	Primary-Full 2147 2197	ASV, Consiglio dei X, Comuni, registro 28, c. 52v,
+T8	Archive 2147 2151	ASV,
+T9	ArchivalReference 2152 2168	Consiglio dei X,
+T10	ArchivalReference 2169 2176	Comuni,
+T11	Registry 2177 2189	registro 28,
+T12	Cartulation 2190 2197	c. 52v,
+T13	Primary-Partial 2242 2290	[MILLEDONNE] Vita di Antonio Milledonne, c. 74v;
+T14	Author 2242 2254	[MILLEDONNE]
+T15	Title 2255 2282	Vita di Antonio Milledonne,
+T16	Cartulation 2283 2290	c. 74v;
+T17	Primary-Partial 2291 2302;2304 2338	[Darduino], Vita di Antonio Milledonne, c. 24.
+T18	Author 2291 2302	[Darduino],
+T19	Title 2304 2331	Vita di Antonio Milledonne,
+T20	Cartulation 2332 2338	c. 24.
+T21	Primary-Full 2346 2420	ASV, Consiglio dei X, Parti comuni, filza 110, alla data 18 dicembre 1570.
+T22	Archive 2346 2350	ASV,
+T23	ArchivalReference 2351 2367	Consiglio dei X,
+T24	ArchivalReference 2368 2381	Parti comuni,
+T25	Filza 2382 2392	filza 110,
+T26	Date 2393 2420	alla data 18 dicembre 1570.
+T27	Secondary-Full 2428 2502;2504 2565	Corrispondenze diplomatiche veneziane da Napoli: Dispacci {27 maggio 1597- 2 novembre 1604), III, a cura di A. Bakzazi, Roma 1991,23-24.
+T28	Title 2428 2502;2504 2521	Corrispondenze diplomatiche veneziane da Napoli: Dispacci {27 maggio 1597- 2 novembre 1604),
+T29	Volume 2522 2526	III,
+T30	Editor 2527 2548	a cura di A. Bakzazi,
+T31	PublicationPlace 2549 2553	Roma
+T32	PublicationYear 2554 2558	1991
+T33	Numbering 2559 2565	23-24.

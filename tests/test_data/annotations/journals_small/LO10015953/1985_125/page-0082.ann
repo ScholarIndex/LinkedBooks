@@ -1,0 +1,18 @@
+T1	Secondary-Full 1994 2024;2026 2097	Torselli P., Lezioni di storia del diritto italiano. Diritto privato: la proprietà, Milano 1948, p. 87
+T2	Secondary-Partial 2099 2108;2111 2130	Pivano S. Precarie e livelli,
+T3	Secondary-Full 2134 2190;2192 2218	«Memorie dell’Istituto Giuridico della Università di To- rino», CVIII (1962), p. 34
+R1	ContainedIN Arg1:T2 Arg2:T3	
+T4	Author 1994 2006	Torselli P.,
+T5	Title 2007 2024;2026 2078	Lezioni di storia del diritto italiano. Diritto privato: la proprietà,
+T6	PublicationPlace 2079 2085	Milano
+T7	PublicationYear 2086 2091	1948,
+T8	Pagination 2092 2097	p. 87
+T9	Author 2099 2109	Pivano S.,
+T10	Title 2111 2130	Precarie e livelli,
+T11	Title 2134 2190;2192 2198	«Memorie dell’Istituto Giuridico della Università di To- rino»,
+T12	PublicationNumber-Year 2199 2212	CVIII (1962),
+T13	Pagination 2213 2218	p. 34
+T14	Primary-Full 2546 2569;2572 2654	Archivio di Stato di Ve rona, Antichi estimi provvisori. Estimo territoriale, reg. 460 (Isola della Scala)
+T15	Archive 2546 2570;2572 2577	Archivio di Stato di Ve- rona,
+T16	ArchivalReference 2578 2625	Antichi estimi provvisori. Estimo territoriale,
+T17	Registry 2626 2654	reg. 460 (Isola della Scala)

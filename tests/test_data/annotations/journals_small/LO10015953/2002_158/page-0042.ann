@@ -1,0 +1,30 @@
+T1	Primary-Partial 1889 1947	MILLEDONNE, Historia del sacro concilio di trento, cc. nn.
+T2	Author 1889 1900	MILLEDONNE,
+T3	AbbreviatedTitle 1901 1939	Historia del sacro concilio di trento,
+T4	Cartulation 1940 1946	cc. nn
+T5	Secondary-Partial 1955 2020	G. COZZI, Un grande burocrate nella Venezia cinquecentesca, p. 4;
+T6	Author 1955 1964	G. COZZI,
+T7	Title 1965 2014	Un grande burocrate nella Venezia cinquecentesca,
+T8	Pagination 2015 2020	p. 4;
+T9	Secondary-Partial 2021 2030;2032 2110	G. Cozzi, Cultura politica e religione nella «pubblica storiografia» veneziana del ‘500,
+T10	Secondary-Full 2114 2116;2118 2203;2205 2270	G. COZZI, Ambiente veneziano, ambiente veneto. Saggi su politica, società, cultura nella Repubblica di Venezia in età moderna, Venezia 1997, p. 36 e segg.
+R1	ContainedIN Arg1:T9 Arg2:T10	
+T11	Author 2021 2030	G. Cozzi,
+T12	Title 2032 2110	Cultura politica e religione nella «pubblica storiografia» veneziana del ‘500,
+T13	Responsible 2114 2116;2118 2124	G. COZZI,
+T14	Title 2125 2203;2205 2242	Ambiente veneziano, ambiente veneto. Saggi su politica, società, cultura nella Repubblica di Venezia in età moderna,
+T15	PublicationPlace 2243 2250	Venezia
+T16	PublicationYear 2251 2256	1997,
+T17	Pagination 2257 2269	p. 36 e segg
+T18	Secondary-Full 2278 2358;2361 2451;2453 2534;2536 2562	H. JEDIN, Storia del concilio di Trento. Concilio e riforma dal concilio di Basi lea al quinto concilio Lateranense. Perché così tardi? La storia precedente al concilio di Trento dal 1517 al 1545, nuova traduzione integrale di G. Cecchi e O. Niccoli, I, Brescia, 19875, p. 607-613
+T19	Author 2278 2287	H. JEDIN,
+T20	Title 2288 2359;2361 2451;2453 2477	Storia del concilio di Trento. Concilio e riforma dal concilio di Basi- lea al quinto concilio Lateranense. Perché così tardi? La storia precedente al concilio di Trento dal 1517 al 1545,
+T21	PublicationSpecifications 2478 2531	nuova traduzione integrale di G. Cecchi e O. Niccoli,
+T22	Volume 2532 2534	I,
+T23	PublicationPlace 2536 2544	Brescia,
+T24	PublicationYear 2545 2551	19875,
+T25	Pagination 2552 2562	p. 607-613
+T26	Secondary-Partial 2564 2620;2622 2651	H. JEDIN, Storia del concilio di Trento. La Francia e il nuovo inizio a Trento, p. 223
+T27	Author 2564 2573	H. JEDIN,
+T28	Title 2574 2620;2622 2644	Storia del concilio di Trento. La Francia e il nuovo inizio a Trento,
+T29	Pagination 2645 2652	p. 223.

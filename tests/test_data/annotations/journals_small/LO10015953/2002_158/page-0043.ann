@@ -1,0 +1,45 @@
+T1	Primary-Full 1537 1609;1611 1675	BCP, mss. C. M. 170/32, Pietro Franceschi, Controversia sopra il decreto veneto 7 Settembre 1754 compendiata da Piero Franceschi, c. 30r.
+T2	Library 1537 1541	BCP,
+T3	Codex 1542 1560	mss. C. M. 170/32,
+T4	Author 1561 1579	Pietro Franceschi,
+T5	Title 1580 1609;1611 1667	Controversia sopra il decreto veneto 7 Settembre 1754 compendiata da Piero Franceschi,
+T6	Cartulation 1668 1674	c. 30r
+T7	Secondary-Partial 1871 1948;1950 1959	F. SENECA, Le relazioni veneto-svizzere del 1616-17 e la missione di Giobatta Padavino,
+T8	Secondary-Full 1963 2031	Miscellanea in onore di Roberto Cessi, II, Roma 1958, p. 365 nota 1.
+R1	ContainedIN Arg1:T7 Arg2:T8	
+T9	Author 1871 1881	F. SENECA,
+T10	Title 1882 1948;1950 1959	Le relazioni veneto-svizzere del 1616-17 e la missione di Giobatta Padavino,
+T11	Title 1963 2001	Miscellanea in onore di Roberto Cessi,
+T12	Volume 2002 2005	II,
+T13	PublicationPlace 2006 2010	Roma
+T14	PublicationYear 2011 2016	1958,
+T15	Pagination 2017 2023	p. 365
+T16	Note 2024 2031	nota 1.
+T17	Secondary-Partial 2104 2111;2113 2160	CASINI, Realtà e simboli del cancellier grande, p. 219,
+T18	Author 2104 2111	CASINI,
+T19	Title 2113 2152	Realtà e simboli del cancellier grande,
+T20	Pagination 2153 2160	p. 219,
+T21	Primary-Full 2251 2278;2280 2338	Armino Dannebuchi, la Rela- zione del paese de’ Svizzeri, e loro alleati, Venezia 1708
+T22	Responsible 2251 2269	Armino Dannebuchi,
+T23	Title 2270 2278;2280 2325	la Rela- zione del paese de’ Svizzeri, e loro alleati,
+T24	PublicationPlace 2326 2333	Venezia
+T25	PublicationYear 2334 2339	1708,
+T26	Implicit 2344 2372;2374 2403	lstorica relazione della pa- ce di Posaroviz, Padova 1719,
+T27	Title 2344 2372;2374 2390	lstorica relazione della pa- ce di Posaroviz,
+T28	PublicationPlace 2391 2397	Padova
+T29	PublicationYear 2398 2403	1719,
+T30	Secondary-Partial 2404 2440	G. F. TORCELLAN, Bianchi Vendramino,
+T31	Secondary-Partial 2444 2456;2458 2477	DBI, 10, Ro- ma 1968, p. 176-177
+R2	ContainedIN Arg1:T30 Arg2:T31	
+T32	Author 2404 2420	G. F. TORCELLAN,
+T33	Title 2421 2440	Bianchi Vendramino,
+T34	AbbreviatedTitle 2444 2448	DBI,
+T35	Volume 2449 2452	10,
+T36	PublicationPlace 2453 2456;2458 2460	Ro- ma
+T37	PublicationYear 2461 2466	1968,
+T38	Pagination 2467 2477	p. 176-177
+T39	Primary-Full 2486 2563;2565 2573	BNM, mss. it., VII, 1657 (=9519), Memorie spettanti al concilio di Trento, c. 182-183.
+T40	Library 2486 2490	BNM,
+T41	Codex 2491 2519	mss. it., VII, 1657 (=9519),
+T42	Title 2520 2560	Memorie spettanti al concilio di Trento,
+T43	Cartulation 2561 2563;2565 2572	c. 182-183

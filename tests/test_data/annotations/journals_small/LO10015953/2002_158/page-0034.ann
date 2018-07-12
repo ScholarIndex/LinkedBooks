@@ -1,0 +1,22 @@
+T1	Primary-Full 2194 2264	ASV, Consiglio dei X, Comuni, Registro 22, alla data 20 novembre 1556;
+T2	Archive 2194 2198	ASV,
+T3	ArchivalReference 2199 2223	Consiglio dei X, Comuni,
+T4	Registry 2224 2236	Registro 22,
+T5	Date 2237 2264	alla data 20 novembre 1556;
+T6	Primary-Full 2266 2329	ASV, Capi del Consiglio dei X, Notatorio, Registro 16, c. 17 lv
+T7	Archive 2266 2270	ASV,
+T8	ArchivalReference 2271 2296	Capi del Consiglio dei X,
+T9	ArchivalReference 2297 2307	Notatorio,
+T10	Registry 2308 2320	Registro 16,
+T11	Cartulation 2321 2329	c. 17 lv
+T12	Primary-Full 2337 2407	ASV, Collegio, Notatorio, Registro 33 c. 125v, alla data 7 aprile 1562
+T13	Archive 2337 2341	ASV,
+T14	ArchivalReference 2342 2362	Collegio, Notatorio,
+T15	Registry 2363 2374	Registro 33
+T16	Cartulation 2375 2383	c. 125v,
+T17	Date 2384 2407	alla data 7 aprile 1562
+T18	Primary-Full 2409 2413;2415 2499;2501 2511	BCV, mss. Donà delle Rose 171, Benemerenze della casa Ziliol e casa Ottobon secretaria c. 311r-315r.
+T19	Library 2409 2413	BCV,
+T20	Codex 2415 2440	mss. Donà delle Rose 171,
+T21	Title 2441 2496	Benemerenze della casa Ziliol e casa Ottobon secretaria
+T22	Cartulation 2497 2499;2501 2511	c. 311r-315r.

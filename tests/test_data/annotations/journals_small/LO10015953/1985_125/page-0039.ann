@@ -1,0 +1,10 @@
+T1	Secondary-Partial 2323 2352	B. Rano, Agostiniane, monache
+T2	Secondary-Full 2356 2395;2397 2463	Dizionario degli istituti di perfezione (in seguito D.I.P.), 1974-1983 (in prosecuzione), Roma, I, 155-190
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Author 2323 2331	B. Rano,
+T4	Title 2332 2352	Agostiniane, monache
+T5	Title 2356 2395;2397 2417	Dizionario degli istituti di perfezione (in seguito D.I.P.),
+T6	PublicationYear 2418 2446	1974-1983 (in prosecuzione),
+T7	PublicationPlace 2447 2452	Roma,
+T8	Volume 2453 2455	I,
+T9	Pagination 2456 2463	155-190

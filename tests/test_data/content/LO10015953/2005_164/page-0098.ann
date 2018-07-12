@@ -1,0 +1,22 @@
+T1	Secondary-Full 1948 2019;2022 2048	Corrispondenze diplomatiche veneziane da Napoli: Relazioni, a cura di M Fassina, Roma 1992, p. 36.
+T2	Primary-Full 2055 2081	ASV, Sant’Uffizio, b. 132.
+T3	Secondary-Full 2088 2168;2170 2215	C. ROSSO, Una burocrazia di antico regime: i Segretari di Stato dei duchi di Sa- voia, 1, (1559-1637), Torino 1992, p. 334-365
+T4	Primary-Full 2290 2294;2296 2334	ASV, Giudici di petizion, Inventari, b. 430
+T5	Archive 2290 2294	ASV,
+T6	ArchivalReference 2296 2316	Giudici di petizion,
+T7	ArchivalReference 2317 2327	Inventari,
+T8	Folder 2328 2334	b. 430
+T9	Title 1948 2007	Corrispondenze diplomatiche veneziane da Napoli: Relazioni,
+T10	Editor 2008 2020;2022 2030	a cura di M. Fassina,
+T11	PublicationPlace 2031 2035	Roma
+T12	PublicationYear 2036 2041	1992,
+T13	Pagination 2042 2047	p. 36
+T14	Archive 2055 2059	ASV,
+T15	ArchivalReference 2060 2073	Sant’Uffizio,
+T16	Folder 2074 2080	b. 132
+T17	Author 2088 2097	C. ROSSO,
+T18	Title 2098 2168;2170 2175	Una burocrazia di antico regime: i Segretari di Stato dei duchi di Sa- voia,
+T19	Volume 2176 2191	1, (1559-1637),
+T20	PublicationPlace 2192 2198	Torino
+T21	PublicationYear 2199 2204	1992,
+T22	Pagination 2205 2215	p. 334-365

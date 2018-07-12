@@ -1,0 +1,62 @@
+T1	Secondary-Full 1563 1588;1590 1641	G. F. Tomasini, Laurentii Pignoni... bibliotheca et museum ..., Venetiis 1622
+T2	Author 1563 1578	G. F. Tomasini,
+T3	Title 1579 1588;1590 1627	Laurentii Pignoni... bibliotheca et museum ...,
+T4	PublicationPlace 1628 1636	Venetiis
+T5	PublicationYear 1637 1641	1622
+T6	Secondary-Partial 1674 1744	Biblìotecae patavinae manuscriptae publicae et privatae.... Utini 1639
+T7	Title 1674 1733	Biblìotecae patavinae manuscriptae publicae et privatae....
+T8	PublicationPlace 1734 1739	Utini
+T9	PublicationYear 1740 1744	1639
+T10	Secondary-Partial 1880 1910;1912 1961	G. Benzoni, Giovanni Bonifacio ( 1547-1635), erudito uomo di legge e ... devoto,
+T11	Author 1880 1891	G. Benzoni,
+T12	Title 1892 1910;1912 1961	Giovanni Bonifacio ( 1547-1635), erudito uomo di legge e ... devoto,
+T13	Secondary-Full 1965 1993;1995 2007	"Studi veneziani”, 9 (1967), p. 249 n. 11
+R1	ContainedIN Arg1:T10 Arg2:T13	
+T14	Title 1965 1983	"Studi veneziani”,
+T15	PublicationNumber-Year 1984 1993	9 (1967),
+T16	Pagination 1995 2001	p. 249
+T17	Note 2002 2007	n. 11
+T18	Secondary-Partial 2040 2057	D. B., IX, p. 607
+T19	AbbreviatedTitle 2040 2046	D. B.,
+T20	Volume 2047 2050	IX,
+T21	Pagination 2051 2057	p. 607
+T22	Secondary-Full 2188 2242;2244 2293	G. Mantese, Per una storia dell'arte medica in Vicenza alla fine del secolo XVI, Vicenza 1969, pp. 47-58
+T23	Author 2188 2199	G. Mantese,
+T24	Title 2200 2242;2244 2269	Per una storia dell'arte medica in Vicenza alla fine del secolo XVI,
+T25	PublicationPlace 2270 2277	Vicenza
+T26	PublicationYear 2278 2283	1969,
+T27	Pagination 2284 2293	pp. 47-58
+T28	Secondary-Full 2302 2360	G. F. Gemelli Careri, Giro del mondo..., VII, Venezia 1719
+T29	Author 2302 2323	G. F. Gemelli Careri,
+T30	AbbreviatedTitle 2324 2342	Giro del mondo...,
+T31	Volume 2343 2347	VII,
+T32	PublicationPlace 2348 2355	Venezia
+T33	PublicationYear 2356 2361	1719,
+T34	Secondary-Partial 2429 2463	Savini Branca, op. cit., pp. 77-78
+T35	Author 2429 2443	Savini Branca,
+T36	Abbreviation 2444 2453	op. cit.,
+T37	Pagination 2454 2463	pp. 77-78
+T38	Secondary-Partial 2476 2539;2541 2547	L. Polacco, Il museo di Marco Mantova Benavides e la sua forma- zione,
+T39	Author 2476 2487	L. Polacco,
+T40	Title 2488 2539;2541 2547	Il museo di Marco Mantova Benavides e la sua forma- zione,
+T41	Secondary-Partial 2551 2582	Arte in Europa..., pp. 665-673.
+R2	ContainedIN Arg1:T38 Arg2:T41	
+T42	Title 2551 2569	Arte in Europa...,
+T43	Pagination 2570 2581	pp. 665-673
+T44	Secondary-Full 2600 2654	Giardino di chà Gualdo, a c. di L. Luppi, Firenze 1972
+T45	Title 2600 2623	Giardino di chà Gualdo,
+T46	Editor 2624 2641	a c. di L. Luppi,
+T47	PublicationPlace 2642 2649	Firenze
+T48	PublicationYear 2650 2654	1972
+T49	Secondary-Partial 2667 2732;2734 2743	G. Sancassani, Alessandro Canobbio archivista veronese (1530 c. - 1608 c.),
+T50	Author 2667 2681	G. Sancassani,
+T51	Title 2682 2732;2734 2743	Alessandro Canobbio archivista veronese (1530 c. - 1608 c.),
+T52	Secondary-Full 2747 2804	"Rassegna degli archivi di stato”, 16 (1956), pp. 211-215
+R3	ContainedIN Arg1:T49 Arg2:T52	
+T53	Title 2747 2781	"Rassegna degli archivi di stato”,
+T54	PublicationNumber-Year 2782 2792	16 (1956),
+T55	Pagination 2793 2804	pp. 211-215
+T56	Secondary-Partial 2817 2834	D.B., XVI, p. 631
+T57	AbbreviatedTitle 2817 2822	D.B.,
+T58	Volume 2823 2827	XVI,
+T59	Pagination 2828 2834	p. 631

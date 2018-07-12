@@ -1,0 +1,29 @@
+T1	Primary-Full 1986 2014	ASP, Prove di nobiltà, b. 12
+T2	Primary-Full 2017 2046	ASP, Prove di nobiltà, b. 91.
+T3	Primary-Full 2053 2133;2135 2205	ASV, Miscellanea di atti diversi manoscritti, Cancelleria ducale, b. 94, «scrit- tura» del Cancellier grande Giovanni Colombo alla data 20 Maggio 1769.
+T4	Primary-Full 2212 2292;2294 2364	ASV, Miscellanea di atti diversi manoscritti, Cancelleria ducale, b. 94, «scrit- tura» del Cancellier grande Giovanni Colombo alla data 20 Maggio 1769.
+T5	Primary-Full 2371 2451;2453 2522	ASV, Miscellanea di atti diversi manoscritti, Cancelleria ducale, b. 94, «scrit- tura» del Cancellier grande Giovanni Colombo alla data 20 Maggio 1769
+T6	Archive 1986 1990	ASP,
+T7	Archive 2017 2021	ASP,
+T8	Archive 2053 2057	ASV,
+T9	Archive 2212 2216	ASV,
+T10	Archive 2371 2375	ASV,
+T11	ArchivalReference 1991 2008	Prove di nobiltà,
+T12	ArchivalReference 2022 2039	Prove di nobiltà,
+T13	ArchivalReference 2058 2098	Miscellanea di atti diversi manoscritti,
+T14	ArchivalReference 2099 2118	Cancelleria ducale,
+T15	ArchivalReference 2217 2257	Miscellanea di atti diversi manoscritti,
+T16	ArchivalReference 2258 2277	Cancelleria ducale,
+T17	ArchivalReference 2376 2416	Miscellanea di atti diversi manoscritti,
+T18	ArchivalReference 2417 2436	Cancelleria ducale,
+T19	Folder 2009 2014	b. 12
+T20	Folder 2040 2045	b. 91
+T21	Folder 2119 2125	b. 94,
+T22	Folder 2278 2284	b. 94,
+T23	Folder 2437 2443	b. 94,
+T24	Attachment 2126 2133;2135 2204	«scrit- tura» del Cancellier grande Giovanni Colombo alla data 20 Maggio 1769
+T25	Attachment 2285 2292;2294 2363	«scrit- tura» del Cancellier grande Giovanni Colombo alla data 20 Maggio 1769
+T26	Attachment 2444 2451;2453 2522	«scrit- tura» del Cancellier grande Giovanni Colombo alla data 20 Maggio 1769
+T27	Date 2190 2204	20 Maggio 1769
+T28	Date 2349 2363	20 Maggio 1769
+T29	Date 2508 2523	20 Maggio 1769.

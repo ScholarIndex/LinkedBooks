@@ -1,0 +1,19 @@
+T1	Secondary-Partial 2210 2285;2287 2314	Relazione del N.H. Zuan Gabriele Badoer ritornato di Podestà e Capitanio di Capodistria, 1 agosto 1748,
+T2	Secondary-Partial 2315 2342	«AMSI», X, 1895, pp. 70-71.
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Title 2210 2285;2287 2314	Relazione del N.H. Zuan Gabriele Badoer ritornato di Podestà e Capitanio di Capodistria, 1 agosto 1748,
+T4	AbbreviatedTitle 2315 2322	«AMSI»,
+T5	PublicationNumber-Year 2323 2331	X, 1895,
+T6	Pagination 2332 2342	pp. 70-71.
+T7	Secondary-Partial 2349 2424;2426 2456	Relazione del N.H. Nicolò Maria Michiel ritornato di Podestà e Capitanio di Capodistria, 28 novembre 1749,
+T8	Secondary-Partial 2457 2480	«AMSI», X, 1895, p. 80.
+R2	ContainedIN Arg1:T7 Arg2:T8	
+T9	Title 2349 2424;2426 2456	Relazione del N.H. Nicolò Maria Michiel ritornato di Podestà e Capitanio di Capodistria, 28 novembre 1749,
+T10	AbbreviatedTitle 2457 2464	«AMSI»,
+T11	PublicationNumber-Year 2465 2473	X, 1895,
+T12	Pagination 2474 2480	p. 80.
+T13	Primary-Full 2487 2565	AS V, Cinque Savi alla Mercanzia, Busta 573, Piedelista di tutte le Barche che
+T14	Archive 2487 2492	AS V,
+T15	ArchivalReference 2493 2520	Cinque Savi alla Mercanzia,
+T16	Folder 2521 2531	Busta 573,
+T17	Other 2532 2565;2567 2633	Piedelista di tutte le Barche che si trovano in fronte alle Rive della Provincia dell’Istria (1746).

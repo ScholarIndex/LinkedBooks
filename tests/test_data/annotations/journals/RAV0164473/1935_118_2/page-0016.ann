@@ -1,0 +1,7 @@
+T1	Secondary-Partial 3654 3686	Carattere di Dante e sua utopia,
+T2	Secondary-Full 3689 3718	Saggi critici,II, pp. 165-6).
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Title 3654 3686	Carattere di Dante e sua utopia,
+T4	Title 3689 3703	Saggi critici,
+T5	Volume 3703 3706	II,
+T6	Pagination 3707 3718	pp. 165-6).

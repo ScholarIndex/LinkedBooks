@@ -1,0 +1,23 @@
+T1	Primary-Partial 2068 2093	Ibidem, 1872-1876, 12 5/2
+T2	Primary-Partial 2095 2113	1877-1881, 12 22/2
+T3	Primary-Partial 2115 2133	1882-1886, 17 29/4
+T4	Secondary-Partial 2219 2290;2292 2297	G. Martina, La situazione degli istituti religiosi in Italia intorno al 1870,
+T5	Secondary-Full 2301 2370;2372 2396	Chiesa e religiosità in Italia dopo l'Unità (1861-1878), relazioni I, Milano 1973, pp. 194-335
+T6	Abbreviation 2068 2075	Ibidem,
+T7	Year 2076 2086	1872-1876,
+T8	Numbering 2087 2094	12 5/2;
+T9	Year 2095 2105	1877-1881,
+T10	Numbering 2106 2113	12 22/2
+T11	Year 2115 2125	1882-1886,
+T12	Numbering 2126 2133	17 29/4
+T13	Author 2219 2230	G. Martina,
+T14	Title 2231 2290;2292 2297	La situazione degli istituti religiosi in Italia intorno al 1870,
+T15	Title 2301 2357	Chiesa e religiosità in Italia dopo l'Unità (1861-1878),
+T16	Volume 2358 2370	relazioni I,
+T17	PublicationPlace 2372 2378	Milano
+T18	PublicationYear 2379 2383	1973
+T19	Pagination 2385 2396	pp. 194-335
+T20	Secondary-Full 2427 2492;2494 2527	Monastero di S. Giuseppe delle monache agostiniane di Mira-Porte. Memorie cinquantenarie, s.l. 1960
+T21	Title 2427 2491;2494 2517	Monastero di S. Giuseppe delle monache agostiniane di Mira-Porte Memorie cinquantenarie,
+T22	PublicationPlace 2518 2522	s.l.
+T23	PublicationYear 2523 2527	1960

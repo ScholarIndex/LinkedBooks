@@ -1,0 +1,38 @@
+T1	Primary-Full 1740 1812;1814 1897;1899 1908	ASV, Capi del Consiglio dei X, Lettere degli ambasciatori da Roma (1539- 1554), busta 23, dispaccio n° 163, del 20 maggio 1551-dispaccio n° 172 del 21 otto- bre 1553;
+T2	Archive 1740 1744	ASV,
+T3	ArchivalReference 1745 1770	Capi del Consiglio dei X,
+T4	ArchivalReference 1771 1812;1814 1820	Lettere degli ambasciatori da Roma (1539- 1554),
+T5	Folder 1821 1830	busta 23,
+T6	Numbering 1831 1868	dispaccio n° 163, del 20 maggio 1551-
+T7	Numbering 1868 1897;1899 1907	dispaccio n° 172 del 21 otto- bre 1553
+T8	Secondary-Partial 1909 1938	G. GULLINO, Da Ponte, Nicolò,
+T9	Secondary-Partial 1942 1974	DBI, 32, Roma, 1986, p. 723-728.
+R1	ContainedIN Arg1:T8 Arg2:T9	
+T10	Author 1909 1920	G. GULLINO,
+T11	Title 1921 1938	Da Ponte, Nicolò,
+T12	AbbreviatedTitle 1942 1946	DBI,
+T13	Volume 1947 1950	32,
+T14	PublicationPlace 1951 1956	Roma,
+T15	Pagination 1963 1973	p. 723-728
+T16	Primary-Full 1981 2057;2059 2147;2149 2230	ASV, Consiglio dei X, Parti comuni, filza 58, supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X, alla data 7 Gennaio 1552 m.v., e lette- ra dell’ambasciatore Nicolò Da Ponte inviata da Roma ai capi del Consiglio dei X.
+T17	Archive 1981 1985	ASV,
+T18	ArchivalReference 1986 2002	Consiglio dei X,
+T19	ArchivalReference 2003 2016	Parti comuni,
+T20	Filza 2017 2026	filza 58,
+T21	Attachment 2027 2057;2059 2107	supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X,
+T22	Date 2108 2138	alla data 7 Gennaio 1552 m.v.,
+T23	Attachment 2139 2147;2149 2229	e lette- ra dell’ambasciatore Nicolò Da Ponte inviata da Roma ai capi del Consiglio dei X
+T24	Primary-Full 2237 2313;2315 2398;2400 2411	ASV, Consiglio dei X, Parti comuni (marzo - giugno 1555), filza 65, supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X, alla data 27 giugno 1555
+T25	Archive 2237 2241	ASV,
+T26	ArchivalReference 2242 2258	Consiglio dei X,
+T27	ArchivalReference 2259 2294	Parti comuni (marzo - giugno 1555),
+T28	Filza 2295 2304	filza 65,
+T29	Attachment 2305 2313;2315 2385	supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X,
+T30	Date 2386 2398;2400 2412	alla data 27 giugno 1555.
+T31	Primary-Full 2419 2495;2497 2571	ASV, Consiglio dei X, Parti comuni, filza 66, supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X, alla data 30 luglio 1555.
+T32	Archive 2419 2423	ASV,
+T33	ArchivalReference 2424 2440	Consiglio dei X,
+T34	ArchivalReference 2441 2454	Parti comuni,
+T35	Filza 2455 2464	filza 66,
+T36	Attachment 2465 2495;2497 2545	supplica di Antonio Milledonne allegata alla deliberazione del Consiglio dei X,
+T37	Date 2546 2571	alla data 30 luglio 1555.

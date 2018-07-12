@@ -1,0 +1,59 @@
+T1	Primary-Full 1615 1685;1687 1703	BNM, mss. it. classe VII, 1640 (=7983), CARLO SCARAMELLI, Ricordi a se stesso, f. 3r v.
+T2	Library 1615 1619	BNM,
+T3	Codex 1620 1654	mss. it. classe VII, 1640 (=7983),
+T4	Author 1655 1672	CARLO SCARAMELLI,
+T5	Title 1673 1685;1687 1694	Ricordi a se stesso,
+T6	Foliation 1695 1703	f. 3r v.
+T7	Primary-Partial 1711 1759	[MILLEDONNE] Vita di Antonio Milledonne, c. 71v;
+T8	Author 1711 1723	[MILLEDONNE]
+T9	Title 1724 1751	Vita di Antonio Milledonne,
+T10	Cartulation 1752 1759	c. 71v;
+T11	Primary-Full 1760 1785;1787 1808	ASV, Collegio, Rotatorio, Registro 37, c. 130v;
+T12	Archive 1760 1764	ASV,
+T13	ArchivalReference 1765 1774	Collegio,
+T14	ArchivalReference 1775 1785	Rotatorio,
+T15	Registry 1787 1799	Registro 37,
+T16	Cartulation 1800 1808	c. 130v;
+T17	Primary-Full 1809 1870;1872 1937	ASV, Miscellanea Gregolin, busta 7, lettera da Napoli di Gio- vanni Maria Renzo ad Antonio Milledonne del 15 febbraio 1572 m.v.
+T18	Archive 1809 1813	ASV,
+T19	ArchivalFond 1814 1835	Miscellanea Gregolin,
+T20	Folder 1836 1844	busta 7,
+T21	Other 1845 1870;1872 1911	lettera da Napoli di Gio- vanni Maria Renzo ad Antonio Milledonne
+T22	Date 1912 1937	del 15 febbraio 1572 m.v.
+T23	Secondary-Partial 1940 1952;1954 2039;2041 2057	G. BONFIGLIO DOSIO, Controllo statale e amministrazione della Zecca veneziana fra XIII e prima me- tà delXVIsecolo,
+T24	Secondary-Full 2058 2105	«Nuova Rivista Storica», 69 (1985), p. 463-476.
+R1	ContainedIN Arg1:T23 Arg2:T24	
+T25	Author 1940 1952;1954 1960	G. BONFIGLIO DOSIO,
+T26	Title 1961 2039;2041 2057	Controllo statale e amministrazione della Zecca veneziana fra XIII e prima me- tà delXVIsecolo,
+T27	Title 2058 2082	«Nuova Rivista Storica»,
+T28	PublicationNumber-Year 2083 2093	69 (1985),
+T29	Pagination 2094 2105	p. 463-476.
+T30	Primary-Full 2113 2190;2192 2276	ASV, Avogaria di Común, Cittadinanze originarie, busta 368/8, n°87, approvata il 10 Maggio 1611, prova di cittadinanza di Zuan Francesco Cenigo Milledonne, cc.nn.
+T31	Archive 2113 2117	ASV,
+T32	ArchivalReference 2118 2136	Avogaria di Común,
+T33	ArchivalReference 2137 2161	Cittadinanze originarie,
+T34	Folder 2162 2174	busta 368/8,
+T35	Numbering 2175 2180	n°87,
+T36	Other 2181 2190;2192 2269	approvata il 10 Maggio 1611, prova di cittadinanza di Zuan Francesco Cenigo Milledonne,
+T37	Date 2195 2210	10 Maggio 1611,
+T38	Cartulation 2270 2276	cc.nn.
+T39	Primary-Full 2284 2359;2361 2436	ASV, Consiglio dei X, Parti comuni, filza 110, supplica di Sebastian Cenigo allegata alla deliberazione del Consiglio dei X, alla data 15 dicembre 1570
+T40	Archive 2284 2288	ASV,
+T41	ArchivalReference 2289 2305	Consiglio dei X,
+T42	ArchivalReference 2306 2319	Parti comuni,
+T43	Filza 2320 2330	filza 110,
+T44	Attachment 2331 2358;2361 2409	supplica di Sebastian Cenig allegata alla deliberazione del Consiglio dei X,
+T45	Date 2410 2437	alla data 15 dicembre 1570.
+T46	Primary-Partial 2445 2493	[Milledonne] Vita di Antonio Milledonne, c. 71v.
+T47	Author 2445 2457	[Milledonne]
+T48	Title 2458 2485	Vita di Antonio Milledonne,
+T49	Cartulation 2486 2493	c. 71v.
+T50	Secondary-Partial 2501 2578;2580 2591	F. SENECA, li incendio dell’Arsenale di Venezia (1569) in una lettera di Leo- nardo Dona,
+T51	Secondary-Full 2595 2661	Studiforogiuliesi in onore di Carlo Guido Mor, Udine 1983, p. 195.
+R2	ContainedIN Arg1:T50 Arg2:T51	
+T52	Author 2501 2511	F. SENECA,
+T53	Title 2512 2578;2580 2591	li incendio dell’Arsenale di Venezia (1569) in una lettera di Leo- nardo Dona,
+T54	Title 2595 2641	Studiforogiuliesi in onore di Carlo Guido Mor,
+T55	PublicationPlace 2642 2647	Udine
+T56	PublicationYear 2648 2653	1983,
+T57	Pagination 2654 2661	p. 195.

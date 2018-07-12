@@ -1,0 +1,59 @@
+T1	Primary-Full 1242 1298	A.S.V., Governo, 2“ doni, austriaca, 1825-1829, XXX 2/24
+T2	Archive 1242 1249	A.S.V.,
+T3	ArchivalReference 1250 1258	Governo,
+T4	ArchivalReference 1259 1278	2“ doni, austriaca,
+T5	Year 1279 1289	1825-1829,
+T6	Numbering 1290 1298	XXX 2/24
+T7	Secondary-Partial 1821 1834;1836 1851	Corner, E.T., II, pp. 349-356
+T8	Author 1821 1828	Corner,
+T9	AbbreviatedTitle 1829 1834	E.T.,
+T10	Volume 1836 1839	II,
+T11	Pagination 1840 1851	pp. 349-356
+T12	Primary-Full 1981 1995;1997 2059	A.S.V., Gover- no, 2“ dom. austriaca, allegati, b. 142 [1824, prot. n. 34736]
+T13	Archive 1981 1988	A.S.V.,
+T14	ArchivalReference 1989 1995;1997 2000	Gover- no,
+T15	ArchivalReference 2001 2019	2“ dom. austriaca,
+T16	Attachment 2020 2029	allegati,
+T17	Folder 2030 2036	b. 142
+T18	Year 2037 2043	[1824,
+T19	Protocollo 2044 2058	prot. n. 34736
+T20	Primary-Full 2124 2135;2137 2191	A.S.V., No- tarile, not. Paulino Comincioli, 15 ott. 1827, n. 1670
+T21	Archive 2124 2131	A.S.V.,
+T22	ArchivalReference 2132 2135;2137 2144	No- tarile,
+T23	Notary 2145 2169	not. Paulino Comincioli,
+T24	Date 2170 2183	15 ott. 1827,
+T25	Numbering 2184 2191	n. 1670
+T26	Primary-Partial 2244 2273	Ibidem, 21 apr. 1828, n. 2679
+T27	Abbreviation 2244 2251	Ibidem,
+T28	Date 2252 2265	21 apr. 1828,
+T29	Numbering 2266 2273	n. 2679
+T30	Primary-Full 2496 2526;2528 2534	A.S.V., Prefettura, 1872-1877, 12 5/2
+T31	Archive 2496 2503	A.S.V.,
+T32	ArchivalReference 2504 2515	Prefettura,
+T33	Year 2516 2525	1872-1877
+T34	Numbering 2528 2534	12 5/2
+T35	Secondary-Partial 2544 2579	Piva, op. cit., vol. I, pp. 251-253
+T36	Author 2544 2549	Piva,
+T37	Abbreviation 2550 2559	op. cit.,
+T38	Volume 2560 2567	vol. I,
+T39	Pagination 2568 2579	pp. 251-253
+T40	Primary-Full 2588 2643	A.S.V., Governo, 2“ dom. austriaca, 1830-1834, XXXV 4/9
+T41	Archive 2588 2595	A.S.V.,
+T42	ArchivalReference 2596 2604	Governo,
+T43	ArchivalReference 2605 2623	2“ dom. austriaca,
+T44	Year 2624 2634	1830-1834,
+T45	Numbering 2635 2643	XXXV 4/9
+T46	Primary-Partial 2679 2706	ibidem, 1835-1839, XVI, 3/1
+T47	Abbreviation 2679 2686	ibidem,
+T48	Year 2687 2697	1835-1839,
+T49	Numbering 2698 2706	XVI, 3/1
+T50	Secondary-Full 2720 2730;2732 2803;2805 2836	J. Monico, Nel ristabilimento delle RR. Monache Agostiniane in San Giuseppe di Mu- rano. Esortazione, Venezia 1855
+T51	Author 2720 2730	J. Monico,
+T52	Title 2732 2803;2805 2823	Nel ristabilimento delle RR. Monache Agostiniane in San Giuseppe di Mu- rano. Esortazione,
+T53	PublicationPlace 2824 2831	Venezia
+T54	PublicationYear 2832 2836	1855
+T55	Secondary-Partial 2838 2873	Bertoli, op. cit., pp. 238, 250-252
+T56	Author 2838 2846	Bertoli,
+T57	Abbreviation 2847 2856	op. cit.,
+T58	Pagination 2857 2865	pp. 238,
+T59	Pagination 2866 2873	250-252

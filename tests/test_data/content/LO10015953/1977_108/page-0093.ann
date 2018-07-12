@@ -1,0 +1,38 @@
+T1	Secondary-Partial 1888 1945;1947 1964	E. Zorzi, Un antiquario padovano del sec. XVI. Alessandro Maggi da Bassano,
+T2	Secondary-Full 1968 2019;2021 2035	"Bollettino del Museo Civico di Padova", 51 (1962), fase. I, p. 56
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Author 1888 1897	E. Zorzi,
+T4	Title 1898 1945;1947 1963	Un antiquario padovano del sec. XVI. Alessandro Maggi da Bassano
+T5	Title 1968 2008	"Bollettino del Museo Civico di Padova",
+T6	PublicationNumber-Year 2009 2019	51 (1962),
+T7	Tomo 2021 2029	fase. I,
+T8	Pagination 2030 2035	p. 56
+T9	Secondary-Partial 2048 2114;2116 2119	Lettere di Nicolò Heinsio a Cassiano dal Pozzo, a c. di J. Bernar- di,
+T10	Title 2048 2095	Lettere di Nicolò Heinsio a Cassiano dal Pozzo,
+T11	Editor 2096 2114;2116 2119	a c. di J. Bernar- di,
+T12	Secondary-Full 2123 2164	"Archivio veneto", 23 (1882), pp. 323-324
+R2	ContainedIN Arg1:T9 Arg2:T12	
+T13	Title 2123 2141	"Archivio veneto",
+T14	PublicationNumber-Year 2142 2152	23 (1882),
+T15	Pagination 2153 2164	pp. 323-324
+T16	Secondary-Partial 2177 2244	G. Benzoni, La fortuna, la vita, l'opera di Enrico Caterino Davila,
+T17	Author 2177 2188	G. Benzoni,
+T18	Title 2189 2244	La fortuna, la vita, l'opera di Enrico Caterino Davila,
+T19	Secondary-Full 2249 2290	"Studi Veneziani", 16 (1974), pp. 349-350
+R3	ContainedIN Arg1:T16 Arg2:T19	
+T20	Title 2249 2267	"Studi Veneziani",
+T21	PublicationNumber-Year 2268 2278	16 (1974),
+T22	Pagination 2279 2290	pp. 349-350
+T23	Secondary-Full 2303 2372;2374 2394	L. Messedaglia, Il mais e la vita rurale italiana ..., Piacenza 1927, pp. 165-198, 261-300
+T24	Author 2303 2318	L. Messedaglia,
+T25	AbbreviatedTitle 2319 2357	Il mais e la vita rurale italiana ...,
+T26	PublicationPlace 2358 2366	Piacenza
+T27	PublicationYear 2367 2372	1927,
+T28	Pagination 2374 2386	pp. 165-198,
+T29	Pagination 2387 2394	261-300
+T30	Secondary-Full 2411 2478	B.Croce, Storia dell'età barocca in Italia..., Bari 1929, pp. 76-77
+T31	Author 2411 2419	B.Croce,
+T32	AbbreviatedTitle 2420 2457	Storia dell'età barocca in Italia...,
+T33	PublicationPlace 2458 2462	Bari
+T34	PublicationYear 2463 2468	1929,
+T35	Pagination 2469 2478	pp. 76-77

@@ -1,0 +1,48 @@
+T1	Secondary-Full 1654 1720;1722 1758	Fra Paolo Sarpi e i servi di Maria a Venezia nel 750' anniversario dell’ordine, Venezia 1983, pp. 24-26
+T2	Title 1654 1720;1722 1734	Fra Paolo Sarpi e i servi di Maria a Venezia nel 750' anniversario dell’ordine,
+T3	PublicationPlace 1735 1742	Venezia
+T4	PublicationYear 1743 1748	1983,
+T5	Pagination 1749 1758	pp. 24-26
+T6	Secondary-Full 1886 1916;1918 1957	G. Musolino, Santa Lacia a Ve- nezia. Stona. Culto. Arte, Venezia 1961
+T7	Secondary-Full 1959 1991	A. Niero, S. Lucia, Venezia 1965
+T8	Author 1886 1898	G. Musolino,
+T9	Title 1899 1915;1918 1944	Santa Lacia a Ve nezia. Stona. Culto. Arte,
+T10	PublicationPlace 1945 1952	Venezia
+T11	PublicationYear 1953 1957	1961
+T12	Author 1959 1968	A. Niero,
+T13	Title 1969 1978	S. Lucia,
+T14	PublicationPlace 1979 1986	Venezia
+T15	PublicationYear 1987 1991	1965
+T16	Primary-Full 2001 2070	A.S.V., Ufficio provinciale delle pubbliche costruzioni, b. 73 n. 319
+T17	Primary-Full 2200 2228	A.S.V., Genio civile, b. 899
+T18	Archive 2001 2008	A.S.V.,
+T19	Archive 2200 2207	A.S.V.,
+T20	ArchivalReference 2009 2057	Ufficio provinciale delle pubbliche costruzioni,
+T21	ArchivalReference 2208 2221	Genio civile,
+T22	Folder 2058 2063	b. 73
+T23	Folder 2222 2228	b. 899
+T24	Numbering 2064 2070	n. 319
+T25	Secondary-Partial 2079 2107	Basaldella, op. cit., p. 366
+T26	Author 2079 2090	Basaldella,
+T27	Abbreviation 2091 2100	op. cit.,
+T28	Pagination 2101 2107	p. 366
+T29	Secondary-Partial 2527 2545;2547 2621	Zanetti, Del mona- stero e della chiesa di S. Maria degli Angeli di Murano, cit., pp. 134-138
+T30	Author 2527 2535	Zanetti,
+T31	Title 2536 2545;2547 2603	Del mona- stero e della chiesa di S. Maria degli Angeli di Murano,
+T32	Abbreviation 2604 2609	cit.,
+T33	Pagination 2610 2621	pp. 134-138
+T34	Secondary-Partial 2623 2625;2627 2668	R. Selvatico, Note casanoviane II. Suor M.M.
+T35	Secondary-Full 2685 2704;2706 2761	«Atti dell’Istituto veneto di lettere scienze e arti», Venezia 1984, p. 245
+R1	ContainedIN Arg1:T34 Arg2:T35	
+T36	Primary-Full 2763 2782;2784 2813	A.S.V., Governo, 2“ dom. austriaca, 1818, XXXI/13
+T37	Author 2627 2637	Selvatico,
+T38	Title 2638 2668	Note casanoviane II. Suor M.M.
+T39	Title 2685 2704;2706 2740	«Atti dell’Istituto veneto di lettere scienze e arti»,
+T40	PublicationPlace 2741 2748	Venezia
+T41	PublicationYear 2749 2754	1984,
+T42	Pagination 2755 2761	p. 245
+T43	Archive 2763 2770	A.S.V.,
+T44	ArchivalReference 2771 2779	Governo,
+T45	ArchivalReference 2780 2782;2784 2799	2“ dom. austriaca,
+T46	Year 2800 2805	1818,
+T47	Numbering 2806 2813	XXXI/13

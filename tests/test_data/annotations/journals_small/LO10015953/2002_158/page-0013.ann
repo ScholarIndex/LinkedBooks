@@ -1,0 +1,39 @@
+T1	Primary-Partial 1850 1898	[MILLEDONNE], Vita d’Antonio Milledonne, c. 69r.
+T2	Author 1850 1863	[MILLEDONNE],
+T3	Title 1864 1890	Vita d’Antonio Milledonne,
+T4	Cartulation 1891 1898	c. 69r.
+T5	Secondary-Partial 1983 2010;2012 2102;2104 2144	G. GULLINO, «Una eredità di consigli e di salutari avvertimenti»: l’istruzione morale, politica ed economica di un pa- trizio veneziano al figlio (1734-1738?),
+T6	Secondary-Full 2148 2191;2193 2278;2280 2316	I ceti dirigenti in Italia in età moderna e contemporanea. Atti del convegno Cividale del Friuli, 10-12 settembre 1983, a cura di A. Tagliaferri, Udine, 1984, p. 351.
+R1	ContainedIN Arg1:T5 Arg2:T6	
+T7	Author 1983 1994	G. GULLINO,
+T8	Title 1995 2010;2012 2102;2104 2144	«Una eredità di consigli e di salutari avvertimenti»: l’istruzione morale, politica ed economica di un pa- trizio veneziano al figlio (1734-1738?),
+T9	Title 2148 2191;2193 2268	I ceti dirigenti in Italia in età moderna e contemporanea. Atti del convegno Cividale del Friuli, 10-12 settembre 1983,
+T10	Editor 2269 2278;2280 2295	a cura di A. Tagliaferri,
+T11	PublicationPlace 2296 2302	Udine,
+T12	PublicationYear 2303 2308	1984,
+T13	Pagination 2309 2315	p. 351
+T14	Primary-Full 2323 2403;2405 2473	BNM, mss. it., VII, 1667 (=8459), Elenco degli ordinari, estraordinari, segreta- ri di Pregadi e cancellieri grandi dal sec. XIII fino al XVII, c. 6V
+T15	Library 2323 2327	BNM,
+T16	Codex 2328 2356	mss. it., VII, 1667 (=8459),
+T17	Title 2357 2403;2405 2467	Elenco degli ordinari, estraordinari, segreta- ri di Pregadi e cancellieri grandi dal sec. XIII fino al XVII,
+T18	Cartulation 2468 2473	c. 6V
+T19	Primary-Full 2475 2495;2497 2572	ASV, Avogaria di Co- mún, Concorsi alla Cancelleria ducale, busta 448, alla data 19 Agosto 1540;
+T20	Archive 2475 2479	ASV,
+T21	ArchivalReference 2480 2495;2497 2501	Avogaria di Co- mún,
+T22	ArchivalReference 2502 2535	Concorsi alla Cancelleria ducale,
+T23	Folder 2536 2546	busta 448,
+T24	Date 2547 2572	alla data 19 Agosto 1540;
+T25	Primary-Partial 2573 2580;2582 2624	[MlLLE- DONNE], Vita d’Antonio Milledonne, c. 69v.
+T26	Author 2573 2580;2582 2589	[MlLLE- DONNE],
+T27	Title 2590 2616	Vita d’Antonio Milledonne,
+T28	Cartulation 2617 2623	c. 69v
+T29	Secondary-Partial 2625 2664	Trebbi, La cancelleria veneta, p. 88-90
+T30	Author 2625 2632	Trebbi,
+T31	AbbreviatedTitle 2633 2655	La cancelleria veneta,
+T32	Pagination 2656 2664	p. 88-90
+T33	Primary-Full 2672 2747;2749 2822	ASV, Consiglio dei X, Parti comuni, filza 31, supplica di Anzelo Milledonne allegata alla deliberazione del Consiglio dei X, alla data 11 maggio 1542
+T34	Archive 2672 2676	ASV,
+T35	ArchivalReference 2677 2693	Consiglio dei X,
+T36	ArchivalReference 2694 2707	Parti comuni,
+T37	Filza 2708 2747;2749 2797	filza 31, supplica di Anzelo Milledonne allegata alla deliberazione del Consiglio dei X,
+T38	Date 2798 2823	alla data 11 maggio 1542.

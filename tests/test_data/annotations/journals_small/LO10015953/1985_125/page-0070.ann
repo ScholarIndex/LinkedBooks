@@ -1,0 +1,40 @@
+T1	Primary-Partial 1892 1917	Ibidem, b. 16 nn. 69, 238
+T2	Primary-Partial 1919 1931	b. 20 n. 404
+T3	Primary-Partial 1933 1944	b. 49 n. 24
+T4	Primary-Partial 1952 1976	Ibidem, b. 16 nn. 80, 90
+T5	Abbreviation 1892 1899	Ibidem,
+T6	Abbreviation 1952 1959	Ibidem,
+T7	Folder 1900 1905	b. 16
+T8	Numbering 1906 1917	nn. 69, 238
+T9	Folder 1919 1924	b. 20
+T10	Numbering 1925 1931	n. 404
+T11	Folder 1933 1938	b. 49
+T12	Numbering 1939 1944	n. 24
+T13	Folder 1960 1965	b. 16
+T14	Numbering 1966 1976	nn. 80, 90
+T15	Secondary-Full 1984 2052;2054 2067	Bollettino delle leggi del Regno d’Italia, Milano 1810, parte I, pp. 264-267 n. 77
+T16	Primary-Full 2075 2122	A.S.V., Prefettura dell’Adriatico, b. 279 n. 34
+T17	Title 1984 2026	Bollettino delle leggi del Regno d’Italia,
+T18	PublicationPlace 2027 2033	Milano
+T19	PublicationYear 2034 2039	1810,
+T20	Volume 2040 2048	parte I,
+T21	Pagination 2049 2051;2054 2061	pp 264-267
+T22	Note 2062 2067	n. 77
+T23	Archive 2075 2082	A.S.V.,
+T24	ArchivalReference 2083 2109	Prefettura dell’Adriatico,
+T25	Folder 2110 2116	b. 279
+T26	Numbering 2117 2122	n. 34
+T27	Primary-Partial 2124 2140;2142 2164	Governo, 2° dom. austriaca, 1816, L. 10
+T28	ArchivalReference 2124 2132	Governo,
+T29	ArchivalReference 2133 2140;2142 2152	2° dom. austriaca,
+T30	Date 2153 2158	1816,
+T31	Numbering 2159 2164	L. 10
+T32	Secondary-Partial 2314 2380	G. Rocca, Le nuove fondazioni femminili in Italia dal 1800 al 1860
+T33	Secondary-Full 2386 2464;2466 2483	Problemi di storia della Chiesa dalla restaurazione all’unità d’Italia, Napoli 1985, pp. 107-192
+R1	ContainedIN Arg1:T32 Arg2:T33	
+T34	Author 2314 2323	G. Rocca,
+T35	Title 2324 2380	Le nuove fondazioni femminili in Italia dal 1800 al 1860
+T36	Title 2386 2457	Problemi di storia della Chiesa dalla restaurazione all’unità d’Italia,
+T37	PublicationPlace 2458 2464	Napoli
+T38	PublicationYear 2466 2471	1985,
+T39	Pagination 2472 2483	pp. 107-192

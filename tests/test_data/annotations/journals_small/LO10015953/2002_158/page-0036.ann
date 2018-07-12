@@ -1,0 +1,50 @@
+T1	Primary-Full 1287 1359	ASV, Capi del Consiglio dei X, Lettere di ambasciatori Trento, busta 30,
+T2	Archive 1287 1291	ASV,
+T3	ArchivalReference 1292 1317	Capi del Consiglio dei X,
+T4	ArchivalReference 1318 1349	Lettere di ambasciatori Trento,
+T5	Folder 1350 1359	busta 30,
+T6	Secondary-Full 1385 1451;1453 1502	B. Cecchetti, La Repubblica di Venezia e la corte di Roma nei rap- porti della religione, II, Venezia 1874, p. 23-45
+T7	Author 1385 1398	B. Cecchetti,
+T8	Title 1399 1451;1453 1475	La Repubblica di Venezia e la corte di Roma nei rap- porti della religione,
+T9	Volume 1476 1479	II,
+T10	PublicationPlace 1480 1487	Venezia
+T11	PublicationYear 1488 1493	1874,
+T12	Pagination 1494 1502	p. 23-45
+T13	Secondary-Partial 1504 1538;1540 1575	G. Cozzi, Domenico Bollani: un ve- scovo veneziano tra Stato e Chiesa,
+T14	Secondary-Full 1576 1621	«Rivista storica italiana», 89 (1977), p. 568
+R1	ContainedIN Arg1:T13 Arg2:T14	
+T15	Author 1504 1513	G. Cozzi,
+T16	Title 1514 1538;1540 1575	Domenico Bollani: un ve- scovo veneziano tra Stato e Chiesa,
+T17	Title 1576 1603	«Rivista storica italiana»,
+T18	PublicationNumber-Year 1604 1614	89 (1977),
+T19	Pagination 1615 1621	p. 568
+T20	Primary-Full 1632 1702	ASV, Dispacci degli Ambasciatori al Senato, Rubrican Roma, Registro +.
+T21	Archive 1632 1636	ASV,
+T22	ArchivalReference 1637 1675	Dispacci degli Ambasciatori al Senato,
+T23	ArchivalReference 1676 1690	Rubrican Roma,
+T24	Registry 1691 1702	Registro +.
+T25	Secondary-Partial 1985 2057	G. Da POZZO, Vicende editoriali e forza del testo (un esempio sarpiano),
+T26	Secondary-Full 2059 2089	«Belfagor», 31 (1976), p. 332.
+R2	ContainedIN Arg1:T25 Arg2:T26	
+T27	Author 1985 1997	G. Da POZZO,
+T28	Title 1998 2057	Vicende editoriali e forza del testo (un esempio sarpiano),
+T29	Title 2059 2070	«Belfagor»,
+T30	PublicationNumber-Year 2071 2081	31 (1976),
+T31	Pagination 2082 2088	p. 332
+T32	Secondary-Partial 2318 2355	G. Alberigo, La Riforma dei principi,
+T33	Author 2318 2330	G. Alberigo,
+T34	Title 2331 2355	La Riforma dei principi,
+T35	Secondary-Full 2359 2394;2396 2472	II concilio di Trento come crocevia della politica europea, a cura di H. JEDIN e P. Prodi, Bologna, 1979, p. 162
+R3	ContainedIN Arg1:T32 Arg2:T35	
+T36	Title 2359 2394;2396 2419	II concilio di Trento come crocevia della politica europea,
+T37	Editor 2420 2438	a cura di H. JEDIN
+T38	Editor 2439 2450	e P. Prodi,
+T39	PublicationPlace 2451 2459	Bologna,
+T40	PublicationYear 2460 2465	1979,
+T41	Pagination 2466 2472	p. 162
+T42	Primary-Full 2577 2645;2647 2658	ASV, Capi del Consiglio dei X, Lettere di ambasciatori Trento, busta 30, c. 249.
+T43	Archive 2577 2581	ASV,
+T44	ArchivalReference 2582 2607	Capi del Consiglio dei X,
+T45	ArchivalReference 2608 2639	Lettere di ambasciatori Trento,
+T46	Folder 2640 2645;2647 2650	busta 30,
+T47	Cartulation 2651 2658	c. 249.

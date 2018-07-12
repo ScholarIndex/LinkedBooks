@@ -1,0 +1,193 @@
+64
+65
+Atto Onomast 'ca
+Numero ( Data del patrone della nave
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+M3
+144
+*45
+146
+147
+148
+149
+150
+151
+1555
+14/Π
+15/Π
+14/ΠΙ
+15/ΠΙ
+30/vin
+12 /X
+25/X
+1556
+2/III
+9/III
+17/IV
+7/VII
+10/VII
+30/VII
+i/VIII
+19/VIII
+26/VIII
+25/IX
+1557
+2/1
+16/I
+26/I
+29/I
+12/Π
+9/ΠΙ
+31/V
+10/VI
+10/VI
+26/VI
+14/VIII
+6/IX
+Helia da Ragusi
+Alvise de Zuanne
+Piero da Liezena
+Nicolo dalla Cania
+Hieronymo Donado
+Helia da Ragusi
+Piero da Liesena
+Nicolo da Liesena
+Francesco de Nicolo
+Antonio Vesentin
+Hieronymo Donado
+Helia da Ragusi
+Marco de Damian
+Michali Cimera
+Michail da Corphu
+Francesco da Curzola
+Ser Andrea Contarmi
+Alvise de Finardi
+Marco de Damian
+Nicolo de Antonio
+Michali da Corphu
+Zuan dalla Vrana
+Piero da Liesena
+Hieronymo Donado
+Marco de Damian
+Ser Andrea Contarini
+Nicolo de Antonio
+Thodarin Cerigo
+Antonio Renier
+Provenienza
+Giocata
+di arricevuta
+Arrivo anteriore
+Priola Cipro 24/1/1/1555
+Donada Cipro 11/I/F1555
+Moceniga et Contarina Cipro 22/II/1/1555
+Priola Cipro 1/III//1555
+Donada Cipro 9/VIJII/1555
+Priola Cipro 20/IX/Í555
+Moceniga et Contarina Cipro 20/DÍ/1555
+Bona Cipro 3β/η556
+Veniera Cipro 30/XI/1556
+Dolphina Cipro 10/III 1556
+Donada Cipro
+Priola Cipro
+Veniera Cipro 10
+Morezina et Rizza Cipro T/VI/1^6
+Bona Cipro
+Tarabota Cipro 7/Vtt/I556
+Contarina Cipro S/IX^ó
+Veniera
+Bona
+Tarabota
+patrone
+Marco de Damian
+Michali da Corphu
+Francesco da Curzola
+Alberta Cipro 27/X/255 6 Contarina Ser Andrea Contarini
+Veniera Cipro 4/I/>5 7 Alberta Alvise de Finardi (21)
+Priola Cipro 30/XI57 Alberta Alvise de Finardi
+Bona Cipro 9/i/>57 Veniera Marco de Damian
+Alberta Cipro 30/X557 Priula Nicolò de Antonio
+Utina et Ziralda Cipro i4/I/i557 Bona Michali da Corphu
+Donada Cipro Ι4/Π557 Zatarina (22) Piero de Liesena
+Veniera Cipro 13/V1557 Donada Ser Hieronimo Donado
+Contarina Cipro 19/V1557 Veniera Ser Marco de Damian
+Priola Cipro 24/Vi 557 Contarina Ser Andrea Contarini
+Dandola Cipro 12/V/1557 Priula Nicolo de Antonio
+Pianella Cipro 11/V557 Dandola Thodarin Cerigo
+Nolo
+d. 1093 gr. 8
+d. 1609
+d. 1280 gr. 16
+d. 1123
+d. 1145 gr. 8
+d. 724 gr. 16
+d. 691
+d. 936
+d. 1203
+d. 1364
+d. 603
+d. 1227 gr. 8
+.■ (21) La nave patron Marco de Damian, è giunta a Venezia il 4 gennaio 1557,
+dopo la nave "Alberta", di Zuan della Vrana (n. 144) entrata nel porto il 30 die. 1556.
+Alvise Finardi aveva raggiunto Venezia su un'altra nave Alberta il 27 ott. 1556 (n. 140).
+Quantità
+di sale trasportato
+d. 1766 gr. 16 m. 441 st. 8
+d. 580  xn. 145  
+d. 930 gr. 8 m, 232 st. 7
+d. 2401 gr. 8 m. 600 st. 4
+d. 1200 gr. 16 m. 300 st. 2
+d. 1010  m. 252 st. 6
+d. 882  m. 220 st. 6
+d. 648 gr. 16 ni. 162 St. 2
+d. 575  m. *43 st. 9
+d. 532  m. !33  
+d. 542  m. 135 st. 6
+d. 516 gr· 8 m. 129 st. I
+d. 610 gr. 8 m. 152 st. 7
+d. 920 gr. 16 m. 23° st. 2
+d. I5°5  m. 376 st. 3
+d. 1591 gr. 8 m. 397 st. IO
+d. 936 gr. 8 m. 234 st. I
+m. 275
+m. 402
+m. 320
+m. 280
+m. 286
+m. 181
+m. 172
+m. 234
+m. 300
+m. 34!
+m. 150
+m. 306
+st. io
+st. 3
+st.
+st.
+st.
+st.
+st.
+st. 9
+st. 9
+st. IO
+(22) Lo scrivano ha sbagliato, attribuendo a Pietro de Liesena, prima, la nave
+"Utiner e Ziralda" (n. 145), poi la nave “Zatarina". Erano le stesse navi?

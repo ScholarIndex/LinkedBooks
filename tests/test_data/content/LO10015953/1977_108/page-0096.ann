@@ -1,0 +1,29 @@
+T1	Secondary-Full 2297 2362;2364 2367	M. Foscarini, Della letteratura veneziana, Venezia 1564, pp. 344- 345
+T2	Author 2297 2310	M. Foscarini,
+T3	Title 2311 2339	Della letteratura veneziana,
+T4	PublicationPlace 2340 2347	Venezia
+T5	PublicationYear 2348 2353	1564,
+T6	Pagination 2354 2362;2364 2367	pp. 344- 345
+T7	Secondary-Partial 2373 2389	D. B., X, p. 235
+T8	AbbreviatedTitle 2373 2379	D. B.,
+T9	Volume 2380 2382	X,
+T10	Pagination 2383 2389	p. 235
+T11	Secondary-Full 2397 2466	Nicolai Crassi iunioris, Elogia patritiorum venetorum, Venetiis 1612,
+T12	Author 2397 2421	Nicolai Crassi iunioris,
+T13	Title 2422 2451	Elogia patritiorum venetorum,
+T14	PublicationPlace 2452 2460	Venetiis
+T15	PublicationYear 2461 2465	1612
+T16	Secondary-Partial 2486 2516	A. Zeno, Vita di Paolo Paruta,
+T17	Secondary-Partial 2520 2549	P. Paruta, Historia vmetiana,
+R1	ContainedIN Arg1:T16 Arg2:T17	
+T18	Author 2486 2494	A. Zeno,
+T19	Title 2495 2516	Vita di Paolo Paruta,
+T20	Author 2520 2530	P. Paruta,
+T21	Title 2531 2549	Historia vmetiana,
+T22	Secondary-Full 2554 2628	Degl’istorici delle cose veneziane.. ., t. Ili, P. I, Venezia 1718, p. vii
+R2	ContainedIN Arg1:T17 Arg2:T22	
+T23	Title 2554 2593	Degl’istorici delle cose veneziane.. .,
+T24	Tomo 2594 2601	t. Ili,
+T25	PublicationPlace 2608 2615	Venezia
+T26	PublicationYear 2616 2621	1718,
+T27	Pagination 2622 2628	p. vii

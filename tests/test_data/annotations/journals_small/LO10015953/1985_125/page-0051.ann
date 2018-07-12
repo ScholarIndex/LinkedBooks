@@ -1,0 +1,75 @@
+T1	Secondary-Full 955 970	Venezia 1925-27
+A1	Continuation T1
+T2	PublicationPlace 955 962	Venezia
+T3	PublicationYear 963 970	1925-27
+T4	Secondary-Partial 979 1008	Corner, E.V., XI, pp. 217-219
+T5	Author 979 986	Corner,
+T6	AbbreviatedTitle 987 992	E.V.,
+T7	Volume 993 996	XI,
+T8	Pagination 997 1008	pp. 217-219
+T9	Primary-Full 1010 1045	A.S.V., S. Maria degli Angeli, b. 9
+T10	Archive 1010 1017	A.S.V.,
+T11	ArchivalReference 1018 1040	S. Maria degli Angeli,
+T12	Folder 1041 1045	b. 9
+T13	Secondary-Partial 1134 1163	Corner, E.T., II, pp. 285-286
+T14	Author 1134 1141	Corner,
+T15	AbbreviatedTitle 1142 1147	E.T.,
+T16	Volume 1148 1151	II,
+T17	Pagination 1152 1163	pp. 285-286
+T18	Secondary-Partial 1531 1568	ibidem, pp. 244-245, 287-289, 310-311
+T19	Abbreviation 1531 1538	ibidem,
+T20	Pagination 1539 1551	pp. 244-245,
+T21	Pagination 1552 1560	287-289,
+T22	Pagination 1561 1568	310-311
+T23	Primary-Full 1570 1605	A.S.V., Senato terra, reg. 6, c. 7v
+T24	Archive 1570 1577	A.S.V.,
+T25	ArchivalReference 1578 1591	Senato terra,
+T26	Registry 1592 1599	reg. 6,
+T27	Cartulation 1600 1605	c. 7v
+T28	Secondary-Partial 1608 1622	reg. 7, c. 121
+T29	Registry 1608 1615	reg. 7,
+T30	Cartulation 1616 1622	c. 121
+T31	Primary-Partial 1631 1655	Ibidem, reg. 8, cc. 3-3v
+T32	Primary-Partial 1663 1699	Ibidem, reg. 6, c. 125: 22 mar. 1471
+T33	Abbreviation 1631 1638	Ibidem,
+T34	Abbreviation 1663 1670	Ibidem,
+T35	Registry 1639 1646	reg. 8,
+T36	Registry 1671 1678	reg. 6,
+T37	Cartulation 1647 1655	cc. 3-3v
+T38	Cartulation 1679 1685	c. 125
+T39	Date 1687 1699	22 mar. 1471
+T40	Primary-Full 1815 1838	A.S.V., S. Alvise, b. 1
+T41	Archive 1815 1822	A.S.V.,
+T42	ArchivalReference 1823 1833	S. Alvise,
+T43	Folder 1834 1838	b. 1
+T44	Secondary-Partial 1847 1876	Corner, E.V., IV, pp. 215-221
+T45	Author 1847 1854	Corner,
+T46	AbbreviatedTitle 1855 1860	E.V.,
+T47	Volume 1861 1864	IV,
+T48	Pagination 1865 1876	pp. 215-221
+T49	Secondary-Partial 1983 1995;1998 2045	Origo civita tum Italiae seu Venetiorum, a cura di R. Cessi,
+T50	Secondary-Full 2049 2077;2079 2135	Fonti per la storia d’Italia del R. Istituto Storico Italiano, Roma 1933, pp. 142-143
+R1	ContainedIN Arg1:T49 Arg2:T50	
+T51	Title 1983 1996;1998 2025	Origo civita- tum Italiae seu Venetiorum,
+T52	Editor 2026 2044	a cura di R. Cessi
+T53	Title 2049 2077;2079 2112	Fonti per la storia d’Italia del R. Istituto Storico Italiano,
+T54	PublicationPlace 2113 2117	Roma
+T55	PublicationYear 2118 2123	1933,
+T56	Pagination 2124 2135	pp. 142-143
+T57	Primary-Full 2198 2231;2233 2295	L. Lanfranchi, Codice diplomatico veneziano, dattiloscritto conservato presso l’A.S.V., ad annum
+T58	Author 2198 2212	L. Lanfranchi,
+T59	Title 2213 2231;2233 2243	Codice diplomatico veneziano,
+T60	PublicationSpecifications 2244 2286	dattiloscritto conservato presso l’A.S.V.,
+T61	Archive 2279 2286	A.S.V.,
+T62	TopicDate 2287 2295	ad annum
+T63	Primary-Full 2644 2674	A.S.V., S. Daniele, b. 1 perg.
+T64	Archive 2644 2651	A.S.V.,
+T65	ArchivalReference 2652 2663	S. Daniele,
+T66	Folder 2664 2668	b. 1
+T67	Parchment 2669 2674	perg.
+T68	Secondary-Partial 2687 2713;2715 2731	Cicogna, op. cit., vol. I, pp. 311, 314-315
+T69	Author 2687 2695	Cicogna,
+T70	Abbreviation 2696 2705	op. cit.,
+T71	Volume 2706 2713	vol. I,
+T72	Pagination 2715 2723	pp. 311,
+T73	Pagination 2724 2731	314-315

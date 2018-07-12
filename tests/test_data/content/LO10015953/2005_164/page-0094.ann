@@ -1,0 +1,24 @@
+T1	Primary-Full 2028 2072	ASV, Compilazione delle leggi, b. 16, f. 470
+T2	Primary-Full 2079 2137	ASV, Consiglio dei X, Secreto (1652-1678), reg. 20, f. 149
+T3	Secondary-Partial 2179 2222;2224 2235	G. TREBBI, La Cancelleria veneta nei secoli XVI e XVII,
+T4	Secondary-Full 2236 2295	«Annali della Fondazione Luigi Einaudi», 14 (1980), p. 125.
+R1	ContainedIN Arg1:T3 Arg2:T4	
+T5	Primary-Full 2480 2534	ASV, Compilazione delle leggi, Residenti veneti, b. 16
+T6	Archive 2028 2032	ASV,
+T7	Archive 2079 2083	ASV,
+T8	ArchivalReference 2033 2058	Compilazione delle leggi,
+T9	ArchivalReference 2084 2100	Consiglio dei X,
+T10	Folder 2059 2065	b. 16,
+T11	Foliation 2066 2072	f. 470
+T12	ArchivalReference 2101 2121	Secreto (1652-1678),
+T13	Registry 2122 2130	reg. 20,
+T14	Foliation 2131 2137	f. 149
+T15	Author 2179 2189	G. TREBBI,
+T16	Title 2190 2222;2224 2235	La Cancelleria veneta nei secoli XVI e XVII,
+T17	Title 2236 2276	«Annali della Fondazione Luigi Einaudi»,
+T18	PublicationNumber-Year 2277 2287	14 (1980),
+T19	Pagination 2288 2295	p. 125.
+T20	Archive 2480 2484	ASV,
+T21	ArchivalReference 2485 2510	Compilazione delle leggi,
+T22	ArchivalReference 2511 2528	Residenti veneti,
+T23	Folder 2529 2534	b. 16

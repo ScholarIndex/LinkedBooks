@@ -1,0 +1,43 @@
+T1	Primary-Partial 1385 1424	Ibidem, reg. 280 c. 454 v: 28 die. 1720
+T2	Secondary-Partial 1505 1528	Corner, E.V., V, p. 271
+T3	Secondary-Full 1604 1671;1673 1692	J.M.J. Costituzioni delle monache povere eremite agostiniane di Ve- nezia, Venezia 1733
+T4	Primary-Full 1694 1735	A.S.V., Compilazione leggi, b. 289 n. 437
+T5	Secondary-Partial 1910 1944	Da Mosto, op. cit., vol. I, p. 202
+T6	Secondary-Partial 1946 1973;1976 1995	S. Tramontin, Italia. La Re pubblica di Venezia
+T7	Secondary-Full 2000 2018	D.I.P., V, 267-273
+T8	Secondary-Partial 2315 2343;2345 2351	Da Mosto, op. cit., vol. II, p. 163
+T9	Secondary-Partial 2360 2401	Molmenti, op. cit., vol. Ili, pp. 374-376
+T10	Author 2315 2324	Da Mosto,
+T11	Author 2360 2369	Molmenti,
+T12	Abbreviation 2325 2334	op. cit.,
+T13	Abbreviation 2370 2379	op. cit.,
+T14	Volume 2335 2343	vol. II,
+T15	Volume 2380 2389	vol. Ili,
+T16	Pagination 2345 2351	p. 163
+T17	Pagination 2390 2401	pp. 374-376
+T18	Author 1910 1919	Da Mosto,
+T19	Abbreviation 1920 1929	op. cit.,
+T20	Volume 1930 1937	vol. I,
+T21	Pagination 1938 1944	p. 202
+T22	Author 1946 1959	S. Tramontin,
+T23	Title 1960 1974;1976 1995	Italia. La Re- pubblica di Venezia
+T24	AbbreviatedTitle 2000 2007	D.I.P.,
+T25	Volume 2008 2010	V,
+T26	Pagination 2011 2018	267-273
+T27	Abbreviation 1385 1392	Ibidem,
+T28	Registry 1393 1401	reg. 280
+T29	Cartulation 1402 1411	c. 454 v:
+T30	Date 1412 1424	28 die. 1720
+T31	Author 1505 1512	Corner,
+T32	AbbreviatedTitle 1513 1518	E.V.,
+T33	Volume 1519 1521	V,
+T34	Pagination 1522 1528	p. 271
+T35	Author 1604 1610	J.M.J.
+T36	Title 1611 1670;1673 1679	Costituzioni delle monache povere eremite agostiniane di Ve nezia,
+T37	PublicationPlace 1680 1687	Venezia
+T38	PublicationYear 1688 1692	1733
+T39	Archive 1694 1701	A.S.V.,
+T40	ArchivalReference 1702 1721	Compilazione leggi,
+T41	Folder 1722 1728	b. 289
+T42	Numbering 1729 1735	n. 437
+R1	ContainedIN Arg1:T6 Arg2:T7	

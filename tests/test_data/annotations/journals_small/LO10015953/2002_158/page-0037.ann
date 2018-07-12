@@ -1,0 +1,39 @@
+T1	Secondary-Partial 1749 1796	Jedin, Venezia e il concilio di Trento, p. 145.
+T2	Responsible 1749 1755	Jedin,
+T3	AbbreviatedTitle 1756 1788	Venezia e il concilio di Trento,
+T4	Pagination 1789 1796	p. 145.
+T5	Primary-Full 1902 1956;1958 1983	ASV, Capi del Consiglio dei X, Lettere di ambasciatori Trento, busta 30, c. 249.
+T6	Archive 1902 1906	ASV,
+T7	ArchivalReference 1907 1932	Capi del Consiglio dei X,
+T8	ArchivalReference 1933 1956;1958 1965	Lettere di ambasciatori Trento,
+T9	Folder 1966 1975	busta 30,
+T10	Cartulation 1976 1982	c. 249
+T11	Secondary-Full 1991 2073;2075 2157;2159 2179	H. JEDIN, Storia del concilio di Trento. La Francia e il nuovo inizio a Trento fi- no alla morte dei legati Gonzaga e Seripando, traduzione di G. POLETn, IV, I, Bre- scia, 19742, p. 223;
+T12	Author 1991 2000	H. JEDIN,
+T13	Title 2001 2073;2075 2120	Storia del concilio di Trento. La Francia e il nuovo inizio a Trento fi- no alla morte dei legati Gonzaga e Seripando,
+T14	PublicationSpecifications 2121 2145	traduzione di G. POLETn,
+T15	Numbering 2143 2149	n, IV,
+T16	Numbering 2150 2152	I,
+T17	PublicationPlace 2153 2157;2159 2164	Bre- scia,
+T18	PublicationYear 2165 2171	19742,
+T19	Pagination 2172 2179	p. 223;
+T20	Secondary-Partial 2180 2223	H. Jedin, Venezia e il concilio di Trento ,
+T21	Secondary-Full 2224 2245;2247 2261	«Studi veneziani», 14 (1972), p. 148
+R1	ContainedIN Arg1:T20 Arg2:T21	
+T22	Author 2180 2189	H. Jedin,
+T23	Title 2190 2223	Venezia e il concilio di Trento ,
+T24	Title 2224 2242	«Studi veneziani»,
+T25	PublicationNumber 2243 2245	14
+T26	PublicationYear 2247 2254	(1972),
+T27	Pagination 2255 2261	p. 148
+T28	Primary-Full 2366 2428;2430 2447	ASV, Capi del Consiglio dei X, Lettere di ambasciatori Trento, busta 30, c. 201.
+T29	Archive 2366 2370	ASV,
+T30	ArchivalReference 2371 2396	Capi del Consiglio dei X,
+T31	ArchivalReference 2397 2428	Lettere di ambasciatori Trento,
+T32	Folder 2430 2439	busta 30,
+T33	Cartulation 2440 2446	c. 201
+T34	Primary-Full 2541 2609	ASV, Dispacci degli Ambasciatori al Senato, Rubricari Roma, Registro
+T35	Archive 2541 2545	ASV,
+T36	ArchivalReference 2546 2584	Dispacci degli Ambasciatori al Senato,
+T37	ArchivalReference 2585 2600	Rubricari Roma,
+T38	Registry 2601 2609	Registro

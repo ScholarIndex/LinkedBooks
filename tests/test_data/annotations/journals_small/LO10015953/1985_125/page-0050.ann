@@ -1,0 +1,51 @@
+T1	Secondary-Partial 1691 1715	Corner, E.T., II, p. 266
+T2	Secondary-Partial 1731 1755;1757 1776	L. Pesce, Ludovico Barbo vescovo riformatore
+T3	Secondary-Partial 1781 1838;1840 1871	Riforma della chiesa, cultura e spiritualità nel Quattro- cento veneto, cit., pp. 135-159
+R1	ContainedIN Arg1:T2 Arg2:T3	
+T4	Author 1691 1698	Corner,
+T5	AbbreviatedTitle 1699 1704	E.T.,
+T6	Volume 1705 1708	II,
+T7	Pagination 1709 1715	p. 266
+T8	Author 1731 1740	L. Pesce,
+T9	Title 1741 1755;1757 1776	Ludovico Barbo vescovo riformatore
+T10	Title 1781 1838;1840 1853	Riforma della chiesa, cultura e spiritualità nel Quattro- cento veneto,
+T11	Abbreviation 1854 1859	cit.,
+T12	Pagination 1860 1871	pp. 135-159
+T13	Pagination 1860 1871	pp. 135-159
+T14	Secondary-Full 2032 2080;2082 2091	I. Tassi, Ludovico Barbo (1381-1443), Roma 1952, pp. 76-78
+T15	Author 2032 2041	I. Tassi,
+T16	Title 2042 2069	Ludovico Barbo (1381-1443),
+T17	PublicationPlace 2070 2074	Roma
+T18	PublicationYear 2075 2079	1952
+T19	Pagination 2082 2091	pp. 76-78
+T20	Secondary-Partial 2104 2156;2158 2230	F.G.B. Trolese, Ludovico Barbo (1381-1443) e la con- gregazione monastica riformata di S. Giustina: un settantennio dì studi,
+T21	Secondary-Full 2235 2306	Fonti e ricerche di storia ecclesiastica padovana, VII, 1976, pp. 35-78
+R2	ContainedIN Arg1:T20 Arg2:T21	
+T22	Author 2104 2119	F.G.B. Trolese,
+T23	Title 2120 2155;2158 2230	Ludovico Barbo (1381-1443) e la con gregazione monastica riformata di S. Giustina: un settantennio dì studi,
+T24	Title 2235 2285	Fonti e ricerche di storia ecclesiastica padovana,
+T25	PublicationNumber-Year 2286 2296	VII, 1976,
+T26	Pagination 2297 2306	pp. 35-78
+T27	Secondary-Partial 2315 2344	Corner, E.T., II, pp. 275-276
+T28	Secondary-Full 2360 2382;2384 2421	S. Lorenzo di Ammiana, a cura di L. Lanfranchi, Venezia 1947
+T29	Author 2315 2322	Corner,
+T30	AbbreviatedTitle 2323 2328	E.T.,
+T31	Volume 2329 2332	II,
+T32	Pagination 2333 2344	pp. 275-276
+T33	Title 2360 2382	S. Lorenzo di Ammiana,
+T34	Editor 2384 2408	a cura di L. Lanfranchi,
+T35	PublicationPlace 2409 2416	Venezia
+T36	PublicationYear 2417 2421	1947
+T37	Primary-Full 2429 2463	A.S.V., Senato mar, reg. 3, c. 65v
+T38	Archive 2429 2436	A.S.V.,
+T39	ArchivalReference 2437 2448	Senato mar,
+T40	Registry 2449 2456	reg. 3,
+T41	Cartulation 2457 2464	c. 65v.
+T42	Secondary-Partial 2711 2740	Corner, E.V., XI, pp. 198-201
+T43	Secondary-Full 2743 2816	SS. Ilario e Benedetto e S. Gregorio, a cura di L. Lanfranchi e B. Strina
+T44	Author 2711 2718	Corner,
+T45	AbbreviatedTitle 2719 2724	E.V.,
+T46	Volume 2725 2728	XI,
+T47	Pagination 2729 2740	pp. 198-201
+T48	Title 2743 2780	SS. Ilario e Benedetto e S. Gregorio,
+T49	Editor 2781 2816	a cura di L. Lanfranchi e B. Strina

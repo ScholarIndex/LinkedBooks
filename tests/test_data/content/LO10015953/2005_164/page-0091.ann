@@ -1,0 +1,30 @@
+T1	Primary-Full 2106 2129;2131 2172	ASVI, CRS 3031, Dimesse di Santa Croce, carte sciolte, alla data,
+T2	Archive 2106 2111	ASVI,
+T3	ArchivalReference 2112 2121	CRS 3031,
+T4	ArchivalReference 2122 2129;2131 2146	Dimesse di Santa Croce,
+T5	Cartulation 2147 2161	carte sciolte,
+T6	TopicDate 2162 2171	alla data
+T7	Primary-Full 2277 2301	ASVI, CRS 3012, c. 206v.
+T8	Primary-Full 2369 2444;2446 2458	ASVI, CRS 3031, Dimesse di Santa Croce, Memorie, carte sciolte, alla data 4 maggio 1683.
+T9	Primary-Full 2465 2541;2543 2554	ASVI, CRS 3031, Dimesse di Santa Croce, Memorie, carte sciolte, alla data 23 aprile 1684
+T10	Archive 2277 2282	ASVI,
+T11	ArchivalReference 2283 2292	CRS 3012,
+T12	Cartulation 2293 2301	c. 206v.
+T13	Secondary-Partial 2329 2346;2348 2362	Mantese, Memorie, IV/2, p. 1350.
+T14	Author 2329 2337	Mantese,
+T15	Title 2338 2346	Memorie,
+T16	Volume 2348 2351	IV/
+T17	Tomo 2351 2353	2,
+T18	Pagination 2354 2361	p. 1350
+T19	Archive 2369 2374	ASVI,
+T20	Archive 2465 2470	ASVI,
+T21	ArchivalReference 2375 2384	CRS 3031,
+T22	ArchivalReference 2471 2480	CRS 3031,
+T23	ArchivalReference 2385 2408	Dimesse di Santa Croce,
+T24	ArchivalReference 2481 2504	Dimesse di Santa Croce,
+T25	ArchivalReference 2409 2417	Memorie,
+T26	ArchivalReference 2505 2513	Memorie,
+T27	Cartulation 2418 2432	carte sciolte,
+T28	Cartulation 2514 2528	carte sciolte,
+T29	Date 2433 2444;2446 2457	alla data 4 maggio 1683
+T30	Date 2529 2541;2543 2554	alla data 23 aprile 1684

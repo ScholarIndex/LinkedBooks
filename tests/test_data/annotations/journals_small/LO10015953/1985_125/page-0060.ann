@@ -1,0 +1,52 @@
+T1	Secondary-Partial 1568 1646;1648 1665	I. Giuliani, Genesi e primo secolo di vita del magistrato sopra monasteri (Ve- nezia 1519-1620),
+T2	Secondary-Full 1678 1725;1727 1736	«Le Venezie francescane», nn. 1-2-34, 1961, Pa- dova 1963
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Author 1568 1580	I. Giuliani,
+T4	Title 1581 1646;1648 1663	Genesi e primo secolo di vita del magistrato sopra monasteri (Ve- nezia 1519-1620
+T5	Title 1678 1703	«Le Venezie francescane»,
+T6	PublicationNumber-Year 1704 1721	nn. 1-2-34, 1961,
+T7	PublicationPlace 1722 1725;1727 1731	Pa- dova
+T8	PublicationYear 1732 1736	1963
+T9	Secondary-Partial 1744 1773	Corner, E.V., IV, pp. 119-120
+T10	Author 1744 1751	Corner,
+T11	AbbreviatedTitle 1752 1757	E.V.,
+T12	Volume 1758 1761	IV,
+T13	Pagination 1762 1773	pp. 119-120
+T14	Secondary-Partial 1781 1828	Niero, I patriarchi di Venezia, cit., pp. 64-65
+T15	Author 1781 1787	Niero,
+T16	Title 1788 1812	I patriarchi di Venezia,
+T17	Abbreviation 1813 1818	cit.,
+T18	Pagination 1819 1828	pp. 64-65
+T19	Secondary-Partial 1830 1851;1853 1860	Corner, E.V., IV, pp. 121-122
+T20	Author 1830 1837	Corner,
+T21	AbbreviatedTitle 1838 1843	E.V.,
+T22	Volume 1844 1847	IV,
+T23	Pagination 1848 1851;1853 1860	pp. 121-122
+T24	Secondary-Partial 1868 1882	Ibidem, p. 132
+T25	Abbreviation 1868 1875	Ibidem,
+T26	Pagination 1876 1882	p. 132
+T27	Secondary-Partial 1890 1909	Ibidem, pp. 133-136
+T28	Abbreviation 1890 1897	Ibidem,
+T29	Pagination 1898 1909	pp. 133-136
+T30	Secondary-Partial 2445 2484	Ibidem, VI, pp. 92-93, 100-102, 108-112
+T31	Abbreviation 2445 2452	Ibidem,
+T32	Volume 2453 2456	VI,
+T33	Pagination 2457 2467	pp. 92-93,
+T34	Pagination 2468 2476	100-102,
+T35	Pagination 2477 2484	108-112
+T36	Secondary-Partial 2492 2515	Ibidem, IV, pp. 283-284
+T37	Abbreviation 2492 2499	Ibidem,
+T38	Volume 2500 2503	IV,
+T39	Pagination 2504 2515	pp. 283-284
+T40	Secondary-Partial 2517 2562	Sañudo, op. cit., voi. 14 (1886) 628, 630-631
+T41	Author 2517 2524	Sañudo,
+T42	Abbreviation 2525 2534	op. cit.,
+T43	Volume 2535 2542	voi. 14
+T44	PublicationYear 2543 2549	(1886)
+T45	Pagination 2550 2554	628,
+T46	Pagination 2555 2562	630-631
+T47	Secondary-Partial 2570 2599	Corner, E.V., VI, pp. 137-139
+T48	Author 2570 2577	Corner,
+T49	AbbreviatedTitle 2578 2583	E.V.,
+T50	Volume 2584 2587	VI,
+T51	Pagination 2588 2599	pp. 137-139

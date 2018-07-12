@@ -1,0 +1,17 @@
+T1	Citation 2147 2163	ABOP, Ristretto.
+T2	Primary-Full 2170 2226	ASV, Deputati ed Aggiunti, Registro delle Anagrafi 1790.
+T3	Archive 2170 2174	ASV,
+T4	ArchivalReference 2175 2196	Deputati ed Aggiunti,
+T5	ArchivalReference 2197 2226	Registro delle Anagrafi 1790.
+T6	Secondary-Partial 2233 2313;2315 2322	E. Apih, Il rapporto sull’Istria del Consigliere di Stato Giulio Cesare Bergnani (1806),
+T7	Secondary-Partial 2323 2354	«ACRSR», XII, 1981-1982, p. 263
+R1	ContainedIN Arg1:T6 Arg2:T7	
+T8	Author 2233 2241	E. Apih,
+T9	Title 2242 2313;2315 2322	Il rapporto sull’Istria del Consigliere di Stato Giulio Cesare Bergnani (1806),
+T10	AbbreviatedTitle 2323 2331	«ACRSR»,
+T11	PublicationNumber-Year 2332 2347	XII, 1981-1982,
+T12	Pagination 2348 2354	p. 263
+T13	Secondary-Partial 2419 2445;2447 2536	J. BASIOLI, Trgovina i ra- spodjela morske ribe na obali lstre u proslosti (Commercio e distribuzione del pesce sul-
+A1	Continuation T13
+T14	Author 2419 2430	J. BASIOLI,
+T15	Title 2431 2445;2447 2536	Trgovina i ra- spodjela morske ribe na obali lstre u proslosti (Commercio e distribuzione del pesce sul-

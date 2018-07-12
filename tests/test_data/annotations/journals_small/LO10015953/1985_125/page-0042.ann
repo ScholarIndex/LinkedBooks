@@ -1,0 +1,50 @@
+T1	Secondary-Full 1379 1454;1456 1468	chiesa e il convento di S. Anna in Venezia ora ospedale della Regia Marina, Venezia 1914
+A1	Continuation T1
+T2	Title 1379 1454	chiesa e il convento di S. Anna in Venezia ora ospedale della Regia Marina,
+A2	Continuation T2
+T3	PublicationPlace 1456 1463	Venezia
+T4	PublicationYear 1464 1468	1914
+T5	Secondary-Partial 1636 1697	R.I. Burns - K. Elm, Penitenza di Gesù Cristo, Frati della —,
+T6	Secondary-Full 1701 1708;1710 1723	D.I.P., VI, 1398-1404
+T7	Secondary-Partial 1736 1787;1789 1815	C. Capizzi, Il 11° Concilio di Lione e l’unione del 1274. Saggio bibliografico
+T8	Secondary-Full 1817 1866;1868 1874	«Orientalia Christiana Periodica», 51 (1985), pp. 87-122
+T9	Author 1636 1646	R.I. Burns
+T10	Author 1647 1656	- K. Elm,
+T11	Title 1657 1697	Penitenza di Gesù Cristo, Frati della —,
+T12	AbbreviatedTitle 1701 1708	D.I.P.,
+T13	Volume 1710 1713	VI,
+T14	PublicationYear 1714 1723	1398-1404
+T15	Author 1736 1747	C. Capizzi,
+T16	Title 1748 1787;1789 1815	Il 11° Concilio di Lione e l’unione del 1274. Saggio bibliografico
+T17	Title 1817 1851	«Orientalia Christiana Periodica»,
+T18	PublicationNumber-Year 1852 1862	51 (1985),
+T19	Pagination 1863 1866;1868 1874	pp. 87-122
+T20	Secondary-Partial 1882 1912	Corner, E.V., XII, pp. 211-215
+T21	Primary-Full 1919 1952;1954 1998	A.S. Treviso, S. Caterina in Cor- porazioni religiose soppresse, nn. 6607-6608
+T22	Primary-Full 2199 2225	A.S.V., S. Caterina, b. 21
+T23	Secondary-Partial 2227 2271;2273 2316	M. Ciartoso Lorenzetti, La «Mariegola» della scuola di S. Caterina de' Sacchi a Venezia,
+T24	Author 1882 1889	Corner,
+T25	AbbreviatedTitle 1890 1895	E.V.,
+T26	Volume 1896 1900	XII,
+T27	Pagination 1901 1912	pp. 211-215
+T28	Archive 1919 1932	A.S. Treviso,
+T29	ArchivalReference 1933 1944	S. Caterina
+T30	ArchivalReference 1948 1952;1954 1983	Cor- porazioni religiose soppresse
+T31	Numbering 1985 1998	nn. 6607-6608
+T32	Primary-Full 2032 2034;2036 2111;2114 2136	L. Lanfranchi, Codice diplomatico veneziano, regesti dei documenti del XIII se colo, presso l’A.S.V.,
+T33	Archive 2120 2136	presso l’A.S.V.,
+T34	Author 2032 2034;2036 2047	L. Lanfranchi,
+T35	Title 2048 2111;2114 2119	Codice diplomatico veneziano, regesti dei documenti del XIII se colo,
+T36	Archive 2199 2206	A.S.V.,
+T37	ArchivalReference 2207 2219	S. Caterina,
+T38	Folder 2220 2225	b. 21
+T39	Author 2227 2250	M. Ciartoso Lorenzetti,
+T40	Title 2251 2271;2273 2316	La «Mariegola» della scuola di S. Caterina de' Sacchi a Venezia,
+T41	Secondary-Full 2317 2345;2347 2355	«Ateneo Veneto», 1926, XLIX, pp. 5-53
+R1	ContainedIN Arg1:T23 Arg2:T41	
+T42	Title 2317 2333	«Ateneo Veneto»,
+T43	PublicationYear 2334 2339	1926,
+T44	PublicationNumber 2340 2345	XLIX,
+T45	Pagination 2347 2355	pp. 5-53
+T46	Secondary-Partial 2585 2592	Corner,
+T47	Author 2585 2592	Corner,

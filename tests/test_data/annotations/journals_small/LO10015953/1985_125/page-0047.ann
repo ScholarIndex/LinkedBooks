@@ -1,0 +1,58 @@
+T1	Secondary-Partial 1736 1743;1745 1760	Corner, E.T., I, p. 380
+T2	Secondary-Partial 1762 1797	Piva, op. cit., vol. I, pp. 285-286
+T3	Author 1736 1743	Corner,
+T4	AbbreviatedTitle 1745 1750	E.T.,
+T5	Volume 1751 1753	I,
+T6	Pagination 1754 1760	p. 380
+T7	Author 1762 1767	Piva,
+T8	Abbreviation 1768 1777	op. cit.,
+T9	Volume 1778 1785	vol. I,
+T10	Pagination 1786 1797	pp. 285-286
+T11	Secondary-Partial 1806 1843	Corner, E.V., V, pp. 166-170, 183-189
+T12	Author 1806 1813	Corner,
+T13	AbbreviatedTitle 1814 1819	E.V.,
+T14	Volume 1820 1822	V,
+T15	Pagination 1823 1835	pp. 166-170,
+T16	Pagination 1836 1843	183-189
+T17	Secondary-Partial 1845 1875;1877 1914	C. Egger, Canonici lateranensi della congregazione del SS. Salvatore
+T18	Secondary-Full 1919 1938	D.I.P., II, 101-107
+R1	ContainedIN Arg1:T17 Arg2:T18	
+T19	Author 1845 1854	C. Egger,
+T20	Title 1855 1875;1877 1914	Canonici lateranensi della congregazione del SS. Salvatore
+T21	AbbreviatedTitle 1919 1926	D.I.P.,
+T22	Volume 1927 1930	II,
+T23	Pagination 1931 1938	101-107
+T24	Primary-Full 1946 2002	A.S.V., S. Maria della carità, b. 40 perg.: 1433, 1 mag.
+T25	Archive 1946 1953	A.S.V.,
+T26	ArchivalReference 1954 1976	S. Maria della carità,
+T27	Folder 1977 1982	b. 40
+T28	Parchment 1983 2002	perg.: 1433, 1 mag.
+T29	Date 1990 2002	1433, 1 mag.
+T30	Secondary-Partial 2095 2124	Corner, E.V., IX, pp. 243-244
+T31	Author 2095 2102	Corner,
+T32	AbbreviatedTitle 2103 2108	E.V.,
+T33	Volume 2109 2112	IX,
+T34	Pagination 2113 2124	pp. 243-244
+T35	Secondary-Partial 2456 2486;2488 2504	Corner, E.V., II, pp. 254-256, 291-292, 295-297
+T36	Author 2456 2463	Corner,
+T37	AbbreviatedTitle 2464 2469	E.V.,
+T38	Volume 2470 2473	II,
+T39	Pagination 2474 2485	pp. 254-256
+T40	Pagination 2488 2496	291-292,
+T41	Pagination 2497 2504	295-297
+T42	Secondary-Full 2506 2563;2565 2583	F. De Gratia, Chronicon monasterii S. Salvatoris Venetia- rum, Venetiis 1766
+T43	Author 2506 2519	F. De Gratia,
+T44	Title 2520 2563;2565 2569	Chronicon monasterii S. Salvatoris Venetia- rum,
+T45	PublicationPlace 2570 2578	Venetiis
+T46	PublicationYear 2579 2583	1766
+T47	Secondary-Full 2585 2644;2646 2675	G. Tassini, Iscrizioni della chiesa e convento di S. Salva- tore di Venezia, Venezia 1895
+T48	Author 2585 2596	G. Tassini,
+T49	Title 2597 2644;2646 2662	Iscrizioni della chiesa e convento di S. Salva- tore di Venezia,
+T50	PublicationPlace 2663 2670	Venezia
+T51	PublicationYear 2671 2675	1895
+T52	Secondary-Full 2765 2795;2797 2829	G.B.F. Trolese, Ludovico Barbo e S. Giustina, Roma 1983, p. 155
+T53	Author 2765 2780	G.B.F. Trolese,
+T54	Title 2781 2795;2797 2811	Ludovico Barbo e S. Giustina,
+T55	PublicationPlace 2812 2816	Roma
+T56	PublicationYear 2817 2822	1983,
+T57	Pagination 2823 2829	p. 155

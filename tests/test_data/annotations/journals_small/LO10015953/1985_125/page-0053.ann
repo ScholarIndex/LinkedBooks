@@ -1,0 +1,50 @@
+T1	Secondary-Partial 1702 1721	Ibidem, pp. 371-372
+T2	Primary-Full 1729 1771	A.S.V., Collegio notaiorio, reg. 13 c. 25v
+T3	Secondary-Partial 1779 1807	Corner, E.V., V, pp. 134-135
+T4	Secondary-Full 1809 1843;1845 1912	P. De Angelis, L'ospedale di Santo Spirito in Saxia e le sue filiali nel mondo, Roma 1958, pp. 172-173
+T5	Abbreviation 1702 1709	Ibidem,
+T6	Pagination 1710 1721	pp. 371-372
+T7	Archive 1729 1736	A.S.V.,
+T8	ArchivalReference 1737 1756	Collegio notaiorio,
+T9	Registry 1757 1764	reg. 13
+T10	Cartulation 1765 1771	c. 25v
+T11	Author 1779 1786	Corner,
+T12	AbbreviatedTitle 1787 1792	E.V.,
+T13	Volume 1793 1795	V,
+T14	Pagination 1796 1807	pp. 134-135
+T15	Author 1809 1823	P. De Angelis,
+T16	Title 1824 1843;1845 1889	L'ospedale di Santo Spirito in Saxia e le sue filiali nel mondo,
+T17	PublicationPlace 1890 1894	Roma
+T18	PublicationYear 1895 1900	1958,
+T19	Pagination 1901 1912	pp. 172-173
+T20	Secondary-Partial 1926 2004;2006 2020	F. Cavazzana Romanelli, Il settimo sigillo: figure e simboli della sfragistica ecclesiastica,
+T21	Secondary-Full 2024 2089;2091 2108	II sigillo nella storia e nella cultura, catalogo di mostra, Roma 1985, pp. 149-198
+T22	Author 1926 1949	F. Cavazzana Romanelli,
+T23	Title 1950 2004;2006 2020	Il settimo sigillo: figure e simboli della sfragistica ecclesiastica,
+T24	Title 2024 2084	II sigillo nella storia e nella cultura, catalogo di mostra,
+T25	PublicationPlace 2085 2089	Roma
+T26	PublicationYear 2091 2096	1985,
+T27	Pagination 2097 2108	pp. 149-198
+T28	Secondary-Full 2158 2216	G. Tassini, Curiosità veneziane, Venezia 1933, pp. 665-666
+T29	Author 2158 2169	G. Tassini,
+T30	Title 2170 2190	Curiosità veneziane,
+T31	PublicationPlace 2191 2198	Venezia
+T32	PublicationYear 2199 2204	1933,
+T33	Pagination 2205 2216	pp. 665-666
+T34	Secondary-Full 2224 2290;2292 2307	A. Niero-G. Vio, La chiesa dello Spirito Santo in Venezia, Venezia 1981, pp. 11-12
+T35	Author 2224 2232	A. Niero
+T36	Author 2232 2240	-G. Vio,
+T37	Title 2241 2282	La chiesa dello Spirito Santo in Venezia,
+T38	PublicationPlace 2283 2290	Venezia
+T39	PublicationYear 2292 2297	1981,
+T40	Pagination 2298 2307	pp. 11-12
+T41	Secondary-Partial 2395 2449	P. Paschini, I monasteri femminili in Italia nel '500,
+T42	Secondary-Full 2453 2464;2466 2530	Problemi di vita religiosa in Italia nel Cinquecento, Padova 1960, pp. 31-60
+R1	ContainedIN Arg1:T41 Arg2:T42	
+R2	ContainedIN Arg1:T20 Arg2:T21	
+T43	Author 2395 2407	P. Paschini,
+T44	Title 2408 2448	I monasteri femminili in Italia nel '500
+T45	Title 2453 2464;2466 2507	Problemi di vita religiosa in Italia nel Cinquecento,
+T46	PublicationPlace 2508 2514	Padova
+T47	PublicationYear 2515 2520	1960,
+T48	Pagination 2521 2530	pp. 31-60

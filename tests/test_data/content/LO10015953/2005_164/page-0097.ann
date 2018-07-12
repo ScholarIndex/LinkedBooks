@@ -1,0 +1,29 @@
+T1	Primary-Full 1824 1904;1906 1960	ASV, Miscellanea di atti diversi manoscritti, Cancelleria ducale, b. 93, «scrit- tura» del Cancellier grande alla data 3 Settembre 1766
+T2	Secondary-Partial 1968 2042;2044 2131;2133 2160	F. Cavazzana Romanelli, Topografia del potere, topografia della memoria. I luoghi della politica e dell’amministrazione della Serenissima nella rievocazione otto- centesca di Giovanni Rossi,
+T3	Secondary-Full 2164 2220;2222 2307;2309 2365	Tempi, uomini ed eventi di storia veneta. Studi in onore di Federico Seneca, a cura di S. PERINI, con la collaborazione di F. AmbrOSINI, M. De Biasi, G. Gullino, S. Malavasi, Rovigo 2003, p. 464, 476
+T4	Secondary-Partial 2373 2445;2447 2493	M. GALTAROSSA, Segretari veneziani aggregati alla nobiltà padovana (see. XV11-XVIII): il ruolo dei professori padovani,
+T5	Secondary-Full 2494 2532;2534 2572	«Quaderni per la storia dell’Universi- tà di Padova», 35 (2002), p. 122, 127.
+R1	ContainedIN Arg1:T4 Arg2:T5	
+R2	ContainedIN Arg1:T2 Arg2:T3	
+T6	Archive 1824 1828	ASV,
+T7	ArchivalReference 1829 1869	Miscellanea di atti diversi manoscritti,
+T8	ArchivalReference 1870 1889	Cancelleria ducale,
+T9	Folder 1890 1896	b. 93,
+T10	Attachment 1897 1904;1906 1960	«scrit- tura» del Cancellier grande alla data 3 Settembre 1766
+T11	Date 1944 1960	3 Settembre 1766
+T12	Author 1968 1991	F. Cavazzana Romanelli,
+T13	Title 1992 2042;2044 2130;2133 2160	Topografia del potere, topografia della memoria. I luoghi della politica e dell’amministrazione della Serenissima nella rievocazione otto centesca di Giovanni Rossi,
+T14	Title 2164 2220;2222 2241	Tempi, uomini ed eventi di storia veneta. Studi in onore di Federico Seneca,
+T15	Editor 2242 2262	a cura di S. PERINI,
+T16	Editor 2263 2301	con la collaborazione di F. AmbrOSINI,
+T17	Editor 2302 2307;2309 2315	M. De Biasi,
+T18	Editor 2316 2327	G. Gullino,
+T19	Editor 2328 2340	S. Malavasi,
+T20	PublicationPlace 2341 2347	Rovigo
+T21	PublicationYear 2348 2353	2003,
+T22	Pagination 2354 2365	p. 464, 476
+T23	Author 2373 2387	M. GALTAROSSA,
+T24	Title 2388 2445;2447 2493	Segretari veneziani aggregati alla nobiltà padovana (see. XV11-XVIII): il ruolo dei professori padovani,
+T25	Title 2494 2532;2534 2548	«Quaderni per la storia dell’Universi- tà di Padova»,
+T26	PublicationNumber-Year 2549 2559	35 (2002),
+T27	Pagination 2560 2571	p. 122, 127

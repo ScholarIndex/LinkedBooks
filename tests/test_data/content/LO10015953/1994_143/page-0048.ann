@@ -1,0 +1,45 @@
+T1	Secondary-Partial 1730 1764	la costa dell’Istria nel passato),
+T2	Title 1730 1764	la costa dell’Istria nel passato),
+T3	Secondary-Full 1765 1816;1818 1850	«Jadranski Zbornik» (= «JZ») («Miscellanea Adriati- ca»), VI, 1963-1965, pp. 165-196
+R1	ContainedIN Arg1:T1 Arg2:T3	
+T4	Title 1765 1816;1818 1823	«Jadranski Zbornik» (= «JZ») («Miscellanea Adriati- ca»),
+T5	PublicationNumber-Year 1824 1838	VI, 1963-1965,
+T6	Pagination 1839 1850	pp. 165-196
+T7	Secondary-Partial 1852 1907;1909 1914	G. Poli, La pesca in Istria negli anni tra il 1700 e il 1800,
+T8	Secondary-Partial 1915 1947	«PI», IVs., 27 (1970), pp. 48-59
+R2	ContainedIN Arg1:T7 Arg2:T8	
+T9	Author 1852 1860	G. Poli,
+T10	Title 1861 1907;1909 1914	La pesca in Istria negli anni tra il 1700 e il 1800,
+T11	AbbreviatedTitle 1915 1920	«PI»,
+T12	Series 1921 1926	IVs.,
+T13	PublicationNumber-Year 1927 1937	27 (1970),
+T14	Pagination 1938 1948	pp. 48-59;
+T15	Secondary-Partial 1949 1993;1995 2069	J. Basioli, Lovmaleplave tibe naobalamaIstre u proslosti (La pesca del pesce azzurro sulle coste istriane nel passato),
+T16	Secondary-Partial 2070 2087;2089 2101	«JZ», Vili, 1973, pp. 257-279.
+R3	ContainedIN Arg1:T15 Arg2:T16	
+T17	Author 1949 1960	J. Basioli,
+T18	Title 1961 1993;1995 2069	Lovmaleplave tibe naobalamaIstre u proslosti (La pesca del pesce azzurro sulle coste istriane nel passato),
+T19	AbbreviatedTitle 2070 2075	«JZ»,
+T20	PublicationNumber-Year 2076 2087	Vili, 1973,
+T21	Pagination 2089 2101	pp. 257-279.
+T22	Primary-Full 2108 2179;2181 2193	ASV, Cinque Savi alla Mercanzia, Busta 573, Dispaccio da Capodistria 29 aprile 1696.
+T23	Archive 2108 2112	ASV,
+T24	ArchivalReference 2113 2140	Cinque Savi alla Mercanzia,
+T25	Folder 2141 2151	Busta 573,
+T26	Other 2152 2179;2181 2193	Dispaccio da Capodistria 29 aprile 1696.
+T27	Secondary-Partial 2200 2226	Apih, Il rapporto, p. 264.
+T28	Author 2200 2205	Apih,
+T29	AbbreviatedTitle 2206 2218	Il rapporto,
+T30	Pagination 2219 2226	p. 264.
+T31	Secondary-Full 2417 2486;2488 2565;2567 2586	F. Gestrin - D. MlHELlt, Il traffico marittimo di Trieste 1759/1760 - Trzaskipomorskipromet 1759/1760, Lubiana 1990 (Fontes Rerum SIovenicarum, To- mus XII), pp. 59-65
+T32	Author 2417 2427	F. Gestrin
+T33	Author 2430 2441	D. MlHELlt,
+T34	Title 2442 2486;2488 2520	Il traffico marittimo di Trieste 1759/1760 - Trzaskipomorskipromet 1759/1760,
+T35	PublicationPlace 2521 2528	Lubiana
+T36	PublicationYear 2529 2533	1990
+T37	PublicationSpecifications 2534 2565;2567 2576	(Fontes Rerum SIovenicarum, To- mus XII),
+T38	Pagination 2577 2587	pp. 59-65.
+T39	Secondary-Partial 2594 2620	Apih, Il rapporto, p. 233.
+T40	Author 2594 2599	Apih,
+T41	AbbreviatedTitle 2600 2612	Il rapporto,
+T42	Pagination 2613 2620	p. 233.

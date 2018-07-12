@@ -1,0 +1,56 @@
+T1	Secondary-Partial 1374 1405	Corner, E.V., IV, pp. 41-43, 48
+T2	Secondary-Partial 1407 1439	Dandolo, op. cit., p. 290, 21-24
+T3	Secondary-Full 1443 1519;1521 1541	A. Cicogna, Delle iscrizioni veneziane raccolte ed illustrate, Venezia 1824- 1853, I, pp. 314-315
+T4	Author 1374 1381	Corner,
+T5	AbbreviatedTitle 1382 1387	E.V.,
+T6	Volume 1388 1391	IV,
+T7	Pagination 1392 1401	pp. 41-43
+T8	Pagination 1403 1405	48
+T9	Author 1407 1415	Dandolo,
+T10	Abbreviation 1416 1425	op. cit.,
+T11	Pagination 1426 1432	p. 290
+T12	Pagination 1434 1439	21-24
+T13	Author 1443 1454	A. Cicogna,
+T14	Title 1455 1505	Delle iscrizioni veneziane raccolte ed illustrate,
+T15	PublicationPlace 1506 1513	Venezia
+T16	PublicationYear 1514 1519;1521 1526	1824- 1853,
+T17	Volume 1527 1529	I,
+T18	Pagination 1530 1541	pp. 314-315
+T19	Primary-Full 1718 1786	A.S.V., S. Maria delle vergini, b. 2 perg., b. -, procc. A, B, C, K.
+T20	Archive 1718 1725	A.S.V.,
+T21	ArchivalReference 1726 1749	S. Maria delle vergini,
+T22	Folder 1750 1761	b. 2 perg.,
+T23	Folder 1762 1767	b. -,
+T24	Numbering 1768 1785	procc. A, B, C, K
+T25	Secondary-Partial 1896 1919	Corner, E.V., IV, p. 49
+T26	Author 1896 1903	Corner,
+T27	AbbreviatedTitle 1904 1909	E.V.,
+T28	Volume 1910 1913	IV,
+T29	Pagination 1914 1919	p. 49
+T30	Secondary-Partial 2009 2026	Ibidem, pp. 58-59
+T31	Abbreviation 2009 2016	Ibidem,
+T32	Pagination 2017 2026	pp. 58-59
+T33	Secondary-Partial 2189 2225	Ibidem-, Corner, E.V., IV, pp. 52-54
+T34	Primary-Full 2135 2157;2159 2181	A.S.V., S. Maria delle vergini, b. -, proc. C
+T35	Archive 2135 2142	A.S.V.,
+T36	ArchivalReference 2143 2157;2159 2167	S. Maria delle vergini,
+T37	Folder 2168 2173	b. -,
+T38	Numbering 2174 2181	proc. C
+T39	Abbreviation 2189 2197	Ibidem-,
+T40	Author 2198 2205	Corner,
+T41	AbbreviatedTitle 2206 2211	E.V.,
+T42	Volume 2212 2215	IV,
+T43	Pagination 2216 2225	pp. 52-54
+T44	Secondary-Partial 2574 2618	S. Tramontin, Canonici regolari di S. Marco,
+T45	Secondary-Full 2622 2641	D.I.P., II, 122-123
+R1	ContainedIN Arg1:T44 Arg2:T45	
+T46	Author 2574 2587	S. Tramontin,
+T47	Title 2588 2618	Canonici regolari di S. Marco,
+T48	AbbreviatedTitle 2622 2629	D.I.P.,
+T49	Volume 2630 2633	II,
+T50	Pagination 2634 2641	122-123
+T51	Secondary-Partial 2794 2807;2809 2822	Corner, E.V., IV, pp. 77-88
+T52	Author 2794 2801	Corner,
+T53	AbbreviatedTitle 2802 2807	E.V.,
+T54	Volume 2809 2812	IV,
+T55	Pagination 2813 2822	pp. 77-88

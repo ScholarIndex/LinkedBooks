@@ -1,0 +1,34 @@
+T1	Secondary-Full 2225 2287	Memorie e lettere, a c. di C. Panigada, Bari 1934, pp. 5-6, 97
+T2	Secondary-Full 2295 2363;2365 2386	Discorsi dell'arte poetica e del poema eroico, a c. di L. Poma, Bari 1964, pp. 15, 114-115
+T3	Secondary-Partial 2402 2460;2462 2491	L. Alpago Novello, La vita e le opere di Luigi hollino ve- scovo di Belluno (1596-1625),
+T4	Secondary-Full 2495 2537	“‘Archivio veneto", V s., 14 (1933), p. 25
+R1	ContainedIN Arg1:T3 Arg2:T4	
+T5	Secondary-Partial 2550 2569	M., IV, pp. 144-145
+T6	Secondary-Full 2577 2636	G. Frigimelica, Epigrammi italiani, Padova 1697, pp. 7, 203
+T7	Title 2225 2243	Memorie e lettere,
+T8	Title 2295 2341	Discorsi dell'arte poetica e del poema eroico,
+T9	Title 2421 2460;2462 2491	La vita e le opere di Luigi hollino ve- scovo di Belluno (1596-1625),
+T10	Editor 2244 2264	a c. di C. Panigada,
+T11	PublicationPlace 2265 2269	Bari
+T12	PublicationYear 2270 2275	1934,
+T13	Pagination 2276 2284	pp. 5-6,
+T14	Pagination 2285 2287	97
+T15	Editor 2342 2358	a c. di L. Poma,
+T16	PublicationPlace 2359 2363	Bari
+T17	PublicationYear 2365 2370	1964,
+T18	Pagination 2371 2378	pp. 15,
+T19	Pagination 2379 2386	114-115
+T20	Author 2402 2420	L. Alpago Novello,
+T21	Title 2495 2514	“‘Archivio veneto",
+T22	Series 2515 2520	V s.,
+T23	PublicationNumber-Year 2521 2531	14 (1933),
+T24	Pagination 2532 2537	p. 25
+T25	AbbreviatedTitle 2550 2553	M.,
+T26	Volume 2554 2557	IV,
+T27	Pagination 2558 2569	pp. 144-145
+T28	Author 2577 2592	G. Frigimelica,
+T29	Title 2593 2612	Epigrammi italiani,
+T30	PublicationPlace 2613 2619	Padova
+T31	PublicationYear 2620 2625	1697,
+T32	Pagination 2626 2632	pp. 7,
+T33	Pagination 2633 2636	203

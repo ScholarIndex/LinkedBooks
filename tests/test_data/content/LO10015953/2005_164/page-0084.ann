@@ -1,0 +1,25 @@
+T1	Primary-Full 2001 2077;2079 2103	ASVI, Magistrature giuridiche antiche (d’ora in poi MGA), Banco del Sigillo, b. 350, 19 gennaio 1699.
+T2	Primary-Full 2110 2155	ASVI, MGA, Banco del Sigillo, b. 359, c. 22r.
+T3	Primary-Full 2162 2227	ASVI, Notai Vicenza, Giovanni Ceccatoni, b. 2807,12 febbraio 1700
+T4	Secondary-Full 2412 2472	Da Mosto, L’Archivio diStato di Venezia, Roma 1937,1, p. 103
+T5	Archive 2001 2006	ASVI,
+T6	Archive 2110 2115	ASVI,
+T7	Archive 2162 2167	ASVI,
+T8	ArchivalFond 2007 2058	Magistrature giuridiche antiche (d’ora in poi MGA),
+T9	ArchivalSeries 2059 2077	Banco del Sigillo,
+T10	Folder 2079 2086	b. 350,
+T11	Date 2087 2102	19 gennaio 1699
+T12	ArchivalFond 2116 2120	MGA,
+T13	ArchivalSeries 2121 2139	Banco del Sigillo,
+T14	Folder 2140 2147	b. 359,
+T15	Cartulation 2148 2154	c. 22r
+T16	ArchivalFond 2168 2182	Notai Vicenza,
+T17	Notary 2183 2202	Giovanni Ceccatoni,
+T18	Folder 2203 2211	b. 2807,
+T19	Date 2211 2227	12 febbraio 1700
+T20	Author 2412 2421	Da Mosto,
+T21	Title 2422 2452	L’Archivio diStato di Venezia,
+T22	PublicationPlace 2453 2457	Roma
+T23	PublicationYear 2458 2463	1937,
+T24	Volume 2463 2465	1,
+T25	Pagination 2466 2472	p. 103

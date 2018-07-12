@@ -1,0 +1,48 @@
+T1	Primary-Full 1560 1631;1633 1637	A.S.V., Provveditori sopra monasteri, b. 1, reg. I, cc. 14-15v: 14 mag. 1519
+T2	Primary-Full 1717 1792	A.S.V., Consiglio dei dieci, codici, reg. 114, «De virginibus...» cc. 14-16
+T3	Archive 1560 1567	A.S.V.,
+T4	Archive 1717 1724	A.S.V.,
+T5	ArchivalReference 1568 1597	Provveditori sopra monasteri,
+T6	Folder 1598 1603	b. 1,
+T7	Registry 1604 1611	reg. I,
+T8	Cartulation 1612 1622	cc. 14-15v
+T9	Date 1624 1631;1633 1637	14 mag. 1519
+T10	ArchivalReference 1725 1745	Consiglio dei dieci,
+T11	ArchivalReference 1746 1753	codici,
+T12	Registry 1754 1763	reg. 114,
+T13	Attachment 1764 1782	«De virginibus...»
+T14	Cartulation 1783 1792	cc. 14-16
+T15	Primary-Partial 1964 1973	cc. 16-19
+T16	Cartulation 1964 1973	cc. 16-19
+T17	Primary-Partial 2032 2051	ìbidem, cc. 19-20v.
+T18	Abbreviation 2032 2039	ìbidem,
+T19	Cartulation 2040 2050	cc. 19-20v
+T20	Secondary-Partial 2248 2257;2259 2279	Mazzucco, op. cit., pp. 80, 87
+T21	Author 2248 2257	Mazzucco,
+T22	Title 2259 2268	op. cit.,
+T23	Pagination 2269 2279	pp. 80, 87
+T24	Secondary-Partial 2287 2312	Paschini, op. cit., p. 51
+T25	Author 2287 2296	Paschini,
+T26	Abbreviation 2297 2306	op. cit.,
+T27	Pagination 2307 2312	p. 51
+T28	Secondary-Full 2325 2353;2355 2410	A.M. Berengo Morte, San Bar- nadìno da Siena nelle Venezie, Verona 1945, pp. 235-240
+T29	Author 2325 2344	A.M. Berengo Morte,
+T30	Title 2345 2353;2355 2385	San Bar- nadìno da Siena nelle Venezie,
+T31	PublicationPlace 2386 2392	Verona
+T32	PublicationYear 2393 2398	1945,
+T33	Pagination 2399 2410	pp. 235-240
+T34	Secondary-Partial 2412 2427;2429 2497	A. Fantozzi, La riforma osservante dei monasteri delle clarisse dell'Italia centrale
+T35	Author 2412 2424	A. Fantozzi,
+T36	Title 2425 2427;2429 2497	La riforma osservante dei monasteri delle clarisse dell'Italia centrale
+T37	Secondary-Full 2499 2509;2511 2568	«Archivium Franciscanum Historicum», 23 (1930), pp. 361-382, 488-550
+R1	ContainedIN Arg1:T34 Arg2:T37	
+T38	Title 2499 2509;2511 2536	«Archivium Franciscanum Historicum»,
+T39	PublicationNumber-Year 2537 2547	23 (1930),
+T40	Pagination 2548 2560	pp. 361-382,
+T41	Pagination 2561 2568	488-550
+T42	Primary-Full 2576 2635	A.S.V., Provveditori sopra monasteri, b. 1, reg. I, cc. 6-7
+T43	Archive 2576 2583	A.S.V.,
+T44	ArchivalReference 2584 2613	Provveditori sopra monasteri,
+T45	Folder 2614 2619	b. 1,
+T46	Registry 2620 2627	reg. I,
+T47	Cartulation 2628 2635	cc. 6-7

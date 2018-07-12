@@ -1,0 +1,59 @@
+T1	Primary-Full 1610 1683	BNM, mss. it., VII, 821 (=8900), Raccolta dei Consegi, c. 39r, 169r, 237r
+T2	Library 1610 1614	BNM,
+T3	Codex 1615 1664	mss. it., VII, 821 (=8900), Raccolta dei Consegi,
+T4	Cartulation 1665 1672	c. 39r,
+T5	Cartulation 1673 1678	169r,
+T6	Cartulation 1679 1683	237r
+T7	Primary-Full 1686 1754	BNM, mss. it., VII, 822 (=8901), Raccolta dei Consegi, c. 172r, 301r
+T8	Library 1686 1690	BNM,
+T9	Codex 1691 1740	mss. it., VII, 822 (=8901), Raccolta dei Consegi,
+T10	Cartulation 1741 1749	c. 172r,
+T11	Cartulation 1750 1754	301r
+T12	Primary-Full 1757 1771;1773 1839	BNM, mss. it., VII, 823 (=8902), Raccolta dei Consegi, c. 38r, 175r, 246r, 322··.
+T13	Library 1757 1761	BNM,
+T14	Codex 1762 1771;1773 1812	mss. it., VII, 823 (=8902), Raccolta dei Consegi,
+T15	Cartulation 1813 1820	c. 38r,
+T16	Cartulation 1821 1826	175r,
+T17	Cartulation 1827 1832	246r,
+T18	Cartulation 1833 1839	322··.
+T19	Secondary-Partial 1846 1885	TREBBI, La cancelleria veneta, p. 74-75
+T20	Author 1846 1853	TREBBI,
+T21	AbbreviatedTitle 1854 1876	La cancelleria veneta,
+T22	Pagination 1877 1885	p. 74-75
+T23	Secondary-Partial 1887 1922;1924 2012;2014 2062	S. SECCHI OLIVIERI, «Quando mio pa- dre suonava l’arpicordo...» Note sulla famiglia e il sentimento della famiglia nel domi- nio veneziano e a Venezia tra Cinque e Seicento,
+T24	Secondary-Full 2066 2103;2105 2189;2191 2268;2271 2290	Musica, scienza e idee nella serenis- sima durante il Seicento. Atti del convegno intemazionale di studi Venezia - Palazzo Giustinian Lolin 13-15 Dicembre 1993, a cura di F. PASSADORE e F. Rossi, Vene zia 1996, p. 30-31.
+R1	ContainedIN Arg1:T23 Arg2:T24	
+T25	Author 1887 1906	S. SECCHI OLIVIERI,
+T26	Title 1907 1922;1924 2012;2014 2062	«Quando mio pa- dre suonava l’arpicordo...» Note sulla famiglia e il sentimento della famiglia nel domi- nio veneziano e a Venezia tra Cinque e Seicento,
+T27	Title 2066 2103;2105 2189;2191 2228	Musica, scienza e idee nella serenis- sima durante il Seicento. Atti del convegno intemazionale di studi Venezia - Palazzo Giustinian Lolin 13-15 Dicembre 1993,
+T28	Editor 2229 2251	a cura di F. PASSADORE
+T29	Editor 2252 2263	e F. Rossi,
+T30	PublicationPlace 2264 2269;2271 2274	Vene- zia
+T31	PublicationYear 2275 2280	1996,
+T32	Pagination 2281 2289	p. 30-31
+T33	Primary-Partial 2297 2346	ASV, Barbaro, Arbori de' patritii veneti, p. 483;
+T34	Archive 2297 2301	ASV,
+T35	ArchivalReference 2302 2338	Barbaro, Arbori de' patritii veneti,
+T36	Pagination 2339 2345	p. 483
+T37	Primary-Full 2347 2376;2378 2431	BNM, mss. it. VII 17 (=8306), Carpellari Vivario, Campidoglio veneto. III, c. 169v;
+T38	Library 2347 2351	BNM,
+T39	Codex 2352 2376	mss. it. VII 17 (=8306),
+T40	Author 2378 2397	Carpellari Vivario,
+T41	Title 2398 2417	Campidoglio veneto.
+T42	Numbering 2418 2422	III,
+T43	Cartulation 2423 2431	c. 169v;
+T44	Primary-Full 2432 2460;2462 2544	BCP, mss. C.M. 139, Copia ed estratti di lettere di Orio Marco vicecapitano delle Navi (1499-1500), c. 55r-78r.
+T45	Library 2432 2436	BCP,
+T46	Codex 2437 2451	mss. C.M. 139,
+T47	Title 2452 2460;2462 2532	Copia ed estratti di lettere di Orio Marco vicecapitano delle Navi (1499-1500),
+T48	Cartulation 2533 2544	c. 55r-78r.
+T49	Secondary-Partial 2551 2597	E. CONCINA, Verona veneziana e rinascimentale,
+T50	Secondary-Full 2601 2627;2629 2705	Ritratto di Verona. Linea- menti di una storia urbanistica, a cura di L. Puppi, Verona 1978, p. 271-344
+T51	Author 2551 2562	E. CONCINA,
+R2	ContainedIN Arg1:T49 Arg2:T50	
+T52	Title 2563 2597	Verona veneziana e rinascimentale,
+T53	Title 2601 2627;2629 2661	Ritratto di Verona. Linea- menti di una storia urbanistica,
+T54	Editor 2662 2681	a cura di L. Puppi,
+T55	PublicationPlace 2682 2688	Verona
+T56	PublicationYear 2689 2694	1978,
+T57	Pagination 2695 2705	p. 271-344

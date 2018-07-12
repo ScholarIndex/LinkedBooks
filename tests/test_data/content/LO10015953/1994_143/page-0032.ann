@@ -1,0 +1,93 @@
+T1	Secondary-Full 839 895	CARLO De FRANCESCHI, L’Istria, Parenzo 1879, pp. 332-371
+T2	Author 839 859	CARLO De FRANCESCHI,
+T3	Title 860 869	L’Istria,
+T4	PublicationPlace 870 877	Parenzo
+T5	PublicationYear 878 883	1879,
+T6	Pagination 884 896	pp. 332-371;
+T7	Secondary-Partial 897 899;901 954	B. SCHIAVUZZI, Le epidemie di pesie bubbonica in Istria,
+T8	Secondary-Full 955 984;986 1060	«Atti e Memorie della Società Istriana di Archeologia e Storia Patria» (= «AMSI»), IV, 1888, pp. 423-448
+R1	ContainedIN Arg1:T7 Arg2:T8	
+T9	Author 897 899;901 912	B. SCHIAVUZZI,
+T10	Title 913 954	Le epidemie di pesie bubbonica in Istria,
+T11	Title 955 984;986 1038	«Atti e Memorie della Società Istriana di Archeologia e Storia Patria» (= «AMSI»),
+T12	PublicationNumber-Year 1039 1048	IV, 1888,
+T13	Pagination 1049 1060	pp. 423-448
+T14	Secondary-Partial 1062 1071;1073 1101	B. SCHIA- vuzzi, La malaria in Istria,
+T15	Secondary-Partial 1102 1130	«AMSI», V, 1889, pp. 319-471
+T16	Author 1062 1071;1073 1079	B. SCHIA- vuzzi,
+T17	Title 1080 1101	La malaria in Istria,
+R2	ContainedIN Arg1:T14 Arg2:T15	
+T18	AbbreviatedTitle 1102 1109	«AMSI»,
+T19	PublicationNumber-Year 1110 1118	V, 1889,
+T20	Pagination 1119 1130	pp. 319-471
+T21	Secondary-Partial 1132 1157;1159 1201	B. Schiavuzzi, Le istitu- zionisanitarie istriane nei tempi passati,
+T22	Secondary-Partial 1202 1233	«AMSI», Vili, 1892, pp. 315-408
+R3	ContainedIN Arg1:T21 Arg2:T22	
+T23	Author 1132 1146	B. Schiavuzzi,
+T24	Title 1147 1157;1159 1201	Le istitu- zionisanitarie istriane nei tempi passati,
+T25	AbbreviatedTitle 1202 1209	«AMSI»,
+T26	PublicationNumber-Year 1210 1221	Vili, 1892,
+T27	Pagination 1222 1233	pp. 315-408
+T28	Secondary-Full 1235 1244;1246 1317	B. Benus- si, L’Istria nei suoi due millenni di storia, Trieste 1924, pp. 335-342
+T29	Author 1235 1244;1246 1249	B. Benus- si,
+T30	Title 1250 1291	L’Istria nei suoi due millenni di storia,
+T31	PublicationPlace 1292 1299	Trieste
+T32	PublicationYear 1300 1305	1924,
+T33	Pagination 1306 1318	pp. 335-342;
+T34	Secondary-Partial 1319 1334;1336 1416	G. Cervani - E. De Franceschi, Fattori di spopolamento nell’Istria veneta nei secoli XVI e XVII,
+T35	Secondary-Full 1417 1421;1423 1502	«At- ti del Centro di Ricerche storiche di Rovigno» (= «ACRSR»), IV, 1973, pp. 7-118
+R4	ContainedIN Arg1:T34 Arg2:T35	
+T36	Author 1319 1329	G. Cervani
+T37	Author 1330 1334;1336 1350	- E. De Franceschi,
+T38	Title 1351 1416	Fattori di spopolamento nell’Istria veneta nei secoli XVI e XVII,
+T39	Title 1417 1421;1423 1482	«At- ti del Centro di Ricerche storiche di Rovigno» (= «ACRSR»),
+T40	PublicationNumber-Year 1483 1492	IV, 1973,
+T41	Pagination 1493 1502	pp. 7-118
+T42	Secondary-Partial 1504 1506;1508 1577	M. BertoSa, La guerra degli Uscocchi e la rovina dell’economia istriana,
+T43	Secondary-Partial 1578 1588;1591 1607	«ACRSR», V 1974, pp. 35-118
+R5	ContainedIN Arg1:T42 Arg2:T43	
+T44	Author 1504 1506;1508 1516	M. BertoSa,
+T45	Title 1517 1577	La guerra degli Uscocchi e la rovina dell’economia istriana,
+T46	AbbreviatedTitle 1578 1586	«ACRSR»,
+T47	PublicationNumber 1587 1589	V,
+T48	PublicationYear 1591 1596	1974,
+T49	Pagination 1597 1608	pp. 35-118;
+T50	Secondary-Partial 1609 1668	M. BertoSa, L’Istria veneta nel Cinquecento e nel Seicento,
+T51	Secondary-Partial 1669 1674;1676 1708	«ACR- SR», VII, 1976-1977, pp. 137-160
+R6	ContainedIN Arg1:T50 Arg2:T51	
+T52	Author 1609 1620	M. BertoSa,
+T53	Title 1621 1668	L’Istria veneta nel Cinquecento e nel Seicento,
+T54	AbbreviatedTitle 1669 1674;1676 1680	«ACR- SR»,
+T55	PublicationNumber-Year 1681 1696	VII, 1976-1977,
+T56	Pagination 1697 1708	pp. 137-160
+T57	Secondary-Full 1710 1759;1762 1799	M. BertoSa, Istarsko vrijeme proslo (Il tempo pas sato istriano), Pola 1978, pp. 71-217
+T58	Author 1710 1721	M. BertoSa,
+T59	Title 1722 1760;1762 1777	Istarsko vrijeme proslo (Il tempo pas- sato istriano),
+T60	PublicationPlace 1778 1782	Pola
+T61	PublicationYear 1783 1788	1978,
+T62	Pagination 1789 1799	pp. 71-217
+T63	Secondary-Full 1801 1842;1844 1932;1934 1937	M. BertoSa, Mletacka Istra u XVI. i XVII. stoljecu (L’Istria veneta nelXVI e XVII secolo), vol. I, Pola 1986, pp.13-79, e pp. 305- 320
+T64	Author 1801 1812	M. BertoSa,
+T65	Title 1813 1842;1844 1892	Mletacka Istra u XVI. i XVII. stoljecu (L’Istria veneta nelXVI e XVII secolo),
+T66	Volume 1893 1900	vol. I,
+T67	PublicationPlace 1901 1905	Pola
+T68	PublicationYear 1906 1911	1986,
+T69	Pagination 1912 1921	pp.13-79,
+T70	Pagination 1922 1932;1934 1938	e pp. 305- 320.
+T71	Secondary-Partial 1980 2020;2022 2027	Β. BenussI, Parenzo nell’evo medio e mo- derno
+T72	Secondary-Partial 2029 2060	«AMSI», XXVI, 1910, pp. 183-203
+R7	ContainedIN Arg1:T71 Arg2:T72	
+T73	Author 1980 1991	Β. BenussI,
+T74	Title 1992 2020;2022 2028	Parenzo nell’evo medio e mo- derno,
+T75	AbbreviatedTitle 2029 2036	«AMSI»,
+T76	PublicationNumber-Year 2037 2048	XXVI, 1910,
+T77	Pagination 2049 2060	pp. 183-203
+T78	Secondary-Partial 2062 2102;2104 2171	E. IVETIC, La popolazione di Parenzo nel Settecento: aspetti, problemi ed episodi del movimento demografico,
+T79	Secondary-Partial 2172 2185;2187 2205	«ACRSR», XXI, 1991, pp. 117-185.
+R8	ContainedIN Arg1:T78 Arg2:T79	
+T80	Author 2062 2072	E. IVETIC,
+T81	Title 2073 2102;2104 2171	La popolazione di Parenzo nel Settecento: aspetti, problemi ed episodi del movimento demografico,
+T82	AbbreviatedTitle 2172 2180	«ACRSR»,
+T83	PublicationNumber 2181 2185	XXI,
+T84	PublicationYear 2187 2192	1991,
+T85	Pagination 2193 2204	pp. 117-185

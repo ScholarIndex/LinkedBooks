@@ -1,0 +1,19 @@
+T1	Secondary-Full 1072 1145;1147 1167;999 1070	Roma 1984 (Atti del VI convegno di Storia della Chiesa in Italia, Firenze 21-25 settembre 1981 Pieve e parrocchie in Italia nel basso Medioevo (Secc. XIII-XV) 2 voli.
+T2	Title 999 1062	Pieve e parrocchie in Italia nel basso Medioevo (Secc. XIII-XV)
+T3	Volume 1063 1070	2 voli.
+T4	PublicationPlace 1072 1076	Roma
+T5	PublicationYear 1077 1081	1984
+T6	PublicationSpecifications 1082 1145;1147 1167	(Atti del VI convegno di Storia della Chiesa in Italia, Firenze 21-25 settembre 1981
+T7	Secondary-Partial 1526 1551;1553 1619	Violante C., Pievi e par- rocchie nell'Italia centrosettentrionale durante i secoli XI e XII
+T8	Secondary-Full 1624 1633;1635 1712;1714 1726	«Le isti- tuzioni ecclesiastiche della ‘Societas Christiana’ dei secoli XI-XII», Milano 1977, p. 656
+R1	ContainedIN Arg1:T7 Arg2:T8	
+T9	Author 1526 1538	Violante C.,
+T10	Title 1539 1551;1553 1619	Pievi e par- rocchie nell'Italia centrosettentrionale durante i secoli XI e XII
+T11	Title 1624 1633;1635 1705	«Le isti- tuzioni ecclesiastiche della ‘Societas Christiana’ dei secoli XI-XII»,
+T12	PublicationPlace 1706 1712	Milano
+T13	PublicationYear 1714 1719	1977,
+T14	Pagination 1720 1726	p. 656
+T15	Secondary-Full 1774 1799;1801 1879	Bertoldi A. - Cipolla C., Statistica degli archivi della provincia di Verona tratta dal III volume della
+T16	Author 1774 1785	Bertoldi A.
+T17	Author 1786 1799	- Cipolla C.,
+T18	Title 1801 1879	Statistica degli archivi della provincia di Verona tratta dal III volume della

@@ -1,0 +1,47 @@
+T1	Secondary-Partial 1998 2060	W. Ullmann, The recognition of St. Bridget’s Rule by Martin V,
+T2	Secondary-Full 2061 2065;2067 2107	«Re- vue Bénédictine», 67 (1957), pp. 190-201
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Author 1998 2009	W. Ullmann,
+T4	Title 2010 2060	The recognition of St. Bridget’s Rule by Martin V,
+T5	Title 2061 2065;2067 2084	«Re- vue Bénédictine»,
+T6	PublicationNumber-Year 2085 2095	67 (1957),
+T7	Pagination 2096 2107	pp. 190-201
+T8	Secondary-Full 2109 2139;2141 2213	H. Cnattingius, Studies in the Order of St. Bridget of Sweden. The crisis in the 1420’s, Stockholm 1963
+T9	Author 2109 2124	H. Cnattingius,
+T10	Title 2125 2139;2141 2198	Studies in the Order of St. Bridget of Sweden. The crisis in the 1420’s,
+T11	PublicationPlace 2199 2208	Stockholm
+T12	PublicationYear 2209 2213	1963
+T13	Primary-Full 2221 2257	A.S.V., Senato terra, reg. 3, c. 114
+T14	Archive 2221 2228	A.S.V.,
+T15	ArchivalReference 2229 2242	Senato terra,
+T16	Registry 2243 2250	reg. 3,
+T17	Cartulation 2251 2257	c. 114
+T18	Secondary-Partial 2259 2282	Corner, E.V., I, p. 278
+T19	Author 2259 2266	Corner,
+T20	AbbreviatedTitle 2267 2272	E.V.,
+T21	Volume 2273 2275	I,
+T22	Pagination 2276 2282	p. 278
+T23	Secondary-Partial 2311 2365;2367 2446;2448 2470	K. Walsh, The observance: sources for a history of the observant reform movement in the order of Augustinians friars in the fourteenth and fifteeth centuries
+T24	Secondary-Full 2472 2530;2532 2553	«Rivista di storia della Chiesa in Italia», XXXI, 1 (1977, gen.-giu.), pp. 40-67
+R2	ContainedIN Arg1:T23 Arg2:T24	
+T25	Author 2311 2320	K. Walsh,
+T26	Title 2321 2365;2367 2446;2448 2470	The observance: sources for a history of the observant reform movement in the order of Augustinians friars in the fourteenth and fifteeth centuries
+T27	Title 2472 2515	«Rivista di storia della Chiesa in Italia»,
+T28	PublicationSpecifications 2516 2521	XXXI,
+T29	PublicationNumber-Year 2522 2529	1 (1977
+T30	PublicationSpecifications 2532 2543	gen.-giu.),
+T31	Pagination 2544 2553	pp. 40-67
+T32	Primary-Full 2676 2710;2712 2728	A.S.V., Maggior consiglio, reg. 17 Spiritus, c. 163
+T33	Primary-Partial 2730 2754	reg. 19 Novella, c. 188v
+T34	Primary-Partial 2756 2779	reg. 21 Leona, cc. 5v-7
+T35	Primary-Partial 2781 2788;2790 2805	reg. 22 Ursa, cc. 41-42
+T36	Archive 2676 2683	A.S.V.,
+T37	ArchivalReference 2684 2702	Maggior consiglio,
+T38	Registry 2703 2710;2712 2721	reg. 17 Spiritus,
+T39	Cartulation 2722 2728	c. 163
+T40	Registry 2730 2746	reg. 19 Novella,
+T41	Cartulation 2747 2754	c. 188v
+T42	Registry 2756 2770	reg. 21 Leona,
+T43	Cartulation 2771 2779	cc. 5v-7
+T44	Registry 2781 2788;2790 2795	reg. 22 Ursa,
+T45	Cartulation 2796 2805	cc. 41-42

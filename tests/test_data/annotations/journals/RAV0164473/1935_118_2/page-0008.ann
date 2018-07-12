@@ -1,0 +1,18 @@
+T1	Secondary-Partial 3007 3018	II, p. 100.
+T2	Volume 3007 3010	II,
+T3	Pagination 3011 3018	p. 100.
+T4	Secondary-Partial 2976 3002	La giovinezza,pp. 198-200.
+T5	Title 2976 2990	La giovinezza,
+T6	Pagination 2990 3002	pp. 198-200.
+T7	Secondary-Partial 2934 2971	Milano, Treves, 1900, pp. XXXVI-XLIV.
+T8	PublicationPlace 2934 2941	Milano,
+T9	Publisher 2942 2949	Treves,
+T10	PublicationYear 2950 2955	1900,
+T11	Pagination 2956 2971	pp. XXXVI-XLIV.
+T12	Secondary-Full 2847 2880;2882 2929	In memoria di F. de Sanctisa cura di M. Mandalari, Napoli, Morano, 1884, p. 162).
+T13	Title 2847 2874	In memoria di F. de Sanctis
+T14	Editor 2874 2880;2882 2898	a cura di M. Mandalari,
+T15	PublicationPlace 2899 2906	Napoli,
+T16	Publisher 2907 2914	Morano,
+T17	PublicationYear 2915 2920	1884,
+T18	Pagination 2921 2929	p. 162).

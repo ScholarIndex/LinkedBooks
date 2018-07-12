@@ -1,0 +1,36 @@
+T1	Secondary-Full 2073 2153;2155 2193	V. Brunelli, Storia della città di Zara dai tempi più remoti sino al 1815. Parte I. Dalle origini al 1409, Venezia 1913
+T2	Secondary-Full 2195 2236	G. PRAGA, Storia di Dalmazia, Milano 1981
+T3	Secondary-Partial 2309 2351;2353 2366	T. Raukar, Komunalna drustva u Dalmaciji u XIV stoljecu,
+T4	Secondary-Full 2367 2418	«Historijski Zbornik», 33-34 (1980-81), pp. 144-145
+T5	Secondary-Full 2461 2500;2502 2531	S. Romanin, Storia documentata di Vene- zia, Venezia 1857-63 (9 vol.)
+T6	Secondary-Full 2533 2580;2582 2600	H. Kretschmayer, Geschichte von Venedig, Gotha, 1905-1934 (3 vol.)
+T7	Secondary-Full 2602 2662	R. CESSI, Storia della Repubblica di Venezia, Milano-Messina
+T8	Author 2073 2085	V. Brunelli,
+T9	Title 2086 2147	Storia della città di Zara dai tempi più remoti sino al 1815.
+T10	Volume 2148 2153;2155 2180	Parte I. Dalle origini al 1409,
+T11	PublicationPlace 2181 2188	Venezia
+T12	PublicationYear 2189 2193	1913
+T13	Author 2195 2204	G. PRAGA,
+T14	Title 2205 2224	Storia di Dalmazia,
+T15	PublicationPlace 2225 2231	Milano
+T16	PublicationYear 2232 2236	1981
+T17	Author 2309 2319	T. Raukar,
+T18	Title 2320 2351;2353 2366	Komunalna drustva u Dalmaciji u XIV stoljecu,
+T19	Title 2367 2389	«Historijski Zbornik»,
+T20	PublicationNumber-Year 2390 2406	33-34 (1980-81),
+T21	Pagination 2407 2418	pp. 144-145
+T22	Author 2461 2472	S. Romanin,
+T23	Title 2473 2500;2502 2506	Storia documentata di Vene- zia,
+T24	PublicationPlace 2507 2514	Venezia
+T25	PublicationYear 2515 2522	1857-63
+T26	PublicationSpecifications 2523 2531	(9 vol.)
+T27	Author 2533 2549	H. Kretschmayer,
+T28	Title 2550 2573	Geschichte von Venedig,
+T29	PublicationPlace 2574 2580	Gotha,
+T30	PublicationYear 2582 2591	1905-1934
+T31	PublicationSpecifications 2592 2600	(3 vol.)
+T32	Author 2602 2611	R. CESSI,
+T33	Title 2612 2647	Storia della Repubblica di Venezia,
+T34	PublicationPlace 2648 2654	Milano
+T35	PublicationPlace 2654 2662	-Messina
+R1	ContainedIN Arg1:T3 Arg2:T4	

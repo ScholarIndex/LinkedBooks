@@ -1,0 +1,36 @@
+T1	Secondary-Partial 2054 2083	Corner, E.V., V, pp. 255, 257
+T2	Secondary-Partial 2092 2106	Ibidem, p. 257
+T3	Secondary-Partial 2115 2129	Ibidem, p. 247
+T4	Secondary-Partial 2137 2156	Ibidem, pp. 267-269
+T5	Secondary-Partial 2165 2179	Ibidem, p. 270
+T6	Primary-Full 2181 2224	A.S.V., Senato terra, reg. 226 cc. 261-261v
+T7	Secondary-Partial 2233 2256	Corner, E.V., V, p. 251
+T8	Primary-Full 2265 2308	A.S.V., Senato terra, reg. 243 cc. 727v-728
+T9	Primary-Partial 2317 2344	Ibidem, reg. 271 cc. 68v-69
+T10	Author 2054 2061	Corner,
+T11	AbbreviatedTitle 2062 2067	E.V.,
+T12	Pagination 2071 2078	pp. 255
+T13	Pagination 2080 2083	257
+T14	Abbreviation 2092 2099	Ibidem,
+T15	Abbreviation 2115 2122	Ibidem,
+T16	Abbreviation 2137 2144	Ibidem,
+T17	Abbreviation 2165 2172	Ibidem,
+T18	Pagination 2100 2106	p. 257
+T19	Pagination 2123 2129	p. 247
+T20	Pagination 2145 2156	pp. 267-269
+T21	Pagination 2173 2179	p. 270
+T22	Archive 2181 2188	A.S.V.,
+T23	ArchivalReference 2189 2202	Senato terra,
+T24	Registry 2203 2211	reg. 226
+T25	Cartulation 2212 2224	cc. 261-261v
+T26	Author 2233 2240	Corner,
+T27	AbbreviatedTitle 2241 2246	E.V.,
+T28	Volume 2247 2249	V,
+T29	Pagination 2250 2256	p. 251
+T30	Archive 2265 2272	A.S.V.,
+T31	ArchivalReference 2273 2286	Senato terra,
+T32	Registry 2287 2295	reg. 243
+T33	Cartulation 2296 2308	cc. 727v-728
+T34	Abbreviation 2317 2324	Ibidem,
+T35	Registry 2325 2333	reg. 271
+T36	Cartulation 2334 2344	cc. 68v-69

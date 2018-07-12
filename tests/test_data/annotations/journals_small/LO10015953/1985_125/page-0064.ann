@@ -1,0 +1,35 @@
+T1	Primary-Full 1871 1924	A.S.V., Senato terra, reg. 19 cc. 23-23v: 2 giu. 1515
+T2	Primary-Partial 1937 1941;1943 2000	Mag- gior consiglio, reg. 28 Rocca, cc. 118v-119: 27 die. 1561
+T3	Archive 1871 1878	A.S.V.,
+T4	ArchivalReference 1879 1892	Senato terra,
+T5	Registry 1893 1900	reg. 19
+T6	Cartulation 1901 1911	cc. 23-23v
+T7	Date 1913 1924	2 giu. 1515
+T8	ArchivalReference 1937 1941;1943 1958	Mag- gior consiglio,
+T9	Registry 1959 1973	reg. 28 Rocca,
+T10	Cartulation 1974 1986	cc. 118v-119
+T11	Date 1988 2000	27 die. 1561
+T12	Secondary-Full 2267 2297;2299 2325	D. Olivieri, Toponomastica ve- neta, Firenze 1961, p. 123
+T13	Author 2267 2279	D. Olivieri,
+T14	Title 2280 2297;2299 2304	Toponomastica ve- neta,
+T15	PublicationPlace 2305 2312	Firenze
+T16	PublicationYear 2313 2318	1961,
+T17	Pagination 2319 2325	p. 123
+T18	Secondary-Partial 2334 2360	Sansovino, op. dt., ρ. 210
+T19	Author 2334 2344	Sansovino,
+T20	Abbreviation 2345 2353	op. dt.,
+T21	Pagination 2354 2360	ρ. 210
+T22	Secondary-Partial 2362 2387	Tassini, op. cit., p. 310
+T23	Secondary-Partial 2389 2402;2404 2419	Corner, E.V., VI, pp. 393-402
+T24	Author 2362 2370	Tassini,
+T25	Abbreviation 2371 2380	op. cit.,
+T26	Pagination 2381 2387	p. 310
+T27	Author 2389 2396	Corner,
+T28	AbbreviatedTitle 2397 2402	E.V.,
+T29	Volume 2404 2407	VI,
+T30	Pagination 2408 2419	pp. 393-402
+T31	Primary-Full 2421 2478	A.S.V., Maggior consiglio, reg 38 Padavinus, cc. 195-195v
+T32	Archive 2421 2428	A.S.V.,
+T33	ArchivalReference 2429 2447	Maggior consiglio,
+T34	Registry 2448 2465	reg 38 Padavinus,
+T35	Cartulation 2466 2478	cc. 195-195v

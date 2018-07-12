@@ -1,0 +1,24 @@
+T1	Primary-Full 2134 2212	ASV, Inquisitori di Stato, Annotazioni (1729-1737), b. 531, f. 1 recto-3 recto
+T2	Primary-Full 2219 2286	ASV, Cancellier grande, Scritture d‘informazioni (1784-17%), reg. 5
+T3	Primary-Full 2294 2369	ASV, Consiglio dei X, Parti comuni, b. 1154, alla data 29 gennaio 1769 m.v.
+T4	Primary-Full 2375 2454;2457 2511	ASV, Miscellanea di atti diversi manoscritti, Cancelleria ducale, b. 93, «scrit tura» del Cancellier grande alla data 3 Settembre 1766
+T5	Archive 2134 2138	ASV,
+T6	Archive 2219 2223	ASV,
+T7	Archive 2294 2298	ASV,
+T8	Archive 2375 2379	ASV,
+T9	ArchivalReference 2139 2160	Inquisitori di Stato,
+T10	ArchivalReference 2224 2242	Cancellier grande,
+T11	ArchivalReference 2299 2315	Consiglio dei X,
+T12	ArchivalReference 2380 2420	Miscellanea di atti diversi manoscritti,
+T13	ArchivalReference 2161 2185	Annotazioni (1729-1737),
+T14	ArchivalReference 2243 2279	Scritture d‘informazioni (1784-17%),
+T15	ArchivalReference 2316 2329	Parti comuni,
+T16	ArchivalReference 2421 2440	Cancelleria ducale,
+T17	Folder 2186 2193	b. 531,
+T18	Foliation 2194 2212	f. 1 recto-3 recto
+T19	Registry 2280 2286	reg. 5
+T20	Folder 2330 2338	b. 1154,
+T21	Date 2339 2369	alla data 29 gennaio 1769 m.v.
+T22	Folder 2441 2447	b. 93,
+T23	Attachment 2448 2455;2457 2511	«scrit- tura» del Cancellier grande alla data 3 Settembre 1766
+T24	Date 2495 2512	3 Settembre 1766.

@@ -1,0 +1,54 @@
+T1	Primary-Full 1704 1779;1781 1857	ASV, Consiglio dei X, Parti comuni, filza 110, supplica di Sebastian Cenigo allegata alla deliberazione del Consiglio dei X, alla data 15 dicembre 1570;
+T2	Archive 1704 1708	ASV,
+T3	ArchivalReference 1709 1725	Consiglio dei X,
+T4	ArchivalReference 1726 1739	Parti comuni,
+T5	Filza 1740 1750	filza 110,
+T6	Attachment 1751 1779;1781 1829	supplica di Sebastian Cenigo allegata alla deliberazione del Consiglio dei X,
+T7	Date 1830 1857	alla data 15 dicembre 1570;
+T8	Primary-Full 1858 1862;1864 1948;1950 2014	ASV, Consiglio dei X, Parti comuni, filza 125, supplica di Sebastian Cenigo allegata alla deliberazione del Consiglio dei X, alla data 9 gennaio 1575 m.v.
+T9	Archive 1858 1862	ASV,
+T10	ArchivalReference 1864 1880	Consiglio dei X,
+T11	ArchivalReference 1881 1894	Parti comuni,
+T12	Filza 1895 1905	filza 125,
+T13	Attachment 1906 1948;1950 1984	supplica di Sebastian Cenigo allegata alla deliberazione del Consiglio dei X,
+T14	Date 1985 2014	alla data 9 gennaio 1575 m.v.
+T15	Primary-Full 2016 2033;2035 2083	ASV, Provveditori alla Sanità, Necrologi, Registro 804, alla data.
+T16	Archive 2016 2020	ASV,
+T17	ArchivalReference 2021 2033;2035 2047	Provveditori alla Sanità,
+T18	ArchivalReference 2048 2058	Necrologi,
+T19	Registry 2059 2072	Registro 804,
+T20	Date 2073 2083	alla data.
+T21	Primary-Full 2091 2166;2168 2243	ASV, Consiglio dei X, Parti comuni, filza 110, supplica di Sebastian Cenigo allegata alla deliberazione del Consiglio dei X, alla data 15 dicembre 1570
+T22	Archive 2091 2095	ASV,
+T23	ArchivalReference 2096 2112	Consiglio dei X,
+T24	ArchivalReference 2113 2126	Parti comuni,
+T25	Filza 2127 2137	filza 110,
+T26	Attachment 2138 2166;2168 2216	supplica di Sebastian Cenigo allegata alla deliberazione del Consiglio dei X,
+T27	Date 2217 2244	alla data 15 dicembre 1570.
+T28	Primary-Full 2252 2327;2329 2406	ASV, Consiglio dei X, Parti comuni, filza 125, supplica di Sebastian Cenigo allegata alla deliberazione del Consiglio dei X alla data 9 gennaio 1575 m.v.
+T29	Archive 2252 2256	ASV,
+T30	ArchivalReference 2257 2273	Consiglio dei X,
+T31	ArchivalReference 2274 2287	Parti comuni,
+T32	Filza 2288 2298	filza 125,
+T33	Attachment 2299 2327;2329 2376	supplica di Sebastian Cenigo allegata alla deliberazione del Consiglio dei X
+T34	Date 2377 2405	alla data 9 gennaio 1575 m.v
+T35	Primary-Full 2408 2412;2414 2497;2499 2575	ASV, Avogaria di Común, Cittadinanze originarie, busta 368/8, n°87, approvata il 10 Mag- gio 1611, prova di cittadinanza di Zuan Francesco Cenigo Milledonne, cc. nn.
+T36	Archive 2408 2412	ASV,
+T37	ArchivalReference 2414 2432	Avogaria di Común,
+T38	ArchivalReference 2433 2457	Cittadinanze originarie,
+T39	Folder 2458 2470	busta 368/8,
+T40	Numbering 2471 2476	n°87,
+T41	Other 2477 2497;2499 2575	approvata il 10 Mag- gio 1611, prova di cittadinanza di Zuan Francesco Cenigo Milledonne, cc. nn.
+T42	Primary-Full 2577 2581;2583 2641	ASV, Capi del Consiglio dei X, Notatorio, Registro 17, c. 135r.
+T43	Archive 2577 2581	ASV,
+T44	ArchivalReference 2583 2608	Capi del Consiglio dei X,
+T45	ArchivalReference 2609 2619	Notatorio,
+T46	Registry 2620 2632	Registro 17,
+T47	Cartulation 2633 2640	c. 135r
+T48	Secondary-Full 2649 2725;2727 2764	D. ROMANO, Patrizi e popolani. La società veneziana nel Trecento, traduzione di M. Sepa, Bologna 1993, p. 181-186.
+T49	Author 2649 2659	D. ROMANO,
+T50	Title 2660 2714	Patrizi e popolani. La società veneziana nel Trecento,
+T51	PublicationSpecifications 2715 2725;2727 2738	traduzione di M. Sepa,
+T52	PublicationPlace 2739 2746	Bologna
+T53	PublicationYear 2747 2752	1993,
+T54	Pagination 2753 2764	p. 181-186.

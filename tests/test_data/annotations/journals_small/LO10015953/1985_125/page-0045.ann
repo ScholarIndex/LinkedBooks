@@ -1,0 +1,51 @@
+T1	Secondary-Partial 822 845	Ibidem, II, pp. 121-122
+T2	Abbreviation 822 829	Ibidem,
+T3	Volume 830 833	II,
+T4	Pagination 834 845	pp. 121-122
+T5	Secondary-Full 1308 1350;1352 1380	C. Agnoletti, Treviso e le sue pievi, Tre- viso 1897-98, vol. I, p. 232
+T6	Author 1308 1321	C. Agnoletti,
+T7	Title 1322 1345	Treviso e le sue pievi,
+T8	PublicationPlace 1346 1350;1352 1356	Tre- viso
+T9	PublicationPlace 1357 1365	1897-98,
+T10	Volume 1366 1373	vol. I,
+T11	Pagination 1374 1380	p. 232
+T12	Secondary-Partial 2190 2218	Saianello, op. cit., pp. 125
+T13	Author 2190 2200	Saianello,
+T14	Abbreviation 2201 2210	op. cit.,
+T15	Pagination 2211 2218	pp. 125
+T16	Secondary-Partial 2233 2249;2251 2262	Corner, E.V., V, pp. 285-325
+T17	Secondary-Partial 2264 2279	XII, pp. 97-100
+T18	Author 2233 2240	Corner,
+T19	AbbreviatedTitle 2241 2246	E.V.,
+T20	Volume 2247 2249	V,
+T21	Pagination 2251 2262	pp. 285-325
+T22	Volume 2264 2268	XII,
+T23	Pagination 2269 2279	pp. 97-100
+T24	Secondary-Partial 2514 2539	ibidem, Vili, pp. 290-319
+T25	Abbreviation 2514 2521	ibidem,
+T26	Volume 2522 2527	Vili,
+T27	Pagination 2528 2539	pp. 290-319
+T28	Secondary-Partial 2548 2580	Ibidem, II, pp. 107-108, 123-124
+T29	Abbreviation 2548 2555	Ibidem,
+T30	Volume 2556 2559	II,
+T31	Pagination 2560 2572	pp. 107-108,
+T32	Pagination 2573 2580	123-124
+T33	Primary-Full 2725 2757	A.S.V., S. Girolamo, b. 6 perg.,
+T34	Archive 2725 2732	A.S.V.,
+T35	ArchivalReference 2733 2745	S. Girolamo,
+T36	Folder 2746 2750	b. 6
+T37	Parchment 2751 2756	perg.
+T38	Secondary-Partial 2833 2846;2848 2863	Corner, E.V., II, pp. 139-142
+T39	Secondary-Partial 2865 2882	E.T., III, p. 327
+T40	Author 2833 2840	Corner,
+T41	AbbreviatedTitle 2841 2846	E.V.,
+T42	Volume 2848 2851	II,
+T43	Pagination 2852 2863	pp. 139-142
+T44	AbbreviatedTitle 2865 2870	E.T.,
+T45	Volume 2871 2875	III,
+T46	Pagination 2876 2882	p. 327
+T47	Primary-Full 3052 3086;3088 3094	A.S.V., Senato terra, reg. 37, cc. 88V-89
+T48	Archive 3052 3059	A.S.V.,
+T49	ArchivalReference 3060 3073	Senato terra,
+T50	Registry 3074 3082	reg. 37,
+T51	Cartulation 3083 3086;3088 3094	cc. 88V-89

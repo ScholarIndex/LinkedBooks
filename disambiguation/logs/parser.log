@@ -1,0 +1,802 @@
+INFO:__main__:Loaded 552235eferences
+INFO:__main__:Elapsed time 1339.678755
+INFO:__main__:Loaded 536645eferences
+INFO:__main__:Elapsed time 1152.681918
+WARNING:__main__:Error in inserting disambiguations
+WARNING:__main__:Cannot encode object: <Document: mongoid = 5914f4d3fe7683358e8987c2, bid=CFI0088560, internal_id=book_CFI0088560, type=monograph>
+INFO:__main__:Loaded 524774 references
+INFO:__main__:Elapsed time 1122.344805
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1929_6
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1934_15
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1943_130.4-5-6
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1893_5
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1873_11
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0131394, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1895_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1967_80
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1908_16
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1926_9
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1894_7
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0117310, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_118.2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO11195849, 
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00308050, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1887_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1934_113.1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1928_3
+INFO:__main__:Updated item in Processing for disambiguated_p: TO01025818, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1945_36-37
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1889_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1884_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1949_44_45
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1926
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1892_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1879_17
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1875_10
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0351938, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1959
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0303341, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1979_17
+INFO:__main__:Updated item in Processing for disambiguated_p: MIL0177867, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO11160318, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1889_37
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1936_18
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1920_40
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1905_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1887_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1878_16
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1955_139.1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1884_28
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0055074, 1998_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1885_2
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0227919, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1917_34
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1909_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1890
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1929_5
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1888_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 2008_7.1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1934_117.3
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1916
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1935_17
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1896_1
+INFO:__main__:Updated item in Processing for disambiguated_p: TO01515337, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1925_7
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1941_29
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1908_15
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1872_4
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1902_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1938_22
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0292813, 
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV1167545, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1934_116.3
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1939_24
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV0337068, 
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0173528, 
+INFO:__main__:Updated item in Processing for disambiguated_p: MIL0538515, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 2002_1.2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1901_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10390948, 
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1880_3
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1909_18
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0647610, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1892_4
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1951_135.2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1912_23
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 2004_3.1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 2005_4.1
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1864_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1940_26
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1933
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1957_141.1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10261764, 
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0121109, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1887_34
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0469864, 
+INFO:__main__:Updated item in Processing for disambiguated_p: UBO1396447, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1922_2
+INFO:__main__:Updated item in Processing for disambiguated_p: MIL0047431, 
+INFO:__main__:Updated item in Processing for disambiguated_p: MIL0293612, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1974_101
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10014174, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_119.1-2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1887_33
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1882_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1904_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1902_3
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0380256, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1903_6
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1931_9
+INFO:__main__:Updated item in Processing for disambiguated_p: IEI0111134, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1885_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1914_27
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1918_35
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1894_1
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0488061, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0040315, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1900_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1886_32
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV1184063, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1896_11
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1912
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1897_1
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0620954, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1886_31
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0123468, 
+INFO:__main__:Updated item in Processing for disambiguated_p: UBO0284294, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1879_18
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1946_38_41
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1923_4
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1974_12.1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0148743, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1921
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1899_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_119.6
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1961_68
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1916_31
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1934_117.1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1899_17
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1905_10
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0183924, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1893_6
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1896_12
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1873_5
+INFO:__main__:Updated item in Processing for disambiguated_p: LO11250262, 
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV0168441, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1932_12
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 2003_2.2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1948_42_43
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1988_131
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1938_23
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1925_8
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1886_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1877_13
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1925
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1881_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1916_32
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1881_21
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1923
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1944_131
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1876_13
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1891_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1938_123.3-4
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1882_3
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10058269, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1885_29
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1885_30
+INFO:__main__:Updated item in Processing for disambiguated_p: RML0053006, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1874_8
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1961_69
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1883_26
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1964_74
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1904_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1917_33
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1921_42
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV1097638, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1900_20
+INFO:__main__:Updated item in Processing for disambiguated_p: MIL0075687, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1891_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1899_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1945_132.1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1899_18
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1914_28
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1891_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1883_25
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1904_8
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1872_3
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1960_144.2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1921_41
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10439164, 1866_1.1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 2002_1.1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1914
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1903_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1945_132.2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1905_9
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1927_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1922
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1892_3
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1895_10
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV0662498, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1938_123.5-6
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_118.3
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1896_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1874_7
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1968_85
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1906_12
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1879_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1966_4.2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1888_35
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10063130, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1895_9
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1955_139.2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1928_4
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1900_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1893_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1924_6
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1915
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1907_13
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1883_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1976_106
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10439164, 1866_1.3
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_118.4
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1902_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0222195, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1958_63
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1881_22
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1884_27
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1882_23
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10351825, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1913
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1937_20
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1920_39
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0747209, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1913_25
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV1336424, 
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1878_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1963_1.1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1902_4
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1968_6.2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1898_15
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV0391846, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1915_30
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_119.5
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1868_5
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0154020, 
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1867_4
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1958_142.1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1938_123.2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1930_7
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0612826, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 2006_5.1
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00077039, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1922_1
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1871_7
+INFO:__main__:Updated item in Processing for disambiguated_p: LO11410377, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1943_32_33
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0004652, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1889_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1875_9
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1944_34-35
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1873_10
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1888_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1873_6
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1901_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1894_2
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1873_8
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1931-32
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1898_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1895_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1920
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1866_3
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1878_15
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1898_16
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1924_5
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_118.5-6
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1884_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1911_21
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1926_10
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1961_145.2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1931_10
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_119.3
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1974_12.2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1919_38
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0209018, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1908
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1927_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1912_24
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1934_16
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV0160529, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1918_36
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 2011_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1954
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1897_13
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 2014
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0382267, 
+INFO:__main__:Updated item in Processing for disambiguated_p: TO01867340, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1933_13
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1888_36
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV0184312, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1904_7
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1909_1
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0566459, 
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV0058566, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1876_12
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV0278042, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1880_20
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1910_2
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0055074, 1996_5
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1873_9
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0181045, 
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1877_14
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1919_37
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1897_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1913_26
+INFO:__main__:Updated item in Processing for disambiguated_p: RML0052399, 
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0182970, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1907
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0148562, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1930_8
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1893_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1907_14
+INFO:__main__:Updated item in Processing for disambiguated_p: NAP0037580, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1880_19
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1889_38
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0130004, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1938_124.6
+INFO:__main__:Updated item in Processing for disambiguated_p: MIL0360342, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1883_1
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1865_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1909_17
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0126589, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1933_14
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10452686, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10343178, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1942_30
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1897_14
+INFO:__main__:Updated item in Processing for disambiguated_p: MIL0523757, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1932_11
+INFO:__main__:Updated item in Processing for disambiguated_p: LO11306078, 
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0765455, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1958_62
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1937_21
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV1110527, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1915_29
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1894_8
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1996_146
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1910_1
+INFO:__main__:Updated item in Processing for disambiguated_p: IEI0009046, 
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV0406743, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1906_11
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1936_19
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1940_27
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1883_26bis
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1972_96
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1905_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1892_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1911
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1950_134
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0113703, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1924
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1910_19
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0636208, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1936_120.1
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV1066631, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1871_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1923_3
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1903_5
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1881_4
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1975_13.1
+INFO:__main__:Updated item in Processing for disambiguated_p: REA0034965, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1911_22
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1871_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1900_19
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0470479, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1918-19
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1877_14
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10439164, 1866_1.2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1901_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1917
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1901_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1882_24
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1875_12
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 2007_6.1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1891_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1910_20
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_118.1
+INFO:__main__:Updated item in Processing for disambiguated_p: IEI0197179, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1969
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1886_1
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0055074, 1999_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10427656, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1934_117.2
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1870_6
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_119.4
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1898_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1876_11
+INFO:__main__:Loaded 552235 references
+INFO:__main__:Elapsed time 2424.299839
+INFO:__main__:Loaded 552235 references
+INFO:__main__:Elapsed time 1096.256619
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1934_117.1
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00077039, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1913
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1896_12
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1913_26
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1961_68
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1885_30
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1905_10
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1917_34
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0488061, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1901_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1900_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1915_29
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV0391846, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1907
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 2006_5.1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1872_4
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0117310, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1931-32
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1904_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1910_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1939_24
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1923_4
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1958_62
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1911
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00308050, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1963_1.1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1880_20
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1946_38_41
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1911_22
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1885_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1903_6
+INFO:__main__:Updated item in Processing for disambiguated_p: TO01515337, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0148743, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1884_28
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1922
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1912_24
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0102911, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1935_17
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1928_4
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV1336424, 
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0380256, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1941_29
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 2005_4.1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1909_1
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0123468, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1943_32_33
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10452686, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_118.4
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1864_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1937_21
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1878_15
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1930_8
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1902_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_119.5
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1944_34-35
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1914_27
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_118.2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1901_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1909_18
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10351825, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1881_21
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1928_3
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1872_3
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1898_15
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1908_16
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1926_9
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV0184312, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1891_2
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV0662498, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1882_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1916
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0019042, 
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV0058566, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1918-19
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1909_17
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1958_142.1
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV1110527, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1940_26
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0102001, 
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0636208, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1876_11
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 2002_1.2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1886_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1882_3
+INFO:__main__:Updated item in Processing for disambiguated_p: MIL0523757, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1945_132.1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1932_11
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1883_26
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1931_9
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1897_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1897_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1934_117.3
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0055074, 1996_5
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_118.5-6
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1921_41
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1933_14
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1910_19
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1896_11
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1919_37
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0222195, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1925_7
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1899_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1880_19
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1958_63
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1881_22
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1877_13
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1924_6
+INFO:__main__:Updated item in Processing for disambiguated_p: NAP0037580, 
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1866_3
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1899_17
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV0406743, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1905_9
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1917
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1887_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1879_17
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1883_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1904_8
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1892_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1908
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1923_3
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1915_30
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1929_6
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1910_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1901_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1959
+INFO:__main__:Updated item in Processing for disambiguated_p: MIL0177867, 
+INFO:__main__:Updated item in Processing for disambiguated_p: MIL0047431, 
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0469864, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1891_1
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0075597, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1975_13.1
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1873_9
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1945_132.2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1884_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1898_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1934_113.1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1893_6
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1889_37
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0055074, 1998_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1900_19
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1905_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1906_12
+INFO:__main__:Updated item in Processing for disambiguated_p: RML0053006, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1871_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1886_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1955_139.2
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0765455, 
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0084248, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO11306078, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 2004_3.1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1967_80
+INFO:__main__:Updated item in Processing for disambiguated_p: IEI0009046, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1940_27
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1910_20
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1893_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1893_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1874_7
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1890
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1938_123.3-4
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1961_145.2
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1873_10
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1938_123.5-6
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1938_124.6
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0183924, 
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0008418, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1924
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1938_123.2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10014174, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1917_33
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0181045, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1895_2
+INFO:__main__:Updated item in Processing for disambiguated_p: BVE0193041, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 2008_7.1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1908_15
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0121109, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1920
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1892_3
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1927_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1883_25
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 2007_6.1
+INFO:__main__:Updated item in Processing for disambiguated_p: IEI0111134, 
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1881_4
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV0278042, 
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0227919, 
+INFO:__main__:Updated item in Processing for disambiguated_p: BVE0166651, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1976_106
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0382267, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1972_96
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1892_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1932_12
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1934_15
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1912
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0303341, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0004652, 
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV1097638, 
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1870_6
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1896_2
+INFO:__main__:Updated item in Processing for disambiguated_p: REA0034965, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1918_36
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0620954, 
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0154020, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1931_10
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10063130, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1988_131
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1894_1
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1865_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1922_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1921_42
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0148562, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1888_1
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0182970, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1920_39
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1900_1
+INFO:__main__:Updated item in Processing for disambiguated_p: BVE0058907, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1925_8
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1867_4
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0647610, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1918_35
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1919_38
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1961_69
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0040315, 
+INFO:__main__:Updated item in Processing for disambiguated_p: TO01025818, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1938_23
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV0168441, 
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0612826, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1891_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1916_32
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0173528, 
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1879_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1942_30
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1874_8
+INFO:__main__:Updated item in Processing for disambiguated_p: MIL0538515, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1929_5
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1893_5
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1883_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10261764, 
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0747209, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1936_120.1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1871_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1927_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO11195849, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10439164, 1866_1.2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1887_33
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV1066631, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1934_16
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0088560, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1878_16
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1903_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1964_74
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1951_135.2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1889_1
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1873_11
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10427656, 
+INFO:__main__:Updated item in Processing for disambiguated_p: UBO0284294, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1896_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1895_9
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1897_14
+INFO:__main__:Updated item in Processing for disambiguated_p: MIL0293612, 
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1877_14
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1901_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1909_2
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0470479, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1936_18
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1886_31
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV0160529, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1957_141.1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 2002_1.1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1933
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1950_134
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0566459, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1968_85
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0292813, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1944_131
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0059785, 
+INFO:__main__:Updated item in Processing for disambiguated_p: MIL0075687, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1933_13
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_118.1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1974_101
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1914_28
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1913_25
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0131394, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1926
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1880_3
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1902_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 2014
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0055074, 1999_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1888_36
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1902_3
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1916_31
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1892_4
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1907_14
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1974_12.1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1968_6.2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_119.6
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1902_4
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1899_18
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0209018, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1899_1
+INFO:__main__:Updated item in Processing for disambiguated_p: BVE0005204, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1898_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1889_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RML0052399, 
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV1167545, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1921
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1875_9
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1904_7
+INFO:__main__:Updated item in Processing for disambiguated_p: MIL0360342, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1911_21
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1891_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10058269, 
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1873_8
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1878_1
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0130004, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1923
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1884_27
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10390948, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_119.3
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1912_23
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1894_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1966_4.2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1886_32
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1945_36-37
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1938_22
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1881_1
+INFO:__main__:Updated item in Processing for disambiguated_p: TO01867340, 
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0126589, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1883_26bis
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1873_6
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1888_35
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1926_10
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1937_20
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1924_5
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1887_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1895_10
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1904_1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1906_11
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1882_24
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1905_2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_118.3
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1894_8
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0113703, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1876_12
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1936_19
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1884_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1894_7
+INFO:__main__:Updated item in Processing for disambiguated_p: SBL0351938, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 2003_2.2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1903_5
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0091095, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1895_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1955_139.1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO11410377, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1930_7
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1868_5
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_119.4
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1885_2
+INFO:__main__:Updated item in Processing for disambiguated_p: BVE0051905, 
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV1184063, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1882_23
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10343178, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1888_2
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1875_12
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0061459, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1898_16
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1974_12.2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1935_119.1-2
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1954
+INFO:__main__:Updated item in Processing for disambiguated_p: UBO1396447, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1914
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1969
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1877_14
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1879_18
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10439164, 1866_1.3
+INFO:__main__:Updated item in Processing for disambiguated_p: LO11250262, 
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1925
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1934_117.2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1889_38
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1996_146
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1920_40
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1934_116.3
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1887_34
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10439164, 1866_1.1
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1885_29
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1871_7
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016734, 1922_2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1875_10
+INFO:__main__:Updated item in Processing for disambiguated_p: IEI0197179, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO11160318, 
+INFO:__main__:Updated item in Processing for disambiguated_p: CFI0089586, 
+INFO:__main__:Updated item in Processing for disambiguated_p: PUV0337068, 
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1897_13
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1979_17
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1960_144.2
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016777, 1873_5
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 2011_1
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1915
+INFO:__main__:Updated item in Processing for disambiguated_p: TO00199101, 1876_13
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1948_42_43
+INFO:__main__:Updated item in Processing for disambiguated_p: RAV0164473, 1943_130.4-5-6
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1907_13
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10016952, 1900_20
+INFO:__main__:Updated item in Processing for disambiguated_p: LO10015953, 1949_44_45

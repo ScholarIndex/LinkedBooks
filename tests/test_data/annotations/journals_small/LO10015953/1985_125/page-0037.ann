@@ -1,0 +1,77 @@
+T1	Secondary-Full 988 1045	La vita comune del clero nei secoli XI e XII, Milano 1962
+T2	Secondary-Full 1047 1055;1057 1116	Atti del primo congresso europeo di storia ospitaliera, Bologna 1962
+T3	Secondary-Full 1118 1135;1137 1207	Monasteri in alta Italia dopo le invasioni saracene e magiare (secc. X-XII), Torino 1966
+T4	Secondary-Full 1209 1216;1218 1295	Istitu- zioni monastiche e istituzioni canonicali in occidente 1123-1213, Milano 1980
+T5	Secondary-Full 1298 1374;1376 1383	R. Grégoire, La vocazione sacerdotale, i canonici regolari nel medioevo, Ro- ma 1982
+T6	Title 988 1033	La vita comune del clero nei secoli XI e XII,
+T7	PublicationPlace 1034 1040	Milano
+T8	PublicationYear 1041 1045	1962
+T9	Title 1047 1055;1057 1103	Atti del primo congresso europeo di storia ospitaliera,
+T10	PublicationPlace 1104 1111	Bologna
+T11	PublicationYear 1112 1116	1962
+T12	Title 1118 1135;1137 1195	Monasteri in alta Italia dopo le invasioni saracene e magiare (secc. X-XII),
+T13	PublicationPlace 1196 1202	Torino
+T14	PublicationYear 1203 1207	1966
+T15	Title 1209 1216;1218 1283	Istitu- zioni monastiche e istituzioni canonicali in occidente 1123-1213,
+T16	PublicationPlace 1284 1290	Milano
+T17	PublicationYear 1291 1295	1980
+T18	Author 1298 1310	R. Grégoire,
+T19	Title 1311 1370	La vocazione sacerdotale, i canonici regolari nel medioevo,
+T20	PublicationPlace 1371 1374;1376 1378	Ro- ma
+T21	PublicationYear 1379 1383	1982
+T22	Secondary-Partial 1497 1541	A. Dandolo, Chronica a cura di E. Pastorello
+T23	Secondary-Full 1547 1596	Rerum italicarum scriptores, Bologna 1942, p. 232
+R1	ContainedIN Arg1:T22 Arg2:T23	
+T24	Author 1497 1508	A. Dandolo,
+T25	Title 1509 1517	Chronica
+T26	Editor 1518 1541	a cura di E. Pastorello
+T27	Title 1547 1575	Rerum italicarum scriptores,
+T28	PublicationPlace 1576 1583	Bologna
+T29	PublicationYear 1584 1589	1942,
+T30	Pagination 1590 1596	p. 232
+T31	Secondary-Full 1601 1621;1623 1696;1699 1747	F. Corner, Ecclesiae Venetae antiquis monumentis nunc etiam primum editis illustratae ac in de cades distributae, Venetiis 1749, V, pp. 157-219
+T32	Author 1601 1611	F. Corner,
+T33	Title 1612 1621;1623 1697;1699 1717	Ecclesiae Venetae antiquis monumentis nunc etiam primum editis illustratae ac in de- cades distributae,
+T34	PublicationPlace 1718 1726	Venetiis
+T35	PublicationYear 1727 1732	1749,
+T36	Volume 1733 1735	V,
+T37	Pagination 1736 1747	pp. 157-219
+T38	Secondary-Full 1749 1776;1778 1798	E. Bassi, II convento della Carità, Vicenza 1971
+T39	Author 1749 1758	E. Bassi,
+T40	Title 1759 1776;1778 1785	II convento della Carità,
+T41	PublicationPlace 1786 1793	Vicenza
+T42	PublicationYear 1794 1798	1971
+T43	Secondary-Partial 2056 2085	Corner, E.V., II, pp. 243-299
+T44	Author 2056 2063	Corner,
+T45	AbbreviatedTitle 2064 2069	E.V.,
+T46	Volume 2070 2073	II,
+T47	Pagination 2074 2085	pp. 243-299
+T48	Secondary-Full 2087 2110;2112 2187;2189 2226	Id., Supplementa ad Ec- clesias Venetas et Torcellanas antiquis documentis nunc etiam primum editis illustratas, Venetiis 1749, pp. 92-93
+T49	Abbreviation 2087 2091	Id.,
+T50	Title 2092 2110;2112 2187;2189 2201	Supplementa ad Ec- clesias Venetas et Torcellanas antiquis documentis nunc etiam primum editis illustratas,
+T51	PublicationPlace 2202 2210	Venetiis
+T52	PublicationYear 2211 2216	1749,
+T53	Pagination 2217 2226	pp. 92-93
+T54	Secondary-Full 2228 2264;2266 2316	G. Musolino, A. Niero, S. Tramontin, Santi e beati veneziani, Venezia 1963, ρρ. 123-126
+T55	Secondary-Full 2318 2343;2345 2379	G. Cappelletti, Le chiese d’Italia, IX, Venezia 1853, p. 166
+T56	Author 2228 2240	G. Musolino,
+T57	Author 2241 2250	A. Niero,
+T58	Author 2251 2264	S. Tramontin,
+T59	Title 2266 2290	Santi e beati veneziani,
+T60	PublicationPlace 2291 2298	Venezia
+T61	PublicationYear 2299 2304	1963,
+T62	Pagination 2305 2316	ρρ. 123-126
+T63	Author 2318 2333	G. Cappelletti,
+T64	Title 2334 2343;2345 2354	Le chiese d’Italia,
+T65	Volume 2355 2358	IX,
+T66	PublicationPlace 2359 2366	Venezia
+T67	PublicationYear 2367 2372	1853,
+T68	Pagination 2373 2379	p. 166
+T69	Secondary-Partial 2387 2416	Corner, E.V., IX, pp. 215-245
+T70	Author 2387 2394	Corner,
+T71	AbbreviatedTitle 2395 2400	E.V.,
+T72	Volume 2401 2404	IX,
+T73	Pagination 2405 2416	pp. 215-245
+T74	Secondary-Partial 2423 2442	Ibidem, pp. 173-214
+T75	Abbreviation 2423 2430	Ibidem,
+T76	Pagination 2431 2442	pp. 173-214

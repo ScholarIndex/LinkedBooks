@@ -1,0 +1,82 @@
+T1	Secondary-Full 1608 1646;1648 1716	C. Frati, Dizionario bio-bibliografico dei bibliotecari e bibliofili italiani..., Firenze 1933, pp. 460-461
+T2	Author 1608 1617	C. Frati,
+T3	Title 1618 1647	Dizionario bio-bibliografico
+T4	Title 1618 1646;1648 1690	Dizionario bio-bibliografico dei bibliotecari e bibliofili italiani...,
+T5	PublicationPlace 1691 1698	Firenze
+T6	PublicationYear 1699 1704	1933,
+T7	Pagination 1705 1716	pp. 460-461
+T8	Secondary-Partial 1737 1784	G. E. Ferrari, Le opere a stampa del Guilandino
+T9	Secondary-Full 1789 1807;1809 1885;1887 1909	Libri e stampatori in Padova. Miscellanea di studi storici in onore di mans. G. Bellini..., Pa- dova 1959, pp. 442-443
+R1	ContainedIN Arg1:T8 Arg2:T9	
+T10	Author 1737 1751	G. E. Ferrari,
+T11	Title 1752 1785	Le opere a stampa del Guilandino,
+T12	Title 1789 1807;1809 1881	Libri e stampatori in Padova. Miscellanea di studi storici in onore di mans. G. Bellini...,
+T13	PublicationPlace 1882 1885;1887 1891	Pa- dova
+T14	PublicationYear 1892 1897	1959,
+T15	Pagination 1898 1909	pp. 442-443
+T16	Secondary-Partial 1911 1960;1962 2041;2043 2057	G. Plumidis-G. Fedalto, Emanuele Massimo Margunio ( 1549-1602) e il Διάλογος περί άθλιότητος άντρα·π(νης dedicato a Giovanni Vin- cenzo Pinelli,
+T17	Secondary-Full 2061 2119;2121 2142	"Atti e mem. dell’acc. patavino di SS. LL. AA.”, 80 (1967- 68), III, pp. 257-271
+R2	ContainedIN Arg1:T16 Arg2:T17	
+T18	Author 1911 1923	G. Plumidis-
+T19	Author 1923 1934	G. Fedalto,
+T20	Title 1935 1960;1962 2041;2043 2057	Emanuele Massimo Margunio ( 1549-1602) e il Διάλογος περί άθλιότητος άντρα·π(νης dedicato a Giovanni Vin- cenzo Pinelli,
+T21	Title 2061 2109	"Atti e mem. dell’acc. patavino di SS. LL. AA.”,
+T22	PublicationNumber-Year 2110 2119;2121 2125	80 (1967- 68),
+T23	Volume 2126 2130	III,
+T24	Pagination 2131 2142	pp. 257-271
+T25	Secondary-Partial 2155 2168	Μ., IV, p. 56
+T26	Secondary-Partial 2171 2219;2221 2225	E. Caccia, Cultura e letteratura nei secoli XV e XVI,
+T27	Secondary-Full 2229 2272	Storia di Brescia, II, Brescia 1961, p, 509
+R3	ContainedIN Arg1:T26 Arg2:T27	
+T28	AbbreviatedTitle 2155 2158	Μ.,
+T29	Volume 2159 2162	IV,
+T30	Pagination 2163 2168	p. 56
+T31	Author 2171 2181	E. Caccia,
+T32	Title 2182 2219;2221 2225	Cultura e letteratura nei secoli XV e XVI,
+T33	Title 2229 2247	Storia di Brescia,
+T34	Volume 2248 2251	II,
+T35	PublicationPlace 2252 2259	Brescia
+T36	PublicationYear 2260 2265	1961,
+T37	Pagination 2266 2272	p, 509
+T38	Secondary-Partial 2285 2302	Μ., IV, pp. 64-^5
+T39	AbbreviatedTitle 2285 2288	Μ.,
+T40	Volume 2289 2292	IV,
+T41	Pagination 2293 2302	pp. 64-^5
+A1	OCRquality T41 MinorErrors
+T42	Secondary-Full 2316 2348;2350 2381	G. F. Tinto, La nobiltà di Vero- na..., Verona 1592, pp. 389-390
+T43	Author 2316 2328	G. F. Tinto,
+T44	Title 2329 2348;2350 2356	La nobiltà di Vero- na...,
+T45	PublicationPlace 2357 2363	Verona
+T46	PublicationYear 2364 2369	1592,
+T47	Pagination 2370 2381	pp. 389-390
+T48	Secondary-Full 2384 2427;2429 2448	G. Della Corte, Dell'istoria di Verona, II, Verona 1592, p. 717
+T49	Author 2384 2399	G. Della Corte,
+T50	Title 2400 2423	Dell'istoria di Verona,
+T51	Volume 2424 2427	II,
+T52	PublicationPlace 2429 2435	Verona
+T53	PublicationYear 2436 2441	1592,
+T54	Pagination 2442 2448	p. 717
+T55	Secondary-Full 2469 2506;2508 2538	F. Testi, La musica italiana nei Sei- cento, II, Milano 1972, p. 301
+T56	Author 2469 2478	F. Testi,
+T57	Title 2479 2506;2508 2514	La musica italiana nei Sei- cento,
+T58	Volume 2515 2518	II,
+T59	PublicationPlace 2519 2525	Milano
+T60	PublicationYear 2526 2531	1972,
+T61	Pagination 2532 2538	p. 301
+T62	Secondary-Full 2576 2587;2589 2666;2668 2708	G. Borelli, Un patriziato della terraferma veneta tra XVII e XVIII secolo. Ricerche sulla nobiltà veronese, Milano 1974, pp. 67-99
+T63	Author 2576 2587	G. Borelli,
+T64	Title 2589 2666;2668 2685	Un patriziato della terraferma veneta tra XVII e XVIII secolo. Ricerche sulla nobiltà veronese,
+T65	PublicationPlace 2686 2692	Milano
+T66	PublicationYear 2693 2698	1974,
+T67	Pagination 2699 2708	pp. 67-99
+T68	Secondary-Partial 2721 2734	Μ., II, p. 65
+T69	Secondary-Partial 2737 2748	III, p. 414
+T70	AbbreviatedTitle 2721 2724	Μ.,
+T71	Volume 2725 2728	II,
+T72	Volume 2737 2741	III,
+T73	Pagination 2742 2748	p. 414
+T74	Secondary-Partial 2780 2788;2790 2820	Borelli, op. cit., pp. 210-219, 324-329
+T75	Author 2780 2788	Borelli,
+T76	Abbreviation 2790 2799	op. cit.,
+T77	Pagination 2800 2812	pp. 210-219,
+T78	Pagination 2813 2820	324-329

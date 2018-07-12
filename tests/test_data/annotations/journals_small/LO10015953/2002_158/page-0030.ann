@@ -1,0 +1,22 @@
+T1	Primary-Full 1999 2003;2005 2052	ASV, Archivio Proprio, Roma, filza 8, n° 72, c. 161r
+T2	Archive 1999 2003	ASV,
+T3	ArchivalReference 2005 2022	Archivio Proprio,
+T4	ArchivalReference 2023 2028	Roma,
+T5	Filza 2029 2037	filza 8,
+T6	Numbering 2038 2044	n° 72,
+T7	Cartulation 2045 2052	c. 161r
+T8	Primary-Full 2151 2220;2222 2236	ASV, Capi del Consiglio dei X, Lettere degli ambasciatori a Roma, bu- sta 23, n° 173
+T9	Archive 2151 2155	ASV,
+T10	ArchivalReference 2156 2181	Capi del Consiglio dei X,
+T11	ArchivalReference 2182 2216	Lettere degli ambasciatori a Roma,
+T12	Folder 2217 2220;2222 2229	bu- sta 23,
+T13	Numbering 2230 2236	n° 173
+T14	Primary-Full 2339 2402;2404 2419	ASV, Capi del Consiglio dei X, Lettere degli ambasciatori a Ro- ma, busta n° 24
+T15	Archive 2339 2343	ASV,
+T16	ArchivalReference 2344 2369	Capi del Consiglio dei X,
+T17	ArchivalReference 2370 2402;2404 2407	Lettere degli ambasciatori a Ro- ma,
+T18	Folder 2408 2419	busta n° 24
+T19	Primary-Full 2427 2475	[MILLEDONNE], Vita d'Antonio Milledonne, c. 72r.
+T20	Author 2427 2440	[MILLEDONNE],
+T21	Title 2441 2467	Vita d'Antonio Milledonne,
+T22	Cartulation 2468 2475	c. 72r.

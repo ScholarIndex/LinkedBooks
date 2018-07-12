@@ -1,0 +1,29 @@
+T1	Primary-Full 2007 2036	ASP, Prove di nobiltà, b. 15.
+T2	Primary-Full 2239 2268	ASP, Prove di nobiltà, b. 45.
+T3	Primary-Full 2275 2303	ASP, Prove di nobiltà, b. 39
+T4	Primary-Full 2306 2334	ASP, Prove di nobiltà, b. 70
+T5	Secondary-Partial 2042 2095	G. Cozzi, La compagnia di Gesù a Venezia (1550-1657),
+T6	Secondary-Full 2099 2115;2117 2200	Venezia barocca. Conflitti di uomini e idee nella crisi del Seicento veneziano, Venezia 1995, p. 297
+T7	Primary-Full 2203 2232	ASP, Prove di nobiltà, b. 87.
+T8	Archive 2007 2011	ASP,
+T9	Archive 2203 2207	ASP,
+T10	Archive 2239 2243	ASP,
+T11	Archive 2275 2279	ASP,
+T12	Archive 2306 2310	ASP,
+T13	ArchivalReference 2012 2029	Prove di nobiltà,
+T14	ArchivalReference 2208 2225	Prove di nobiltà,
+T15	ArchivalReference 2244 2261	Prove di nobiltà,
+T16	ArchivalReference 2280 2297	Prove di nobiltà,
+T17	ArchivalReference 2311 2328	Prove di nobiltà,
+T18	Folder 2030 2036	b. 15.
+T19	Folder 2226 2231	b. 87
+T20	Folder 2262 2267	b. 45
+T21	Folder 2298 2303	b. 39
+T22	Folder 2329 2334	b. 70
+T23	Author 2042 2051	G. Cozzi,
+T24	Title 2052 2095	La compagnia di Gesù a Venezia (1550-1657),
+T25	Title 2099 2115;2117 2179	Venezia barocca. Conflitti di uomini e idee nella crisi del Seicento veneziano,
+T26	PublicationPlace 2180 2187	Venezia
+T27	PublicationYear 2188 2193	1995,
+T28	Pagination 2194 2200	p. 297
+R1	ContainedIN Arg1:T5 Arg2:T6	

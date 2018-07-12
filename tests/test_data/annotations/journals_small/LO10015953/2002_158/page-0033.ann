@@ -1,0 +1,31 @@
+T1	Primary-Full 2044 2100	ASV, Archivio Proprio, Roma, filza 10, n° 66, c. 168r-v)
+T2	Archive 2044 2048	ASV,
+T3	ArchivalReference 2049 2066	Archivio Proprio,
+T4	ArchivalReference 2067 2072	Roma,
+T5	Filza 2073 2082	filza 10,
+T6	Numbering 2083 2089	n° 66,
+T7	Cartulation 2090 2099	c. 168r-v
+T8	Secondary-Partial 2102 2129;2131 2155	S. Pezzella, Canoni, Batti- sta (Battista da Crema),
+T9	Secondary-Partial 2159 2189	DBI, 20, Roma 1977, p. 115-118
+R1	ContainedIN Arg1:T8 Arg2:T9	
+T10	Author 2102 2114	S. Pezzella,
+T11	Author 2115 2122	Canoni,
+T12	Title 2123 2129;2131 2155	Batti- sta (Battista da Crema),
+T13	AbbreviatedTitle 2159 2163	DBI,
+T14	Volume 2164 2167	20,
+T15	PublicationPlace 2168 2172	Roma
+T16	PublicationYear 2173 2178	1977,
+T17	Pagination 2179 2189	p. 115-118
+T18	Primary-Full 2290 2342	ASV, Archivio Proprio, Roma, filza 11, n° 22, c. 49v
+T19	Archive 2290 2294	ASV,
+T20	ArchivalReference 2295 2312	Archivio Proprio,
+T21	ArchivalReference 2313 2318	Roma,
+T22	Filza 2319 2328	filza 11,
+T23	Numbering 2329 2335	n° 22,
+T24	Cartulation 2336 2342	c. 49v
+T25	Primary-Full 2352 2423;2425 2430	ASV, Esecutori contra la Bestemmia, Notatone Terminazioni, busta 56, c. 164v.
+T26	Archive 2352 2356	ASV,
+T27	ArchivalReference 2357 2387	Esecutori contra la Bestemmia,
+T28	ArchivalReference 2388 2410	Notatone Terminazioni,
+T29	Folder 2411 2420	busta 56,
+T30	Cartulation 2421 2423;2425 2429	c. 164v

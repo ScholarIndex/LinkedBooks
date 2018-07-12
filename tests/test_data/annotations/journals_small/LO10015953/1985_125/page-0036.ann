@@ -1,0 +1,23 @@
+T1	Secondary-Full 1293 1362;1364 1368	S. Giovanni Evangelista di Torcello, a cura di L. Lanfranchi, Venezia 1948
+T2	Secondary-Full 1422 1435;1437 1483	H. Grundmann, Movimenti religiosi nel Medioevo, Bologna 1980
+T3	Secondary-Full 1485 1510;1513 1564	Movimento religioso femmi nile e francescanesimo nel secolo XIII, Assisi 1981
+T4	Secondary-Partial 1566 1586;1589 1639	J. Leclercq, Le mona chisme feminin au Moyen Age. En marge d’un congrès
+T5	Secondary-Full 1641 1661;1663 1701	«Cristianesimo nella storia», Bologna 1 (1980), pp. 445-458
+R1	ContainedIN Arg1:T4 Arg2:T5	
+T6	Title 1293 1329	S. Giovanni Evangelista di Torcello,
+T7	Editor 1330 1354	a cura di L. Lanfranchi,
+T8	PublicationPlace 1355 1362	Venezia
+T9	PublicationYear 1364 1368	1948
+T10	Author 1422 1435	H. Grundmann,
+T11	Title 1437 1470	Movimenti religiosi nel Medioevo,
+T12	PublicationPlace 1471 1478	Bologna
+T13	PublicationYear 1479 1483	1980
+T14	Title 1485 1511;1513 1552	Movimento religioso femmi- nile e francescanesimo nel secolo XIII,
+T15	PublicationPlace 1553 1559	Assisi
+T16	PublicationYear 1560 1564	1981
+T17	Author 1566 1578	J. Leclercq,
+T18	Title 1579 1586;1589 1639	Le mona chisme feminin au Moyen Age. En marge d’un congrès
+T19	Title 1641 1661;1663 1671	«Cristianesimo nella storia»,
+T20	PublicationPlace 1672 1679	Bologna
+T21	PublicationNumber-Year 1680 1688	1 (1980)
+T22	Pagination 1690 1701	pp. 445-458

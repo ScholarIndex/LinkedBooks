@@ -1,0 +1,67 @@
+T1	Secondary-Full 1220 1289;1291 1300	E. Boaga, La soppressione innocenziana dei piccoli conventi in lidia, Roma 1971
+T2	Primary-Full 1480 1526;1528 1537	A.S.V., Senato terra, reg. 181, cc. 495-496: 8 nov. 1670
+T3	Author 1220 1229	E. Boaga,
+T4	Title 1230 1289	La soppressione innocenziana dei piccoli conventi in lidia,
+T5	PublicationPlace 1291 1295	Roma
+T6	PublicationYear 1296 1300	1971
+T7	Archive 1480 1487	A.S.V.,
+T8	ArchivalReference 1488 1501	Senato terra,
+T9	Registry 1502 1511	reg. 181,
+T10	Cartulation 1512 1523	cc. 495-496
+T11	Date 1525 1526;1528 1537	8 nov. 1670
+T12	Secondary-Partial 1684 1693;1695 1748	P. Cenci, L’archivio della Cancelleria della Nunziatura Veneta,
+T13	Secondary-Full 1752 1773;1775 1805	Miscellanea F. Ehrle, Roma 1924, vol. V, pp. 273-330
+T14	Author 1684 1693	P. Cenci,
+T15	Title 1695 1748	L’archivio della Cancelleria della Nunziatura Veneta,
+T16	Title 1752 1773	Miscellanea F. Ehrle,
+T17	PublicationPlace 1775 1779	Roma
+T18	PublicationYear 1780 1785	1924,
+T19	Volume 1786 1793	vol. V,
+T20	Pagination 1794 1805	pp. 273-330
+T21	Secondary-Partial 1807 1847	Da Mosto, op. cit., vol. II, pp. 122-123
+T22	Author 1807 1816	Da Mosto,
+T23	Abbreviation 1817 1826	op. cit.,
+T24	Volume 1827 1835	vol. II,
+T25	Pagination 1836 1847	pp. 122-123
+T26	Primary-Full 1912 1934;1936 1990	A.S.V., Notarile atti, not. Angelo Maria Piccini, bb. 11125-11126 (anno 1656)
+T27	Archive 1912 1919	A.S.V.,
+T28	ArchivalReference 1920 1934	Notarile atti,
+T29	Notary 1936 1962	not. Angelo Maria Piccini,
+T30	Folder 1963 1978	bb. 11125-11126
+T31	Year 1979 1990	(anno 1656)
+T32	Primary-Partial 1992 2012;2014 2082	not. Claudio Paulini e soci, bb. 3527-3528, 3532, 3536, 3540, 3544, 3700 (anni 1669-1681)
+T33	Primary-Partial 2096 2155	b. 3571 (soppressione di S. Maria delle Carceri, 1690-1693)
+T34	Notary 1992 2012;2014 2021	not. Claudio Paulini e soci,
+T35	Folder 2022 2036	bb. 3527-3528,
+T36	Folder 2037 2042	3532,
+T37	Folder 2043 2048	3536,
+T38	Folder 2049 2054	3540,
+T39	Folder 2055 2060	3544,
+T40	Folder 2061 2065	3700
+T41	Year 2066 2082	(anni 1669-1681)
+T42	Folder 2096 2103	b. 3571
+T43	Attachment 2104 2154	(soppressione di S. Maria delle Carceri, 1690-1693
+T44	Year 2145 2154	1690-1693
+T45	Secondary-Partial 2164 2213	T. Spidlík - M. Sensi - Ph. Rouillard, Reclusione
+T46	Secondary-Full 2218 2229;2231 2240	DJ.P., VII, 1229-1245
+T47	Author 2164 2174	T. Spidlík
+T48	Author 2175 2185	- M. Sensi
+T49	Author 2186 2202	- Ph. Rouillard,
+T50	Title 2203 2213	Reclusione
+T51	AbbreviatedTitle 2218 2224	DJ.P.,
+T52	Volume 2225 2229	VII,
+T53	Pagination 2231 2240	1229-1245
+T54	Secondary-Partial 2538 2545;2547 2569	Corner, E.V., II, pp. 201-202;
+T55	Author 2538 2545	Corner,
+T56	AbbreviatedTitle 2547 2552	E.V.,
+T57	Volume 2553 2556	II,
+T58	Pagination 2557 2568	pp. 201-202
+T59	Secondary-Partial 2570 2579	V, p. 244
+T60	Volume 2570 2572	V,
+T61	Pagination 2573 2579	p. 244
+T62	Secondary-Partial 2722 2747	Tassini, op. cit., p. 415
+T63	Author 2722 2730	Tassini,
+T64	Abbreviation 2731 2740	op. cit.,
+T65	Pagination 2741 2747	p. 415
+R1	ContainedIN Arg1:T12 Arg2:T13	
+R2	ContainedIN Arg1:T45 Arg2:T46	

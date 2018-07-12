@@ -1,0 +1,50 @@
+T1	Primary-Full 1759 1837;1839 1912	ASV, Miscellanea Codici, serie 1°, Storia veneta, Registro 83, G.F. VENIER, Da che nacquero le cose antescritte del 1582, c. 81-89, in particolare c. 87
+T2	Archive 1759 1763	ASV,
+T3	ArchivalReference 1764 1783	Miscellanea Codici,
+T4	ArchivalReference 1784 1808	serie 1°, Storia veneta,
+T5	Registry 1809 1821	Registro 83,
+T6	Other 1822 1837;1839 1881	G.F. VENIER, Da che nacquero le cose antescritte del 1582,
+T7	Cartulation 1882 1891	c. 81-89,
+T8	Cartulation 1892 1912	in particolare c. 87
+T9	Primary-Full 1940 2014	ASV, Miscellanea Codici, serie P, Storia Veneta, Registro 84, c. 116r-122v
+T10	Archive 1940 1944	ASV,
+T11	ArchivalReference 1945 1964	Miscellanea Codici,
+T12	ArchivalReference 1965 1988	serie P, Storia Veneta,
+T13	Registry 1989 2001	Registro 84,
+T14	Cartulation 2002 2015	c. 116r-122v,
+T15	Secondary-Partial 2246 2255;2257 2308	Cozzi, Il Consiglio dei X e ¡'«auttorità suprema», p. 145-174
+T16	Author 2246 2252	Cozzi,
+T17	AbbreviatedTitle 2253 2255;2257 2297	Il Consiglio dei X e ¡'«auttorità suprema»,
+T18	Pagination 2298 2308	p. 145-174
+T19	Secondary-Partial 2310 2339;2341 2417	G. COZZI, Considerazioni sul- l'amministrazione della giustizia nella Repubblica di Venezia (secc. XV-XVI)
+T20	Secondary-Full 2422 2426;2428 2514;2516 2519	Flo- rence and Venice: comparisons and relations, a cura di C. SMITH, II, Firenze, 1980, p. 127
+R1	ContainedIN Arg1:T19 Arg2:T20	
+T21	Author 2310 2319	G. COZZI,
+T22	Title 2320 2339;2341 2417	Considerazioni sul- l'amministrazione della giustizia nella Repubblica di Venezia (secc. XV-XVI)
+T23	Title 2422 2426;2428 2472	Flo- rence and Venice: comparisons and relations,
+T24	Editor 2473 2492	a cura di C. SMITH,
+T25	Volume 2493 2496	II,
+T26	PublicationPlace 2497 2505	Firenze,
+T27	PublicationYear 2506 2511	1980,
+T28	Pagination 2512 2514;2516 2519	p. 127
+T29	Secondary-Partial 2526 2601;2603 2666	M. GALTAROSSA, Il libro delle grazie del segretario Antonio Milledonne. Una pratica di governo della famiglia nella Venezia cinquecentesca,
+T30	Author 2526 2540	M. GALTAROSSA,
+T31	Title 2541 2601;2603 2666	Il libro delle grazie del segretario Antonio Milledonne. Una pratica di governo della famiglia nella Venezia cinquecentesca,
+T32	Secondary-Full 2667 2691;2693 2720	«Studi storici Luigi Si- meoni», 49 (1999), p. 41-55
+R2	ContainedIN Arg1:T29 Arg2:T32	
+T33	Author 2526 2540	M. GALTAROSSA,
+T34	Title 2667 2691;2693 2700	«Studi storici Luigi Si- meoni»,
+T35	PublicationNumber-Year 2701 2711	49 (1999),
+T36	Pagination 2712 2720	p. 41-55
+T37	Secondary-Partial 2722 2763	C. RABBI, Ueredità di Antonio Milledonne,
+T38	Secondary-Full 2764 2776;2778 2813	«Studi vene- ziani», N.S., 37 (1999), p. 199-206
+R3	ContainedIN Arg1:T37 Arg2:T38	
+T39	Author 2722 2731	C. RABBI,
+T40	Title 2732 2763	Ueredità di Antonio Milledonne,
+T41	Title 2764 2776;2778 2785	«Studi vene- ziani»,
+T42	Series 2786 2791	N.S.,
+T43	PublicationNumber-Year 2792 2802	37 (1999),
+T44	Pagination 2803 2813	p. 199-206
+T45	Secondary-Partial 2815 2862	M. GALTAROSSA, Di due ignorate fonti della Vita
+T46	Author 2815 2829	M. GALTAROSSA,
+T47	Title 2830 2862	Di due ignorate fonti della Vita

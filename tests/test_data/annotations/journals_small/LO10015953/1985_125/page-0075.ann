@@ -1,0 +1,17 @@
+T1	Primary-Full 1375 1412	A.S.V., Prefettura, 1872-1876, 12 5/2
+T2	Primary-Partial 1414 1432	1882-1886, 17 2/19
+T3	Primary-Partial 1434 1444;1446 1453	1887-1893, 26 2/15
+T4	Primary-Partial 1462 1519	Ibidem, 1867-1871, 6 2/12, prot. n. 16831: 2 ottobre 1867
+T5	Archive 1375 1382	A.S.V.,
+T6	ArchivalReference 1383 1394	Prefettura,
+T7	Year 1395 1405	1872-1876,
+T8	Numbering 1406 1412	12 5/2
+T9	Year 1414 1424	1882-1886,
+T10	Numbering 1425 1432	17 2/19
+T11	Year 1434 1443	1887-1893
+T12	Numbering 1446 1453	26 2/15
+T13	Abbreviation 1462 1469	Ibidem,
+T14	Year 1470 1480	1867-1871,
+T15	Numbering 1481 1488	6 2/12,
+T16	Protocollo 1489 1503	prot. n. 16831
+T17	Date 1505 1519	2 ottobre 1867

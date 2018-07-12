@@ -1,0 +1,58 @@
+T1	Secondary-Partial 3111 3169;3171 3177	B. ZiLioTTO, Accademie ed accademici dì Capodistria (1478- 1807),
+T2	Secondary-Full 3181 3228	"Archeografo triestino”, 56 (1944), pp. 125-153
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Author 3111 3123	B. ZiLioTTO,
+T4	Title 3124 3169;3171 3176	Accademie ed accademici dì Capodistria (1478- 1807)
+T5	Title 3181 3205	"Archeografo triestino”,
+T6	PublicationNumber-Year 3206 3216	56 (1944),
+T7	Pagination 3217 3228	pp. 125-153
+T8	Secondary-Partial 2706 2731;2733 2741	P. M. Tua, Le accademie a Bassano,
+T9	Secondary-Full 2745 2781	"Odeo olimpico”, 2 (1942), pp. 23-44
+R2	ContainedIN Arg1:T8 Arg2:T9	
+T10	Author 2706 2716	P. M. Tua,
+T11	Title 2717 2731;2733 2741	Le accademie a Bassano,
+T12	Title 2745 2761	"Odeo olimpico”,
+T13	PublicationNumber-Year 2762 2771	2 (1942),
+T14	Pagination 2772 2781	pp. 23-44
+T15	Secondary-Full 3032 3042;3044 3096	J. Hubert, Histoire de Charleville..., Charleville 1854, p. 113
+T16	Author 3032 3042	J. Hubert,
+T17	Title 3044 3071	Histoire de Charleville...,
+T18	PublicationPlace 3072 3083	Charleville
+T19	PublicationYear 3084 3089	1854,
+T20	Pagination 3090 3096	p. 113
+T21	Secondary-Full 1770 1788;1790 1830	F. Di Manzano, An- nali del Friuli, VII, Udine 1879, p. 157
+T22	Author 1770 1784	F. Di Manzano,
+T23	Title 1785 1788;1790 1806	An- nali del Friuli,
+T24	Volume 1807 1811	VII,
+T25	PublicationPlace 1812 1817	Udine
+T26	PublicationYear 1818 1823	1879,
+T27	Pagination 1824 1830	p. 157
+T28	Secondary-Full 1833 1868;1870 1941	G. G. Liruti, Notizie delle vite ed opere scritte da’ letterati del Friuli..., III, Udine 1780, pp. 447-448
+T29	Pagination 1833 1846	G. G. Liruti,
+T30	Title 1847 1868;1870 1912	Notizie delle vite ed opere scritte da’ letterati del Friuli...,
+T31	Volume 1913 1917	III,
+T32	PublicationPlace 1918 1923	Udine
+T33	PublicationYear 1924 1929	1780,
+T34	Pagination 1930 1941	pp. 447-448
+T35	Secondary-Full 2208 2253;2255 2289	M. De Marinis, Anton Giulio Brignole Sale e i suoi tempi..., Genova 1914, p. 337
+T36	Author 2208 2222	M. De Marinis,
+T37	Title 2223 2253;2255 2269	Anton Giulio Brignole Sale e i suoi tempi...,
+T38	PublicationPlace 2270 2276	Genova
+T39	PublicationYear 2277 2282	1914,
+T40	Pagination 2283 2289	p. 337
+T41	Secondary-Partial 2406 2412;2414 2493;2495 2500	R. Ro- mano-A. Tenenti, L'intellectuel dans la société italienne des XVe et XVIIe siè- cles,
+T42	Secondary-Partial 2504 2563	Niveaux de culture et groupes sociaux..., Paris 1967, p. 61
+R3	ContainedIN Arg1:T41 Arg2:T42	
+T43	Author 2406 2412;2414 2419	R. Ro- mano-
+T44	Author 2419 2430	A. Tenenti,
+T45	Title 2431 2493;2495 2500	L'intellectuel dans la société italienne des XVe et XVIIe siè- cles,
+T46	Title 2504 2545	Niveaux de culture et groupes sociaux...,
+T47	PublicationPlace 2546 2551	Paris
+T48	PublicationYear 2552 2557	1967,
+T49	Pagination 2558 2563	p. 61
+T50	Secondary-Full 855 917;919 949	Jo. Burckard Mencke, De charlatanería eruditorum declamationes duae..., Lucae 1726, pp. 16-17
+T51	Author 855 875	Jo. Burckard Mencke,
+T52	Title 876 917;919 927	De charlatanería eruditorum declamationes duae...,
+T53	PublicationPlace 928 933	Lucae
+T54	PublicationYear 934 939	1726,
+T55	Pagination 940 950	pp. 16-17.

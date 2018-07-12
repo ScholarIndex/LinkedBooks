@@ -1,0 +1,13 @@
+T1	Secondary-Partial 2246 2265;2267 2288	BenusSI, Storia do- cumentata,, pp. 92-93
+T2	Secondary-Partial 2290 2357;2359 2375	G. Poli, Nobili e popolani nella Capodistria del Settecento. I Sin- daci del Popolo,
+T3	Secondary-Partial 2376 2411	«PI», IV i., Il (1964), pp. 167-174
+R1	ContainedIN Arg1:T2 Arg2:T3	
+T4	Author 2246 2254	BenusSI,
+T5	AbbreviatedTitle 2255 2265;2267 2277	Storia do- cumentata,
+T6	Pagination 2279 2288	pp. 92-93
+T7	Author 2290 2298	G. Poli,
+T8	Title 2299 2357;2359 2375	Nobili e popolani nella Capodistria del Settecento. I Sin- daci del Popolo,
+T9	AbbreviatedTitle 2376 2381	«PI»,
+T10	Numbering 2382 2388	IV i.,
+T11	PublicationNumber-Year 2389 2399	Il (1964),
+T12	Pagination 2400 2411	pp. 167-174

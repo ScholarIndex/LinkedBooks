@@ -1,0 +1,16 @@
+T1	Primary-Full 2305 2364	ASV, Consiglio dei X, Esposizioni Roma, Registro 1, c. 88v.
+T2	Archive 2305 2309	ASV,
+T3	ArchivalReference 2310 2326	Consiglio dei X,
+T4	ArchivalReference 2327 2344	Esposizioni Roma,
+T5	Registry 2345 2356	Registro 1,
+T6	Cartulation 2357 2364	c. 88v.
+T7	Primary-Full 2372 2422	Bernardino Partenio, Carminum, III, Venetiis 1579;
+T8	Author 2372 2392	Bernardino Partenio,
+T9	Title 2393 2402	Carminum,
+T10	Numbering 2403 2407	III,
+T11	PublicationPlace 2408 2416	Venetiis
+T12	PublicationYear 2417 2421	1579
+T13	Secondary-Partial 2436 2443;2445 2474	Trebbi, ha cancelleria veneta, p. 83.
+T14	Author 2436 2443	Trebbi,
+T15	Title 2445 2467	ha cancelleria veneta,
+T16	Pagination 2468 2474	p. 83.

@@ -1,0 +1,43 @@
+T1	Secondary-Partial 1983 2008	P. Stancovich, Biografia,
+T2	Secondary-Partial 2009 2039	«ACRSR», V, 1974, pp. 297-298.
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Author 1983 1997	P. Stancovich,
+T4	Title 1998 2008	Biografia,
+T5	AbbreviatedTitle 2009 2017	«ACRSR»,
+T6	PublicationNumber-Year 2018 2026	V, 1974,
+T7	Pagination 2027 2039	pp. 297-298.
+T8	Secondary-Partial 2046 2078	BABUDRI, I vescovi, pp. 272-273.
+T9	Author 2046 2054	BABUDRI,
+T10	AbbreviatedTitle 2055 2065	I vescovi,
+T11	Pagination 2066 2077	pp. 272-273
+T12	Secondary-Partial 2085 2107	Stancovich, Biografia,
+T13	Secondary-Partial 2108 2127	«ACRSR», IV, p. 257
+R2	ContainedIN Arg1:T12 Arg2:T13	
+T14	Author 2085 2096	Stancovich,
+T15	Title 2097 2107	Biografia,
+T16	AbbreviatedTitle 2108 2116	«ACRSR»,
+T17	PublicationNumber 2117 2120	IV,
+T18	Pagination 2121 2128	p. 257.
+T19	Secondary-Partial 2135 2149	Ibidem, p. 286
+T20	Abbreviation 2135 2142	Ibidem,
+T21	Pagination 2143 2150	p. 286.
+T22	Secondary-Partial 2157 2171	Ibidem, p. 286
+T23	Abbreviation 2157 2164	Ibidem,
+T24	Pagination 2165 2172	p. 286.
+T25	Secondary-Partial 2179 2201	Stancovich, Biografia,
+T26	Secondary-Partial 2202 2221	«ACRSR», V, p. 274.
+R3	ContainedIN Arg1:T25 Arg2:T26	
+T27	Author 2179 2190	Stancovich,
+T28	Title 2191 2201	Biografia,
+T29	AbbreviatedTitle 2202 2210	«ACRSR»,
+T30	PublicationNumber 2211 2213	V,
+T31	Pagination 2214 2221	p. 274.
+T32	Secondary-Partial 2228 2302	Camillo De Franceschi, La Loggia civica e la Sodetà del Casino di Parenzo,
+T33	Secondary-Partial 2304 2334	«PI», III r., 3 (1950), p. 37.
+R4	ContainedIN Arg1:T32 Arg2:T33	
+T34	Author 2228 2250	Camillo De Franceschi,
+T35	Title 2251 2302	La Loggia civica e la Sodetà del Casino di Parenzo,
+T36	AbbreviatedTitle 2304 2309	«PI»,
+T37	Numbering 2310 2317	III r.,
+T38	PublicationNumber-Year 2318 2327	3 (1950),
+T39	Pagination 2328 2333	p. 37

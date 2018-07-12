@@ -1,0 +1,34 @@
+T1	Secondary-Full 1104 1168;1172 1210	E. Lovarini, Studi sul Ruzzante e la letteratura pavana, a c. di G. F. Folena, Padova 1965, pp. 435-463
+T2	Author 1104 1116	E. Lovarini,
+T3	Title 1117 1160	Studi sul Ruzzante e la letteratura pavana,
+T4	Editor 1161 1168;1172 1185	a c. di G. F. Folena,
+T5	PublicationPlace 1186 1192	Padova
+T6	PublicationYear 1193 1198	1965,
+T7	Pagination 1199 1210	pp. 435-463
+T8	Secondary-Full 1320 1372;1374 1399	G. Fantuzzi, Notizie degli scrittori bolognesi, III, Bologna 1783, pp. 101-107
+T9	Author 1320 1332	G. Fantuzzi,
+T10	Title 1333 1367	Notizie degli scrittori bolognesi,
+T11	Volume 1368 1372	III,
+T12	PublicationPlace 1374 1381	Bologna
+T13	PublicationYear 1382 1387	1783,
+T14	Pagination 1388 1399	pp. 101-107
+T15	Secondary-Full 1834 1899	R. Viola, Due saggi di letteratura pavana ..., Padova 1949, p. 26
+T16	Author 1834 1843	R. Viola,
+T17	Title 1844 1880	Due saggi di letteratura pavana ...,
+T18	PublicationPlace 1881 1887	Padova
+T19	PublicationYear 1888 1893	1949,
+T20	Pagination 1894 1899	p. 26
+T21	Secondary-Full 2060 2137;2139 2150	L. Messedaglia, Vita e costume della Rinascenza in Merlin Cocai, Padova 1974, pp. 117-134
+T22	Author 2060 2075	L. Messedaglia,
+T23	Title 2076 2124	Vita e costume della Rinascenza in Merlin Cocai,
+T24	PublicationPlace 2125 2131	Padova
+T25	PublicationYear 2132 2137	1974,
+T26	Pagination 2139 2150	pp. 117-134
+T27	Secondary-Partial 3065 3107	G. Perusini Antonini, Polenta pasticciata,
+T28	Author 3065 3086	G. Perusini Antonini,
+T29	Title 3087 3107	Polenta pasticciata,
+T30	Secondary-Full 3112 3141	“Ce fastu?", 18 (1942), p. 59
+R1	ContainedIN Arg1:T27 Arg2:T30	
+T31	Title 3112 3124	“Ce fastu?",
+T32	PublicationNumber-Year 3125 3135	18 (1942),
+T33	Pagination 3136 3141	p. 59

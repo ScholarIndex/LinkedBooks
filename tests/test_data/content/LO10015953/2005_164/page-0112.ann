@@ -1,0 +1,59 @@
+T1	Primary-Full 1665 1700	ASV, Cancellier grande, b. 5, f. 32
+T2	Secondary-Full 1760 1786;1788 1875;1877 1893	F. VENTURI, Settecento ri- formatore, V, l’Italia dei lumi, II, La Repubblica di Venezia (1761-1797), Torino 1990, p. 12-31,198-220
+T3	Primary-Full 1901 1977	ASV, Consiglio dei X, Parti comuni, b. 1154, alla data 16 febbraio 1769 m.v.
+T4	Primary-Full 1979 2009	ASV, Cancellier grande, b. 19.
+T5	Secondary-Full 2019 2060;2062 2145;2147 2164	N. Zemon Davis, Il dono. Vita familiare e relazioni pubbliche nella Francia del Cinquecento, traduzione di M. GREGORIO, Mila- no 2002, p. 11-20
+T6	Primary-Full 2172 2251;2254 2324	ASV, Miscellanea di atti diversi manoscritti, Cancelleria ducale, b. 94, «scrit tura» del Cancellier grande Giovanni Colombo alla data 20 Maggio 1769.
+T7	Secondary-Partial 2367 2413	G. Gullino, Educazione, formazione, istruzione
+T8	Secondary-Full 2419 2508;2510 2584	Storia di Venezia. Dalle origini alla caduta della Serenìssima, Vili, l’ultima fase della Serenissima, a cura di P. Del Negro e P. Preto, Roma 1998, p. 797 nota 42.
+T9	Secondary-Full 2591 2654	E. A. CICOGNA, Delle iscrizioni veneziane, IV 1966, p. 511-512,
+T10	Archive 1665 1669	ASV,
+T11	Archive 1901 1905	ASV,
+T12	Archive 1979 1983	ASV,
+T13	Archive 2172 2176	ASV,
+T14	ArchivalReference 1670 1688	Cancellier grande,
+T15	ArchivalReference 1906 1922	Consiglio dei X,
+T16	ArchivalReference 1923 1936	Parti comuni,
+T17	ArchivalReference 1984 2002	Cancellier grande,
+T18	ArchivalReference 2177 2217	Miscellanea di atti diversi manoscritti,
+T19	ArchivalReference 2218 2237	Cancelleria ducale,
+T20	Folder 1689 1694	b. 5,
+T21	Folder 1937 1945	b. 1154,
+T22	Folder 2238 2244	b. 94,
+T23	Foliation 1695 1700	f. 32
+T24	Author 1760 1771	F. VENTURI,
+T25	Title 1772 1785;1788 1798	Settecento ri formatore,
+T26	Volume 1799 1820	V, l’Italia dei lumi,
+T27	Tomo 1821 1862	II, La Repubblica di Venezia (1761-1797),
+T28	PublicationPlace 1863 1869	Torino
+T29	PublicationYear 1870 1875	1990,
+T30	Pagination 1877 1886	p. 12-31,
+T31	Pagination 1886 1893	198-220
+T32	Date 1946 1977	alla data 16 febbraio 1769 m.v.
+T33	Folder 2003 2009	b. 19.
+T34	Author 2019 2034	N. Zemon Davis,
+T35	Title 2035 2060;2062 2112	Il dono. Vita familiare e relazioni pubbliche nella Francia del Cinquecento,
+T36	Editor 2113 2139	traduzione di M. GREGORIO,
+T37	PublicationPlace 2140 2145;2147 2149	Mila- no
+T38	PublicationYear 2150 2155	2002,
+T39	Pagination 2156 2165	p. 11-20.
+T40	Attachment 2245 2251;2254 2323	«scrit tura» del Cancellier grande Giovanni Colombo alla data 20 Maggio 1769
+T41	Date 2309 2323	20 Maggio 1769
+T42	Author 2367 2378	G. Gullino,
+T43	Title 2379 2414	Educazione, formazione, istruzione,
+R1	ContainedIN Arg1:T7 Arg2:T8	
+T44	Title 2419 2482	Storia di Venezia. Dalle origini alla caduta della Serenìssima,
+T45	Volume 2483 2508;2510 2522	Vili, l’ultima fase della Serenissima,
+T46	Editor 2523 2545	a cura di P. Del Negro
+T47	Editor 2546 2557	e P. Preto,
+T48	PublicationPlace 2558 2562	Roma
+T49	PublicationYear 2563 2568	1998,
+T50	Pagination 2569 2575	p. 797
+T51	Note 2576 2583	nota 42
+T52	Author 2591 2605	E. A. CICOGNA,
+T53	Title 2606 2633	Delle iscrizioni veneziane,
+T54	Volume 2634 2636	IV
+T55	PublicationYear 2637 2642	1966,
+T56	Pagination 2643 2653	p. 511-512
+T57	Secondary-Partial 2655 2664	G. Cozzi,
+T58	Author 2655 2663	G. Cozzi

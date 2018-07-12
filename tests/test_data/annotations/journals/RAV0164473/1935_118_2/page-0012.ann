@@ -1,0 +1,11 @@
+T1	Secondary-Partial 3744 3776	L’ebreo di Verona del Bresciani,
+T2	Secondary-Partial 3779 3806	Saggi critici,I, pp. 153-4.
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Title 3744 3776	L’ebreo di Verona del Bresciani,
+T4	Title 3779 3793	Saggi critici,
+T5	Volume 3793 3795	I,
+T6	Pagination 3796 3806	pp. 153-4.
+T7	Secondary-Partial 3811 3870	La letteratura italiana nel secolo decimonono,I, pp. 106-7.
+T8	Title 3811 3857	La letteratura italiana nel secolo decimonono,
+T9	Volume 3857 3859	I,
+T10	Pagination 3860 3870	pp. 106-7.

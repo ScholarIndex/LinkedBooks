@@ -1,0 +1,57 @@
+T1	Secondary-Partial 1514 1581;1583 1595	F. Cafasi, Lo sviluppo della geodesia agrimensoria dalle origini al secolo XVII,
+T2	Author 1514 1524	F. Cafasi,
+T3	Title 1525 1581;1583 1595	Lo sviluppo della geodesia agrimensoria dalle origini al secolo XVII,
+T4	Secondary-Full 1599 1656	“Rivista di storia dell’agricoltura”, 4 (1964), pp. 36-38
+R1	ContainedIN Arg1:T1 Arg2:T4	
+T5	Title 1599 1636	“Rivista di storia dell’agricoltura”,
+T6	PublicationNumber-Year 1637 1646	4 (1964),
+T7	Pagination 1647 1656	pp. 36-38
+T8	Secondary-Partial 1776 1809;1811 1820	G. Comelli, La stampa a Udine nel Seicento,
+T9	Secondary-Full 1824 1886;1888 1898	“Atti dell’acc. di SS. LL. AA. di Udine”, VI s., 13 (1954-57), pp. 99-100
+R2	ContainedIN Arg1:T8 Arg2:T9	
+T10	Author 1776 1787	G. Comelli,
+T11	Title 1788 1809;1811 1820	La stampa a Udine nel Seicento,
+T12	Title 1824 1865	“Atti dell’acc. di SS. LL. AA. di Udine”,
+T13	Series 1866 1872	VI s.,
+T14	PublicationNumber-Year 1873 1886	13 (1954-57),
+T15	Pagination 1888 1898	pp. 99-100
+T16	Secondary-Partial 1955 2015;2017 2087	E. Sereni, Spunti della rivoluzione agronomica europea nella scuola bresciana cinquecentesca di Agostino Gallo e di Camillo Tarello
+T17	Secondary-Full 2093 2158	Miscellanea in onore di Roberto Cessi, II, Roma 1958, pp. 113-128
+R3	ContainedIN Arg1:T16 Arg2:T17	
+T18	Author 1955 1965	E. Sereni,
+T19	Title 1966 2015;2017 2088	Spunti della rivoluzione agronomica europea nella scuola bresciana cinquecentesca di Agostino Gallo e di Camillo Tarello,
+T20	Title 2093 2131	Miscellanea in onore di Roberto Cessi,
+T21	Volume 2132 2135	II,
+T22	PublicationPlace 2136 2140	Roma
+T23	PublicationYear 2141 2146	1958,
+T24	Pagination 2147 2158	pp. 113-128
+T25	Secondary-Partial 2195 2247;2249 2288	M. Nervo, Le edizioni torinesi delle "Venti giornate dell’agricoltura’' di M. Agostino Gallo
+T26	Author 2195 2204	M. Nervo,
+T27	Title 2205 2247;2249 2289	Le edizioni torinesi delle "Venti giornate dell’agricoltura’' di M. Agostino Gallo,
+T28	Secondary-Full 2293 2331;2333 2344	"Studi piemontesi”, 2 (1973), fase. 1, pp. 122-125
+R4	ContainedIN Arg1:T25 Arg2:T28	
+T29	Title 2293 2312	"Studi piemontesi”,
+T30	PublicationNumber-Year 2313 2322	2 (1973),
+T31	Tomo 2323 2331	fase. 1,
+T32	Pagination 2333 2344	pp. 122-125
+T33	Secondary-Full 2465 2538;2540 2596	De disciplinis ingenuis, urbe libera liberoque imene dignis ... libri sex a Hieronimo Capello ... editi ..., Patavii, 1570, p. 136
+T34	Title 2465 2538;2540 2574	De disciplinis ingenuis, urbe libera liberoque imene dignis ... libri sex a Hieronimo Capello ... editi ...,
+T35	PublicationPlace 2575 2583	Patavii,
+T36	PublicationYear 2584 2589	1570,
+T37	Pagination 2590 2596	p. 136
+T38	Secondary-Partial 2695 2702;2704 2783;2785 2816	G. Bar- bieri, Il trattatello “Della economica" di Giacomo Lantieri, letterato e archi- tetto bresciano del secolo XVI,
+T39	Secondary-Full 2820 2865;2867 2876	"Rassegna degli archivi di stato”, 21 (1961), pp. 35-46
+R5	ContainedIN Arg1:T38 Arg2:T39	
+T40	Author 2695 2702;2704 2710	G. Bar- bieri,
+T41	Title 2711 2783;2785 2816	Il trattatello “Della economica" di Giacomo Lantieri, letterato e archi- tetto bresciano del secolo XVI,
+T42	Title 2820 2854	"Rassegna degli archivi di stato”,
+T43	PublicationNumber-Year 2855 2865	21 (1961),
+T44	Pagination 2867 2876	pp. 35-46
+T45	Secondary-Partial 2897 2954	A. Bignardi, L'agricoltura italiana ai tempi del Tassoni,
+T46	Author 2897 2909	A. Bignardi,
+T47	Title 2910 2954	L'agricoltura italiana ai tempi del Tassoni,
+T48	Secondary-Full 2959 3013	"Rivista di storia dell’agricoltura", 5 (1965), p. 218
+R6	ContainedIN Arg1:T45 Arg2:T48	
+T49	Title 2959 2996	"Rivista di storia dell’agricoltura",
+T50	PublicationNumber-Year 2997 3006	5 (1965),
+T51	Pagination 3007 3013	p. 218

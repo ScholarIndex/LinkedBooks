@@ -1,0 +1,34 @@
+T1	Secondary-Partial 1994 2048	degli Esecutori contro la bestemmia (secoli XVI-XVII),
+T2	Secondary-Full 2049 2073;2075 2089	«Ateneo veneto», N.S. 29 (1991), p. 26.
+R1	ContainedIN Arg1:T1 Arg2:T2	
+T3	Title 1994 2048	degli Esecutori contro la bestemmia (secoli XVI-XVII),
+T4	Title 2049 2065	«Ateneo veneto»,
+T5	Series 2066 2070	N.S.
+T6	PublicationNumber 2071 2073	29
+T7	PublicationYear 2075 2082	(1991),
+T8	Pagination 2083 2089	p. 26.
+T9	Secondary-Full 2096 2173;2175 2251	G. BUGANZA, Le complessità dell'ordine. Il processo penale veneziano e le ra- gioni del principe tra diritto, società e destino, Venezia 1998, p. 123-127.
+T10	Author 2096 2107	G. BUGANZA,
+T11	Title 2108 2173;2175 2225	Le complessità dell'ordine. Il processo penale veneziano e le ra- gioni del principe tra diritto, società e destino,
+T12	PublicationPlace 2226 2233	Venezia
+T13	PublicationYear 2234 2239	1998,
+T14	Pagination 2240 2251	p. 123-127.
+T15	Primary-Full 2258 2332;2334 2381	ASV, Capi del Consiglio dei X, Lettere dei Rettori da Padova, (1358-1575), busta 83, dispaccio n° 172, del 28 giugno 1575.
+T16	Archive 2258 2262	ASV,
+T17	ArchivalReference 2263 2288	Capi del Consiglio dei X,
+T18	ArchivalReference 2289 2332	Lettere dei Rettori da Padova, (1358-1575),
+T19	Folder 2334 2343;2344 2361	busta 83, dispaccio n° 172,
+T20	Date 2362 2381	del 28 giugno 1575.
+T21	Primary-Full 2382 2416;2418 2503;2505 2556	ASV, Consiglio dei X, Parti comuni (1576 1° Semestre), filza 126, supplica di Antonio Milledonne allegata alla delibera- zione del Consiglio dei X, alla data 22 agosto 1576
+T22	Archive 2382 2386	ASV,
+T23	ArchivalReference 2387 2403	Consiglio dei X,
+T24	ArchivalReference 2404 2416;2418 2437	Parti comuni (1576 1° Semestre),
+T25	Filza 2438 2448	filza 126,
+T26	Attachment 2449 2503;2505 2531	supplica di Antonio Milledonne allegata alla delibera- zione del Consiglio dei X,
+T27	Date 2532 2557	alla data 22 agosto 1576.
+T28	Primary-Partial 2564 2611	[Milledonne], Vita d’Antonio Milledonne, c. 70r
+T29	Author 2564 2577	[Milledonne],
+T30	Title 2578 2604	Vita d’Antonio Milledonne,
+T31	Cartulation 2605 2611	c. 70r
+A1	Continuation T3
+A2	Continuation T1
