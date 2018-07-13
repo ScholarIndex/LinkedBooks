@@ -23,3 +23,11 @@ req_parser.add_argument(
     type=str,
     help='The local ID of a given resource',
 )
+"""
+req_parser.add_argument(
+    'keyword',
+    type=str,
+    help='A keyword',
+    action="append"
+)
+"""
