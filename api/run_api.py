@@ -32,8 +32,6 @@ def create_app(config_file="config/dev_prod.cfg"):
 	app.register_blueprint(api_blueprint)
 	return app
 
-app = create_app(config_file="config/prod.cfg")
-
 #pdb.set_trace()
 
 if __name__ == "__main__":
