@@ -137,6 +137,7 @@ europeana_result = Model('EuropeanaResult', {
     'licence': fields.String(required = False),
     'year': fields.String(required = False),
     'lang': fields.String(required = False),
+    'score': fields.String(required = False)
 })
 
 europeana_suggestions = Model('Suggestions', {
