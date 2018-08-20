@@ -3,7 +3,7 @@ from flask_restplus import Namespace, Resource
 from flask import current_app
 from .cache import cache
 from .parsers import europeana_req_parser, SUGGESTION_ENTITIES
-from .models import europeana_suggestions
+from .models import europeana_suggestions, europeana_result, keywords_with_tfidf
 import math
 import requests
 import re
@@ -35,7 +35,9 @@ MUTUALLY_EXCLUSIVE_PARAMETERS = [
 ]
 
 api = Namespace('europeana', description='Integration of Europeana\'s API')
-
+api.models[europeana_suggestions.name] = europeana_suggestions
+api.models[europeana_result.name] = europeana_result
+api.models[keywords_with_tfidf.name] = keywords_with_tfidf
 
 def get_api_data(resource_type, resource_id):
     '''
