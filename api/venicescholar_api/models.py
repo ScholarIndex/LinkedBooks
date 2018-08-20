@@ -153,6 +153,10 @@ europeana_suggestions = Model('Suggestions', {
         required = False,
         description='Cursor to the next page of results'
     ),
+    'strategy': fields.String(
+        required=False,
+        description='The serch strategy applied'
+    ),
     'keywords': fields.List(fields.Nested(keywords_with_tfidf),
         required = False,
         description = 'List of keywords used to generate the query and their tf/df score.',

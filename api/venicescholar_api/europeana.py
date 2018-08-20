@@ -1,3 +1,4 @@
+import pdb
 from flask_restplus import Namespace, Resource
 from flask import current_app
 from .cache import cache
@@ -14,15 +15,24 @@ import logging
 logger = logging.getLogger(__name__)
 
 AUTHOR_WEIGHT = 2.4 # 2.4 is completely arbitrary
-MAX_KEYWORDS = 4
+MAX_KEYWORDS = 5
 
 EDM_API = "https://www.europeana.eu/api/v2/%s"
 EDM_SEARCH_API = EDM_API % 'search.json'
 EDM_TRANSLATE_API = EDM_API % 'translateQuery.json'
 EDM_API_KEY = 'xbLwLxpy3'
 
-SOLR_TF_FIELD = 'fulltext'
-
+SOLR_TF_FIELD = 'title'
+DATE = re.compile('1?[0-9]{3}(-1?[0-9]{3})?')
+DF_CHUNK_SIZE = 500
+TRANSLATOR = str.maketrans('', '', string.punctuation)
+MUTUALLY_EXCLUSIVE_PARAMETERS = [
+    'author_id',
+    'book_id',
+    'article_id',
+    'keyword',
+    'cursor',
+]
 
 api = Namespace('europeana', description='Integration of Europeana\'s API')
 
@@ -37,19 +47,27 @@ def get_api_data(resource_type, resource_id):
     titles = []
 
     try:
+        current_app.logger.info(
+            "Getting Europeana suggestions for {} with id {}".format(
+                resource_type,
+                resource_id
+            )
+        )
         api_base_url = current_app.config['API_BASE_URL']
         api_endpoint = "%s/%ss/%s" % (api_base_url, resource_type, "%s")
         resource_url = api_endpoint % resource_id
 
+        current_app.logger.info(resource_url)
         response = requests.get(resource_url).json()
 
+        # concatenate all titles of various types of related publications
         titles = [
             publication.get('title', '')
             for pl in ['publications', 'cited', 'citing']
             for pt in ['articles', 'books']
             for publication in response.get(pl, {}).get(pt, [])
         ]
-
+        current_app.logger.info("Titles: {}".format(titles))
         # if resource is book/article, add also its title
         if resource_type != 'author':
             titles.append(response[resource_type]['title'])
@@ -59,13 +77,14 @@ def get_api_data(resource_type, resource_id):
                 response['author']['name']
             ]
         else:
-            author_names = [
-                author['name']
-                for author in response[resource_type]['author']
-            ]
-    except:
-        #raise an exception oustide of the try/except
-        pass
+            if response[resource_type]['author'] is not None:
+                author_names = [
+                    author['name']
+                    for author in response[resource_type]['author']
+                ]
+    except Exception as e:
+        # raise an exception oustide of the try/except
+        raise
 
     if not author_names and not titles:
         api.abort(500, "Unable to get data from %s" % (resource_url))
@@ -73,7 +92,6 @@ def get_api_data(resource_type, resource_id):
     return (author_names, titles)
 
 
-DATE = re.compile('1?[0-9]{3}(-1?[0-9]{3})?')
 def cleanup_name(name):
     '''
     Remove the date or date range sometimes poluting an author's name.
@@ -134,8 +152,6 @@ def get_query(author_query, keyword_query):
     # TODO: should catch empty author query
     conjunction = ' OR ' if author_query != '' and keyword_query != '' else ''
     query = author_query + conjunction + keyword_query
-    #import ipdb as pdb
-    #pdb.set_trace()
     translation = requests.get(
         EDM_TRANSLATE_API,
         params={
@@ -149,7 +165,6 @@ def get_query(author_query, keyword_query):
     current_app.logger.info(translated_query)
     return (translated_query)
 
-DF_CHUNK_SIZE = 500
 
 def get_dfs(terms):
     '''
@@ -173,7 +188,7 @@ def get_dfs(terms):
                 'terms.limit': len(chunk), #otherwise the default of 10 is used
             }
         )
-        #current_app.logger.info(response.request.path_url)
+        current_app.logger.info(response.request.path_url)
         flat_dfs = response.json().get('terms', {}).get(SOLR_TF_FIELD, {})
         for k, n in zip(flat_dfs[::2], flat_dfs[1::2]):
             dfs[k] = n
@@ -185,7 +200,7 @@ def get_dfs(terms):
 
     return dfs
 
-TRANSLATOR = str.maketrans('', '', string.punctuation)
+
 def get_tfidf(tokens):
     '''
     Compute tf, df, and tfidf scores of each token.
@@ -196,7 +211,7 @@ def get_tfidf(tokens):
     tokens = [
         token
         for token in initial_tokens
-        if not (len(token) == 4 and token.isdigit())
+        if not token.isdigit()
     ]
 
     tokens = [
@@ -216,7 +231,7 @@ def get_tfidf(tokens):
     for token, tf in tfs.items():
         df = dfs.get(token, 0)
         norm_tf = tf / len(initial_tokens)
-        norm_df = math.log(745472 / df) if df else 0
+        norm_df = math.log(87721 / df) if df else 0
         # tfidfs.append((token, tf, df, tf / df if df else 0))
         tfidfs.append((token, tf, df, norm_tf * norm_df))
 
@@ -227,7 +242,7 @@ def run_query(query, cursor):
     '''
     Query Europeana's API.
     '''
-
+    current_app.logger.info("Running query {}".format(query))
     response = requests.get(
         EDM_SEARCH_API,
         params={
@@ -276,25 +291,128 @@ def get_cache_key(*args, **kwargs):
     )
 
 
-MUTUALLY_EXCLUSIVE_PARAMETERS = [
-    'author_id',
-    'book_id',
-    'article_id',
-    'keyword',
-    'cursor',
-]
+def suggest_for_author(author_names, titles):
+    """Retrieve related resources from Europeana."""
+
+    keywords = []
+    author_query = 'who:(%s)^%.1f' % (
+        ' OR '.join([
+            cleanup_name(name)
+            for name in author_names]),
+        AUTHOR_WEIGHT,
+    )
+    response = run_query(author_query, None)
+    current_app.logger.info(response)
+
+    if response['totalResults'] > 0:
+        response['strategy'] = 'author'
+        return response, author_query, keywords
+
+    # extract keywords from titles, compute tfidfs and prepare the query
+    tokens = [
+        token
+        for title in titles
+        for token in title.split(' ')
+    ]
+    keywords_with_tfidf = get_tfidf(tokens)
+    selected_keywords = select_keywords(keywords_with_tfidf)
+
+    keyword_query = ' AND '.join(
+        [item['keyword'] for item in selected_keywords]
+    )
+
+    response = run_query(keyword_query, None)
+    if response['totalResults'] > 0:
+        response['strategy'] = '{}-keywords'.format(len(selected_keywords))
+        return response, keyword_query, selected_keywords
+
+    while(len(selected_keywords) > 1):
+        selected_keywords = selected_keywords[:-1]
+        current_app.logger.info("Suggest authors with {} keywords".format(
+            len(selected_keywords)
+        ))
+        keyword_query = ' AND '.join(
+            [item['keyword'] for item in selected_keywords]
+        )
+        query = get_query('', keyword_query)
+        response = run_query(query, None)
+
+        if len(selected_keywords) > 1:
+            if response['totalResults'] > 0:
+                response['strategy'] = '{}-keywords'.format(len(
+                    selected_keywords)
+                )
+                return response, query, selected_keywords
+        else:
+            response['strategy'] = '{}-keywords'.format(len(selected_keywords))
+            return response, query, selected_keywords
 
 
-def suggest_for_author():
-    pass
+def suggest_for_publication(author_names, titles):
+    """Retrieve related resources from Europeana.."""
+    if len(author_names) > 0:
+        author_query = 'who:(%s)^%.1f' % (
+            ' OR '.join([
+                cleanup_name(name)
+                for name in author_names]),
+            AUTHOR_WEIGHT,
+        )
+    else:
+        author_query = ''
+
+    tokens = [
+        token
+        for title in titles
+        for token in title.split(' ')
+    ]
+    keywords_with_tfidf = get_tfidf(tokens)
+    selected_keywords = select_keywords(keywords_with_tfidf)
+
+    keyword_query = ' AND '.join(
+        [item['keyword'] for item in selected_keywords]
+    )
+    query = get_query(author_query, keyword_query)
+    response = run_query(query, None)
+    pdb.set_trace()
+    if response['totalResults'] > 0:
+        response['strategy'] = '{}-keywords'.format(len(selected_keywords))
+        return response, query, selected_keywords
+
+    while(len(selected_keywords) > 1):
+        selected_keywords = selected_keywords[:-1]
+        current_app.logger.info("Suggest publication with {} keywords".format(
+            len(selected_keywords)
+        ))
+        keyword_query = ' AND '.join(
+            [item['keyword'] for item in selected_keywords]
+        )
+        query = get_query(author_query, keyword_query)
+        response = run_query(query, None)
+
+        if len(selected_keywords) > 1:
+            if response['totalResults'] > 0:
+                response['strategy'] = '{}-keywords'.format(len(
+                    selected_keywords)
+                )
+                return response, query, selected_keywords
+        else:
+            response['strategy'] = '{}-keywords'.format(len(selected_keywords))
+            return response, query, selected_keywords
 
 
-def suggest_for_publication():
-    pass
+def suggest_for_keywords(tokens, operator='AND'):
+    """Query Europeana for keywords."""
+    keywords_with_tfidf = get_tfidf(tokens)
+    selected_keywords = select_keywords(keywords_with_tfidf)
 
+    query = ' {} '.format(operator).join(
+        [item['keyword'] for item in selected_keywords])
 
-def suggest_for_keywords():
-    pass
+    # query = get_query(author_query, keyword_query)
+    current_app.logger.info(
+        "Query to be executed: {}".format(query)
+    )
+    return run_query(query, None), query
 
 
 @api.route('/suggest')
@@ -321,27 +439,33 @@ class Suggestion(Resource):
 
         args = europeana_req_parser.parse_args()
 
-        request_types = [key for key, value in args.items()
-            if value and key in MUTUALLY_EXCLUSIVE_PARAMETERS]
+        request_types = [
+            key
+            for key, value in args.items()
+            if value and key in MUTUALLY_EXCLUSIVE_PARAMETERS
+        ]
+
         if len(request_types) != 1:
-          # 404 ("The requested resource could not be found but may be
-          # available in the future. Subsequent requests by the client are
-          # permissible.") would be better and more precise, but for some
-          # reason flask-plus adds "You have requested this URI
-          # [/api/europeana/suggest] but did you mean /api/europeana/suggest ?"
-          # to the message, and it seems preventable only at application level:
-          # https://github.com/flask-restful/flask-restful/issues/449
-          api.abort(
-              400,
-              ("Expecting exactly one type of parameters among %s "
-               "in the url parameters. Got: %s") % (
-                  ', '.join(MUTUALLY_EXCLUSIVE_PARAMETERS),
-                  str([key for key, value in args.items() if value]),
-              )
-          )
+            # 404 ("The requested resource could not be found but may be
+            # available in the future. Subsequent requests by the client are
+            # permissible.") would be better and more precise, but for some
+            # reason flask-plus adds "You have requested this URI
+            # [/api/europeana/suggest] but did you mean /api/europeana/suggest
+            # ?" to the message, and it seems preventable only at application
+            # level: https://github.com/flask-restful/flask-restful/issues/449
+            api.abort(
+                400,
+                ("Expecting exactly one type of parameters among %s "
+                    "in the url parameters. Got: %s") % (
+                    ', '.join(MUTUALLY_EXCLUSIVE_PARAMETERS),
+                    str([key for key, value in args.items() if value]),
+                )
+            )
 
         request_type = request_types[0]
 
+        # if `cursor` and `query` params are passed to the request
+        # it's a pagination query (requesting for next page/cursor)
         if request_type == 'cursor':
             query = args.get('query')
             if not query:
@@ -352,69 +476,43 @@ class Suggestion(Resource):
                         str([key for key, value in args.items() if value]),
                     )
                 )
-            selected_keywords = None
+            kws = None
+            response = run_query(query, args.get('cursor'))
         else:
-            author_query = ''
-
             resource_type = request_type.split('_')[0]
             if resource_type in SUGGESTION_ENTITIES:
                 resource_id = args.get(request_type)
-                current_app.logger.info(
-                    "Getting Europeana suggestions for {} with id {}".format(
-                        resource_type,
-                        resource_id
-                    )
-                )
+
                 (author_names, titles) = get_api_data(
                     resource_type,
                     resource_id
                 )
-                current_app.logger.info("Titles: {}".format(titles))
-                if len(author_names) > 0:
-                    author_query = 'who:(%s)^%.1f' % (
-                        ' OR '.join([
-                            cleanup_name(name)
-                            for name in author_names
-                        ]),
-                        AUTHOR_WEIGHT,
+
+                if resource_type == 'author':
+                    response, query, kws = suggest_for_author(
+                        author_names,
+                        titles
                     )
                 else:
-                    author_query = ''
-
-                # NB: using title information only with suggestions
-                # for books and articles
-                if resource_type != 'author':
-                    tokens = [
-                        token
-                        for title in titles
-                        for token in title.split(' ')
-                    ]
-
-                else:
-                    tokens = []
+                    response, query, kws = suggest_for_publication(
+                        author_names,
+                        titles
+                    )
             else:  # keywords
-                tokens = args.get(request_type)
+                kws = []
+                response, query = suggest_for_keywords(args.get(request_type))
 
-            keywords_with_tfidf = get_tfidf(tokens)
-            selected_keywords = select_keywords(keywords_with_tfidf)
-
-            keyword_query = ' OR '.join(
-                [item['keyword'] for item in selected_keywords])
-
-            query = get_query(author_query, keyword_query)
-            current_app.logger.info(
-                "Query to be executed: {}".format(query)
-            )
-
-        response = run_query(query, args.get('cursor'))
+        # response = run_query(query, args.get('cursor'))
         current_app.logger.debug(response)
         cursor = response['nextCursor'] if 'nextCursor' in response else None
+        strategy = response['strategy'] if 'strategy' in response else None
 
         result = {
             'query': query,
             'total': response['totalResults'],
             'cursor': cursor,
-            'keywords': selected_keywords,
+            'strategy': strategy,
+            'keywords': kws,
             'results': parse_response(response['items']),
         }
 
