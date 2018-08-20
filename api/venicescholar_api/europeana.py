@@ -1,4 +1,3 @@
-import pdb
 from flask_restplus import Namespace, Resource
 from flask import current_app
 from .cache import cache
@@ -508,10 +507,11 @@ class Suggestion(Resource):
         current_app.logger.debug(response)
         cursor = response['nextCursor'] if 'nextCursor' in response else None
         strategy = response['strategy'] if 'strategy' in response else None
+        tot = response['totalResults'] if 'totalResults' in response else None
 
         result = {
             'query': query,
-            'total': response['totalResults'],
+            'total': tot,
             'cursor': cursor,
             'strategy': strategy,
             'keywords': kws,
