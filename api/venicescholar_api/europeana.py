@@ -207,7 +207,7 @@ def get_tfidf(tokens):
     Compute tf, df, and tfidf scores of each token.
     '''
 
-    #TODO make more similar to solr's preprocessing
+    # TODO make more similar to solr's preprocessing
     initial_tokens = [token.lower().translate(TRANSLATOR) for token in tokens]
     tokens = [
         token
@@ -295,6 +295,7 @@ def get_cache_key(*args, **kwargs):
 def suggest_for_author(author_names, titles):
     """Retrieve related resources from Europeana."""
 
+    # 1st strategy is to query with by author's name
     keywords = []
     author_query = 'who:(%s)^%.1f' % (
         ' OR '.join([
@@ -303,10 +304,11 @@ def suggest_for_author(author_names, titles):
         AUTHOR_WEIGHT,
     )
     response = run_query(author_query, None)
+    response['strategy'] = 'author'
     current_app.logger.info(response)
 
+    # if there are results stop here and don't sue keywords
     if response['totalResults'] > 0:
-        response['strategy'] = 'author'
         return response, author_query, keywords
 
     # extract keywords from titles, compute tfidfs and prepare the query
@@ -323,12 +325,15 @@ def suggest_for_author(author_names, titles):
     )
 
     # if there are no keywords for a certain author, avoid making a query
-    # with empty parameters
+    # with empty parameters. Stop here and return the result
     if len(selected_keywords) == 0:
         return response, author_query, selected_keywords
     else:
         response = run_query(keyword_query, None)
 
+    # 2nd strategy: use title keywords. If empty results repeat, removing
+    # each time the last keywords. Repeat until there are no more keywords
+    # to try.
     if response['totalResults'] > 0:
         response['strategy'] = '{}-keywords'.format(len(selected_keywords))
         return response, keyword_query, selected_keywords
@@ -380,7 +385,7 @@ def suggest_for_publication(author_names, titles):
     )
     query = get_query(author_query, keyword_query)
     response = run_query(query, None)
-    pdb.set_trace()
+
     if response['totalResults'] > 0:
         response['strategy'] = '{}-keywords'.format(len(selected_keywords))
         return response, query, selected_keywords
