@@ -322,7 +322,13 @@ def suggest_for_author(author_names, titles):
         [item['keyword'] for item in selected_keywords]
     )
 
-    response = run_query(keyword_query, None)
+    # if there are no keywords for a certain author, avoid making a query
+    # with empty parameters
+    if len(selected_keywords) == 0:
+        return response, author_query, selected_keywords
+    else:
+        response = run_query(keyword_query, None)
+
     if response['totalResults'] > 0:
         response['strategy'] = '{}-keywords'.format(len(selected_keywords))
         return response, keyword_query, selected_keywords
