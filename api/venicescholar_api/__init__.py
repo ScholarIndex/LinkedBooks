@@ -14,7 +14,7 @@ api_blueprint = Blueprint('api', __name__, url_prefix='/api')
 api = Api(
     api_blueprint,
     title='VeniceScholar API',
-    version='1.0',
+    version='1.1',
     contact='contact@scholarindex.eu',
     description="A (read-only) API that powers the [VeniceScholar](http://www.venicescholar.eu/).\
                 This API exposes the same data that are visualized and made searchable in the [VeniceScholar](http://www.venicescholar.eu/).\n\
