@@ -7,13 +7,14 @@ from .articles import api as articles_api
 from .primary_sources import api as primary_sources_api
 from .references import api as references_api
 from .stats import api as stats_api
+from .europeana import api as europeana_api
 
 api_blueprint = Blueprint('api', __name__, url_prefix='/api')
 
 api = Api(
     api_blueprint,
     title='VeniceScholar API',
-    version='1.0',
+    version='1.1',
     contact='contact@scholarindex.eu',
     description="A (read-only) API that powers the [VeniceScholar](http://www.venicescholar.eu/).\
                 This API exposes the same data that are visualized and made searchable in the [VeniceScholar](http://www.venicescholar.eu/).\n\
@@ -29,3 +30,4 @@ api.add_namespace(articles_api)
 api.add_namespace(primary_sources_api)
 api.add_namespace(references_api)
 api.add_namespace(stats_api)
+api.add_namespace(europeana_api)

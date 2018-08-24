@@ -119,3 +119,74 @@ citing_publication_list = Model('CitingPublications', {
 cited_publication_list = Model.clone('CitedPublications', citing_publication_list, {
     'primary_sources' : fields.List(fields.Nested(primary_source_fields))
     })
+
+keywords_with_tfidf = Model('KeywordsWithTfidf', {
+    'keyword': fields.String(required = True),
+    'tf': fields.Integer(required = True),
+    'df': fields.Integer(required = True),
+    'tfidf': fields.Float(required = True),
+})
+
+europeana_result = Model('EuropeanaResult', {
+    'direct_url': fields.String(required = False),
+    'europeana_url': fields.String(required = False),
+    'provider': fields.String(required = False),
+    'thumbnail': fields.String(required = False),
+    'title': fields.String(required = False),
+    'type': fields.String(required = False),
+    'licence': fields.String(required = False),
+    'year': fields.String(required = False),
+    'lang': fields.String(required = False),
+    'score': fields.String(required = False)
+})
+
+europeana_suggestions = Model('Suggestions', {
+    'query': fields.String(
+        required = True,
+        description='The query sent to Europeana',
+    ),
+    'total': fields.Integer(
+        required = True,
+        description='Number of results found by Europeana',
+    ),
+    'cursor': fields.String(
+        required = False,
+        description='Cursor to the next page of results'
+    ),
+    'strategy': fields.String(
+        required=False,
+        description='The serch strategy applied'
+    ),
+    'keywords': fields.List(fields.Nested(keywords_with_tfidf),
+        required = False,
+        description = 'List of keywords used to generate the query and their tf/df score.',
+    ),
+    'results': fields.List(fields.Nested(europeana_result, skip_none=True), #Do not fill None values with null
+        required = True,
+        description = 'A page of results from Europeana',
+    ),
+})
+
+venetica_seed = Model('VeneticaSeed', {
+    'id': fields.String(
+        required=True,
+        description='Local ID'
+    ),
+    'label': fields.String(
+        required=True,
+        description='Label to display'
+    ),
+    'type': fields.String(
+        required=True,
+        description='Type of seed (author|keyword)'
+    ),
+    'default': fields.Boolean(
+        required=False,
+        default=False,
+        description='Type of seed (author|keyword)'
+    ),
+})
+
+venetica_seeds = Model('VeneticaSeeds', {
+    'seeds': fields.List(fields.Nested(venetica_seed))
+})
