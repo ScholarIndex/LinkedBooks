@@ -7,7 +7,8 @@
     {
         "id": "595faaf1fe768339c0f6c0bd",
         "type": "author",
-        "label": "Marino Sanudo"
+        "label": "Marino Sanudo",
+        "default": true
     },
     {
         "id": "5960bec2fe768369330e838f",

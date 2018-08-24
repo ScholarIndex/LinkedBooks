@@ -166,3 +166,27 @@ europeana_suggestions = Model('Suggestions', {
         description = 'A page of results from Europeana',
     ),
 })
+
+venetica_seed = Model('VeneticaSeed', {
+    'id': fields.String(
+        required=True,
+        description='Local ID'
+    ),
+    'label': fields.String(
+        required=True,
+        description='Label to display'
+    ),
+    'type': fields.String(
+        required=True,
+        description='Type of seed (author|keyword)'
+    ),
+    'default': fields.Boolean(
+        required=False,
+        default=False,
+        description='Type of seed (author|keyword)'
+    ),
+})
+
+venetica_seeds = Model('VeneticaSeeds', {
+    'seeds': fields.List(fields.Nested(venetica_seed))
+})

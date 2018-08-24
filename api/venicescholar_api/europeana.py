@@ -1,16 +1,21 @@
-from flask_restplus import Namespace, Resource
-from flask import current_app
-from .cache import cache
-from .parsers import europeana_req_parser, SUGGESTION_ENTITIES
-from .models import europeana_suggestions, europeana_result, keywords_with_tfidf
+import collections
+import logging
 import math
-import requests
 import re
 import string
-import collections
+import json
+import os
+
+import requests
+from flask import current_app
+from flask_restplus import Namespace, Resource
 from nltk.corpus import stopwords
 
-import logging
+from .cache import cache
+from .models import (europeana_result, europeana_suggestions,
+                     keywords_with_tfidf, venetica_seed, venetica_seeds)
+from .parsers import SUGGESTION_ENTITIES, europeana_req_parser
+
 logger = logging.getLogger(__name__)
 
 AUTHOR_WEIGHT = 2.4 # 2.4 is completely arbitrary
@@ -37,6 +42,9 @@ api = Namespace('europeana', description='Integration of Europeana\'s API')
 api.models[europeana_suggestions.name] = europeana_suggestions
 api.models[europeana_result.name] = europeana_result
 api.models[keywords_with_tfidf.name] = keywords_with_tfidf
+api.models[venetica_seed.name] = venetica_seed
+api.models[venetica_seeds.name] = venetica_seeds
+
 
 def get_api_data(resource_type, resource_id):
     '''
@@ -427,9 +435,26 @@ def suggest_for_keywords(tokens, operator='AND'):
     return run_query(query, None), query
 
 
+@api.route('/venetica')
+class VeneticaSeeds(Resource):
+    @cache.cached(key_prefix=get_cache_key, timeout=0)
+    @api.doc('venetica_seeds')
+    @api.marshal_with(venetica_seeds)
+    def get(self):
+        """
+        """
+        file_path = os.path.join(
+            current_app.config['APPLICATION_ROOT'],
+            'data/seeds.json'
+        )
+        with open(file_path, 'r') as f:
+            data = json.loads(f.read())
+            return {'seeds': data}
+
+
 @api.route('/suggest')
 class Suggestion(Resource):
-    @cache.cached(key_prefix=get_cache_key, timeout=0)
+    @cache.cached(key_prefix=get_cache_key, timeout=2592000)  # expir. 30 days
     @api.doc('europeana_suggestions')
     @api.expect(europeana_req_parser)
     @api.marshal_with(europeana_suggestions)
