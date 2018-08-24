@@ -5,6 +5,7 @@ import re
 import string
 import json
 import os
+import pdb
 
 import requests
 from flask import current_app
@@ -188,7 +189,7 @@ def get_dfs(terms):
     )
     for chunk in chunks:
         response = requests.get(
-            current_app.config['SOLR_TERM_COMPONENT'],
+            os.path.join(current_app.config['SOLR_URL'], 'terms'),
             params={
                 'wt': 'json',
                 'terms.fl': SOLR_TF_FIELD,
@@ -234,13 +235,30 @@ def get_tfidf(tokens):
 
     dfs = get_dfs(tokens)
 
-    # TODO: change how TF-IDF is computed (normalized on doc length + log)
+    URL = os.path.join(current_app.config['SOLR_URL'], 'select')
+    query_books = "ns:{}.{}".format(
+        current_app.config['SOLR_NS'],
+        'bibliodb_books'
+    )
+    query_articles = "ns:{}.{}".format(
+        current_app.config['SOLR_NS'],
+        'bibliodb_articles'
+    )
+    n_books = requests.get(
+        URL,
+        {'q': query_books, 'wt': 'json'}
+    ).json()['response']['numFound']
+    n_articles = requests.get(
+        URL,
+        {'q': query_articles, 'wt': 'json'}
+    ).json()['response']['numFound']
+    # current_app.logger.info((n_books + n_articles))
     tfs = collections.Counter(tokens)
     tfidfs = []
     for token, tf in tfs.items():
         df = dfs.get(token, 0)
         norm_tf = tf / len(initial_tokens)
-        norm_df = math.log(87721 / df) if df else 0
+        norm_df = math.log((n_books + n_articles) / df) if df else 0
         # tfidfs.append((token, tf, df, tf / df if df else 0))
         tfidfs.append((token, tf, df, norm_tf * norm_df))
 
