@@ -1,0 +1,137 @@
+[
+    {
+        "id": "59608e58fe7683657c0e838d",
+        "type": "author",
+        "label": "Bartolomeo Gamba"
+    },
+    {
+        "id": "595faaf1fe768339c0f6c0bd",
+        "type": "author",
+        "label": "Marino Sanudo"
+    },
+    {
+        "id": "5960bec2fe768369330e838f",
+        "type": "author",
+        "label": "Apostolo Zeno"
+    },
+    {
+        "id": "595fe5b3fe768352e0f6c029",
+        "type": "author",
+        "label": "Carlo Castellani"
+    },
+    {
+        "id": "595fb4adfe76834ac0f6c067",
+        "type": "author",
+        "label": "Cicogna Antonio Emmanuele"
+    },
+    {
+        "id": "595fb051fe7683495df6c029",
+        "type": "aurhor",
+        "label": "Paolo Sarpi"
+    },
+    {
+        "id": "5960c160fe768369300e83e7",
+        "type": "author",
+        "label": "Zaccaria Barbaro"
+    },
+    {
+        "id": "59898915c12c60da1c743d29",
+        "type": "author",
+        "label": "Marco Foscarini"
+    },
+    {
+        "id": "595fc0abfe76834efff6c078",
+        "type": "author",
+        "label": "Pietro Bembo"
+    },
+    {
+        "id": "59887546c12c6058dc1e58d7",
+        "type": "author",
+        "label": "Zaccaria Seriman"
+    },
+    {
+        "id": "pisanello",
+        "type": "keyword",
+        "label": "pisanello"
+    },
+    {
+        "id": "doge",
+        "type": "keyword",
+        "label": "doge"
+    },
+    {
+        "id": "rinascimento",
+        "type": "keyword",
+        "label": "rinascimento"
+    },
+    {
+        "id": "carpaccio",
+        "type": "keyword",
+        "label": "carpaccio"
+    },
+    {
+        "id": "fenice",
+        "type": "keyword",
+        "label": "fenice"
+    },
+    {
+        "id": "repubblica",
+        "type": "keyword",
+        "label": "repubblica"
+    },
+    {
+        "id": "basilica",
+        "type": "keyword",
+        "label": "basilica"
+    },
+    {
+        "id": "teatro",
+        "type": "keyword",
+        "label": "teatro"
+    },
+    {
+        "id": "melodramma",
+        "type": "keyword",
+        "label": "melodramma"
+    },
+    {
+        "id": "architettura",
+        "type": "keyword",
+        "label": "architettura"
+    },
+    {
+        "id": "storia",
+        "type": "keyword",
+        "label": "storia"
+    },
+    {
+        "id": "famiglia",
+        "type": "keyword",
+        "label": "famiglia"
+    },
+    {
+        "id": "rialto",
+        "type": "keyword",
+        "label": "rialto"
+    },
+    {
+        "id": "palazzi",
+        "type": "keyword",
+        "label": "palazzi"
+    },
+    {
+        "id": "settecento",
+        "type": "keyword",
+        "label": "settecento"
+    },
+    {
+        "id": "ottocento",
+        "type": "keyword",
+        "label": "ottocento"
+    },
+    {
+        "id": "novecento",
+        "type": "keyword",
+        "label": "novencento"
+    }
+]
