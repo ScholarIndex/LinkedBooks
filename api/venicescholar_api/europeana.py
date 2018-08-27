@@ -472,7 +472,7 @@ class VeneticaSeeds(Resource):
 
 @api.route('/suggest')
 class Suggestion(Resource):
-    @cache.cached(key_prefix=get_cache_key, timeout=2592000)  # expir. 30 days
+    @cache.cached(query_string=True, timeout=2592000)  # expir. 30 days
     @api.doc('europeana_suggestions')
     @api.expect(europeana_req_parser)
     @api.marshal_with(europeana_suggestions)
