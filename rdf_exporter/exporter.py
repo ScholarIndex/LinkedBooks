@@ -9,11 +9,15 @@ Options:
     --api-base=<url>    http://api.venicescholar.eu/v1
     --rdf-base=<uri>    https://w3id.org/oc/corpus/
     --out-dir=<path>    ../LinkedBooks/LinkedBooksCitationCorpus/data
+
+Example:
+    python -m ipdb rdf_exporter/exporter.py --api-base=https://api-venicescholar.dhlab.epfl.ch/v1/ \
+    --out-dir=~/Downloads/ --rdf-base=https://w3id.org/oc/corpus/
 """  # noqa: E501
 
 import os
 import logging
-import ipdb as pdb
+# import ipdb as pdb
 import pandas as pd
 
 from docopt import docopt
@@ -89,7 +93,7 @@ class RDFExporter(object):
         ])
         return
 
-    def _create_provenance_agent(self, name):
+    def _create_provenance_agent(self, name: str) -> ProvenanceEntity:
         """Create a provenance agent entity.
 
         :param name: the agent's name
