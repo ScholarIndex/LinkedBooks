@@ -12,12 +12,12 @@ Options:
 
 Example:
     python -m ipdb rdf_exporter/exporter.py --api-base=https://api-venicescholar.dhlab.epfl.ch/v1/ \
-    --out-dir=~/Downloads/ --rdf-base=https://w3id.org/oc/corpus/
+    --out-dir=/Users/matteo/Downloads/ --rdf-base=https://w3id.org/oc/corpus/
 """  # noqa: E501
 
 import os
 import logging
-# import ipdb as pdb
+import ipdb as pdb
 import pandas as pd
 
 from docopt import docopt
@@ -27,10 +27,14 @@ from rdflib import Graph, Literal, URIRef
 from rdflib.namespace import FOAF, OWL, RDF, RDFS, DCTERMS, XSD
 from rdflib import Namespace
 
+from helpers import APIWrapper
 from helpers import Entity, ProvenanceEntity, TYPE_MAPPINGS, PREFIX_MAPPINGS
 from serializer import OCCSerializer
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger()
+
+OCC_CONTEXT_URI = "https://w3id.org/oc/corpus/context.json"
+DATASET_PREFIX = "0120"
 
 ####################################
 # declaration of rdflib namespaces #
@@ -42,56 +46,119 @@ prov_ns = Namespace("http://www.w3.org/ns/prov#")
 occ_ns = Namespace("https://w3id.org/oc/ontology/")
 fabio_ns = Namespace("http://purl.org/spar/fabio/")
 cito_ns = Namespace("http://purl.org/spar/cito/")
+datacite_ns =  Namespace("http://purl.org/spar/datacite/")
 
 
 class RDFExporter(object):
     """todo"""
 
-    def __init__(self, api_base_uri, rdf_base_uri, serializer):
+    def __init__(self, api_base_uri, rdf_base_uri, prefix, serializer):
         """Initialize the RDFExporter."""
-        self._api_base = api_base_uri
+        self._api_wrapper = APIWrapper(api_base_uri)
         self._rdf_base = rdf_base_uri
         self._serializer = serializer
-        self._entities_df = pd.DataFrame([], columns=Entity._fields)
+        self._prefix = prefix
+
+        # create entity dataframe based on namedtuple structure
+        self._entities_df = pd.DataFrame(
+            [],
+            columns=Entity._fields
+        )
+
+        # create provenance dataframe based on namedtuple structure
         self._prov_entities_df = pd.DataFrame(
             [],
             columns=ProvenanceEntity._fields
         )
-        self._init_endpoints()
-        self._create_common_entities()
 
-    def _init_endpoints(self):
-        """Initialise resource endpoints based on ScholarIndex API v1."""
-        self._author_endpoint = "{}/authors/{}".format(self._api_base, "%s")
-        self._authors_endpoint = "{}/authors".format(self._api_base)
-        self._article_endpoint = "{}/articles/{}".format(self._api_base, "%s")
-        self._articles_endpoint = "{}/articles/".format(self._api_base)
-        self._book_endpoint = "{}/books/{}".format(self._api_base, "%s")
-        self._books_endpoint = "{}/books/".format(self._api_base)
-        self._primary_source_endpoint = "{}/primary_sources/{}/{}".format(
-            self._api_base, "%s", "%s"
-        )
-        self._primary_sources_endpoint = "{}/primary_sources/{}".format(
-            self._api_base, "%s"
-        )
-        self._reference_endpoint = "{}/references/{}".format(
-            self._api_base, "%s"
-        )
-        self._references_endpoint = "{}/references/".format(self._api_base)
-        self._stats_endpoint = "{}/stats/".format(self._api_base)
-        logger.debug(
-            "Initialised endpoints with base {}".format(self._api_base)
-        )
+    def _save(self, entities) -> None:
+        """Serialize a list of entities.
+
+        The exporter does not actually do the serialization right away, but
+        passes them to an `OCCSerializer`, which takes care of the whole
+        serialization business. But it does keep track of the already exported
+        entities (via a pandas DataFrame).
+
+        :param entities: a list of entities to serialize
+        :type entities: list of `Entity` instances
+        """
+        # differentiate between provenance and non-provenance entities
+        normal_entities = [
+            entity
+            for entity in entities
+            if isinstance(entity, Entity)
+        ]
+
+        provenance_entities = [
+            entity
+            for entity in entities
+            if isinstance(entity, ProvenanceEntity)
+        ]
+
+        if normal_entities:
+            self._entities_df = self._entities_df.append(
+                pd.DataFrame(normal_entities, columns=Entity._fields),
+                ignore_index=True
+            )
+
+            for entity in entities:
+                self._serializer.add(entity)
+
+        if provenance_entities:
+            self._prov_entities_df = self._prov_entities_df.append(
+                pd.DataFrame(
+                    provenance_entities,
+                    columns=ProvenanceEntity._fields
+                ),
+                ignore_index=True
+            )
+
+            for entity in provenance_entities:
+                self._serializer.add(entity, is_provenance=True)
         return
+
+    def mint_uri(self, entity_type: str) -> URIRef:
+        prefix = TYPE_MAPPINGS[entity_type]
+        count = self._serializer.count(entity_type) + 1
+        resource_id = os.path.join(prefix, self._prefix + str(count))
+        uri = URIRef(os.path.join(self._rdf_base, resource_id))
+        return resource_id, uri
+
+    def create_label(self, entity_type: str) -> str:
+        prefix = TYPE_MAPPINGS[entity_type]
+        res_id = self._prefix + str(self._serializer.count(entity_type) + 1)
+        return f"{entity_type.replace('-', ' ')} {res_id} [{prefix}/{res_id}]"
+
+    def export(self):
+        """Exports data from ScholarIndex API into RDF."""
+
+        ce = self._create_common_entities()
+        self._save(ce)
+
+        # export authors
+        author_ids = self._api_wrapper.get_authors()
+
+        for item in author_ids:
+            author_id = item['author']['id']
+            api_url, author_data = self._api_wrapper.get_author(author_id)
+            self._export_author(author_data['author'], api_url)
+
+        # export all primary sources (?)
+        # export all books (this relies on authors already exported)
+        # export all journal articles
+        # export all references (this relies on book/articles/sources already exported)
+        #   and requires updating the RDF graph of the citing bibl. resource
+        pass
+
+    ##################################################
+    # methods to create RDF statements (provenance)  #
+    ##################################################
 
     def _create_common_entities(self):
         self._api_curation_agent = self._create_provenance_agent(
             "LinkedBooks API v1.0"
         )
-        self._serialize([
-            self._api_curation_agent
-        ])
-        return
+        return [self._api_curation_agent]
 
     def _create_provenance_agent(self, name: str) -> ProvenanceEntity:
         """Create a provenance agent entity.
@@ -125,28 +192,77 @@ class RDFExporter(object):
         logger.debug("Created provenance agent: %s" % repr(e))
         return e
 
-    def _serialize(self, entities):
-        """Serialize a list of entities.
+    def _create_provenance_record(self) -> ProvenanceEntity:
+        return []
 
-        The exporter does not actually do the serialization right away, but
-        passes them to an `OCCSerializer`, which takes care of the whole
-        serialization business. But it does keep track of the already exported
-        entities (via a pandas DataFrame).
+    def _create_provenance_activity(self) -> ProvenanceEntity:
+        pass
 
-        :param entities: a list of entities to serialize
-        :type entities: list of `Entity` instances
-        """
-        # TODO: differentiate between provenance and non-provenance entities
-        temp_df = pd.DataFrame(entities, columns=Entity._fields)
-        self._entities_df = self._entities_df.append(
-            temp_df, ignore_index=True
+    def _create_provenance_role(self) -> ProvenanceEntity:
+        pass
+
+    def _create_provenance_snapshot(self) -> ProvenanceEntity:
+        pass
+
+    #####################################
+    # methods to create RDF statements  #
+    #####################################
+
+    def _create_responsible_agent(self, author_data: dict) -> Entity:
+        """Maps an author to a OCDM ResponsibleAgent."""
+        # define fields
+        entity_type = "responsible_agent"
+        resource_id, agent_uri = self.mint_uri(entity_type)
+        rdf_label = self.create_label(entity_type)
+        lastname, firstname = author_data["name"].split(',')[:2]
+
+        # create the rdflib Graph
+        g = Graph()
+        g.add((agent_uri, RDF.type, FOAF.agent))
+        g.add((agent_uri, FOAF.givenName, Literal(firstname)))
+        g.add((agent_uri, FOAF.familyName, Literal(lastname)))
+        g.add((agent_uri, RDFS.label, Literal(rdf_label)))
+
+        # TODO: check OCDM mapping instead of sameAs
+        if author_data["viaf_link"] is not None:
+            g.add((agent_uri, datacite_ns.viaf,
+
+             URIRef(author_data["viaf_link"])))
+
+        # create the intermediate Entity
+        e = Entity(
+            resource_id=resource_id,
+            mongo_id=author_data["id"],
+            type=entity_type,
+            uri=agent_uri,
+            graph=g
         )
-        for entity in entities:
-            self._serializer.add(entity)
-        return
+        logger.debug("Serialised author: %s" % repr(e))
+        return e
 
-    def export(self, limit=None):
-        """If limit is not None export only the first n authors."""
+    def _create_bibliographic_resource(self, publication_data: dict) -> Entity:
+        pass
+
+    # TODO: implement
+    def _create_agent_role(self):
+        pass
+
+    ####################################
+    # methods to map API data to OCDM  #
+    ####################################
+
+    def _export_author(self, author_data: dict, api_url: str):
+        """Creates RDF representation of an author according to OCDM."""
+
+        new_entities = []
+        new_entities.append(self._create_responsible_agent(author_data))
+        new_entities += self._create_provenance_record() # pass api_url
+        self._save(new_entities)
+
+    def _export_publication(self):
+        pass
+
+    def _export_reference(self):
         pass
 
 
@@ -173,8 +289,13 @@ def main():
     logger.addHandler(handler)
 
     # let's get down to businnes
-    serializer = OCCSerializer(out_dir)
-    exporter = RDFExporter(api_base_uri, rdf_base_uri, serializer)
+    serializer = OCCSerializer(out_dir, json_context=OCC_CONTEXT_URI)
+    exporter = RDFExporter(
+        api_base_uri,
+        rdf_base_uri,
+        DATASET_PREFIX,
+        serializer
+    )
     exporter.export()
     serializer.flush()
     pdb.set_trace()
