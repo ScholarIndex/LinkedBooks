@@ -4,6 +4,7 @@ import logging
 import ipdb as pdb
 from rdflib import Graph
 
+from helpers import Entity, ProvenanceEntity, TYPE_MAPPINGS, PREFIX_MAPPINGS
 logger = logging.getLogger(__name__)
 
 
@@ -14,13 +15,6 @@ class OCCSerializer(object):
         self._output_directory = output_directory
         self._context = json_context
         self._known_entity_types = []
-        self._mappings = {
-            'agent_role': 'ar',
-            'bibliographic_resource': 'br',
-            'responsible_agent': 'ra',
-            'provenance_agent': 'pa',
-            'snapshot_entity': 'se'
-        }
         self._location_index = {}
         self._queues = {} # a dict of lists
         self._prov_queues = {} # a dict of lists
@@ -32,7 +26,6 @@ class OCCSerializer(object):
 
         Check on the type of entity and handle accordingly (if provenance)
         """
-
         if is_provenance:
             if entity.type not in self._prov_queues:
                 self._prov_queues[entity.type] = []
@@ -48,11 +41,9 @@ class OCCSerializer(object):
         logger.debug(f"Added {entity.uri} to queue {entity.type}")
         logger.debug(f"Queue {entity.type} contains {n_items} items")
 
-
-
         # TODO: before adding to queue, check if entity is already contained
-
         # self._check_queues()
+        return
 
     def count(self, entity_type, is_provenance=False):
         """Get the entity count for a given entity type."""
@@ -87,26 +78,50 @@ class OCCSerializer(object):
         """
         pass
 
+    # TODO: implement
+    def update(self, graph):
+        pass
+
     def flush(self):
         """Should be called at the very end; writes to disk entities
         remaining in the queues."""
 
         # for development: serializes as JSON-LD in the output dir
-        # one file per entity type
+        # one file with all triples. this is just for development.
+        # this logic will then be moved to _serialize() and be much more
+        # sophisticated
 
-        output_graph = Graph()
 
         for entity_type in self._queues:
+
+            output_graph = Graph()
+
             for e in self._queues[entity_type]:
                 output_graph += e.graph
 
+            out_file_path = os.path.join(
+                self._output_directory,
+                f'{entity_type}.json'
+            )
+            with codecs.open(out_file_path, 'wb') as out_file:
+                out_file.write(output_graph.serialize(
+                    format="json-ld",
+                    context=self._context)
+                )
+
         for entity_type in self._prov_queues:
+
+            output_graph = Graph()
+
             for e in self._prov_queues[entity_type]:
                 output_graph += e.graph
 
-        out_file_path = os.path.join(self._output_directory, 'test.json')
-        with codecs.open(out_file_path, 'wb') as out_file:
-            out_file.write(output_graph.serialize(
-                format="json-ld",
-                context=self._context)
+            out_file_path = os.path.join(
+                self._output_directory,
+                f'{entity_type}.json'
             )
+            with codecs.open(out_file_path, 'wb') as out_file:
+                out_file.write(output_graph.serialize(
+                    format="json-ld",
+                    context=self._context)
+                )

@@ -82,7 +82,14 @@ class APIWrapper(object):
         return authors_data
 
     def get_author(self, author_id):
-        """Retrieve data for a given author."""
+        """Retrieve data for an author."""
         url = self._author_endpoint % author_id
+        r = requests.get(url)
+        return (url, r.json())
+
+    def get_primary_source(self, archive_id, primary_source_id):
+        """Retrieve data for a primary source."""
+        url = self._primary_source_endpoint % (archive_id, primary_source_id)
+        LOGGER.debug(f"Fetching {url}")
         r = requests.get(url)
         return (url, r.json())
