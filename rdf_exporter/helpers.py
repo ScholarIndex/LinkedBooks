@@ -29,13 +29,15 @@ Entity = namedtuple(
 PREFIX_MAPPINGS = {
     "br": "bibliographic_resource",
     "pa": "provenance_agent",
-    "ra": "responsible_agent"
+    "ra": "responsible_agent",
+    "ca": "curatorial_activity"
 }
 
 TYPE_MAPPINGS = {
     "bibliographic_resource": "br",
     "provenance_agent": "pa",
-    "responsible_agent": "ra"
+    "responsible_agent": "ra",
+    "curatorial_activity": "ca"
 }
 
 class APIWrapper(object):
@@ -84,6 +86,12 @@ class APIWrapper(object):
     def get_author(self, author_id):
         """Retrieve data for an author."""
         url = self._author_endpoint % author_id
+        r = requests.get(url)
+        return (url, r.json())
+
+    def get_book(self, book_id):
+        """Retrieve data for a book."""
+        url = self._book_endpoint % book_id
         r = requests.get(url)
         return (url, r.json())
 

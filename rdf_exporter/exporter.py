@@ -74,6 +74,19 @@ class RDFExporter(object):
             columns=ProvenanceEntity._fields
         )
 
+    def count(self, entity_type, is_provenance=False, described_entity=None):
+        """Get the entity count for a given entity type."""
+        if is_provenance:
+            df = self._prov_entities_df
+            count = df[
+                df.described_resource_id==described_entity.resource_id
+            ].shape[0]
+            return count
+        else:
+            df = self._entities_df
+            count = df[df.type == entity_type].shape[0]
+            return count
+
     def _save(self, entities) -> None:
         """Serialize a list of entities.
 
@@ -104,7 +117,7 @@ class RDFExporter(object):
                 ignore_index=True
             )
 
-            for entity in entities:
+            for entity in normal_entities:
                 self._serializer.add(entity)
 
         if provenance_entities:
@@ -122,15 +135,57 @@ class RDFExporter(object):
 
     def mint_uri(self, entity_type: str) -> URIRef:
         prefix = TYPE_MAPPINGS[entity_type]
-        count = self._serializer.count(entity_type) + 1
+        count = self.count(entity_type) + 1
         resource_id = os.path.join(prefix, self._prefix + str(count))
         uri = URIRef(os.path.join(self._rdf_base, resource_id))
         return resource_id, uri
 
+    def mint_provenance_uri(
+        self,
+        prov_entity_type: str,
+        described_entity: Entity
+    ) -> URIRef:
+        prefix = TYPE_MAPPINGS[prov_entity_type]
+        count = self.count(prov_entity_type, True, described_entity) + 1
+        # resource_id = os.path.join(prefix, self._prefix + str(count))
+        # TODO: clarify with Silvio
+        resource_id = os.path.join(prefix, str(count))
+        uri = URIRef(
+            os.path.join(
+                self._rdf_base,
+                described_entity.resource_id,
+                "prov",
+                prefix,
+                str(count)
+            )
+        )
+        return resource_id, uri
+
     def create_label(self, entity_type: str) -> str:
         prefix = TYPE_MAPPINGS[entity_type]
-        res_id = self._prefix + str(self._serializer.count(entity_type) + 1)
+        res_id = self._prefix + str(self.count(entity_type) + 1)
         return f"{entity_type.replace('_', ' ')} {res_id} [{prefix}/{res_id}]"
+
+    def create_provenance_label(
+            self,
+            prov_entity_type: str,
+            described_entity: Entity
+        ) -> str:
+        prefix = TYPE_MAPPINGS[prov_entity_type]
+        count = self.count(prov_entity_type, True, described_entity) + 1
+        # TODO: clarify with Silvio the use of dataset prefix in provenance
+        # URIs
+        prov_res_id = f"{prefix}/{str(count)}"
+        prov_label = prov_entity_type.replace('_', ' ')
+        describ_counter = described_entity.resource_id.split(
+            '/'
+        )[-1].replace(self._prefix, "")
+        describ_label = described_entity.type.replace('_', ' ')
+        return (
+            f"{prov_label} {count} related to {describ_label} "
+            f"{describ_counter} [{prov_res_id} -> "
+            f"{described_entity.resource_id}]"
+        )
 
     # TODO: implement
     def find_existing_uri(self, local_id, entity_type):
@@ -187,14 +242,59 @@ class RDFExporter(object):
             described_resource_id=None,
             described_resource_type=None
         )
-        logger.debug("Created provenance agent: %s" % repr(e))
+        logger.debug(f"Created {entity_type.replace('_', ' ')}: {repr(e)}")
         return e
 
-    def _create_provenance_record(self) -> ProvenanceEntity:
-        return []
+    def _create_provenance_record(
+        self,
+        entity: Entity,
+        api_url: str
+    ) -> List[ProvenanceEntity]:
+        provenance_entities = []
+        provenance_entities.append(
+            self._create_provenance_activity(entity, "creation")
+        )
+        return provenance_entities
 
-    def _create_provenance_activity(self) -> ProvenanceEntity:
-        pass
+    def _create_provenance_activity(
+        self,
+        entity: Entity,
+        activity_type: str
+    ) -> ProvenanceEntity:
+        # define fields
+        entity_type = "curatorial_activity"
+        prefix = TYPE_MAPPINGS[entity_type]
+        res_id, activity_uri = self.mint_provenance_uri(entity_type, entity)
+        rdf_label = self.create_provenance_label(entity_type, entity)
+        # pdb.set_trace()
+
+        # create the rdflib graph
+        g = Graph()
+        g.add((activity_uri, RDF.type, prov_ns.Activity))
+        g.add((activity_uri, RDFS.label, Literal(rdf_label)))
+        # for now we support only creation as curatorial acitity
+        if activity_type == 'creation':
+            g.add((activity_uri, RDF.type, prov_ns.Create))
+            desc = f"The entity \'{str(entity.uri)}\' has been created."
+            g.add((activity_uri, DCTERMS.description, Literal(desc)))
+        g.add(
+            (
+                activity_uri,
+                prov_ns.qualifiedAssociation, self._api_curation_agent.uri
+            )
+        )
+
+        # create the intermediate Entity
+        e = ProvenanceEntity(
+            resource_id=res_id,
+            type=entity_type,
+            uri=activity_uri,
+            graph=g,
+            described_resource_id=entity.resource_id,
+            described_resource_type=entity.type
+        )
+        logger.debug(f"Created {entity_type.replace('_', ' ')}: {repr(e)}")
+        return e
 
     def _create_provenance_role(self) -> ProvenanceEntity:
         pass
@@ -406,7 +506,6 @@ class RDFExporter(object):
             g.add((bibl_resource_uri, dcterms_ns.relation, URIRef(link)))
             g.add((bibl_resource_uri, RDFS.seeAlso, psource_uri))
 
-
         # create the intermediate Entity
         e = Entity(
             resource_id=resource_id,
@@ -430,6 +529,13 @@ class RDFExporter(object):
     def _create_identifier(self):
         pass
 
+    # TODO: implement
+    def _create_reference_pointer(self):
+        pass
+
+    def _create_discourse_element(self):
+        pass
+
     ####################################
     # methods to map API data to OCDM  #
     ####################################
@@ -440,16 +546,12 @@ class RDFExporter(object):
         ce = self._create_common_entities()
         self._save(ce)
 
-        # export authors
-        author_ids = self._api_wrapper.get_authors()
-
         books = []
         articles = []
-        primary_sources = [
-            ('asve', '59157b67fe76835e499fa4cd')
-        ]
-        references = []
+        citations = []
 
+        # export authors
+        author_ids = self._api_wrapper.get_authors()
         for item in author_ids:
             author_id = item['author']['id']
             api_url, author_data = self._api_wrapper.get_author(author_id)
@@ -458,6 +560,7 @@ class RDFExporter(object):
             articles += author_data['publications']['articles'] # only for dev
 
         # export primary sources
+        primary_sources = [('asve', '59157b67fe76835e499fa4cd')]
         for archive_id, primary_source_id in primary_sources:
             api_url, psource_data = self._api_wrapper.get_primary_source(
                 archive_id,
@@ -473,10 +576,21 @@ class RDFExporter(object):
         # export books
         for book in books:
             book_id = book['id']
-            # api_url, book_data = self._api_wrapper.get_book(book_id)
-            # self._export_book(book_data, api_url)
+            #api_url, book_data = self._api_wrapper.get_book(book_id)
+            #self._export_book(book_data['book'], api_url)
             api_url = "bogus-url"
             self._export_book(book, api_url)
+
+            """
+            for book in book_data['cited']['books']:
+                for reference in book['incoming_references']:
+                    citation = {
+                        "citing_document_id": book_id,
+                        "cited_document_id": book['id'],
+                        "reference_id": reference['id']
+                    }
+            """
+            # TODO: do the same for articles and ps
 
         # export journal articles
         for article in articles:
@@ -486,11 +600,13 @@ class RDFExporter(object):
             api_url = "bogus-url"
             self._export_article(article, api_url)
 
-        # requires updating the RDF graph of the citing bibl. resource
-
         # export all references (this relies on book/articles/sources already exported)
         #   and requires updating the RDF graph of the citing bibl. resource
-        pass
+
+        # reference_ids = self._api_wrapper.get_references()
+        reference_ids = []
+        for reference in reference_ids:
+            pass
 
     def _export_author(self, author_data: dict, api_url: str) -> None:
         """Creates  an RDF representation of an author according to OCDM.
@@ -499,8 +615,9 @@ class RDFExporter(object):
             Creates also the provenance statements.
         """
         new_entities = []
-        new_entities.append(self._create_responsible_agent(author_data))
-        new_entities += self._create_provenance_record() # pass api_url
+        author_entity = self._create_responsible_agent(author_data)
+        new_entities.append(author_entity)
+        new_entities += self._create_provenance_record(author_entity, api_url)
         self._save(new_entities)
 
     def _export_book(self, book_data: dict, api_url: str) -> None:
@@ -514,10 +631,9 @@ class RDFExporter(object):
         # retrieve author URIs and `_create_agent_role`
 
         new_entities = []
-        new_entities.append(
-            self._create_bibliographic_resource(book_data, 'book')
-        )
-        new_entities += self._create_provenance_record() # pass api_url
+        book_entity = self._create_bibliographic_resource(book_data, 'book')
+        new_entities.append(book_entity)
+        new_entities += self._create_provenance_record(book_entity, api_url)
         self._save(new_entities)
 
     # TODO: finish implementation
@@ -593,17 +709,13 @@ class RDFExporter(object):
     ) -> None:
         """TODO"""
         new_entities = []
-        new_entities.append(
-            self._create_bibliographic_resource(
-                primary_source_data,
-                'primary_source'
-            )
+        ps_entity = self._create_bibliographic_resource(
+            primary_source_data,
+            'primary_source'
         )
-        new_entities += self._create_provenance_record() # pass api_url
+        new_entities.append(ps_entity)
+        new_entities += self._create_provenance_record(ps_entity, api_url)
         self._save(new_entities)
-
-    def _export_authorship(self):
-        pass
 
 
 def main():
@@ -630,7 +742,11 @@ def main():
     logger.addHandler(handler)
 
     # let's get down to businnes
-    serializer = OCCSerializer(out_dir, json_context=OCC_CONTEXT_URI)
+    serializer = OCCSerializer(
+        out_dir,
+        json_context=OCC_CONTEXT_URI,
+        queue_size=10
+    )
     exporter = RDFExporter(
         api_base_uri,
         rdf_base_uri,
