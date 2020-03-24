@@ -637,6 +637,7 @@ class RDFExporter(object):
         self._save(new_entities)
 
     # TODO: finish implementation
+    # TODO: create provenance records
     def _export_article(self, article_data: dict, api_url: str) -> None:
         """Creates an RDF representation of a journal article according to OCDM.
 

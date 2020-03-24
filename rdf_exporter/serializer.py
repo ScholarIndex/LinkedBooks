@@ -65,6 +65,79 @@ class OCCSerializer(object):
                 self._queues[entity_type] = []
                 # TODO: handle also related provenance entities
 
+    def to_jsonld(self, entities: List, output_path: str) -> None:
+        """TODO"""
+        # the graph to be written is the concatenation of all single
+        # entity graphs received in input
+        output_graph = Graph()
+
+        for e in entities:
+            output_graph += e.graph
+            # in this dictionary we keep track of where a certain entity
+            # was serialized, in case it needs to be updated later on
+            self._location_index[e.uri] = output_path
+
+        with codecs.open(output_path, 'wb') as out_file:
+            logger.debug(f'Writing {len(entities)} entities to {output_path}')
+            out_file.write(output_graph.serialize(
+                format="json-ld",
+                context=self._context)
+            )
+        return
+
+    def _serialize_provenance(
+        self,
+        entity_type: str,
+        described_entities: List[Entity],
+        output_dir: str
+    ):
+        described_resource_ids = [
+            entity.resource_id
+            for entity in described_entities
+        ]
+
+        try:
+            pathlib.Path(output_dir).mkdir(parents=True)
+        except FileExistsError:
+            logger.debug(f'Output directory {output_dir} already exists.')
+
+        for prov_entity_type in self._prov_queues:
+
+            if prov_entity_type == 'provenance_agent':
+                continue
+
+            # not all provenance entities need to be serialized
+            # but only those that refer to entities in the input list,
+            # as they go inside the same folder, so we removed them from the
+            # queue
+            relevant_prov_entities = [
+                prov_entity
+                for prov_entity in self._prov_queues[prov_entity_type]
+                if (
+                    prov_entity.described_resource_id in described_resource_ids
+                    and prov_entity.described_resource_type == entity_type
+                )
+            ]
+
+            for prov_entity in relevant_prov_entities:
+                idx = self._prov_queues[prov_entity_type].index(prov_entity)
+                self._prov_queues[prov_entity_type].pop(idx)
+
+            # the json-ld output file is named with the corresponding entity
+            # type prefix (e.g. `ca` for `curation_agent_uri`, etc.)
+            output_path = os.path.join(
+                output_dir,
+                f"{TYPE_MAPPINGS[prov_entity_type]}.json"
+            )
+            self.to_jsonld(relevant_prov_entities, output_path)
+            logger.debug(
+                f"Serialized {len(relevant_prov_entities)} provenance "
+                f"entities of type {prov_entity_type} for "
+                f"{len(described_entities)} entities of type \'"
+                f"{entity_type}\' to file {output_path}"
+            )
+        return
+
     # TODO: finish implementation
     def _serialize(self, entity_type: str, entities: List):
         """Serializes a list of entities to disk following OCDM's format."""
@@ -72,6 +145,10 @@ class OCCSerializer(object):
         chunk = self._global_counters[entity_type] // (records_chunk)
         chunk_start = chunk * records_chunk if chunk else 0
         chunk_end = chunk_start + records_chunk
+
+        ###############################################
+        # determine output directories and file names #
+        ###############################################
 
         # the 100th entity should go in <type_prefix>/100/100.json
         if self._global_counters[entity_type] == chunk_start:
@@ -89,7 +166,6 @@ class OCCSerializer(object):
         if len(entities) < self._queue_size:
             n = (self._global_counters[entity_type] // self._queue_size)
             filename = (n + 1) * self._queue_size
-            pdb.set_trace()
         else:
             filename = self._global_counters[entity_type]
 
@@ -99,48 +175,37 @@ class OCCSerializer(object):
         )
 
         # the base directory for provenance entities
-        # all but provenance agents
         provenance_dir = os.path.join(
             basedir,
-            f"{self._global_counters[entity_type]}",
+            str(filename),
             "prov"
         )
-        print(basedir)
-        print(output_path)
-        print(provenance_dir)
+
+        #########################
+        # write triples to disk #
+        #########################
 
         try:
             pathlib.Path(basedir).mkdir(parents=True)
         except FileExistsError:
             logger.debug(f'Output directory {basedir} already exists.')
 
-        output_graph = Graph()
-        for e in entities:
-            output_graph += e.graph
-            self._location_index[e.uri] = output_path
-        with codecs.open(output_path, 'wb') as out_file:
-            logger.debug(f'Writing {len(entities)} entities to {output_path}')
-            out_file.write(output_graph.serialize(
-                format="json-ld",
-                context=self._context)
-            )
+        self.to_jsonld(entities, output_path)
+
+        self._serialize_provenance(entity_type, entities, provenance_dir)
         return
 
     # TODO: implement
     def update(self, graph):
         pass
 
-    def flush(self):
-        """Should be called at the very end; writes to disk entities
-        remaining in the queues."""
-
-        # for development: serializes as JSON-LD in the output dir
-        # one file with all triples. this is just for development.
-        # this logic will then be moved to _serialize() and be much more
-        # sophisticated
-
+    def flush(self) -> None:
+        """Serializes to disk entities remaining in any queue."""
         for entity_type in self._queues:
 
+            # if there are <= self._queue_size entities for a given
+            # entity type, the global counter will not have been initialized
+            # at this point
             if entity_type not in self._global_counters:
                 self._global_counters[entity_type] = 0
 
