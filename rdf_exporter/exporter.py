@@ -22,6 +22,7 @@ import pandas as pd
 
 from docopt import docopt
 from typing import List
+from datetime import datetime
 
 from rdflib_jsonld.context import Context
 from rdflib import Graph, Literal, URIRef
@@ -250,11 +251,14 @@ class RDFExporter(object):
         entity: Entity,
         api_url: str
     ) -> List[ProvenanceEntity]:
-        provenance_entities = []
-        provenance_entities.append(
-            self._create_provenance_activity(entity, "creation")
+        activity = self._create_provenance_activity(entity, "creation")
+        role = self._create_provenance_role(entity)
+        snapshot = self._create_provenance_snapshot(
+            entity,
+            activity_uri=activity.uri,
+            source_uri=api_url
         )
-        return provenance_entities
+        return [activity, snapshot, role]
 
     def _create_provenance_activity(
         self,
@@ -296,11 +300,75 @@ class RDFExporter(object):
         logger.debug(f"Created {entity_type.replace('_', ' ')}: {repr(e)}")
         return e
 
-    def _create_provenance_role(self) -> ProvenanceEntity:
-        pass
+    # TODO: implement
+    def _create_provenance_role(self, entity: Entity) -> ProvenanceEntity:
+        # define fields
+        entity_type = "curatorial_role"
+        prefix = TYPE_MAPPINGS[entity_type]
+        res_id, role_uri = self.mint_provenance_uri(entity_type, entity)
+        rdf_label = self.create_provenance_label(entity_type, entity)
 
-    def _create_provenance_snapshot(self) -> ProvenanceEntity:
-        pass
+        # create the rdflib graph
+        g = Graph()
+        g.add((role_uri, RDF.type, prov_ns.Association))
+        g.add((role_uri, RDFS.label, Literal(rdf_label)))
+        g.add((role_uri, prov_ns.agent, self._api_curation_agent.uri))
+        g.add((role_uri, prov_ns.hadRole, Literal('metadata_provider')))
+
+        e = ProvenanceEntity(
+            resource_id=res_id,
+            type=entity_type,
+            uri=role_uri,
+            graph=g,
+            described_resource_id=entity.resource_id,
+            described_resource_type=entity.type
+        )
+        logger.debug(f"Created {entity_type.replace('_', ' ')}: {repr(e)}")
+        return e
+
+    def _create_provenance_snapshot(
+        self,
+        entity: Entity,
+        activity_uri: URIRef,
+        source_uri: str
+    ) -> ProvenanceEntity:
+        # define fields
+        entity_type = "snapshot_entity_metadata"
+        prefix = TYPE_MAPPINGS[entity_type]
+        res_id, snapshot_uri = self.mint_provenance_uri(entity_type, entity)
+        rdf_label = self.create_provenance_label(entity_type, entity)
+
+        # create the rdflib graph
+        g = Graph()
+        g.add((snapshot_uri, RDF.type, prov_ns.Entity))
+        g.add((snapshot_uri, RDFS.label, Literal(rdf_label)))
+        g.add((snapshot_uri, prov_ns.specializationOf, entity.uri))
+        g.add((snapshot_uri, prov_ns.wasGeneratedBy, activity_uri))
+        g.add(
+            (
+                snapshot_uri,
+                prov_ns.hadPrimarySource,
+                URIRef(source_uri)
+            )
+        )
+        g.add(
+            (
+                snapshot_uri,
+                prov_ns.generatedAtTime,
+                Literal(datetime.utcnow())
+            )
+        )
+
+        e = ProvenanceEntity(
+            resource_id=res_id,
+            type=entity_type,
+            uri=snapshot_uri,
+            graph=g,
+            described_resource_id=entity.resource_id,
+            described_resource_type=entity.type
+        )
+        logger.debug(f"Created {entity_type.replace('_', ' ')}: {repr(e)}")
+        return e
 
     #####################################
     # methods to create RDF statements  #
@@ -369,6 +437,17 @@ class RDFExporter(object):
             g.add((bibl_resource_uri, RDF.type, fabio_ns.Expression))
             g.add((bibl_resource_uri, RDF.type, fabio_ns.Book))
 
+            # add authorship relation (via AgentRoles)
+            if agent_role_uris:
+                for ar_uri in agent_role_uris:
+                    g.add(
+                        (
+                            bibl_resource_uri,
+                            spar_prov_ns.isDocumentContextFor,
+                            ar_uri
+                        )
+                    )
+
             # link to ICCU via BID
             g.add((bibl_resource_uri, dcterms_ns.relation, permalink))
 
@@ -415,6 +494,17 @@ class RDFExporter(object):
             g.add((bibl_resource_uri, RDFS.label, Literal(rdf_label)))
             g.add((bibl_resource_uri, RDF.type, fabio_ns.Expression))
             g.add((bibl_resource_uri, RDF.type, fabio_ns.JournalArticle))
+
+            # add authorship relation (via AgentRoles)
+            if agent_role_uris:
+                for ar_uri in agent_role_uris:
+                    g.add(
+                        (
+                            bibl_resource_uri,
+                            spar_prov_ns.isDocumentContextFor,
+                            ar_uri
+                        )
+                    )
 
             # article title
             g.add(
@@ -517,14 +607,43 @@ class RDFExporter(object):
         logger.debug(f"Serialised {resource_type}: {repr(e)}")
         return e
 
-    # TODO: implement
-    def _create_agent_role(self):
+    def _create_agent_role(
+        self,
+        agent_uri: URIRef,
+        role: str,
+        next_uri: None
+    ) -> Entity:
         """
         In OCDM authorship is represented as the role of an author
         (ResponsibleAgent) in relation to a given publication
         (BibliographiResource) which becomes the context for this role
         relationship."""
-        pass
+
+        # define fields
+        entity_type = "agent_role"
+        resource_id, agent_role_uri = self.mint_uri(entity_type)
+        rdf_label = self.create_label(entity_type)
+
+        # create the rdflib Graph
+        g = Graph()
+        g.add((agent_role_uri, RDF.type, spar_prov_ns.RoleInTime))
+        if next_uri is not None:
+            g.add((agent_role_uri, oc_ns.hasNext, next_uri))
+        g.add((agent_role_uri, spar_prov_ns.isHeldBy, agent_uri))
+        if role == 'author':
+            g.add((agent_role_uri, spar_prov_ns.withRole, spar_prov_ns.author))
+        g.add((agent_role_uri, RDFS.label, Literal(rdf_label)))
+
+        # create the intermediate Entity
+        e = Entity(
+            resource_id=resource_id,
+            mongo_id=None,
+            type=entity_type,
+            uri=agent_role_uri,
+            graph=g
+        )
+        logger.debug(f"Serialised {entity_type}: {repr(e)}")
+        return e
 
     def _create_identifier(self):
         pass
@@ -630,8 +749,41 @@ class RDFExporter(object):
         # create identifier and pass uri to `_create_bibliographic_resource()`
         # retrieve author URIs and `_create_agent_role`
 
+        authors_field = book_data['author']
+        agent_roles = []
+        if authors_field:
+            author_uris = [
+                (   author['id'],
+                    self.find_existing_uri(author['id'], 'responsible_agent')
+                )
+                for author in authors_field
+            ]
+
+            for author_id, author_uri in author_uris:
+                if author_uri:
+                    ar_entity = self._create_agent_role(
+                        agent_uri=author_uri,
+                        role='author',
+                        next_uri=None
+                    )
+                    ar_prov_entities = self._create_provenance_record(
+                        ar_entity,
+                        api_url
+                    )
+                    agent_roles.append(ar_entity.uri)
+                    self._save([ar_entity])
+                    self._save(ar_prov_entities)
+                else:
+                    logger.error(f'Author {author_id} not serialized yet!')
+                    pass
+
+        #pdb.set_trace()
         new_entities = []
-        book_entity = self._create_bibliographic_resource(book_data, 'book')
+        book_entity = self._create_bibliographic_resource(
+            book_data,
+            resource_type='book',
+            agent_role_uris=agent_roles
+        )
         new_entities.append(book_entity)
         new_entities += self._create_provenance_record(book_entity, api_url)
         self._save(new_entities)

@@ -30,14 +30,20 @@ PREFIX_MAPPINGS = {
     "br": "bibliographic_resource",
     "pa": "provenance_agent",
     "ra": "responsible_agent",
-    "ca": "curatorial_activity"
+    "ca": "curatorial_activity",
+    "ar": "agent_role",
+    "se": "snapshot_entity_metadata",
+    "cr": "curatorial_role"
 }
 
 TYPE_MAPPINGS = {
     "bibliographic_resource": "br",
     "provenance_agent": "pa",
     "responsible_agent": "ra",
-    "curatorial_activity": "ca"
+    "curatorial_activity": "ca",
+    "agent_role": "ar",
+    "snapshot_entity_metadata": "se",
+    "curatorial_role": "cr"
 }
 
 class APIWrapper(object):

@@ -63,8 +63,8 @@ class OCCSerializer(object):
                 self._global_counters[entity_type] += self._queue_size
                 self._serialize(entity_type, self._queues[entity_type])
                 self._queues[entity_type] = []
-                # TODO: handle also related provenance entities
 
+    # TODO: support named graph
     def to_jsonld(self, entities: List, output_path: str) -> None:
         """TODO"""
         # the graph to be written is the concatenation of all single
