@@ -1,0 +1,86 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-25T16:12:41.766235",
+      "generated_by": "https://w3id.org/oc/corpus/ar/012013/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/ar/012013/prov/se/1",
+      "label": "snapshot entity metadata 1 related to agent role 13 [se/1 -> ar/012013]",
+      "snapshot_of": "gar:012013",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-25T16:12:41.747490",
+      "generated_by": "https://w3id.org/oc/corpus/ar/012012/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/ar/012012/prov/se/1",
+      "label": "snapshot entity metadata 1 related to agent role 12 [se/1 -> ar/012012]",
+      "snapshot_of": "gar:012012",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-25T16:12:41.704102",
+      "generated_by": "https://w3id.org/oc/corpus/ar/012011/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/ar/012011/prov/se/1",
+      "label": "snapshot entity metadata 1 related to agent role 11 [se/1 -> ar/012011]",
+      "snapshot_of": "gar:012011",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-25T16:12:41.907405",
+      "generated_by": "https://w3id.org/oc/corpus/ar/012019/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/ar/012019/prov/se/1",
+      "label": "snapshot entity metadata 1 related to agent role 19 [se/1 -> ar/012019]",
+      "snapshot_of": "gar:012019",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-25T16:12:41.819370",
+      "generated_by": "https://w3id.org/oc/corpus/ar/012015/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/ar/012015/prov/se/1",
+      "label": "snapshot entity metadata 1 related to agent role 15 [se/1 -> ar/012015]",
+      "snapshot_of": "gar:012015",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-25T16:12:41.837842",
+      "generated_by": "https://w3id.org/oc/corpus/ar/012016/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/ar/012016/prov/se/1",
+      "label": "snapshot entity metadata 1 related to agent role 16 [se/1 -> ar/012016]",
+      "snapshot_of": "gar:012016",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-25T16:12:41.890209",
+      "generated_by": "https://w3id.org/oc/corpus/ar/012018/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/ar/012018/prov/se/1",
+      "label": "snapshot entity metadata 1 related to agent role 18 [se/1 -> ar/012018]",
+      "snapshot_of": "gar:012018",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-25T16:12:41.800530",
+      "generated_by": "https://w3id.org/oc/corpus/ar/012014/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/ar/012014/prov/se/1",
+      "label": "snapshot entity metadata 1 related to agent role 14 [se/1 -> ar/012014]",
+      "snapshot_of": "gar:012014",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-25T16:12:41.871040",
+      "generated_by": "https://w3id.org/oc/corpus/ar/012017/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/ar/012017/prov/se/1",
+      "label": "snapshot entity metadata 1 related to agent role 17 [se/1 -> ar/012017]",
+      "snapshot_of": "gar:012017",
+      "source": "bogus-url"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": [
+        "document",
+        "periodical_volume"
+      ],
+      "iri": "gbr:0120199",
+      "label": "bibliographic resource 0120199 [br/0120199]",
+      "number": "3",
+      "part_of": "gbr:0120153"
+    },
+    {
+      "a": [
+        "article",
+        "document"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1971"
+      },
+      "iri": "gbr:0120192",
+      "label": "bibliographic resource 0120192 [br/0120192]",
+      "part_of": "gbr:0120173",
+      "title": "The Venetian money market, 1150 to 1229"
+    },
+    {
+      "a": [
+        "periodical_volume",
+        "document"
+      ],
+      "iri": "gbr:0120193",
+      "label": "bibliographic resource 0120193 [br/0120193]",
+      "number": "5",
+      "part_of": "gbr:0120153"
+    },
+    {
+      "a": [
+        "document",
+        "article"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1892"
+      },
+      "iri": "gbr:0120200",
+      "label": "bibliographic resource 0120200 [br/0120200]",
+      "part_of": "gbr:0120199",
+      "title": "Genealogia del doge Marino Faliero"
+    },
+    {
+      "a": [
+        "article",
+        "document"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1975"
+      },
+      "iri": "gbr:0120196",
+      "label": "bibliographic resource 0120196 [br/0120196]",
+      "part_of": "gbr:0120195",
+      "title": "Osservazioni epigrafiche e iconografiche su mosaici e considerazioni sull’intitolazione Sancta Maria della cattedrale torcellana"
+    },
+    {
+      "a": [
+        "document",
+        "article"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1956"
+      },
+      "iri": "gbr:0120198",
+      "label": "bibliographic resource 0120198 [br/0120198]",
+      "part_of": "gbr:0120197",
+      "title": "La crisi economica veneziana nella seconda metà del secolo XVI"
+    },
+    {
+      "a": [
+        "document",
+        "periodical_volume"
+      ],
+      "iri": "gbr:0120195",
+      "label": "bibliographic resource 0120195 [br/0120195]",
+      "number": "17-18",
+      "part_of": "gbr:0120138"
+    },
+    {
+      "a": [
+        "document",
+        "periodical_volume"
+      ],
+      "iri": "gbr:0120197",
+      "label": "bibliographic resource 0120197 [br/0120197]",
+      "number": "58-59",
+      "part_of": "gbr:0120170"
+    },
+    {
+      "a": [
+        "article",
+        "document"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "2012"
+      },
+      "iri": "gbr:0120191",
+      "label": "bibliographic resource 0120191 [br/0120191]",
+      "part_of": "gbr:0120190",
+      "title": "«De tuto far dener»: gestion et rentabilité d’investissements, avidité patrimoniale, transmutation ‘agristocratique’ au sein du patriciat vénitien d’après la «Societas de Ca’ Cornario» et le partage de ses résultats (1330-1340/1360), son état liquidatif (1349) et l’exécution testamentaire de son patriarche-fondateur (1348-début XVII siècle)"
+    },
+    {
+      "a": [
+        "article",
+        "document"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1893"
+      },
+      "iri": "gbr:0120194",
+      "label": "bibliographic resource 0120194 [br/0120194]",
+      "part_of": "gbr:0120193",
+      "title": "Marino Faliero avanti il Dogado"
+    }
+  ]
+}

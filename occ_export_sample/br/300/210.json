@@ -1,0 +1,57 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": [
+        "document",
+        "article"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1964"
+      },
+      "iri": "gbr:0120202",
+      "label": "bibliographic resource 0120202 [br/0120202]",
+      "part_of": "gbr:0120201",
+      "title": "La Dogale Ca’ di Dio in Venezia"
+    },
+    {
+      "a": [
+        "document",
+        "article"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "2005"
+      },
+      "iri": "gbr:0120204",
+      "label": "bibliographic resource 0120204 [br/0120204]",
+      "part_of": "gbr:0120151",
+      "title": "Tra riformismo e conservazione: il rinnovamento delle corporazioni veneziane nel secondo Settecento"
+    },
+    {
+      "a": [
+        "article",
+        "document"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1892"
+      },
+      "iri": "gbr:0120203",
+      "label": "bibliographic resource 0120203 [br/0120203]",
+      "part_of": "gbr:0120199",
+      "title": "Aneddoti di Storia Carrarese"
+    },
+    {
+      "a": [
+        "document",
+        "periodical_volume"
+      ],
+      "iri": "gbr:0120201",
+      "label": "bibliographic resource 0120201 [br/0120201]",
+      "number": "2",
+      "part_of": "gbr:0120156"
+    }
+  ]
+}

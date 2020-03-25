@@ -1,0 +1,95 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": [
+        "curatorial_activity",
+        "creation"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/br/01208' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/br/01208/prov/ca/1",
+      "label": "curatorial activity 1 related to bibliographic resource 8 [ca/1 -> br/01208]"
+    },
+    {
+      "a": [
+        "creation",
+        "curatorial_activity"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/br/01204' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/br/01204/prov/ca/1",
+      "label": "curatorial activity 1 related to bibliographic resource 4 [ca/1 -> br/01204]"
+    },
+    {
+      "a": [
+        "curatorial_activity",
+        "creation"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/br/01207' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/br/01207/prov/ca/1",
+      "label": "curatorial activity 1 related to bibliographic resource 7 [ca/1 -> br/01207]"
+    },
+    {
+      "a": [
+        "curatorial_activity",
+        "creation"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/br/01203' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/br/01203/prov/ca/1",
+      "label": "curatorial activity 1 related to bibliographic resource 3 [ca/1 -> br/01203]"
+    },
+    {
+      "a": [
+        "curatorial_activity",
+        "creation"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/br/01201' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/br/01201/prov/ca/1",
+      "label": "curatorial activity 1 related to bibliographic resource 1 [ca/1 -> br/01201]"
+    },
+    {
+      "a": [
+        "creation",
+        "curatorial_activity"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/br/01202' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/br/01202/prov/ca/1",
+      "label": "curatorial activity 1 related to bibliographic resource 2 [ca/1 -> br/01202]"
+    },
+    {
+      "a": [
+        "curatorial_activity",
+        "creation"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/br/01209' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/br/01209/prov/ca/1",
+      "label": "curatorial activity 1 related to bibliographic resource 9 [ca/1 -> br/01209]"
+    },
+    {
+      "a": [
+        "creation",
+        "curatorial_activity"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/br/01206' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/br/01206/prov/ca/1",
+      "label": "curatorial activity 1 related to bibliographic resource 6 [ca/1 -> br/01206]"
+    },
+    {
+      "a": [
+        "creation",
+        "curatorial_activity"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/br/01205' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/br/01205/prov/ca/1",
+      "label": "curatorial activity 1 related to bibliographic resource 5 [ca/1 -> br/01205]"
+    }
+  ]
+}

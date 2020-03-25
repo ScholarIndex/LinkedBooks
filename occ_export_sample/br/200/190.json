@@ -1,0 +1,124 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": [
+        "periodical_journal",
+        "document"
+      ],
+      "iri": "gbr:0120187",
+      "label": "bibliographic resource 0120187 [br/0120187]",
+      "title": "Archivio veneto"
+    },
+    {
+      "a": [
+        "document",
+        "periodical_volume"
+      ],
+      "iri": "gbr:0120190",
+      "label": "bibliographic resource 0120190 [br/0120190]",
+      "number": "65",
+      "part_of": "gbr:0120138"
+    },
+    {
+      "a": [
+        "article",
+        "document"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1912"
+      },
+      "iri": "gbr:0120182",
+      "label": "bibliographic resource 0120182 [br/0120182]",
+      "part_of": "gbr:0120181",
+      "title": "La vita e i tempi di Bcnintendi de' Hnvagnaui Cancelliere grande della Veneta Repubblica "
+    },
+    {
+      "a": [
+        "article",
+        "document"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1985"
+      },
+      "iri": "gbr:0120184",
+      "label": "bibliographic resource 0120184 [br/0120184]",
+      "part_of": "gbr:0120183",
+      "title": "Monasteri di agostiniane a Venezia"
+    },
+    {
+      "a": [
+        "document",
+        "periodical_volume"
+      ],
+      "iri": "gbr:0120183",
+      "label": "bibliographic resource 0120183 [br/0120183]",
+      "number": "125",
+      "part_of": "gbr:0120170"
+    },
+    {
+      "a": [
+        "periodical_volume",
+        "document"
+      ],
+      "iri": "gbr:0120188",
+      "label": "bibliographic resource 0120188 [br/0120188]",
+      "number": "8",
+      "part_of": "gbr:0120187"
+    },
+    {
+      "a": [
+        "article",
+        "document"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1987"
+      },
+      "iri": "gbr:0120185",
+      "label": "bibliographic resource 0120185 [br/0120185]",
+      "part_of": "gbr:0120173",
+      "title": "Die Italienischen Kirchen im Heiligen Land (1098-1291)"
+    },
+    {
+      "a": [
+        "periodical_volume",
+        "document"
+      ],
+      "iri": "gbr:0120181",
+      "label": "bibliographic resource 0120181 [br/0120181]",
+      "number": "23",
+      "part_of": "gbr:0120153"
+    },
+    {
+      "a": [
+        "document",
+        "article"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1874"
+      },
+      "iri": "gbr:0120189",
+      "label": "bibliographic resource 0120189 [br/0120189]",
+      "part_of": "gbr:0120188",
+      "title": "Bibliografia analitica della Legislazione della República di Venezia"
+    },
+    {
+      "a": [
+        "article",
+        "document"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "2003"
+      },
+      "iri": "gbr:0120186",
+      "label": "bibliographic resource 0120186 [br/0120186]",
+      "part_of": "gbr:0120145",
+      "title": "Riforme veneziane tra economia e finanza nel secondo Settecento"
+    }
+  ]
+}

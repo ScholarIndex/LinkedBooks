@@ -1,0 +1,125 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": [
+        "document",
+        "periodical_volume"
+      ],
+      "iri": "gbr:0120175",
+      "label": "bibliographic resource 0120175 [br/0120175]",
+      "number": "33",
+      "part_of": "gbr:0120156"
+    },
+    {
+      "a": [
+        "document",
+        "periodical_volume"
+      ],
+      "iri": "gbr:0120177",
+      "label": "bibliographic resource 0120177 [br/0120177]",
+      "number": "34-35",
+      "part_of": "gbr:0120170"
+    },
+    {
+      "a": [
+        "periodical_volume",
+        "document"
+      ],
+      "iri": "gbr:0120171",
+      "label": "bibliographic resource 0120171 [br/0120171]",
+      "number": "2",
+      "part_of": "gbr:0120170"
+    },
+    {
+      "a": [
+        "document",
+        "article"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1995"
+      },
+      "iri": "gbr:0120176",
+      "label": "bibliographic resource 0120176 [br/0120176]",
+      "part_of": "gbr:0120175",
+      "title": "L'albergo dei poveri di Venezia: una lunga rincorsa per un breve salto"
+    },
+    {
+      "a": [
+        "article",
+        "document"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1944"
+      },
+      "iri": "gbr:0120178",
+      "label": "bibliographic resource 0120178 [br/0120178]",
+      "part_of": "gbr:0120177",
+      "title": "Una famiglia patrizia : I Pisani ed i palazzi di S. Stefano e di Stra"
+    },
+    {
+      "a": [
+        "article",
+        "document"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1927"
+      },
+      "iri": "gbr:0120172",
+      "label": "bibliographic resource 0120172 [br/0120172]",
+      "part_of": "gbr:0120171",
+      "title": " Il navigatore Alvise Da Mosto e la sua famiglia "
+    },
+    {
+      "a": [
+        "document",
+        "periodical_volume"
+      ],
+      "iri": "gbr:0120173",
+      "label": "bibliographic resource 0120173 [br/0120173]",
+      "number": "13",
+      "part_of": "gbr:0120138"
+    },
+    {
+      "a": [
+        "article",
+        "document"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1971"
+      },
+      "iri": "gbr:0120174",
+      "label": "bibliographic resource 0120174 [br/0120174]",
+      "part_of": "gbr:0120173",
+      "title": "The Procurators of San Marco in thirteenth and fourtheen centuries: a study of the office as a financial and trust institution"
+    },
+    {
+      "a": [
+        "document",
+        "periodical_volume"
+      ],
+      "iri": "gbr:0120179",
+      "label": "bibliographic resource 0120179 [br/0120179]",
+      "number": "8",
+      "part_of": "gbr:0120138"
+    },
+    {
+      "a": [
+        "article",
+        "document"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1966"
+      },
+      "iri": "gbr:0120180",
+      "label": "bibliographic resource 0120180 [br/0120180]",
+      "part_of": "gbr:0120179",
+      "title": "I vari aspetti della comunione familiare di beni nella Venezia dei secoli XI-XII"
+    }
+  ]
+}

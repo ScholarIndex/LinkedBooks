@@ -1,0 +1,175 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "contributor": "gar:012023",
+      "dcterms:publisher": "LINT, \\1994",
+      "fabio:hasPlaceOfPublication": "Trieste",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1994"
+      },
+      "iri": "gbr:012024",
+      "label": "bibliographic resource 012024 [br/012024]",
+      "related": "http://id.sbn.it/bid/CFI0299915",
+      "title": "Venice and its lagoon : historical-artistic guide"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "contributor": "gar:012025",
+      "dcterms:publisher": "Istituto Geografico De Agostini,",
+      "fabio:hasPlaceOfPublication": "Novara",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1948"
+      },
+      "iri": "gbr:012026",
+      "label": "bibliographic resource 012026 [br/012026]",
+      "related": "http://id.sbn.it/bid/PUV0521878",
+      "title": "La pittura italiana del Settecento"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "contributor": "gar:012027",
+      "dcterms:publisher": "Ferrari,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1938"
+      },
+      "iri": "gbr:012028",
+      "label": "bibliographic resource 012028 [br/012028]",
+      "related": "http://id.sbn.it/bid/RAV0057548",
+      "title": "Lacche veneziane del Settecento : col catalogo dei mobili e degli oggetti laccati esposti a Ca' Rezzonico dal 25 aprile al 31 ottobre 1938"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "contributor": "gar:012024",
+      "dcterms:publisher": "R. Bemporad e Figlio,",
+      "fabio:hasPlaceOfPublication": "Firenze",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1913"
+      },
+      "iri": "gbr:012025",
+      "label": "bibliographic resource 012025 [br/012025]",
+      "related": "http://id.sbn.it/bid/CUB0655240",
+      "title": "Vita di Jacopo Tatti, detto il Sansovino"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "contributor": "gar:012022",
+      "dcterms:publisher": "Bemporad, stampa",
+      "fabio:hasPlaceOfPublication": "Firenze [etc.]",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1913"
+      },
+      "iri": "gbr:012023",
+      "label": "bibliographic resource 012023 [br/012023]",
+      "related": "http://id.sbn.it/bid/PAL0100587",
+      "title": "Vita di Jacopo Tatti, detto il Sansovino"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "contributor": "gar:012028",
+      "dcterms:publisher": "Lint,",
+      "fabio:hasPlaceOfPublication": "Trieste",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1974"
+      },
+      "iri": "gbr:012029",
+      "label": "bibliographic resource 012029 [br/012029]",
+      "related": "http://id.sbn.it/bid/VEA0001307",
+      "title": "Venezia e il suo estuario : guida storico-artistica"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "contributor": "gar:012029",
+      "dcterms:publisher": "A cura del Comune,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1960"
+      },
+      "iri": "gbr:012030",
+      "label": "bibliographic resource 012030 [br/012030]",
+      "related": "http://id.sbn.it/bid/SBL0519236",
+      "title": "Ca' Rezzonico"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "contributor": "gar:012026",
+      "dcterms:publisher": "a cura del Comitato onoranze sansoviniane,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1929"
+      },
+      "iri": "gbr:012027",
+      "label": "bibliographic resource 012027 [br/012027]",
+      "related": "http://id.sbn.it/bid/VEA0056566",
+      "title": "Itinerario sansoviniano a Venezia : in occasione della traslazione dei resti mortali di Jacopo Sansovino in Basilica di San Marco ricorrendo il quarto centenario della sua nomina a \"proto\" della Procuratia, 1529 1929"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "contributor": "gar:012021",
+      "dcterms:publisher": "Istituto poligrafico dello Stato, libreria dello Stato,",
+      "fabio:hasPlaceOfPublication": "Roma",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1956"
+      },
+      "iri": "gbr:012022",
+      "label": "bibliographic resource 012022 [br/012022]",
+      "related": "http://id.sbn.it/bid/CSA0050321",
+      "title": "Venezia e il suo estuario : guida storico-artistica"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "contributor": "gar:012020",
+      "dcterms:publisher": "C. Ferrari,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1953"
+      },
+      "iri": "gbr:012021",
+      "label": "bibliographic resource 012021 [br/012021]",
+      "related": "http://id.sbn.it/bid/CUB0380316",
+      "title": "Murano e l'arte del Vetro soffiato : Guida del Museo vetrario di Murano. (civico Museo Correr)"
+    }
+  ]
+}

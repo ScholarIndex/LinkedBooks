@@ -1,0 +1,164 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Comune, Assessorato agli affari istituzionali, Assessorato alla cultura, \\1991",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1991"
+      },
+      "iri": "gbr:012052",
+      "label": "bibliographic resource 012052 [br/012052]",
+      "related": "http://id.sbn.it/bid/CFI0210723",
+      "title": "Platea Sancti Marci : i luoghi marciani dall'11. al 13. secolo e la formazione della piazza"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "SEVPEN,",
+      "fabio:hasPlaceOfPublication": "Paris",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1962"
+      },
+      "iri": "gbr:012058",
+      "label": "bibliographic resource 012058 [br/012058]",
+      "related": "http://id.sbn.it/bid/SBL0175097",
+      "title": "Les sources de l'histoire maritime en Europe, du moyen-âge au 18. siècle : actes du 4. colloque international d'histoire maritime, tenu à Paris du 20 au 23 mai 1959"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "nella sede dell'Istituto,",
+      "fabio:hasPlaceOfPublication": "Roma",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "2005"
+      },
+      "iri": "gbr:012059",
+      "label": "bibliographic resource 012059 [br/012059]",
+      "related": "http://id.sbn.it/bid/UBO2841837",
+      "title": "Ad profectum patrie : la proprietà ecclesiastica veneziana in Romania dopo la 4. crociata"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "A cura dell'Amministrazione comunale,",
+      "fabio:hasPlaceOfPublication": "Cavarzere",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "2003"
+      },
+      "iri": "gbr:012057",
+      "label": "bibliographic resource 012057 [br/012057]",
+      "related": "http://id.sbn.it/bid/VEA0152000",
+      "title": "Cavarzere giacente humile fra palustri canne... : storia e cronaca dal 16. al 18. secolo"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "A. Forni,",
+      "fabio:hasPlaceOfPublication": "Sala Bolognese",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1980"
+      },
+      "iri": "gbr:012054",
+      "label": "bibliographic resource 012054 [br/012054]",
+      "related": "http://id.sbn.it/bid/SBL0338121",
+      "title": "La vita dei veneziani nel 1300"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Leo S. Olschki ed., [1971",
+      "fabio:hasPlaceOfPublication": "Firenze",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1971"
+      },
+      "iri": "gbr:012056",
+      "label": "bibliographic resource 012056 [br/012056]",
+      "related": "http://id.sbn.it/bid/VEA1149502",
+      "title": "The procurators of San Marco in the thirteenth and fourteenth centuries : a study of the office as a financial and trust institution"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Jouvence, [1995",
+      "fabio:hasPlaceOfPublication": "Roma",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1995"
+      },
+      "iri": "gbr:012055",
+      "label": "bibliographic resource 012055 [br/012055]",
+      "related": "http://id.sbn.it/bid/TSA0040998",
+      "title": "S. Leonardo in Fossa Mala e altre fondazioni medievali lagunari : restituzione territoriale, storica e archeologica"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Venezia : Marsilio, 1991.",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1991"
+      },
+      "iri": "gbr:012060",
+      "label": "bibliographic resource 012060 [br/012060]",
+      "related": "http://id.sbn.it/bid/MIL0081819",
+      "title": "Devozione e committenza : Bellini, Tiziano e i Frari"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Marsilio,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1983"
+      },
+      "iri": "gbr:012051",
+      "label": "bibliographic resource 012051 [br/012051]",
+      "related": "http://id.sbn.it/bid/CFI0004830",
+      "title": "L'architettura veneziana del primo Rinascimento"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Antenore,",
+      "fabio:hasPlaceOfPublication": "Padova",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1984"
+      },
+      "iri": "gbr:012053",
+      "label": "bibliographic resource 012053 [br/012053]",
+      "related": "http://id.sbn.it/bid/CFI0071098",
+      "title": "Viridarium floridum : studi di storia veneta offerti dagli allievi a Paolo Sambin"
+    }
+  ]
+}

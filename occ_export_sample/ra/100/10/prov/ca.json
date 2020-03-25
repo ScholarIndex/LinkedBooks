@@ -1,0 +1,35 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": [
+        "creation",
+        "curatorial_activity"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/ra/01203' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ra/01203/prov/ca/1",
+      "label": "curatorial activity 1 related to responsible agent 3 [ca/1 -> ra/01203]"
+    },
+    {
+      "a": [
+        "creation",
+        "curatorial_activity"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/ra/01201' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ra/01201/prov/ca/1",
+      "label": "curatorial activity 1 related to responsible agent 1 [ca/1 -> ra/01201]"
+    },
+    {
+      "a": [
+        "creation",
+        "curatorial_activity"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/ra/01202' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ra/01202/prov/ca/1",
+      "label": "curatorial activity 1 related to responsible agent 2 [ca/1 -> ra/01202]"
+    }
+  ]
+}

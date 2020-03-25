@@ -1,0 +1,75 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": "role",
+      "iri": "gar:012019",
+      "label": "agent role 012019 [ar/012019]",
+      "role_of": "gra:01203",
+      "role_type": "author"
+    },
+    {
+      "a": "role",
+      "iri": "gar:012020",
+      "label": "agent role 012020 [ar/012020]",
+      "role_of": "gra:01203",
+      "role_type": "author"
+    },
+    {
+      "a": "role",
+      "iri": "gar:012013",
+      "label": "agent role 012013 [ar/012013]",
+      "role_of": "gra:01203",
+      "role_type": "author"
+    },
+    {
+      "a": "role",
+      "iri": "gar:012018",
+      "label": "agent role 012018 [ar/012018]",
+      "role_of": "gra:01203",
+      "role_type": "author"
+    },
+    {
+      "a": "role",
+      "iri": "gar:012012",
+      "label": "agent role 012012 [ar/012012]",
+      "role_of": "gra:01203",
+      "role_type": "author"
+    },
+    {
+      "a": "role",
+      "iri": "gar:012014",
+      "label": "agent role 012014 [ar/012014]",
+      "role_of": "gra:01203",
+      "role_type": "author"
+    },
+    {
+      "a": "role",
+      "iri": "gar:012015",
+      "label": "agent role 012015 [ar/012015]",
+      "role_of": "gra:01203",
+      "role_type": "author"
+    },
+    {
+      "a": "role",
+      "iri": "gar:012016",
+      "label": "agent role 012016 [ar/012016]",
+      "role_of": "gra:01203",
+      "role_type": "author"
+    },
+    {
+      "a": "role",
+      "iri": "gar:012017",
+      "label": "agent role 012017 [ar/012017]",
+      "role_of": "gra:01203",
+      "role_type": "author"
+    },
+    {
+      "a": "role",
+      "iri": "gar:012011",
+      "label": "agent role 012011 [ar/012011]",
+      "role_of": "gra:01203",
+      "role_type": "author"
+    }
+  ]
+}

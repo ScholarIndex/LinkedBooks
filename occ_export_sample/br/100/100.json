@@ -1,0 +1,165 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Arsenale, \\1989",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1989"
+      },
+      "iri": "gbr:012091",
+      "label": "bibliographic resource 012091 [br/012091]",
+      "related": "http://id.sbn.it/bid/RAV0040099",
+      "title": "Fanti e denari : sei secoli di giochi d'azzardo"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Yale university press,",
+      "fabio:hasPlaceOfPublication": "New Haven",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1975"
+      },
+      "iri": "gbr:0120100",
+      "label": "bibliographic resource 0120100 [br/0120100]",
+      "related": "http://id.sbn.it/bid/SBL0679145",
+      "title": "Jacopo Sansovino : architecture and patronage in Renaissance Venice"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "F. Ongania, stampa",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1939"
+      },
+      "iri": "gbr:012094",
+      "label": "bibliographic resource 012094 [br/012094]",
+      "related": "http://id.sbn.it/bid/CUB0225844",
+      "title": "I dogi di Venezia con particolare riguardo alle loro tombe"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Viella,",
+      "fabio:hasPlaceOfPublication": "Roma",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1994"
+      },
+      "iri": "gbr:012095",
+      "label": "bibliographic resource 012095 [br/012095]",
+      "related": "http://id.sbn.it/bid/VEA0065029",
+      "title": "Venezie sepolte nella terra del Piave : duemila anni fra il dolce e il salso"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "S.E.V.P.E.N.,",
+      "fabio:hasPlaceOfPublication": "Paris",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1959"
+      },
+      "iri": "gbr:012096",
+      "label": "bibliographic resource 012096 [br/012096]",
+      "related": "http://id.sbn.it/bid/SBL0185474",
+      "title": "Naufrages, corsaires et assurances maritimes à Venise, 1592-1609"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "LINT,",
+      "fabio:hasPlaceOfPublication": "Trieste",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1973"
+      },
+      "iri": "gbr:012093",
+      "label": "bibliographic resource 012093 [br/012093]",
+      "related": "http://id.sbn.it/bid/MIL0118333",
+      "title": "La storia di Venezia nella vita privata : dalle origini alla caduta della Repubblica"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Istituto della Enciclopedia italiana,",
+      "fabio:hasPlaceOfPublication": "Roma",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1995"
+      },
+      "iri": "gbr:012097",
+      "label": "bibliographic resource 012097 [br/012097]",
+      "related": "http://id.sbn.it/bid/RAV0268290",
+      "title": "Storia di Venezia"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Cierre,",
+      "fabio:hasPlaceOfPublication": "Sommacampagna",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "2012"
+      },
+      "iri": "gbr:012092",
+      "label": "bibliographic resource 012092 [br/012092]",
+      "related": "http://id.sbn.it/bid/VEA1079504",
+      "title": "Confini litigiosi : i governi del territorio nella terraferma veneta del Seicento"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Tipografia del Seminario,",
+      "fabio:hasPlaceOfPublication": "Padova",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1888"
+      },
+      "iri": "gbr:012099",
+      "label": "bibliographic resource 012099 [br/012099]",
+      "related": "http://id.sbn.it/bid/PUV0662095",
+      "title": "Storia d'un lembo di terra ossia Venezia ed i veneziani"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "G. C. Sansoni, stampa",
+      "fabio:hasPlaceOfPublication": "Firenze",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1956"
+      },
+      "iri": "gbr:012098",
+      "label": "bibliographic resource 012098 [br/012098]",
+      "related": "http://id.sbn.it/bid/TO00324714",
+      "title": "La società veneta alla fine del Settecento : ricerche storiche"
+    }
+  ]
+}

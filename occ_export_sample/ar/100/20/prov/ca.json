@@ -1,0 +1,95 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": [
+        "curatorial_activity",
+        "creation"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/ar/012012' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ar/012012/prov/ca/1",
+      "label": "curatorial activity 1 related to agent role 12 [ca/1 -> ar/012012]"
+    },
+    {
+      "a": [
+        "creation",
+        "curatorial_activity"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/ar/012019' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ar/012019/prov/ca/1",
+      "label": "curatorial activity 1 related to agent role 19 [ca/1 -> ar/012019]"
+    },
+    {
+      "a": [
+        "creation",
+        "curatorial_activity"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/ar/012013' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ar/012013/prov/ca/1",
+      "label": "curatorial activity 1 related to agent role 13 [ca/1 -> ar/012013]"
+    },
+    {
+      "a": [
+        "creation",
+        "curatorial_activity"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/ar/012017' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ar/012017/prov/ca/1",
+      "label": "curatorial activity 1 related to agent role 17 [ca/1 -> ar/012017]"
+    },
+    {
+      "a": [
+        "creation",
+        "curatorial_activity"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/ar/012011' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ar/012011/prov/ca/1",
+      "label": "curatorial activity 1 related to agent role 11 [ca/1 -> ar/012011]"
+    },
+    {
+      "a": [
+        "creation",
+        "curatorial_activity"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/ar/012016' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ar/012016/prov/ca/1",
+      "label": "curatorial activity 1 related to agent role 16 [ca/1 -> ar/012016]"
+    },
+    {
+      "a": [
+        "creation",
+        "curatorial_activity"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/ar/012018' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ar/012018/prov/ca/1",
+      "label": "curatorial activity 1 related to agent role 18 [ca/1 -> ar/012018]"
+    },
+    {
+      "a": [
+        "creation",
+        "curatorial_activity"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/ar/012015' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ar/012015/prov/ca/1",
+      "label": "curatorial activity 1 related to agent role 15 [ca/1 -> ar/012015]"
+    },
+    {
+      "a": [
+        "curatorial_activity",
+        "creation"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/ar/012014' has been created.",
+      "involved": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ar/012014/prov/ca/1",
+      "label": "curatorial activity 1 related to agent role 14 [ca/1 -> ar/012014]"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "G. Einaudi, [1985",
+      "fabio:hasPlaceOfPublication": "Torino",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1985"
+      },
+      "iri": "gbr:012050",
+      "label": "bibliographic resource 012050 [br/012050]",
+      "related": "http://id.sbn.it/bid/CFI0102496",
+      "title": "Venezia e il Rinascimento : religione, scienza, architettura"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Viella,",
+      "fabio:hasPlaceOfPublication": "<s.l.>",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1996"
+      },
+      "iri": "gbr:012042",
+      "label": "bibliographic resource 012042 [br/012042]",
+      "related": "http://id.sbn.it/bid/VEA1054556",
+      "title": "Exigentes, sigentes, sezentes, sergentes: le case d'affitto a Venezia nel Medioevo"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Il Comitato editore,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1986"
+      },
+      "iri": "gbr:012047",
+      "label": "bibliographic resource 012047 [br/012047]",
+      "related": "http://id.sbn.it/bid/CFI0025015",
+      "title": "Le promissioni del Doge di Venezia : dalle origini alla fine del Duecento"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "M. Niemeyer,",
+      "fabio:hasPlaceOfPublication": "Tübingen",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1988"
+      },
+      "iri": "gbr:012043",
+      "label": "bibliographic resource 012043 [br/012043]",
+      "related": "http://id.sbn.it/bid/CFI0126673",
+      "title": "Reichtum und Macht im mittelalterlichen Venedig : die Familie Ziani"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "G. C. Sansoni, [1963",
+      "fabio:hasPlaceOfPublication": "Firenze",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1963"
+      },
+      "iri": "gbr:012044",
+      "label": "bibliographic resource 012044 [br/012044]",
+      "related": "http://id.sbn.it/bid/SBL0256826",
+      "title": "Marino Faliero : avanti il Dogado, la congiura, appendici"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "CEDAM,",
+      "fabio:hasPlaceOfPublication": "Padova",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "2010"
+      },
+      "iri": "gbr:012049",
+      "label": "bibliographic resource 012049 [br/012049]",
+      "related": "http://id.sbn.it/bid/URB0878662",
+      "title": "Il primiceriato marciano al tramonto della Repubblica di Venezia : la visita pastorale di Paolo Foscari (1790-1796)"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Istituto Veneto di Scienze Lettere ed Arti, stampa",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "2003"
+      },
+      "iri": "gbr:012046",
+      "label": "bibliographic resource 012046 [br/012046]",
+      "related": "http://id.sbn.it/bid/VEA0176675",
+      "title": "Santa Maria dei Miracoli a Venezia : la storia, la fabbrica, i restauri"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Istituto per la collaborazione culturale,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "2008"
+      },
+      "iri": "gbr:012048",
+      "label": "bibliographic resource 012048 [br/012048]",
+      "related": "http://id.sbn.it/bid/VEA0158720",
+      "title": "Il Tesoro di San Marco e la sua storia"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Istituto Italiano d'Arti Grafiche,",
+      "fabio:hasPlaceOfPublication": "Bergamo",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1909"
+      },
+      "iri": "gbr:012041",
+      "label": "bibliographic resource 012041 [br/012041]",
+      "related": "http://id.sbn.it/bid/NAP0165793",
+      "title": "La storia della pittura veneziana"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Il Veltro,",
+      "fabio:hasPlaceOfPublication": "Roma",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1985"
+      },
+      "iri": "gbr:012045",
+      "label": "bibliographic resource 012045 [br/012045]",
+      "related": "http://id.sbn.it/bid/PUV0344807",
+      "title": "Venezia e l'Impero : 962-1250"
+    }
+  ]
+}

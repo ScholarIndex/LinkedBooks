@@ -1,0 +1,165 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Istituto della Enciclopedia italiana, \\1994",
+      "fabio:hasPlaceOfPublication": "Roma",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1994"
+      },
+      "iri": "gbr:0120123",
+      "label": "bibliographic resource 0120123 [br/0120123]",
+      "related": "http://id.sbn.it/bid/IEI0085071",
+      "title": "Storia di Venezia"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "a spese della Deputazione,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1953"
+      },
+      "iri": "gbr:0120124",
+      "label": "bibliographic resource 0120124 [br/0120124]",
+      "related": "http://id.sbn.it/bid/PUV0331151",
+      "title": "Nuovi documenti del commercio veneto dei sec. 11.-13."
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Oxford University press,",
+      "fabio:hasPlaceOfPublication": "Oxford",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "2001"
+      },
+      "iri": "gbr:0120127",
+      "label": "bibliographic resource 0120127 [br/0120127]",
+      "related": "http://id.sbn.it/bid/UBO1598533",
+      "title": "Print culture and music in sixteenth-century Venice"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Il mulino, \\1994",
+      "fabio:hasPlaceOfPublication": "Bologna",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1994"
+      },
+      "iri": "gbr:0120129",
+      "label": "bibliographic resource 0120129 [br/0120129]",
+      "related": "http://id.sbn.it/bid/MIL0200799",
+      "title": "Una Chiesa di frontiera : le istituzioni ecclesiastiche veneziane nei secoli 6.-12."
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Istituto veneto di scienze lettere ed arti,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1997"
+      },
+      "iri": "gbr:0120130",
+      "label": "bibliographic resource 0120130 [br/0120130]",
+      "related": "http://id.sbn.it/bid/PUV0327562",
+      "title": "Memorie. Classe di scienze morali, lettere ed arti"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "J.B. Metzler,",
+      "fabio:hasPlaceOfPublication": "Stuttgart",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1998"
+      },
+      "iri": "gbr:0120125",
+      "label": "bibliographic resource 0120125 [br/0120125]",
+      "related": "http://id.sbn.it/bid/PUV0390765",
+      "title": "Venezianische Vermachtnisse : die soziale und wirtschaftliche Situation von Frauen im Spiegel spatmittelalterlicher Testamente"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Marsilio,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "2008"
+      },
+      "iri": "gbr:0120126",
+      "label": "bibliographic resource 0120126 [br/0120126]",
+      "related": "http://id.sbn.it/bid/VEA0981654",
+      "title": "La chiesa dei Santi Cosma e Damiano a Venezia : un tempio benedettino \"ritrovato\" alla Giudecca"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Yale University Press,",
+      "fabio:hasPlaceOfPublication": "New Haven",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "2006"
+      },
+      "iri": "gbr:0120128",
+      "label": "bibliographic resource 0120128 [br/0120128]",
+      "related": "http://id.sbn.it/bid/VEA0207312",
+      "title": "Building Renaissance Venice : patrons, architects and builders, c. 1430-1500"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Il cardo,",
+      "fabio:hasPlaceOfPublication": "\\Venezia!",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1992"
+      },
+      "iri": "gbr:0120122",
+      "label": "bibliographic resource 0120122 [br/0120122]",
+      "related": "http://id.sbn.it/bid/LO10252050",
+      "title": "Studi veneti : offerti a Gaetano Cozzi"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "CEDAM,",
+      "fabio:hasPlaceOfPublication": "Padova",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1954"
+      },
+      "iri": "gbr:0120121",
+      "label": "bibliographic resource 0120121 [br/0120121]",
+      "related": "http://id.sbn.it/bid/NAP0092304",
+      "title": "Studi di storia economica veneziana"
+    }
+  ]
+}

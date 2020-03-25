@@ -1,0 +1,119 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": [
+        "document",
+        "article"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1934"
+      },
+      "iri": "gbr:0120166",
+      "label": "bibliographic resource 0120166 [br/0120166]",
+      "part_of": "gbr:0120165",
+      "title": "Rassegna d' arte : L’ architetto di S. Marco"
+    },
+    {
+      "a": [
+        "periodical_journal",
+        "document"
+      ],
+      "iri": "gbr:0120167",
+      "label": "bibliographic resource 0120167 [br/0120167]",
+      "title": "Archivio veneto-tridentino"
+    },
+    {
+      "a": [
+        "document",
+        "periodical_volume"
+      ],
+      "iri": "gbr:0120165",
+      "label": "bibliographic resource 0120165 [br/0120165]",
+      "number": "117",
+      "part_of": "gbr:0120156"
+    },
+    {
+      "a": [
+        "document",
+        "periodical_volume"
+      ],
+      "iri": "gbr:0120168",
+      "label": "bibliographic resource 0120168 [br/0120168]",
+      "number": "7",
+      "part_of": "gbr:0120167"
+    },
+    {
+      "a": [
+        "document",
+        "periodical_journal"
+      ],
+      "iri": "gbr:0120170",
+      "label": "bibliographic resource 0120170 [br/0120170]",
+      "title": "Archivio veneto"
+    },
+    {
+      "a": [
+        "article",
+        "document"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1921"
+      },
+      "iri": "gbr:0120164",
+      "label": "bibliographic resource 0120164 [br/0120164]",
+      "part_of": "gbr:0120163",
+      "title": "Hilda F. Finberg. — Canaletto in England"
+    },
+    {
+      "a": [
+        "periodical_volume",
+        "document"
+      ],
+      "iri": "gbr:0120163",
+      "label": "bibliographic resource 0120163 [br/0120163]",
+      "number": "42",
+      "part_of": "gbr:0120153"
+    },
+    {
+      "a": [
+        "document",
+        "periodical_volume"
+      ],
+      "iri": "gbr:0120161",
+      "label": "bibliographic resource 0120161 [br/0120161]",
+      "number": "118",
+      "part_of": "gbr:0120156"
+    },
+    {
+      "a": [
+        "document",
+        "article"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1925"
+      },
+      "iri": "gbr:0120169",
+      "label": "bibliographic resource 0120169 [br/0120169]",
+      "part_of": "gbr:0120168",
+      "title": "I nemici di Francesco Morosini"
+    },
+    {
+      "a": [
+        "document",
+        "article"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1935"
+      },
+      "iri": "gbr:0120162",
+      "label": "bibliographic resource 0120162 [br/0120162]",
+      "part_of": "gbr:0120161",
+      "title": "Ricciotti Bratti"
+    }
+  ]
+}

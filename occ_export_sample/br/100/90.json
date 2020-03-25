@@ -1,0 +1,165 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "[s.n.],",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1986"
+      },
+      "iri": "gbr:012081",
+      "label": "bibliographic resource 012081 [br/012081]",
+      "related": "http://id.sbn.it/bid/VEA0058224",
+      "title": "Giudecca : storia e testimonianze"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Anfossi,",
+      "fabio:hasPlaceOfPublication": "Torino",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1941"
+      },
+      "iri": "gbr:012089",
+      "label": "bibliographic resource 012089 [br/012089]",
+      "related": "http://id.sbn.it/bid/TO00117304",
+      "title": "Per la storia del componimento della contesa tra la Repubblica veneta e Paolo 5., 1605-1607 : documenti"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Centro tedesco di studi veneziani,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1978"
+      },
+      "iri": "gbr:012085",
+      "label": "bibliographic resource 012085 [br/012085]",
+      "related": "http://id.sbn.it/bid/SBL0711865",
+      "title": "Bernardus Teotonicus e i rapporti commerciali tra la Germania meridionale e Venezia prima della istituzione del Fondaco dei Tedeschi"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Johns Hopkins University press,",
+      "fabio:hasPlaceOfPublication": "Baltimore",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1973"
+      },
+      "iri": "gbr:012083",
+      "label": "bibliographic resource 012083 [br/012083]",
+      "related": "http://id.sbn.it/bid/TO00307000",
+      "title": "Venice : a maritime republic"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Marsilio,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "2000"
+      },
+      "iri": "gbr:012087",
+      "label": "bibliographic resource 012087 [br/012087]",
+      "related": "http://id.sbn.it/bid/VEA0115433",
+      "title": "I tesori della fede: oreficeria e scultura dalle chiese di Venezia"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Presses de l'Université Paris-Sorbonne,",
+      "fabio:hasPlaceOfPublication": "Paris",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "2006"
+      },
+      "iri": "gbr:012090",
+      "label": "bibliographic resource 012090 [br/012090]",
+      "related": "http://id.sbn.it/bid/VEA0207004",
+      "title": "De Florence à Venise : études en l'honneur de Christian Bec"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Centro tedesco di studi veneziani,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1991"
+      },
+      "iri": "gbr:012086",
+      "label": "bibliographic resource 012086 [br/012086]",
+      "related": "http://id.sbn.it/bid/VEA0015785",
+      "title": "Arte per l'anima, arte per lo stato : un doge del tardo Quattrocento ed i segni delle immagini"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "IRE,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1985"
+      },
+      "iri": "gbr:012088",
+      "label": "bibliographic resource 012088 [br/012088]",
+      "related": "http://id.sbn.it/bid/CFI0090371",
+      "title": "Hospitale S. Mariae Cruciferorum : l'Ospizio dei Crociferi a Venezia"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Champ Vallon,  1997",
+      "fabio:hasPlaceOfPublication": "Seyssel",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1997"
+      },
+      "iri": "gbr:012084",
+      "label": "bibliographic resource 012084 [br/012084]",
+      "related": "http://id.sbn.it/bid/VEA0099173",
+      "title": "Venise: une invention de la ville : 13.-15. siecle"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Istituto Veneto di scienze, lettere ed arti, \\1992?",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1992"
+      },
+      "iri": "gbr:012082",
+      "label": "bibliographic resource 012082 [br/012082]",
+      "related": "http://id.sbn.it/bid/VEA0055086",
+      "title": "Giuspatronato del doge e prerogative del primicerio sulla cappella ducale di San Marco: (secoli 16.-18.) : controversie con i procuratori di san Marco de supra e i patriarchi di Venezia"
+    }
+  ]
+}

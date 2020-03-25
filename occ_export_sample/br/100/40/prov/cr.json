@@ -1,0 +1,68 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": "curatorial_role",
+      "held_by": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/br/012034/prov/cr/1",
+      "label": "curatorial role 1 related to bibliographic resource 34 [cr/1 -> br/012034]",
+      "prov:hadRole": "metadata_provider"
+    },
+    {
+      "a": "curatorial_role",
+      "held_by": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/br/012032/prov/cr/1",
+      "label": "curatorial role 1 related to bibliographic resource 32 [cr/1 -> br/012032]",
+      "prov:hadRole": "metadata_provider"
+    },
+    {
+      "a": "curatorial_role",
+      "held_by": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/br/012035/prov/cr/1",
+      "label": "curatorial role 1 related to bibliographic resource 35 [cr/1 -> br/012035]",
+      "prov:hadRole": "metadata_provider"
+    },
+    {
+      "a": "curatorial_role",
+      "held_by": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/br/012036/prov/cr/1",
+      "label": "curatorial role 1 related to bibliographic resource 36 [cr/1 -> br/012036]",
+      "prov:hadRole": "metadata_provider"
+    },
+    {
+      "a": "curatorial_role",
+      "held_by": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/br/012031/prov/cr/1",
+      "label": "curatorial role 1 related to bibliographic resource 31 [cr/1 -> br/012031]",
+      "prov:hadRole": "metadata_provider"
+    },
+    {
+      "a": "curatorial_role",
+      "held_by": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/br/012039/prov/cr/1",
+      "label": "curatorial role 1 related to bibliographic resource 39 [cr/1 -> br/012039]",
+      "prov:hadRole": "metadata_provider"
+    },
+    {
+      "a": "curatorial_role",
+      "held_by": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/br/012033/prov/cr/1",
+      "label": "curatorial role 1 related to bibliographic resource 33 [cr/1 -> br/012033]",
+      "prov:hadRole": "metadata_provider"
+    },
+    {
+      "a": "curatorial_role",
+      "held_by": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/br/012038/prov/cr/1",
+      "label": "curatorial role 1 related to bibliographic resource 38 [cr/1 -> br/012038]",
+      "prov:hadRole": "metadata_provider"
+    },
+    {
+      "a": "curatorial_role",
+      "held_by": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/br/012037/prov/cr/1",
+      "label": "curatorial role 1 related to bibliographic resource 37 [cr/1 -> br/012037]",
+      "prov:hadRole": "metadata_provider"
+    }
+  ]
+}

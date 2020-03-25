@@ -1,0 +1,68 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": "curatorial_role",
+      "held_by": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ar/012027/prov/cr/1",
+      "label": "curatorial role 1 related to agent role 27 [cr/1 -> ar/012027]",
+      "prov:hadRole": "metadata_provider"
+    },
+    {
+      "a": "curatorial_role",
+      "held_by": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ar/012024/prov/cr/1",
+      "label": "curatorial role 1 related to agent role 24 [cr/1 -> ar/012024]",
+      "prov:hadRole": "metadata_provider"
+    },
+    {
+      "a": "curatorial_role",
+      "held_by": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ar/012021/prov/cr/1",
+      "label": "curatorial role 1 related to agent role 21 [cr/1 -> ar/012021]",
+      "prov:hadRole": "metadata_provider"
+    },
+    {
+      "a": "curatorial_role",
+      "held_by": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ar/012022/prov/cr/1",
+      "label": "curatorial role 1 related to agent role 22 [cr/1 -> ar/012022]",
+      "prov:hadRole": "metadata_provider"
+    },
+    {
+      "a": "curatorial_role",
+      "held_by": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ar/012023/prov/cr/1",
+      "label": "curatorial role 1 related to agent role 23 [cr/1 -> ar/012023]",
+      "prov:hadRole": "metadata_provider"
+    },
+    {
+      "a": "curatorial_role",
+      "held_by": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ar/012025/prov/cr/1",
+      "label": "curatorial role 1 related to agent role 25 [cr/1 -> ar/012025]",
+      "prov:hadRole": "metadata_provider"
+    },
+    {
+      "a": "curatorial_role",
+      "held_by": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ar/012029/prov/cr/1",
+      "label": "curatorial role 1 related to agent role 29 [cr/1 -> ar/012029]",
+      "prov:hadRole": "metadata_provider"
+    },
+    {
+      "a": "curatorial_role",
+      "held_by": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ar/012026/prov/cr/1",
+      "label": "curatorial role 1 related to agent role 26 [cr/1 -> ar/012026]",
+      "prov:hadRole": "metadata_provider"
+    },
+    {
+      "a": "curatorial_role",
+      "held_by": "https://w3id.org/oc/corpus/pa/01201",
+      "iri": "https://w3id.org/oc/corpus/ar/012028/prov/cr/1",
+      "label": "curatorial role 1 related to agent role 28 [cr/1 -> ar/012028]",
+      "prov:hadRole": "metadata_provider"
+    }
+  ]
+}

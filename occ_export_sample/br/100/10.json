@@ -1,0 +1,171 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "contributor": "gar:01202",
+      "dcterms:publisher": "Tipografia di Gaetano Coana,",
+      "fabio:hasPlaceOfPublication": "Parenzo",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1879"
+      },
+      "iri": "gbr:01203",
+      "label": "bibliographic resource 01203 [br/01203]",
+      "related": "http://id.sbn.it/bid/TSA0739705",
+      "title": "L'Istria : note storiche"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "contributor": "gar:01206",
+      "dcterms:publisher": "LINT, \\1999",
+      "fabio:hasPlaceOfPublication": "Trieste",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1999"
+      },
+      "iri": "gbr:01207",
+      "label": "bibliographic resource 01207 [br/01207]",
+      "related": "http://id.sbn.it/bid/VEA0133065",
+      "title": "Venezia e il suo estuario : guida storico-artistica"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "contributor": "gar:01205",
+      "dcterms:publisher": "Bestetti & Tumminelli, pref.",
+      "fabio:hasPlaceOfPublication": "Venezia [ecc.]",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1926"
+      },
+      "iri": "gbr:01206",
+      "label": "bibliographic resource 01206 [br/01206]",
+      "related": "http://id.sbn.it/bid/LO10346799",
+      "title": "Venezia e il suo estuario : guida storico-artistica"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "contributor": "gar:01209",
+      "dcterms:publisher": "Tip. dell'Unione Editrice,",
+      "fabio:hasPlaceOfPublication": "Roma",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1910"
+      },
+      "iri": "gbr:012010",
+      "label": "bibliographic resource 012010 [br/012010]",
+      "related": "http://id.sbn.it/bid/RAV1379156",
+      "title": "La loggetta al campanile di San Marco : note storico-artistiche"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "contributor": "gar:01204",
+      "dcterms:publisher": "Edizioni Daria Guarnati,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1946"
+      },
+      "iri": "gbr:01205",
+      "label": "bibliographic resource 01205 [br/01205]",
+      "related": "http://id.sbn.it/bid/RML0061312",
+      "title": "Il quaderno dei Tiepolo al museo Correr di Venezia"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "contributor": "gar:01208",
+      "dcterms:publisher": "Garzanti,",
+      "fabio:hasPlaceOfPublication": "[Milano]",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1944"
+      },
+      "iri": "gbr:01209",
+      "label": "bibliographic resource 01209 [br/01209]",
+      "related": "http://id.sbn.it/bid/UBO1640255",
+      "title": "Venezia e il suo estuario : guida storico-artistica"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "contributor": "gar:01201",
+      "dcterms:publisher": "Coana,",
+      "fabio:hasPlaceOfPublication": "Parenzo",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1905"
+      },
+      "iri": "gbr:01202",
+      "label": "bibliographic resource 01202 [br/01202]",
+      "related": "http://id.sbn.it/bid/FOG0091624",
+      "title": "Il comune polese e la signoria dei Castropola : con documenti inediti"
+    },
+    {
+      "a": [
+        "document",
+        "fabio:ArchivalDocumentSet"
+      ],
+      "iri": "gbr:01201",
+      "label": "bibliographic resource 01201 [br/01201]",
+      "rdfs:seeAlso": {
+        "iri": "http://data.dhlab.epfl.ch/asve/IT:ASVe:0005"
+      },
+      "related": "http://www.archiviodistatovenezia.it/siasve/cgi-bin/pagina.pl?Tipo=fondo&Chiave=9",
+      "title": "Cancelleria inferiore, Doge, 1364 - 1797 (IT:ASVe:0005)"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "contributor": "gar:01207",
+      "dcterms:publisher": "LINT,",
+      "fabio:hasPlaceOfPublication": "Trieste",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1963"
+      },
+      "iri": "gbr:01208",
+      "label": "bibliographic resource 01208 [br/01208]",
+      "related": "http://id.sbn.it/bid/TO01565198",
+      "title": "Venezia e il suo estuario : guida storico artistica"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "contributor": "gar:01203",
+      "dcterms:publisher": "appresso Gio. Antonio, e Giacomo de' Franceschi,",
+      "fabio:hasPlaceOfPublication": "In Venetia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1602"
+      },
+      "iri": "gbr:01204",
+      "label": "bibliographic resource 01204 [br/01204]",
+      "related": "http://id.sbn.it/bid/UBOE001801",
+      "title": "Ieroglifici, ouero Commentari delle occulte significationi de gli Egittij, & d'altre nationi, composti per l'eccellente signor Giouanni Pierio Valeriano da Bolzano di Bellune. Accresciuti di due libri dal sig. Celio Augustino Curione. Et hora da varij, & eccellenti leterati in questa nostra lingua tradotti; & da noi con bellissime figure illustrati: ... Con due indici, vno de nomi de gli authori, & l'altro delle cose trattate, & notabili in questi sessanta libri"
+    }
+  ]
+}

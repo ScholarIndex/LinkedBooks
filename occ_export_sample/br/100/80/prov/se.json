@@ -1,0 +1,86 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-25T16:13:22.000277",
+      "generated_by": "https://w3id.org/oc/corpus/br/012079/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012079/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 79 [se/1 -> br/012079]",
+      "snapshot_of": "gbr:012079",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-25T16:13:21.945760",
+      "generated_by": "https://w3id.org/oc/corpus/br/012075/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012075/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 75 [se/1 -> br/012075]",
+      "snapshot_of": "gbr:012075",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-25T16:13:21.917383",
+      "generated_by": "https://w3id.org/oc/corpus/br/012073/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012073/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 73 [se/1 -> br/012073]",
+      "snapshot_of": "gbr:012073",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-25T16:13:21.896721",
+      "generated_by": "https://w3id.org/oc/corpus/br/012072/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012072/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 72 [se/1 -> br/012072]",
+      "snapshot_of": "gbr:012072",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-25T16:13:21.932114",
+      "generated_by": "https://w3id.org/oc/corpus/br/012074/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012074/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 74 [se/1 -> br/012074]",
+      "snapshot_of": "gbr:012074",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-25T16:13:21.989101",
+      "generated_by": "https://w3id.org/oc/corpus/br/012078/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012078/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 78 [se/1 -> br/012078]",
+      "snapshot_of": "gbr:012078",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-25T16:13:21.965167",
+      "generated_by": "https://w3id.org/oc/corpus/br/012077/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012077/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 77 [se/1 -> br/012077]",
+      "snapshot_of": "gbr:012077",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-25T16:13:21.954777",
+      "generated_by": "https://w3id.org/oc/corpus/br/012076/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012076/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 76 [se/1 -> br/012076]",
+      "snapshot_of": "gbr:012076",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-25T16:13:21.884576",
+      "generated_by": "https://w3id.org/oc/corpus/br/012071/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012071/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 71 [se/1 -> br/012071]",
+      "snapshot_of": "gbr:012071",
+      "source": "bogus-url"
+    }
+  ]
+}

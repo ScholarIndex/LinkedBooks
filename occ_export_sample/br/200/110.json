@@ -1,0 +1,161 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Tip. La buona stampa,",
+      "fabio:hasPlaceOfPublication": "Napoli",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1966"
+      },
+      "iri": "gbr:0120105",
+      "label": "bibliographic resource 0120105 [br/0120105]",
+      "related": "http://id.sbn.it/bid/SBL0461683",
+      "title": "Studi sulle colonie veneziane in Romania nel 13. secolo"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "L. S. Olschki,",
+      "fabio:hasPlaceOfPublication": "Firenze",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1998"
+      },
+      "iri": "gbr:0120110",
+      "label": "bibliographic resource 0120110 [br/0120110]",
+      "related": "http://id.sbn.it/bid/VIA0071281",
+      "title": "Oltre San Marco : organizzazione e prassi della musica nelle chiese di Venezia nel Rinascimento"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Banca popolare di Verona,",
+      "fabio:hasPlaceOfPublication": "[Verona!",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1985"
+      },
+      "iri": "gbr:0120108",
+      "label": "bibliographic resource 0120108 [br/0120108]",
+      "related": "http://id.sbn.it/bid/VIA0019265",
+      "title": "Mercanti e vita economica nella Repubblica veneta, secoli 13.-18."
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "CEDA",
+      "fabio:hasPlaceOfPublication": "Padova",
+      "iri": "gbr:0120109",
+      "label": "bibliographic resource 0120109 [br/0120109]",
+      "related": "http://id.sbn.it/bid/URB0878661",
+      "title": "Il primiceriato marciano al tramonto della Repubblica di Venezia : la visita pastorale di Paolo Foscari (1790-1796)"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "a spese della R. deputazione,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1925"
+      },
+      "iri": "gbr:0120104",
+      "label": "bibliographic resource 0120104 [br/0120104]",
+      "related": "http://id.sbn.it/bid/BRI0025713",
+      "title": "Il magistrato dei cinque savi alla mercanzia dalla istituzione alla caduta della Repubblica : studio storico su documenti d'archivio"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Il veltro,",
+      "fabio:hasPlaceOfPublication": "Roma",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "2005"
+      },
+      "iri": "gbr:0120106",
+      "label": "bibliographic resource 0120106 [br/0120106]",
+      "related": "http://id.sbn.it/bid/VEA0196688",
+      "title": "Ricchezza e potenza nella Venezia medioevale : la famiglia Ziani"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "LINT,",
+      "fabio:hasPlaceOfPublication": "Trieste",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1973"
+      },
+      "iri": "gbr:0120107",
+      "label": "bibliographic resource 0120107 [br/0120107]",
+      "related": "http://id.sbn.it/bid/MIL0118332",
+      "title": "La storia di Venezia nella vita privata : dalle origini alla caduta della Repubblica"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Marsilio,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1996"
+      },
+      "iri": "gbr:0120103",
+      "label": "bibliographic resource 0120103 [br/0120103]",
+      "related": "http://id.sbn.it/bid/RAV0276257",
+      "title": "San Marco: aspetti storici e agiografici : atti del Convegno internazionale di studi, Venezia, 26-29 aprile 1994"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Commissione per i testi di lingua,",
+      "fabio:hasPlaceOfPublication": "Bologna",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1959"
+      },
+      "iri": "gbr:0120102",
+      "label": "bibliographic resource 0120102 [br/0120102]",
+      "related": "http://id.sbn.it/bid/RAV0126913",
+      "title": "Ceti e classi nel '700 a Venezia"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "University of Illinois press,",
+      "fabio:hasPlaceOfPublication": "Urbana and Chicago",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1999"
+      },
+      "iri": "gbr:0120101",
+      "label": "bibliographic resource 0120101 [br/0120101]",
+      "related": "http://id.sbn.it/bid/TO00777651",
+      "title": "Medieval and Renaissance Venice"
+    }
+  ]
+}
