@@ -1,0 +1,617 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:24.684290",
+      "generated_by": "https://w3id.org/oc/corpus/br/01207/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/01207/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 7 [se/1 -> br/01207]",
+      "snapshot_of": "gbr:01207",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/5988953ec12c6073bf1e58df"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:38.712271",
+      "generated_by": "https://w3id.org/oc/corpus/br/012037/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012037/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 37 [se/1 -> br/012037]",
+      "snapshot_of": "gbr:012037",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/598836afc12c601d30e2450d"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:36.350137",
+      "generated_by": "https://w3id.org/oc/corpus/br/012031/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012031/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 31 [se/1 -> br/012031]",
+      "snapshot_of": "gbr:012031",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e717e9f993cc44f9afc158"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:42.159573",
+      "generated_by": "https://w3id.org/oc/corpus/br/012044/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012044/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 44 [se/1 -> br/012044]",
+      "snapshot_of": "gbr:012044",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/595fe419fe768352b7f6c0c0"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:44.112798",
+      "generated_by": "https://w3id.org/oc/corpus/br/012048/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012048/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 48 [se/1 -> br/012048]",
+      "snapshot_of": "gbr:012048",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/595faa0bfe768339c4f6c08d"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:20.877869",
+      "generated_by": "https://w3id.org/oc/corpus/br/01201/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/01201/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 1 [se/1 -> br/01201]",
+      "snapshot_of": "gbr:01201",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//primary_sources/asve/59157b67fe76835e499fa4cd"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:25.064148",
+      "generated_by": "https://w3id.org/oc/corpus/br/01208/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/01208/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 8 [se/1 -> br/01208]",
+      "snapshot_of": "gbr:01208",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e717eef993cc44faafc159"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:48.260349",
+      "generated_by": "https://w3id.org/oc/corpus/br/012057/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012057/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 57 [se/1 -> br/012057]",
+      "snapshot_of": "gbr:012057",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/595fe14bfe768352b5f6c02d"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:24.107926",
+      "generated_by": "https://w3id.org/oc/corpus/br/01206/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/01206/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 6 [se/1 -> br/01206]",
+      "snapshot_of": "gbr:01206",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/5988baa1c12c6087ba1e58d1"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:30.413992",
+      "generated_by": "https://w3id.org/oc/corpus/br/012020/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012020/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 20 [se/1 -> br/012020]",
+      "snapshot_of": "gbr:012020",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/595faa7cfe768339c0f6c07e"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:26.434381",
+      "generated_by": "https://w3id.org/oc/corpus/br/012011/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012011/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 11 [se/1 -> br/012011]",
+      "snapshot_of": "gbr:012011",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59858c2ec12c609657dd975e"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:21.542184",
+      "generated_by": "https://w3id.org/oc/corpus/br/01203/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/01203/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 3 [se/1 -> br/01203]",
+      "snapshot_of": "gbr:01203",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59610c6efe76836e840e8425"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:30.763713",
+      "generated_by": "https://w3id.org/oc/corpus/br/012021/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012021/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 21 [se/1 -> br/012021]",
+      "snapshot_of": "gbr:012021",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e4c25cf993cc86fce7a37c"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:34.035938",
+      "generated_by": "https://w3id.org/oc/corpus/br/012027/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012027/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 27 [se/1 -> br/012027]",
+      "snapshot_of": "gbr:012027",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/5985a053c12c60a2a6dd975e"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:47.730605",
+      "generated_by": "https://w3id.org/oc/corpus/br/012056/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012056/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 56 [se/1 -> br/012056]",
+      "snapshot_of": "gbr:012056",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/5964baa0fe76834094c8a7bc"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:49.922960",
+      "generated_by": "https://w3id.org/oc/corpus/br/012060/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012060/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 60 [se/1 -> br/012060]",
+      "snapshot_of": "gbr:012060",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:49.960984",
+      "generated_by": "https://w3id.org/oc/corpus/br/012063/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012063/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 63 [se/1 -> br/012063]",
+      "snapshot_of": "gbr:012063",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:49.980035",
+      "generated_by": "https://w3id.org/oc/corpus/br/012065/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012065/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 65 [se/1 -> br/012065]",
+      "snapshot_of": "gbr:012065",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:43.283608",
+      "generated_by": "https://w3id.org/oc/corpus/br/012047/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012047/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 47 [se/1 -> br/012047]",
+      "snapshot_of": "gbr:012047",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e717c6f993cc44fdafc156"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:28.462156",
+      "generated_by": "https://w3id.org/oc/corpus/br/012016/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012016/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 16 [se/1 -> br/012016]",
+      "snapshot_of": "gbr:012016",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e6ae2cf993cc0b5eafc158"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:28.950672",
+      "generated_by": "https://w3id.org/oc/corpus/br/012017/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012017/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 17 [se/1 -> br/012017]",
+      "snapshot_of": "gbr:012017",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e71823f993cc44e6afc158"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:45.701618",
+      "generated_by": "https://w3id.org/oc/corpus/br/012052/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012052/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 52 [se/1 -> br/012052]",
+      "snapshot_of": "gbr:012052",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/5984f7b9c12c606f74e72dc1"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:40.242709",
+      "generated_by": "https://w3id.org/oc/corpus/br/012041/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012041/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 41 [se/1 -> br/012041]",
+      "snapshot_of": "gbr:012041",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e71826f993cc44fbafc15a"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:36.057199",
+      "generated_by": "https://w3id.org/oc/corpus/br/012030/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012030/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 30 [se/1 -> br/012030]",
+      "snapshot_of": "gbr:012030",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e71814f993cc44efafc15d"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:39.823452",
+      "generated_by": "https://w3id.org/oc/corpus/br/012040/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012040/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 40 [se/1 -> br/012040]",
+      "snapshot_of": "gbr:012040",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e7179af993cc44d8afc156"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:41.318162",
+      "generated_by": "https://w3id.org/oc/corpus/br/012043/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012043/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 43 [se/1 -> br/012043]",
+      "snapshot_of": "gbr:012043",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e6ae41f993cc0b56afc15c"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:49.971652",
+      "generated_by": "https://w3id.org/oc/corpus/br/012064/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012064/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 64 [se/1 -> br/012064]",
+      "snapshot_of": "gbr:012064",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:31.125861",
+      "generated_by": "https://w3id.org/oc/corpus/br/012022/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012022/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 22 [se/1 -> br/012022]",
+      "snapshot_of": "gbr:012022",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e717a8f993cc44dfafc156"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:39.074656",
+      "generated_by": "https://w3id.org/oc/corpus/br/012038/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012038/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 38 [se/1 -> br/012038]",
+      "snapshot_of": "gbr:012038",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e717bff993cc44d8afc159"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:49.914066",
+      "generated_by": "https://w3id.org/oc/corpus/br/012059/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012059/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 59 [se/1 -> br/012059]",
+      "snapshot_of": "gbr:012059",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/5960a1bbfe7683676a0e8376"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:25.900500",
+      "generated_by": "https://w3id.org/oc/corpus/br/012010/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012010/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 10 [se/1 -> br/012010]",
+      "snapshot_of": "gbr:012010",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59888074c12c60637e1e58d1"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:33.139984",
+      "generated_by": "https://w3id.org/oc/corpus/br/012025/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012025/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 25 [se/1 -> br/012025]",
+      "snapshot_of": "gbr:012025",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e717e7f993cc44f9afc156"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:36.697364",
+      "generated_by": "https://w3id.org/oc/corpus/br/012032/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012032/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 32 [se/1 -> br/012032]",
+      "snapshot_of": "gbr:012032",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e717a8f993cc44fcafc156"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:29.681666",
+      "generated_by": "https://w3id.org/oc/corpus/br/012019/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012019/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 19 [se/1 -> br/012019]",
+      "snapshot_of": "gbr:012019",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e717b8f993cc44ffafc156"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:45.224975",
+      "generated_by": "https://w3id.org/oc/corpus/br/012051/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012051/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 51 [se/1 -> br/012051]",
+      "snapshot_of": "gbr:012051",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e7184ff993cc44f9afc15e"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:27.725642",
+      "generated_by": "https://w3id.org/oc/corpus/br/012014/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012014/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 14 [se/1 -> br/012014]",
+      "snapshot_of": "gbr:012014",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e717cbf993cc44feafc156"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:39.408419",
+      "generated_by": "https://w3id.org/oc/corpus/br/012039/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012039/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 39 [se/1 -> br/012039]",
+      "snapshot_of": "gbr:012039",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e7184ef993cc44d2afc15b"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:49.988395",
+      "generated_by": "https://w3id.org/oc/corpus/br/012066/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012066/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 66 [se/1 -> br/012066]",
+      "snapshot_of": "gbr:012066",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:38.189429",
+      "generated_by": "https://w3id.org/oc/corpus/br/012036/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012036/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 36 [se/1 -> br/012036]",
+      "snapshot_of": "gbr:012036",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e71800f993cc44edafc15b"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:42.946372",
+      "generated_by": "https://w3id.org/oc/corpus/br/012046/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012046/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 46 [se/1 -> br/012046]",
+      "snapshot_of": "gbr:012046",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e7183bf993cc4501afc156"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:40.920542",
+      "generated_by": "https://w3id.org/oc/corpus/br/012042/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012042/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 42 [se/1 -> br/012042]",
+      "snapshot_of": "gbr:012042",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e50f44f993cca99ee7a373"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:49.996743",
+      "generated_by": "https://w3id.org/oc/corpus/br/012067/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012067/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 67 [se/1 -> br/012067]",
+      "snapshot_of": "gbr:012067",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:21.239432",
+      "generated_by": "https://w3id.org/oc/corpus/br/01202/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/01202/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 2 [se/1 -> br/01202]",
+      "snapshot_of": "gbr:01202",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/596203d0fe76831d0221269c"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:29.340833",
+      "generated_by": "https://w3id.org/oc/corpus/br/012018/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012018/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 18 [se/1 -> br/012018]",
+      "snapshot_of": "gbr:012018",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e7185ef993cc44e9afc159"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:46.350322",
+      "generated_by": "https://w3id.org/oc/corpus/br/012053/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012053/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 53 [se/1 -> br/012053]",
+      "snapshot_of": "gbr:012053",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59610b02fe76836e840e83f2"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:46.728663",
+      "generated_by": "https://w3id.org/oc/corpus/br/012054/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012054/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 54 [se/1 -> br/012054]",
+      "snapshot_of": "gbr:012054",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e7180ff993cc44f0afc15a"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:22.862741",
+      "generated_by": "https://w3id.org/oc/corpus/br/01204/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/01204/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 4 [se/1 -> br/01204]",
+      "snapshot_of": "gbr:01204",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59dc74bffe768340301bea44"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:37.131199",
+      "generated_by": "https://w3id.org/oc/corpus/br/012033/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012033/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 33 [se/1 -> br/012033]",
+      "snapshot_of": "gbr:012033",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e717aef993cc44f7afc156"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:31.481750",
+      "generated_by": "https://w3id.org/oc/corpus/br/012023/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012023/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 23 [se/1 -> br/012023]",
+      "snapshot_of": "gbr:012023",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e717d3f993cc44deafc156"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:48.727017",
+      "generated_by": "https://w3id.org/oc/corpus/br/012058/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012058/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 58 [se/1 -> br/012058]",
+      "snapshot_of": "gbr:012058",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e51d67f993ccafa0e7a38d"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:50.018063",
+      "generated_by": "https://w3id.org/oc/corpus/br/012068/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012068/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 68 [se/1 -> br/012068]",
+      "snapshot_of": "gbr:012068",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:27.399738",
+      "generated_by": "https://w3id.org/oc/corpus/br/012013/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012013/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 13 [se/1 -> br/012013]",
+      "snapshot_of": "gbr:012013",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59883911c12c601f70e24505"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:32.524572",
+      "generated_by": "https://w3id.org/oc/corpus/br/012024/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012024/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 24 [se/1 -> br/012024]",
+      "snapshot_of": "gbr:012024",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/595fb4acfe76834ac0f6c060"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:47.071931",
+      "generated_by": "https://w3id.org/oc/corpus/br/012055/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012055/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 55 [se/1 -> br/012055]",
+      "snapshot_of": "gbr:012055",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/5964d4dbfe768343dfc8a7bf"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:34.463020",
+      "generated_by": "https://w3id.org/oc/corpus/br/012028/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012028/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 28 [se/1 -> br/012028]",
+      "snapshot_of": "gbr:012028",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e71865f993cc44ffafc158"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:37.846664",
+      "generated_by": "https://w3id.org/oc/corpus/br/012035/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012035/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 35 [se/1 -> br/012035]",
+      "snapshot_of": "gbr:012035",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e717c7f993cc44fdafc15a"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:33.579686",
+      "generated_by": "https://w3id.org/oc/corpus/br/012026/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012026/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 26 [se/1 -> br/012026]",
+      "snapshot_of": "gbr:012026",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e7185ff993cc44e9afc15d"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:25.421680",
+      "generated_by": "https://w3id.org/oc/corpus/br/01209/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/01209/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 9 [se/1 -> br/01209]",
+      "snapshot_of": "gbr:01209",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e717a4f993cc44dcafc15a"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:26.972079",
+      "generated_by": "https://w3id.org/oc/corpus/br/012012/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012012/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 12 [se/1 -> br/012012]",
+      "snapshot_of": "gbr:012012",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59857872c12c60872ddd975e"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:49.931967",
+      "generated_by": "https://w3id.org/oc/corpus/br/012061/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012061/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 61 [se/1 -> br/012061]",
+      "snapshot_of": "gbr:012061",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:44.454861",
+      "generated_by": "https://w3id.org/oc/corpus/br/012049/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012049/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 49 [se/1 -> br/012049]",
+      "snapshot_of": "gbr:012049",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e717dbf993cc44feafc159"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:42.537320",
+      "generated_by": "https://w3id.org/oc/corpus/br/012045/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012045/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 45 [se/1 -> br/012045]",
+      "snapshot_of": "gbr:012045",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e71883f993cc44faafc15f"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:37.521649",
+      "generated_by": "https://w3id.org/oc/corpus/br/012034/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012034/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 34 [se/1 -> br/012034]",
+      "snapshot_of": "gbr:012034",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/5988bc22c12c6089271e58d1"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:44.873320",
+      "generated_by": "https://w3id.org/oc/corpus/br/012050/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012050/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 50 [se/1 -> br/012050]",
+      "snapshot_of": "gbr:012050",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/598841c9c12c602acee24505"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:23.689998",
+      "generated_by": "https://w3id.org/oc/corpus/br/01205/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/01205/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 5 [se/1 -> br/01205]",
+      "snapshot_of": "gbr:01205",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/5960d40bfe76836c190e8398"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:28.129444",
+      "generated_by": "https://w3id.org/oc/corpus/br/012015/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012015/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 15 [se/1 -> br/012015]",
+      "snapshot_of": "gbr:012015",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59e71877f993cc44f0afc15d"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:49.952460",
+      "generated_by": "https://w3id.org/oc/corpus/br/012062/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012062/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 62 [se/1 -> br/012062]",
+      "snapshot_of": "gbr:012062",
+      "source": "bogus-url"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:35.721157",
+      "generated_by": "https://w3id.org/oc/corpus/br/012029/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/br/012029/prov/se/1",
+      "label": "snapshot entity metadata 1 related to bibliographic resource 29 [se/1 -> br/012029]",
+      "snapshot_of": "gbr:012029",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/595faf70fe7683456ff6c04d"
+    }
+  ]
+}

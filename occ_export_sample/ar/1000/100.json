@@ -1,0 +1,19 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": "role",
+      "iri": "gar:01201",
+      "label": "agent role 01201 [ar/01201]",
+      "role_of": "gra:01201",
+      "role_type": "author"
+    },
+    {
+      "a": "role",
+      "iri": "gar:01202",
+      "label": "agent role 01202 [ar/01202]",
+      "role_of": "gra:01203",
+      "role_type": "author"
+    }
+  ]
+}

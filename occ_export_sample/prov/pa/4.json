@@ -1,0 +1,8 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "a": "provenance_agent",
+  "iri": "gpa:01204",
+  "label": "provenance agent 4 [pa/4]",
+  "name": "OPAC SBN. Catalogo del Servizio Bibliotecario Nazionale.",
+  "related": "https://opac.sbn.it/"
+}

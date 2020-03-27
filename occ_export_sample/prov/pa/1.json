@@ -1,0 +1,8 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "a": "provenance_agent",
+  "iri": "gpa:01201",
+  "label": "provenance agent 1 [pa/1]",
+  "name": "VeniceScholar API v1.0",
+  "related": "https://api-venicescholar.dhlab.epfl.ch/v1/"
+}

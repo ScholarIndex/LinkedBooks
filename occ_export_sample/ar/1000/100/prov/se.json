@@ -1,0 +1,23 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:21.231368",
+      "generated_by": "https://w3id.org/oc/corpus/ar/01201/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/ar/01201/prov/se/1",
+      "label": "snapshot entity metadata 1 related to agent role 1 [se/1 -> ar/01201]",
+      "snapshot_of": "gar:01201",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/596203d0fe76831d0221269c"
+    },
+    {
+      "a": "metadata_snapshot",
+      "generated": "2020-03-27T17:21:21.533932",
+      "generated_by": "https://w3id.org/oc/corpus/ar/01202/prov/ca/1",
+      "iri": "https://w3id.org/oc/corpus/ar/01202/prov/se/1",
+      "label": "snapshot entity metadata 1 related to agent role 2 [se/1 -> ar/01202]",
+      "snapshot_of": "gar:01202",
+      "source": "https://api-venicescholar.dhlab.epfl.ch/v1//books/59610c6efe76836e840e8425"
+    }
+  ]
+}

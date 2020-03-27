@@ -1,0 +1,19 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": "curatorial_role",
+      "held_by": "gpa:01201",
+      "iri": "https://w3id.org/oc/corpus/ar/01201/prov/cr/1",
+      "label": "curatorial role 1 related to agent role 1 [cr/1 -> ar/01201]",
+      "prov:hadRole": "metadata_provider"
+    },
+    {
+      "a": "curatorial_role",
+      "held_by": "gpa:01201",
+      "iri": "https://w3id.org/oc/corpus/ar/01202/prov/cr/1",
+      "label": "curatorial role 1 related to agent role 2 [cr/1 -> ar/01202]",
+      "prov:hadRole": "metadata_provider"
+    }
+  ]
+}

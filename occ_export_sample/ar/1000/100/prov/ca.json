@@ -1,0 +1,25 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": [
+        "curatorial_activity",
+        "creation"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/ar/01201' has been created.",
+      "involved": "gpa:01201",
+      "iri": "https://w3id.org/oc/corpus/ar/01201/prov/ca/1",
+      "label": "curatorial activity 1 related to agent role 1 [ca/1 -> ar/01201]"
+    },
+    {
+      "a": [
+        "curatorial_activity",
+        "creation"
+      ],
+      "description": "The entity 'https://w3id.org/oc/corpus/ar/01202' has been created.",
+      "involved": "gpa:01201",
+      "iri": "https://w3id.org/oc/corpus/ar/01202/prov/ca/1",
+      "label": "curatorial activity 1 related to agent role 2 [ca/1 -> ar/01202]"
+    }
+  ]
+}

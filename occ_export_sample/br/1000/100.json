@@ -1,0 +1,1041 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "@graph": [
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Tip. Della Società Tipografica, Antica Tip. Soliani,",
+      "fabio:hasPlaceOfPublication": "Modena",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1902"
+      },
+      "iri": "gbr:012019",
+      "label": "bibliographic resource 012019 [br/012019]",
+      "related": "http://id.sbn.it/bid/CUB0600999",
+      "title": "Sinossi delle principali disposizioni intorno agli assegni, all'amministrazione e contabilità di Compagnia e di distaccamento per gli allievi e sottufficiali allievi del 2 Corso della scuola militare aspiranti alle armi combattenti"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Laurens,",
+      "fabio:hasPlaceOfPublication": "Paris",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1899"
+      },
+      "iri": "gbr:012051",
+      "label": "bibliographic resource 012051 [br/012051]",
+      "related": "http://id.sbn.it/bid/UBO1892925",
+      "title": "Les premiers venitiens"
+    },
+    {
+      "a": [
+        "periodical_volume",
+        "document"
+      ],
+      "iri": "gbr:012061",
+      "label": "bibliographic resource 012061 [br/012061]",
+      "number": "56",
+      "part_of": "gbr:012060"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Tip. della R. Accademia dei Lincei,",
+      "fabio:hasPlaceOfPublication": "Roma",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1893"
+      },
+      "iri": "gbr:012014",
+      "label": "bibliographic resource 012014 [br/012014]",
+      "related": "http://id.sbn.it/bid/NAP0274278",
+      "title": "L' indole e gli studi di Giovanni di Cosimo de' Medici : notizie e documenti"
+    },
+    {
+      "a": [
+        "fabio:ArchivalDocumentSet",
+        "document"
+      ],
+      "iri": "gbr:01201",
+      "label": "bibliographic resource 01201 [br/01201]",
+      "rdfs:seeAlso": {
+        "iri": "http://data.dhlab.epfl.ch/asve/IT:ASVe:0005"
+      },
+      "related": "http://www.archiviodistatovenezia.it/siasve/cgi-bin/pagina.pl?Tipo=fondo&Chiave=9",
+      "title": "Cancelleria inferiore, Doge, 1364 - 1797 (IT:ASVe:0005)"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "presso Francesco Andreola,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1803"
+      },
+      "iri": "gbr:012048",
+      "label": "bibliographic resource 012048 [br/012048]",
+      "related": "http://id.sbn.it/bid/RMRE000171",
+      "title": "Memorie trevigiane sulle opere di disegno dal mille e cento al mille ottocento per servire alla storia delle belle arti d'Italia. Volume primo [-secondo] [Domenico Maria Federici]"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Stab. Carlo Ferrari,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1901"
+      },
+      "iri": "gbr:012012",
+      "label": "bibliographic resource 012012 [br/012012]",
+      "related": "http://id.sbn.it/bid/TSA1416089",
+      "title": "Guida di Venezia : per uso degli uffici e degli agenti municipali"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "N. Zanichelli,",
+      "fabio:hasPlaceOfPublication": "Bologna",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1886"
+      },
+      "iri": "gbr:012027",
+      "label": "bibliographic resource 012027 [br/012027]",
+      "related": "http://id.sbn.it/bid/CUB0368651",
+      "title": "Le opere dei Maestri italiani nelle gallerie di Monaco, Dresda e Berlino : saggio critico"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "typis Bernardini Pomatelli,",
+      "fabio:hasPlaceOfPublication": "Ferrariæ",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1735"
+      },
+      "iri": "gbr:012055",
+      "label": "bibliographic resource 012055 [br/012055]",
+      "related": "http://id.sbn.it/bid/FERE000027",
+      "title": "Historia almi Ferrariæ gymnasii in duas partes divisa, eminentiss., & reverendiss. principi d. Thomæ Rufo s.r.e. cardinali Prænestino episcopo, ac archiepiscopo Ferrariensi a Ferrante Borsetti Ferranti Bolani j.u.d. illustrissimæ civitati Ferrariæ à secretis dicata. Pars prima [-secunda]"
+    },
+    {
+      "a": [
+        "document",
+        "periodical_volume"
+      ],
+      "iri": "gbr:012064",
+      "label": "bibliographic resource 012064 [br/012064]",
+      "number": "20",
+      "part_of": "gbr:012063"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Istituto veneto di arti grafiche,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1907"
+      },
+      "iri": "gbr:012013",
+      "label": "bibliographic resource 012013 [br/012013]",
+      "related": "http://id.sbn.it/bid/NAP0165786",
+      "title": "Le origini della pittura veneziana : 1300-1500"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "a spese Remondini di Venezia, 1795",
+      "fabio:hasPlaceOfPublication": "Bassano",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1795"
+      },
+      "iri": "gbr:012037",
+      "label": "bibliographic resource 012037 [br/012037]",
+      "related": "http://id.sbn.it/bid/CFIE005900",
+      "title": "Storia pittorica della Italia dell'ab. Luigi Lanzi antiquario della r. corte di Toscana. Tomo primo [-secondo parte seconda] ..."
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Istituto Italiano d'Arti Grafiche,",
+      "fabio:hasPlaceOfPublication": "Bergamo",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1909"
+      },
+      "iri": "gbr:01204",
+      "label": "bibliographic resource 01204 [br/01204]",
+      "related": "http://id.sbn.it/bid/NAP0165793",
+      "title": "La storia della pittura veneziana"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Successori Le Monnier,",
+      "fabio:hasPlaceOfPublication": "Firenze",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1866"
+      },
+      "iri": "gbr:012018",
+      "label": "bibliographic resource 012018 [br/012018]",
+      "related": "http://id.sbn.it/bid/TO00808482",
+      "title": "Il duomo di Orvieto : descritto ed illustrato"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Regia tipografia,",
+      "fabio:hasPlaceOfPublication": "Bologna",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1900"
+      },
+      "iri": "gbr:012030",
+      "label": "bibliographic resource 012030 [br/012030]",
+      "related": "http://id.sbn.it/bid/UBO1150409",
+      "title": "Bologna alla esposizione nazionale d'igiene in Napoli (aprile-ottobre 1900) : guida-ricordo con illustrazioni"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "iri": "gbr:012041",
+      "label": "bibliographic resource 012041 [br/012041]",
+      "related": "http://id.sbn.it/bid/LUA0514800",
+      "title": "Esperienze di valutazione e misurazione in Italia e loro riflessi sulla politica bibliotecaria delle autonomia : l'attività dell'ICCU"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "contributor": "gar:01201",
+      "dcterms:publisher": "Coana,",
+      "fabio:hasPlaceOfPublication": "Parenzo",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1905"
+      },
+      "iri": "gbr:01202",
+      "label": "bibliographic resource 01202 [br/01202]",
+      "related": "http://id.sbn.it/bid/FOG0091624",
+      "title": "Il comune polese e la signoria dei Castropola : con documenti inediti"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "typis Jo. Baptistæ Pasquali,",
+      "fabio:hasPlaceOfPublication": "Venetiis",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1749"
+      },
+      "iri": "gbr:012059",
+      "label": "bibliographic resource 012059 [br/012059]",
+      "related": "http://id.sbn.it/bid/TO0E072293",
+      "title": "Ecclesiæ Venetæ antiquis monumentis nunc etiam primum editis illustratæ ac in decades distributæ. Decas prima [-decimæ sextæ pars posterior]"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "presso Giuseppe Picotti stampatore, 1824",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1824"
+      },
+      "iri": "gbr:012024",
+      "label": "bibliographic resource 012024 [br/012024]",
+      "related": "http://id.sbn.it/bid/TO0E017353",
+      "title": "Delle inscrizioni veneziane raccolte ed illustrate da Emmanuele Antonio Cigogna cittadino veneto. Volume 1. [-6.]"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Tip. vaticana,",
+      "fabio:hasPlaceOfPublication": "Roma",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1886"
+      },
+      "iri": "gbr:012040",
+      "label": "bibliographic resource 012040 [br/012040]",
+      "related": "http://id.sbn.it/bid/MO10018763",
+      "title": "La basilica di S. Stefano Rotondo, il monastero di S. Erasmo e la casa dei Valerii sul Celio"
+    },
+    {
+      "a": [
+        "article",
+        "document"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "2008"
+      },
+      "iri": "gbr:012062",
+      "label": "bibliographic resource 012062 [br/012062]",
+      "part_of": "gbr:012061",
+      "title": "Per qualche libbra di sale. Iprocessi del magistrato al sal"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "G. C. Sansoni Edit.,",
+      "fabio:hasPlaceOfPublication": "Firenze",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1896"
+      },
+      "iri": "gbr:012031",
+      "label": "bibliographic resource 012031 [br/012031]",
+      "related": "http://id.sbn.it/bid/CUB0655222",
+      "title": "Gentile da Fabriano e il pisanello : Edizione critica con note, documenti e 96 riproduzioni a cura di Adolfo Venturi"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "F. Le Monnier,",
+      "fabio:hasPlaceOfPublication": "Firenze",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1859"
+      },
+      "iri": "gbr:012028",
+      "label": "bibliographic resource 012028 [br/012028]",
+      "related": "http://id.sbn.it/bid/SBL0063721",
+      "title": "Il libro dell'arte, o Trattato della pittura"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Off. Tip. di Fr. Zammit,",
+      "fabio:hasPlaceOfPublication": "Noto",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1890"
+      },
+      "iri": "gbr:012049",
+      "label": "bibliographic resource 012049 [br/012049]",
+      "related": "http://id.sbn.it/bid/LIA0233869",
+      "title": "Biografia documentata di Giovanni Aurispa"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Alfani e Venturi,",
+      "fabio:hasPlaceOfPublication": "Firenze",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1906"
+      },
+      "iri": "gbr:012045",
+      "label": "bibliographic resource 012045 [br/012045]",
+      "related": "http://id.sbn.it/bid/CUB0010231",
+      "title": "Della vita e delle opere di Augusto Conti"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "pei fratelli Mattiuzzi,",
+      "fabio:hasPlaceOfPublication": "Udine",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1823"
+      },
+      "iri": "gbr:012046",
+      "label": "bibliographic resource 012046 [br/012046]",
+      "related": "http://id.sbn.it/bid/RMRE001575",
+      "title": "Storia delle belle arti friulane scritta dal conte Fabio di Maniago"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Istituto Veneto di Arti Grafiche,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1907"
+      },
+      "iri": "gbr:01206",
+      "label": "bibliographic resource 01206 [br/01206]",
+      "related": "http://id.sbn.it/bid/CUB0657796",
+      "title": "Le origini della pittura veneziana, 1300-1500"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Istituto italiano d'arti grafiche,",
+      "fabio:hasPlaceOfPublication": "Bergamo",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1897"
+      },
+      "iri": "gbr:012054",
+      "label": "bibliographic resource 012054 [br/012054]",
+      "related": "http://id.sbn.it/bid/USM1965394",
+      "title": "L'espressione mimica del dolore in alcuni quadri dell'Accademia Carrara di Bergamo"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "nella tipografia di Alvisopoli,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1815"
+      },
+      "iri": "gbr:012020",
+      "label": "bibliographic resource 012020 [br/012020]",
+      "related": "http://id.sbn.it/bid/RMLE007577",
+      "title": "Guida per la citta di Venezia all'amico delle belle arti opera di Giannantonio Moschini"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Tipografia del commercio edit.,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1865"
+      },
+      "iri": "gbr:01207",
+      "label": "bibliographic resource 01207 [br/01207]",
+      "related": "http://id.sbn.it/bid/PUV1124645",
+      "title": "Gli Archivi della Repubblica Veneta dal secolo 13. al 19."
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "presso Gio. Battista Regozza,",
+      "fabio:hasPlaceOfPublication": "In Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1733"
+      },
+      "iri": "gbr:01209",
+      "label": "bibliographic resource 01209 [br/01209]",
+      "related": "http://id.sbn.it/bid/UM1E027609",
+      "title": "Ragionamento della passione di Gesù Cristo recitato nella chiesa ducale di San Marco dal padre Serafino da Vicenza Cappuccino il venerdì santo dell'anno 1733"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Societa Laziale tipografica editrice,",
+      "fabio:hasPlaceOfPublication": "Roma",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1891"
+      },
+      "iri": "gbr:012026",
+      "label": "bibliographic resource 012026 [br/012026]",
+      "related": "http://id.sbn.it/bid/RLZ0302372",
+      "title": "Il Duomo di Orvieto e i suoi restauri : monografie storiche condotte sopra i documenti"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "per Francesco Andreola,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1820"
+      },
+      "iri": "gbr:012042",
+      "label": "bibliographic resource 012042 [br/012042]",
+      "related": "http://id.sbn.it/bid/UM1E012476",
+      "title": "Osservazioni sulle cause che possono aver fatto ritrovare nel secolo 14. in parte pregiudicata la laguna rispetto alla posizione di Venezia. Opuscoli due dell'autore delle Memorie storiche de' veneti primi e secondi"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Tip. Visentini,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1903"
+      },
+      "iri": "gbr:012050",
+      "label": "bibliographic resource 012050 [br/012050]",
+      "related": "http://id.sbn.it/bid/UBO1582668",
+      "title": "Catalogo delle R. R. Gallerie di Venezia"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "B.Vecchioni e figli,",
+      "fabio:hasPlaceOfPublication": "Aquila",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1908"
+      },
+      "iri": "gbr:012015",
+      "label": "bibliographic resource 012015 [br/012015]",
+      "related": "http://id.sbn.it/bid/SBL0391939",
+      "title": "L'arte della stampa in Aquila : rassegna storico-bibliografica"
+    },
+    {
+      "a": [
+        "document",
+        "article"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1910"
+      },
+      "iri": "gbr:012065",
+      "label": "bibliographic resource 012065 [br/012065]",
+      "part_of": "gbr:012064",
+      "title": "Jacopo Sansovino Scultore, Note ed appunti"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Tip. L. Cecchini,",
+      "fabio:hasPlaceOfPublication": "Roma",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1906"
+      },
+      "iri": "gbr:012047",
+      "label": "bibliographic resource 012047 [br/012047]",
+      "related": "http://id.sbn.it/bid/UM10039314",
+      "title": "Le gallerie comunali dell'Umbria"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Istituto Italiano D'arti Grafiche,",
+      "fabio:hasPlaceOfPublication": "Bergamo",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1909"
+      },
+      "iri": "gbr:012056",
+      "label": "bibliographic resource 012056 [br/012056]",
+      "related": "http://id.sbn.it/bid/CUB0632021",
+      "title": "La storia della pittura veneziana : Parte I. Le origini"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "dalla tipografia Crescini,",
+      "fabio:hasPlaceOfPublication": "Padova",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1826"
+      },
+      "iri": "gbr:012058",
+      "label": "bibliographic resource 012058 [br/012058]",
+      "related": "http://id.sbn.it/bid/VIAE033117",
+      "title": "Per le nozze Crescini-Meneghini memoria sulle pitture del Guariento del prof. Lodovico Menin"
+    },
+    {
+      "a": [
+        "periodical_journal",
+        "document"
+      ],
+      "iri": "gbr:012060",
+      "label": "bibliographic resource 012060 [br/012060]",
+      "title": "Studi veneziani"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "stab. tipografico fratelli Visentini,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1885"
+      },
+      "iri": "gbr:012043",
+      "label": "bibliographic resource 012043 [br/012043]",
+      "related": "http://id.sbn.it/bid/VEA1019191",
+      "title": "Per le nozze Morosini-Rombo : sulle origini della pittura veneziana note per la storia dell'arte"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Hiersmann,",
+      "fabio:hasPlaceOfPublication": "Leipzig",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1898"
+      },
+      "iri": "gbr:012016",
+      "label": "bibliographic resource 012016 [br/012016]",
+      "related": "http://id.sbn.it/bid/TO00708756",
+      "title": "Altichiero und seine Schule : ein Beitrag zur Geschichte der oberitalienischen Malerei im Trecento"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "N. Zanichelli,",
+      "fabio:hasPlaceOfPublication": "Bologna",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1908"
+      },
+      "iri": "gbr:012035",
+      "label": "bibliographic resource 012035 [br/012035]",
+      "related": "http://id.sbn.it/bid/UBO3074241",
+      "title": "La tomba di Taddeo Pepoli nella chiesa di S. Domenico in Bologna"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "tip. S. C. Propaganda Fide,",
+      "fabio:hasPlaceOfPublication": "Roma",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1891"
+      },
+      "iri": "gbr:012025",
+      "label": "bibliographic resource 012025 [br/012025]",
+      "related": "http://id.sbn.it/bid/RML0138777",
+      "title": "Orvieto 1891 : 6. centenario dalla fondazione del Duomo"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Succ. Le Monnier Tip. Edit.,",
+      "fabio:hasPlaceOfPublication": "Firenze",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1887"
+      },
+      "iri": "gbr:012017",
+      "label": "bibliographic resource 012017 [br/012017]",
+      "related": "http://id.sbn.it/bid/CUB0175083",
+      "title": "Storia della pittura in Italia dal secolo 2. al secolo 16. : Volume 4. (I pittori contemporanei ai fiorentini ed ai senesi del secolo 14. e prima parte del secolo successivo nelle altre provincie d'Italia)"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "P. Milesi,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1838"
+      },
+      "iri": "gbr:012011",
+      "label": "bibliographic resource 012011 [br/012011]",
+      "related": "http://id.sbn.it/bid/SBL0415914",
+      "title": "Pareri di 15 architetti e notizie storiche intorno al Palazzo Ducale di Venezia"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "tip. A. Lombardi,",
+      "fabio:hasPlaceOfPublication": "Milano",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1901"
+      },
+      "iri": "gbr:012032",
+      "label": "bibliographic resource 012032 [br/012032]",
+      "related": "http://id.sbn.it/bid/LO10810314",
+      "title": "Catalogo della R. Accademia di Brera in Milano"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "presso Gio. Battista Sgaua,",
+      "fabio:hasPlaceOfPublication": "In Venetia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1648"
+      },
+      "iri": "gbr:012044",
+      "label": "bibliographic resource 012044 [br/012044]",
+      "related": "http://id.sbn.it/bid/RMRE000266",
+      "title": "Le marauiglie dell'arte, ouero Le vite de gl'illustri pittori veneti, e dello Stato. Oue sono raccolte le opere insigni, i costumi, & i ritratti loro. Con la narratione delle historie, delle fauole, e delle moralità da quelli dipinte. Descritte dal caualier Carlo Ridolfi. Con tre tauole copiose de' nomi de' pittori antichi, e moderni, e delle cose notabili. Parte prima[-seconda] ..."
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Impr. Libr. Arnoldianae,",
+      "fabio:hasPlaceOfPublication": "Dresdae",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1846"
+      },
+      "iri": "gbr:012033",
+      "label": "bibliographic resource 012033 [br/012033]",
+      "related": "http://id.sbn.it/bid/PUV0629899",
+      "title": "Jacobi a Voragine Legenda aurea : vulgo historia lombardica dicta"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Ripamonti Carpano,",
+      "fabio:hasPlaceOfPublication": "Venezia [etc.]",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1852"
+      },
+      "iri": "gbr:012057",
+      "label": "bibliographic resource 012057 [br/012057]",
+      "related": "http://id.sbn.it/bid/UBO1422179",
+      "title": "Guida di Venezia e delle isole circonvicine"
+    },
+    {
+      "a": [
+        "document",
+        "periodical_volume"
+      ],
+      "iri": "gbr:012067",
+      "label": "bibliographic resource 012067 [br/012067]",
+      "number": "7",
+      "part_of": "gbr:012066"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Georg Reimer,",
+      "fabio:hasPlaceOfPublication": "Berlin",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1904"
+      },
+      "iri": "gbr:012036",
+      "label": "bibliographic resource 012036 [br/012036]",
+      "related": "http://id.sbn.it/bid/UBO1042481",
+      "title": "Fuhrer durch das Pergamon-Museum"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "per Vincenzo Flauto,",
+      "fabio:hasPlaceOfPublication": "In Napoli",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1795"
+      },
+      "iri": "gbr:01208",
+      "label": "bibliographic resource 01208 [br/01208]",
+      "related": "http://id.sbn.it/bid/PARE067177",
+      "title": "Del metodo di studiare la pittura, e delle cagioni di sua decadenza. Dialoghi di Niccola Passeri di Faenza ... Aggiuntovi un piano di statuti per formare una pubblica accademia di pittura, scultura, ed architettura, ideato dallo stesso autore. Tomo 1. [-2.]"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Sansoni,",
+      "fabio:hasPlaceOfPublication": "Firenze",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1896"
+      },
+      "iri": "gbr:012023",
+      "label": "bibliographic resource 012023 [br/012023]",
+      "related": "http://id.sbn.it/bid/NAP0093062",
+      "title": "Le vite dei piu eccellenti pittori, scultori e architettori"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "P. Naratovich,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1856"
+      },
+      "iri": "gbr:012029",
+      "label": "bibliographic resource 012029 [br/012029]",
+      "related": "http://id.sbn.it/bid/BRI0024494",
+      "title": "Sulle consorterie delle arti edificative in Venezia : studi storici"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Hoepli,",
+      "fabio:hasPlaceOfPublication": "Milano",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1906"
+      },
+      "iri": "gbr:012010",
+      "label": "bibliographic resource 012010 [br/012010]",
+      "related": "http://id.sbn.it/bid/VEA0155327",
+      "title": "Vittore Carpaccio : la vita e le opere"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Regia deputazione di storia patria, stampa",
+      "fabio:hasPlaceOfPublication": "Parma",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1864"
+      },
+      "iri": "gbr:012022",
+      "label": "bibliographic resource 012022 [br/012022]",
+      "related": "http://id.sbn.it/bid/PAR0956642",
+      "title": "Il Battistero di Parma"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Vivalda, stampa",
+      "fabio:hasPlaceOfPublication": "Torino",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1995"
+      },
+      "iri": "gbr:012039",
+      "label": "bibliographic resource 012039 [br/012039]",
+      "related": "http://id.sbn.it/bid/VIA0054656",
+      "title": "I Parchi e le Alpi : storia, vocazioni, destini e contraddizioni delle aree protette alpine"
+    },
+    {
+      "a": [
+        "article",
+        "document"
+      ],
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1925"
+      },
+      "iri": "gbr:012068",
+      "label": "bibliographic resource 012068 [br/012068]",
+      "part_of": "gbr:012067",
+      "title": "I nemici di Francesco Morosini"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "tip. del Commercio,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1859"
+      },
+      "iri": "gbr:012053",
+      "label": "bibliographic resource 012053 [br/012053]",
+      "related": "http://id.sbn.it/bid/VEA1099287",
+      "title": "Notizie delle opere d'arte e d'antichità della raccolta Correr di Venezia"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "Imprimerie Royale,",
+      "fabio:hasPlaceOfPublication": "Paris",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1845"
+      },
+      "iri": "gbr:012021",
+      "label": "bibliographic resource 012021 [br/012021]",
+      "related": "http://id.sbn.it/bid/PAR0943448",
+      "title": "Manuel d'iconographie chretienne grecque et latine"
+    },
+    {
+      "a": [
+        "document",
+        "periodical_journal"
+      ],
+      "iri": "gbr:012066",
+      "label": "bibliographic resource 012066 [br/012066]",
+      "title": "Archivio veneto-tridentino"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "per li Baba,",
+      "fabio:hasPlaceOfPublication": "In Venetia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1664"
+      },
+      "iri": "gbr:012038",
+      "label": "bibliographic resource 012038 [br/012038]",
+      "related": "http://id.sbn.it/bid/PUVE021809",
+      "title": "Cronichetta dell'origine, principio, e fondatione della chiesa, & monasterio della Madonna de Miracoli di Venetia. Dedicata all'illustriss.mo & eccellentiss.mo signor Daniel Bragadin procurator di S. Marco"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "contributor": "gar:01202",
+      "dcterms:publisher": "Edizioni Daria Guarnati,",
+      "fabio:hasPlaceOfPublication": "Venezia",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1946"
+      },
+      "iri": "gbr:01203",
+      "label": "bibliographic resource 01203 [br/01203]",
+      "related": "http://id.sbn.it/bid/RML0061312",
+      "title": "Il quaderno dei Tiepolo al museo Correr di Venezia"
+    },
+    {
+      "a": [
+        "document",
+        "periodical_journal"
+      ],
+      "iri": "gbr:012063",
+      "label": "bibliographic resource 012063 [br/012063]",
+      "title": "Nuovo archivio veneto"
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "Istituto Italiano D'arti Grafiche,",
+      "fabio:hasPlaceOfPublication": "Bergamo",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1905"
+      },
+      "iri": "gbr:01205",
+      "label": "bibliographic resource 01205 [br/01205]",
+      "related": "http://id.sbn.it/bid/CUB0460911",
+      "title": "La storia di Venezia nella vita privata dalle origini alla caduta della Repubblica"
+    },
+    {
+      "a": [
+        "document",
+        "book"
+      ],
+      "dcterms:publisher": "typis hæredis Victorij Benatij,",
+      "fabio:hasPlaceOfPublication": "Bononiæ",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1641"
+      },
+      "iri": "gbr:012034",
+      "label": "bibliographic resource 012034 [br/012034]",
+      "related": "http://id.sbn.it/bid/RMRE001659",
+      "title": "Minerualia Bonon. ciuium anademata, seu Bibliotheca Bononiensis, cui accessit antiquiorum pictorum, & sculptorum Bonon. breuis catalogus. Collectore Io. Antonio Bumaldo ..."
+    },
+    {
+      "a": [
+        "book",
+        "document"
+      ],
+      "dcterms:publisher": "F. H. Schimpff,",
+      "fabio:hasPlaceOfPublication": "Trieste",
+      "fabio:hasPublicationYear": {
+        "a": "xsd:year",
+        "value": "1897"
+      },
+      "iri": "gbr:012052",
+      "label": "bibliographic resource 012052 [br/012052]",
+      "related": "http://id.sbn.it/bid/RML0060635",
+      "title": "Il Trecento a Trieste"
+    }
+  ]
+}

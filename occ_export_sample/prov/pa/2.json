@@ -1,0 +1,8 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "a": "provenance_agent",
+  "iri": "gpa:01202",
+  "label": "provenance agent 2 [pa/2]",
+  "name": "LinkedBooks RDF exporter vX.X",
+  "related": "https://github.com/ScholarIndex/LinkedBooks/blob/master/rdf_exporter/rdf_exporter.py"
+}

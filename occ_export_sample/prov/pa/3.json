@@ -1,0 +1,8 @@
+{
+  "@context": "https://w3id.org/oc/corpus/context.json",
+  "a": "provenance_agent",
+  "iri": "gpa:01203",
+  "label": "provenance agent 3 [pa/3]",
+  "name": "SIASVE. Sistema informativo dell'Archivio di Stato di Venezia.",
+  "related": "http://www.archiviodistatovenezia.it/siasve/cgi-bin/pagina.pl?Tipo=home"
+}
