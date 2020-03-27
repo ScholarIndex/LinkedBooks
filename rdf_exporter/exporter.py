@@ -37,6 +37,8 @@ logger = logging.getLogger()
 
 OCC_CONTEXT_URI = "https://w3id.org/oc/corpus/context.json"
 DATASET_PREFIX = "0120"
+EXPORTER_GH_URL = "https://github.com/ScholarIndex/LinkedBooks/blob/master/rdf_exporter/rdf_exporter.py"  # noqa: E501
+SIASVE_URL = "http://www.archiviodistatovenezia.it/siasve/cgi-bin/pagina.pl?Tipo=home"  # noqa: E501
 
 ####################################
 # declaration of rdflib namespaces #
@@ -49,7 +51,7 @@ prov_ns = Namespace("http://www.w3.org/ns/prov#")
 occ_ns = Namespace("https://w3id.org/oc/ontology/")
 fabio_ns = Namespace("http://purl.org/spar/fabio/")
 cito_ns = Namespace("http://purl.org/spar/cito/")
-datacite_ns =  Namespace("http://purl.org/spar/datacite/")
+datacite_ns = Namespace("http://purl.org/spar/datacite/")
 dcterms_ns = Namespace("http://purl.org/dc/terms/")
 
 
@@ -64,24 +66,24 @@ class RDFExporter(object):
         self._prefix = prefix
 
         # create entity dataframe based on namedtuple structure
-        self._entities_df = pd.DataFrame(
-            [],
-            columns=Entity._fields
-        )
+        self._entities_df = pd.DataFrame([], columns=Entity._fields)
 
         # create provenance dataframe based on namedtuple structure
-        self._prov_entities_df = pd.DataFrame(
-            [],
-            columns=ProvenanceEntity._fields
-        )
+        self._prov_entities_df = pd.DataFrame([], columns=ProvenanceEntity._fields)
 
     def count(self, entity_type, is_provenance=False, described_entity=None):
         """Get the entity count for a given entity type."""
         if is_provenance:
             df = self._prov_entities_df
-            count = df[
-                df.described_resource_id==described_entity.resource_id
-            ].shape[0]
+            # the counting for ProvenanceAgents needs to be absolute
+            if entity_type == "provenance_agent":
+                count = df[df.type == entity_type].shape[0]
+            # while for all other provenance entities is relative to the
+            # entity they refer to
+            else:
+                count = df[
+                    df.described_resource_id == described_entity.resource_id
+                ].shape[0]
             return count
         else:
             df = self._entities_df
@@ -100,22 +102,15 @@ class RDFExporter(object):
         :type entities: list of `Entity` instances
         """
         # differentiate between provenance and non-provenance entities
-        normal_entities = [
-            entity
-            for entity in entities
-            if isinstance(entity, Entity)
-        ]
+        normal_entities = [entity for entity in entities if isinstance(entity, Entity)]
 
         provenance_entities = [
-            entity
-            for entity in entities
-            if isinstance(entity, ProvenanceEntity)
+            entity for entity in entities if isinstance(entity, ProvenanceEntity)
         ]
 
         if normal_entities:
             self._entities_df = self._entities_df.append(
-                pd.DataFrame(normal_entities, columns=Entity._fields),
-                ignore_index=True
+                pd.DataFrame(normal_entities, columns=Entity._fields), ignore_index=True
             )
 
             for entity in normal_entities:
@@ -123,11 +118,8 @@ class RDFExporter(object):
 
         if provenance_entities:
             self._prov_entities_df = self._prov_entities_df.append(
-                pd.DataFrame(
-                    provenance_entities,
-                    columns=ProvenanceEntity._fields
-                ),
-                ignore_index=True
+                pd.DataFrame(provenance_entities, columns=ProvenanceEntity._fields),
+                ignore_index=True,
             )
 
             for entity in provenance_entities:
@@ -142,24 +134,31 @@ class RDFExporter(object):
         return resource_id, uri
 
     def mint_provenance_uri(
-        self,
-        prov_entity_type: str,
-        described_entity: Entity
+        self, prov_entity_type: str, described_entity: Entity
     ) -> URIRef:
         prefix = TYPE_MAPPINGS[prov_entity_type]
         count = self.count(prov_entity_type, True, described_entity) + 1
         # resource_id = os.path.join(prefix, self._prefix + str(count))
         # TODO: clarify with Silvio
         resource_id = os.path.join(prefix, str(count))
-        uri = URIRef(
-            os.path.join(
-                self._rdf_base,
-                described_entity.resource_id,
-                "prov",
-                prefix,
-                str(count)
+        if prov_entity_type == "provenance_agent":
+            uri = URIRef(
+                os.path.join(
+                    self._rdf_base,
+                    "prov",
+                    os.path.join(prefix, self._prefix + str(count)),
+                )
             )
-        )
+        else:
+            uri = URIRef(
+                os.path.join(
+                    self._rdf_base,
+                    described_entity.resource_id,
+                    "prov",
+                    prefix,
+                    str(count),
+                )
+            )
         return resource_id, uri
 
     def create_label(self, entity_type: str) -> str:
@@ -168,25 +167,26 @@ class RDFExporter(object):
         return f"{entity_type.replace('_', ' ')} {res_id} [{prefix}/{res_id}]"
 
     def create_provenance_label(
-            self,
-            prov_entity_type: str,
-            described_entity: Entity
-        ) -> str:
+        self, prov_entity_type: str, described_entity: Entity
+    ) -> str:
         prefix = TYPE_MAPPINGS[prov_entity_type]
         count = self.count(prov_entity_type, True, described_entity) + 1
         # TODO: clarify with Silvio the use of dataset prefix in provenance
         # URIs
         prov_res_id = f"{prefix}/{str(count)}"
-        prov_label = prov_entity_type.replace('_', ' ')
-        describ_counter = described_entity.resource_id.split(
-            '/'
-        )[-1].replace(self._prefix, "")
-        describ_label = described_entity.type.replace('_', ' ')
-        return (
-            f"{prov_label} {count} related to {describ_label} "
-            f"{describ_counter} [{prov_res_id} -> "
-            f"{described_entity.resource_id}]"
-        )
+        prov_label = prov_entity_type.replace("_", " ")
+        if described_entity:
+            describ_counter = described_entity.resource_id.split("/")[-1].replace(
+                self._prefix, ""
+            )
+            describ_label = described_entity.type.replace("_", " ")
+            return (
+                f"{prov_label} {count} related to {describ_label} "
+                f"{describ_counter} [{prov_res_id} -> "
+                f"{described_entity.resource_id}]"
+            )
+        else:
+            return f"{prov_label} {count} [{prov_res_id}]"
 
     # TODO: implement
     def find_existing_uri(self, local_id, entity_type):
@@ -195,7 +195,7 @@ class RDFExporter(object):
         already processed by querying `self._entities_df`. If it exists
         returns the URI, otherwise returns None
         """
-        matches = self._entities_df[self._entities_df.mongo_id==local_id]
+        matches = self._entities_df[self._entities_df.mongo_id == local_id]
         n_matches = matches.shape[0]
 
         if n_matches == 0:
@@ -210,12 +210,37 @@ class RDFExporter(object):
     ##################################################
 
     def _create_common_entities(self):
+        common_entities = []
         self._api_curation_agent = self._create_provenance_agent(
-            "LinkedBooks API v1.0"
+            "VeniceScholar API v1.0", related_urls=[self._api_wrapper._api_base]
         )
-        return [self._api_curation_agent]
+        common_entities.append(self._api_curation_agent)
+        self._save([self._api_curation_agent])
 
-    def _create_provenance_agent(self, name: str) -> ProvenanceEntity:
+        self._exporter_curation_agent = self._create_provenance_agent(
+            "LinkedBooks RDF exporter vX.X", related_urls=[EXPORTER_GH_URL]
+        )
+        common_entities.append(self._exporter_curation_agent)
+        self._save([self._exporter_curation_agent])
+
+        self._siasve_curation_agent = self._create_provenance_agent(
+            "SIASVE. Sistema informativo dell'Archivio di Stato di Venezia.",
+            related_urls=[SIASVE_URL],
+        )
+        common_entities.append(self._siasve_curation_agent)
+        self._save([self._siasve_curation_agent])
+
+        self._iccu_curation_agent = self._create_provenance_agent(
+            "OPAC SBN. Catalogo del Servizio Bibliotecario Nazionale.",
+            related_urls=["https://opac.sbn.it/"],
+        )
+        common_entities.append(self._iccu_curation_agent)
+        self._save([self._iccu_curation_agent])
+        return common_entities
+
+    def _create_provenance_agent(
+        self, name: str, related_urls: List[str] = None
+    ) -> ProvenanceEntity:
         """Create a provenance agent entity.
 
         :param name: the agent's name
@@ -225,14 +250,18 @@ class RDFExporter(object):
         # define fields
         entity_type = "provenance_agent"
         prefix = TYPE_MAPPINGS[entity_type]
-        res_id, agent_uri = self.mint_uri(entity_type)
-        rdf_label = self.create_label(entity_type)
+        res_id, agent_uri = self.mint_provenance_uri(entity_type, None)
+        rdf_label = self.create_provenance_label(entity_type, None)
 
         # create the rdflib Graph
         g = Graph()
         g.add((agent_uri, RDF.type, prov_ns.Agent))
         g.add((agent_uri, RDFS.label, Literal(rdf_label)))
         g.add((agent_uri, FOAF.name, Literal(name)))
+
+        if related_urls:
+            for url in related_urls:
+                g.add((agent_uri, dcterms_ns.relation, URIRef(url)))
 
         # create the intermediate Entity
         e = ProvenanceEntity(
@@ -241,29 +270,31 @@ class RDFExporter(object):
             uri=agent_uri,
             graph=g,
             described_resource_id=None,
-            described_resource_type=None
+            described_resource_type=None,
         )
         logger.debug(f"Created {entity_type.replace('_', ' ')}: {repr(e)}")
         return e
 
     def _create_provenance_record(
-        self,
-        entity: Entity,
-        api_url: str
+        self, entity: Entity, api_url: str
     ) -> List[ProvenanceEntity]:
+        """Short summary.
+
+        :param Entity entity: Description of parameter `entity`.
+        :param str api_url: Description of parameter `api_url`.
+        :return: Description of returned object.
+        :rtype: List[ProvenanceEntity]
+
+        """
         activity = self._create_provenance_activity(entity, "creation")
         role = self._create_provenance_role(entity)
         snapshot = self._create_provenance_snapshot(
-            entity,
-            activity_uri=activity.uri,
-            source_uri=api_url
+            entity, activity_uri=activity.uri, source_uri=api_url
         )
         return [activity, snapshot, role]
 
     def _create_provenance_activity(
-        self,
-        entity: Entity,
-        activity_type: str
+        self, entity: Entity, activity_type: str
     ) -> ProvenanceEntity:
         # define fields
         entity_type = "curatorial_activity"
@@ -277,15 +308,12 @@ class RDFExporter(object):
         g.add((activity_uri, RDF.type, prov_ns.Activity))
         g.add((activity_uri, RDFS.label, Literal(rdf_label)))
         # for now we support only creation as curatorial acitity
-        if activity_type == 'creation':
+        if activity_type == "creation":
             g.add((activity_uri, RDF.type, prov_ns.Create))
-            desc = f"The entity \'{str(entity.uri)}\' has been created."
+            desc = f"The entity '{str(entity.uri)}' has been created."
             g.add((activity_uri, DCTERMS.description, Literal(desc)))
         g.add(
-            (
-                activity_uri,
-                prov_ns.qualifiedAssociation, self._api_curation_agent.uri
-            )
+            (activity_uri, prov_ns.qualifiedAssociation, self._api_curation_agent.uri)
         )
 
         # create the intermediate Entity
@@ -295,12 +323,12 @@ class RDFExporter(object):
             uri=activity_uri,
             graph=g,
             described_resource_id=entity.resource_id,
-            described_resource_type=entity.type
+            described_resource_type=entity.type,
         )
         logger.debug(f"Created {entity_type.replace('_', ' ')}: {repr(e)}")
         return e
 
-    # TODO: implement
+    # TODO: extend with more input parameters: role="curator", agent_uri="..."
     def _create_provenance_role(self, entity: Entity) -> ProvenanceEntity:
         # define fields
         entity_type = "curatorial_role"
@@ -313,7 +341,7 @@ class RDFExporter(object):
         g.add((role_uri, RDF.type, prov_ns.Association))
         g.add((role_uri, RDFS.label, Literal(rdf_label)))
         g.add((role_uri, prov_ns.agent, self._api_curation_agent.uri))
-        g.add((role_uri, prov_ns.hadRole, Literal('metadata_provider')))
+        g.add((role_uri, prov_ns.hadRole, Literal("metadata_provider")))
 
         e = ProvenanceEntity(
             resource_id=res_id,
@@ -321,16 +349,13 @@ class RDFExporter(object):
             uri=role_uri,
             graph=g,
             described_resource_id=entity.resource_id,
-            described_resource_type=entity.type
+            described_resource_type=entity.type,
         )
         logger.debug(f"Created {entity_type.replace('_', ' ')}: {repr(e)}")
         return e
 
     def _create_provenance_snapshot(
-        self,
-        entity: Entity,
-        activity_uri: URIRef,
-        source_uri: str
+        self, entity: Entity, activity_uri: URIRef, source_uri: str
     ) -> ProvenanceEntity:
         # define fields
         entity_type = "snapshot_entity_metadata"
@@ -344,20 +369,8 @@ class RDFExporter(object):
         g.add((snapshot_uri, RDFS.label, Literal(rdf_label)))
         g.add((snapshot_uri, prov_ns.specializationOf, entity.uri))
         g.add((snapshot_uri, prov_ns.wasGeneratedBy, activity_uri))
-        g.add(
-            (
-                snapshot_uri,
-                prov_ns.hadPrimarySource,
-                URIRef(source_uri)
-            )
-        )
-        g.add(
-            (
-                snapshot_uri,
-                prov_ns.generatedAtTime,
-                Literal(datetime.utcnow())
-            )
-        )
+        g.add((snapshot_uri, prov_ns.hadPrimarySource, URIRef(source_uri)))
+        g.add((snapshot_uri, prov_ns.generatedAtTime, Literal(datetime.utcnow())))
 
         e = ProvenanceEntity(
             resource_id=res_id,
@@ -365,7 +378,7 @@ class RDFExporter(object):
             uri=snapshot_uri,
             graph=g,
             described_resource_id=entity.resource_id,
-            described_resource_type=entity.type
+            described_resource_type=entity.type,
         )
         logger.debug(f"Created {entity_type.replace('_', ' ')}: {repr(e)}")
         return e
@@ -381,7 +394,7 @@ class RDFExporter(object):
         entity_type = "responsible_agent"
         resource_id, agent_uri = self.mint_uri(entity_type)
         rdf_label = self.create_label(entity_type)
-        lastname, firstname = author_data["name"].split(',')[:2]
+        lastname, firstname = author_data["name"].split(",")[:2]
 
         # create the rdflib Graph
         g = Graph()
@@ -392,9 +405,7 @@ class RDFExporter(object):
 
         # TODO: check OCDM mapping instead of sameAs
         if author_data["viaf_link"] is not None:
-            g.add((agent_uri, datacite_ns.viaf,
-
-             URIRef(author_data["viaf_link"])))
+            g.add((agent_uri, datacite_ns.viaf, URIRef(author_data["viaf_link"])))
 
         # create the intermediate Entity
         e = Entity(
@@ -402,7 +413,7 @@ class RDFExporter(object):
             mongo_id=author_data["id"],
             type=entity_type,
             uri=agent_uri,
-            graph=g
+            graph=g,
         )
         logger.debug("Serialised author: %s" % repr(e))
         return e
@@ -411,12 +422,12 @@ class RDFExporter(object):
         self,
         publication_data: dict,
         resource_type: str,
-        agent_role_uris : List[URIRef] = None,
-        identifier_uris : List[URIRef] = None,
-        part_of : URIRef = None
+        agent_role_uris: List[URIRef] = None,
+        identifier_uris: List[URIRef] = None,
+        part_of: URIRef = None,
     ) -> Entity:
         """Maps a publication to an OCDM BibliographiResource."""
-        iccu_base_url  = "http://id.sbn.it/bid/"
+        iccu_base_url = "http://id.sbn.it/bid/"
 
         # define fields
         local_id = publication_data["id"]
@@ -429,10 +440,7 @@ class RDFExporter(object):
 
         if resource_type == "book":
             # basic metadata
-            permalink = URIRef(os.path.join(
-                iccu_base_url,
-                publication_data['bid']
-            ))
+            permalink = URIRef(os.path.join(iccu_base_url, publication_data["bid"]))
             g.add((bibl_resource_uri, RDFS.label, Literal(rdf_label)))
             g.add((bibl_resource_uri, RDF.type, fabio_ns.Expression))
             g.add((bibl_resource_uri, RDF.type, fabio_ns.Book))
@@ -441,51 +449,44 @@ class RDFExporter(object):
             if agent_role_uris:
                 for ar_uri in agent_role_uris:
                     g.add(
-                        (
-                            bibl_resource_uri,
-                            spar_prov_ns.isDocumentContextFor,
-                            ar_uri
-                        )
+                        (bibl_resource_uri, spar_prov_ns.isDocumentContextFor, ar_uri)
                     )
 
             # link to ICCU via BID
             g.add((bibl_resource_uri, dcterms_ns.relation, permalink))
 
             # publication place
-            if publication_data['place']:
-                g.add((
-                    bibl_resource_uri,
-                    fabio_ns.hasPlaceOfPublication,
-                    Literal(publication_data['place'].strip())
-                ))
+            if publication_data["place"]:
+                g.add(
+                    (
+                        bibl_resource_uri,
+                        fabio_ns.hasPlaceOfPublication,
+                        Literal(publication_data["place"].strip()),
+                    )
+                )
 
             # book publisher
-            if publication_data['publisher']:
-                g.add((
-                    bibl_resource_uri,
-                    dcterms_ns.publisher,
-                    Literal(publication_data['publisher'].strip())
-                ))
+            if publication_data["publisher"]:
+                g.add(
+                    (
+                        bibl_resource_uri,
+                        dcterms_ns.publisher,
+                        Literal(publication_data["publisher"].strip()),
+                    )
+                )
 
             # book title
             g.add(
-                (
-                    bibl_resource_uri,
-                    DCTERMS.title,
-                    Literal(publication_data['title'])
-                )
+                (bibl_resource_uri, DCTERMS.title, Literal(publication_data["title"]))
             )
 
             # publication date
-            if (
-                publication_data["year"] != "" and
-                publication_data["year"] is not None
-            ):
+            if publication_data["year"] != "" and publication_data["year"] is not None:
                 g.add(
                     (
                         bibl_resource_uri,
                         fabio_ns.hasPublicationYear,
-                        Literal(publication_data["year"], datatype=XSD.year)
+                        Literal(publication_data["year"], datatype=XSD.year),
                     )
                 )
             # - BID/ISBN identifier
@@ -499,39 +500,28 @@ class RDFExporter(object):
             if agent_role_uris:
                 for ar_uri in agent_role_uris:
                     g.add(
-                        (
-                            bibl_resource_uri,
-                            spar_prov_ns.isDocumentContextFor,
-                            ar_uri
-                        )
+                        (bibl_resource_uri, spar_prov_ns.isDocumentContextFor, ar_uri)
                     )
 
             # article title
             g.add(
-                (
-                    bibl_resource_uri,
-                    DCTERMS.title,
-                    Literal(publication_data['title'])
-                )
+                (bibl_resource_uri, DCTERMS.title, Literal(publication_data["title"]))
             )
 
             # add relation to journal issue or volume
             g.add((bibl_resource_uri, frbr_ns.partOf, part_of))
 
             # publication date
-            if (
-                publication_data["year"] != "" and
-                publication_data["year"] is not None
-            ):
+            if publication_data["year"] != "" and publication_data["year"] is not None:
                 g.add(
                     (
                         bibl_resource_uri,
                         fabio_ns.hasPublicationYear,
-                        Literal(publication_data["year"], datatype=XSD.year)
+                        Literal(publication_data["year"], datatype=XSD.year),
                     )
                 )
         elif resource_type == "journal":
-            local_id = publication_data['bid']
+            local_id = publication_data["bid"]
             g.add((bibl_resource_uri, RDFS.label, Literal(rdf_label)))
             g.add((bibl_resource_uri, RDF.type, fabio_ns.Expression))
             g.add((bibl_resource_uri, RDF.type, fabio_ns.Journal))
@@ -541,47 +531,49 @@ class RDFExporter(object):
                 (
                     bibl_resource_uri,
                     DCTERMS.title,
-                    Literal(publication_data['journal_short_title'])
+                    Literal(publication_data["journal_short_title"]),
                 )
             )
         elif resource_type == "journal_issue":
-            journal_bid = publication_data['bid']
-            volume_number = publication_data['volume']
-            issue_number = publication_data['issue_number']
+            journal_bid = publication_data["bid"]
+            volume_number = publication_data["volume"]
+            issue_number = publication_data["issue_number"]
             local_id = f"{journal_bid}-{volume_number}-{issue_number}"
 
             g.add((bibl_resource_uri, RDFS.label, Literal(rdf_label)))
             g.add((bibl_resource_uri, RDF.type, fabio_ns.Expression))
             g.add((bibl_resource_uri, RDF.type, fabio_ns.JournalIssue))
             g.add((bibl_resource_uri, frbr_ns.partOf, part_of))
-            g.add((
-                bibl_resource_uri,
-                fabio_ns.hasSequenceIdentifier,
-                Literal(issue_number)
-            ))
+            g.add(
+                (
+                    bibl_resource_uri,
+                    fabio_ns.hasSequenceIdentifier,
+                    Literal(issue_number),
+                )
+            )
         elif resource_type == "journal_volume":
-            journal_bid = publication_data['bid']
-            volume_number = publication_data['volume']
+            journal_bid = publication_data["bid"]
+            volume_number = publication_data["volume"]
             local_id = f"{journal_bid}-{volume_number}"
 
             g.add((bibl_resource_uri, RDFS.label, Literal(rdf_label)))
             g.add((bibl_resource_uri, RDF.type, fabio_ns.Expression))
             g.add((bibl_resource_uri, RDF.type, fabio_ns.JournalVolume))
             g.add((bibl_resource_uri, frbr_ns.partOf, part_of))
-            g.add((
-                bibl_resource_uri,
-                fabio_ns.hasSequenceIdentifier,
-                Literal(volume_number)
-            ))
+            g.add(
+                (
+                    bibl_resource_uri,
+                    fabio_ns.hasSequenceIdentifier,
+                    Literal(volume_number),
+                )
+            )
         elif resource_type == "primary_source":
-            psource_label = publication_data['label']
-            psource_id = publication_data['internal_id']
-            link = publication_data['link']
-            psource_uri = URIRef(os.path.join(
-                "http://data.dhlab.epfl.ch",
-                "asve",
-                psource_id
-            ))
+            psource_label = publication_data["label"]
+            psource_id = publication_data["internal_id"]
+            link = publication_data["link"]
+            psource_uri = URIRef(
+                os.path.join("http://data.dhlab.epfl.ch", "asve", psource_id)
+            )
 
             g.add((bibl_resource_uri, RDFS.label, Literal(rdf_label)))
             g.add((bibl_resource_uri, RDF.type, fabio_ns.Expression))
@@ -590,7 +582,7 @@ class RDFExporter(object):
                 (
                     bibl_resource_uri,
                     DCTERMS.title,
-                    Literal(f"{psource_label} ({psource_id})")
+                    Literal(f"{psource_label} ({psource_id})"),
                 )
             )
             g.add((bibl_resource_uri, dcterms_ns.relation, URIRef(link)))
@@ -602,16 +594,13 @@ class RDFExporter(object):
             mongo_id=local_id,
             type=entity_type,
             uri=bibl_resource_uri,
-            graph=g
+            graph=g,
         )
         logger.debug(f"Serialised {resource_type}: {repr(e)}")
         return e
 
     def _create_agent_role(
-        self,
-        agent_uri: URIRef,
-        role: str,
-        next_uri: None
+        self, agent_uri: URIRef, role: str, next_uri: None
     ) -> Entity:
         """
         In OCDM authorship is represented as the role of an author
@@ -630,7 +619,7 @@ class RDFExporter(object):
         if next_uri is not None:
             g.add((agent_role_uri, oc_ns.hasNext, next_uri))
         g.add((agent_role_uri, spar_prov_ns.isHeldBy, agent_uri))
-        if role == 'author':
+        if role == "author":
             g.add((agent_role_uri, spar_prov_ns.withRole, spar_prov_ns.author))
         g.add((agent_role_uri, RDFS.label, Literal(rdf_label)))
 
@@ -640,7 +629,7 @@ class RDFExporter(object):
             mongo_id=None,
             type=entity_type,
             uri=agent_role_uri,
-            graph=g
+            graph=g,
         )
         logger.debug(f"Serialised {entity_type}: {repr(e)}")
         return e
@@ -662,70 +651,93 @@ class RDFExporter(object):
     def export(self):
         """Exports data from ScholarIndex API into RDF."""
 
-        ce = self._create_common_entities()
-        self._save(ce)
+        self._create_common_entities()
 
         books = []
         articles = []
-        citations = []
+        citations = []  # should be a dict from the beginning to avoid groupby
 
-        # export authors
+        # export 3 authors
         author_ids = self._api_wrapper.get_authors()
         for item in author_ids:
-            author_id = item['author']['id']
+            author_id = item["author"]["id"]
             api_url, author_data = self._api_wrapper.get_author(author_id)
-            self._export_author(author_data['author'], api_url)
-            books += author_data['publications']['books'] # only for dev
-            articles += author_data['publications']['articles'] # only for dev
+            self._export_author(author_data["author"], api_url)
+            books += author_data["publications"]["books"][:1]  # only for dev
+            articles += author_data["publications"]["articles"][:1]  # only for dev
 
         # export primary sources
-        primary_sources = [('asve', '59157b67fe76835e499fa4cd')]
+        primary_sources = [("asve", "59157b67fe76835e499fa4cd")]
         for archive_id, primary_source_id in primary_sources:
             api_url, psource_data = self._api_wrapper.get_primary_source(
-                archive_id,
-                primary_source_id
+                archive_id, primary_source_id
             )
-            citing_publications = psource_data['citing']
-            psource_data = psource_data['primary_source']
+            citing_publications = psource_data["citing"]
+            psource_data = psource_data["primary_source"]
             self._export_primary_source(psource_data, api_url)
 
-            books += [book for book in citing_publications['books']]
-            articles += [article for article in citing_publications['articles']]
+            books += [book for book in citing_publications["books"]][:1]
+            articles += [article for article in citing_publications["articles"]][:1]
 
         # export books
+        logger.debug(f"Books to export {len(books)}")
         for book in books:
-            book_id = book['id']
-            #api_url, book_data = self._api_wrapper.get_book(book_id)
-            #self._export_book(book_data['book'], api_url)
-            api_url = "bogus-url"
-            self._export_book(book, api_url)
+            book_id = book["id"]
+            api_url, book_data = self._api_wrapper.get_book(book_id)
+            self._export_book(book_data["book"], api_url)
+            # api_url = "bogus-url"
+            # self._export_book(book, api_url)
 
-            """
-            for book in book_data['cited']['books']:
-                for reference in book['incoming_references']:
-                    citation = {
-                        "citing_document_id": book_id,
-                        "cited_document_id": book['id'],
-                        "reference_id": reference['id']
-                    }
-            """
             # TODO: do the same for articles and ps
+            for cited_book in book_data["cited"]["books"]:
+                for reference in book["incoming_references"]:
+                    # use a named tuple instead of this
+                    citation = {
+                        "citing_document_type": "book",
+                        "citing_document_id": book_id,
+                        "cited_document_id": cited_book["id"],
+                        "cited_document_type": "book",
+                        "reference_id": reference["id"],
+                    }
+                    citations.append(citation)
+
+                    # append it to the list of books to export
+                    # if it hasn't been encountered yet
+                    if (
+                        self.find_existing_uri(
+                            cited_book["id"], "bibliographic_resource"
+                        )
+                        is None
+                    ):
+                        books.append(cited_book)
+        logger.debug(f"Books exported {len(books)}")
 
         # export journal articles
         for article in articles:
-            article_id = article['id']
+            article_id = article["id"]
             # api_url, book_data = self._api_wrapper.get_book(book_id)
             # self._export_book(book_data, api_url)
             api_url = "bogus-url"
             self._export_article(article, api_url)
 
-        # export all references (this relies on book/articles/sources already exported)
-        #   and requires updating the RDF graph of the citing bibl. resource
+        # export references from already exported books/articles
 
         # reference_ids = self._api_wrapper.get_references()
-        reference_ids = []
-        for reference in reference_ids:
-            pass
+        # TODO: group citations by citing document id in order to
+        # minimize the number of updates to the already serialized
+        # bibliographic resources
+        """
+        for publication_id in citations:
+            references = citations[publication_id]
+            # fetch reference data from API
+            citing_document_uri = self.find_existing_uri(
+                publication_id, "bibliographic_resource"
+            )
+            assert citing_document_uri is not None
+            # TODO: finish implementation
+            self._export_references(references)
+        """
+        self._serializer.flush()
 
     def _export_author(self, author_data: dict, api_url: str) -> None:
         """Creates  an RDF representation of an author according to OCDM.
@@ -749,12 +761,13 @@ class RDFExporter(object):
         # create identifier and pass uri to `_create_bibliographic_resource()`
         # retrieve author URIs and `_create_agent_role`
 
-        authors_field = book_data['author']
+        authors_field = book_data["author"]
         agent_roles = []
         if authors_field:
             author_uris = [
-                (   author['id'],
-                    self.find_existing_uri(author['id'], 'responsible_agent')
+                (
+                    author["id"],
+                    self.find_existing_uri(author["id"], "responsible_agent"),
                 )
                 for author in authors_field
             ]
@@ -762,27 +775,22 @@ class RDFExporter(object):
             for author_id, author_uri in author_uris:
                 if author_uri:
                     ar_entity = self._create_agent_role(
-                        agent_uri=author_uri,
-                        role='author',
-                        next_uri=None
+                        agent_uri=author_uri, role="author", next_uri=None
                     )
                     ar_prov_entities = self._create_provenance_record(
-                        ar_entity,
-                        api_url
+                        ar_entity, api_url
                     )
                     agent_roles.append(ar_entity.uri)
                     self._save([ar_entity])
                     self._save(ar_prov_entities)
                 else:
-                    logger.error(f'Author {author_id} not serialized yet!')
+                    logger.error(f"Author {author_id} not serialized yet!")
                     pass
 
-        #pdb.set_trace()
+        # pdb.set_trace()
         new_entities = []
         book_entity = self._create_bibliographic_resource(
-            book_data,
-            resource_type='book',
-            agent_role_uris=agent_roles
+            book_data, resource_type="book", agent_role_uris=agent_roles
         )
         new_entities.append(book_entity)
         new_entities += self._create_provenance_record(book_entity, api_url)
@@ -797,39 +805,33 @@ class RDFExporter(object):
         journal volume, and journal issue. For all the new entities,
         it creates a provenance record.
         """
-        new_entities = []
 
-
-        journal_id = article_data['bid']
-        journal_volume = article_data['volume']
-        journal_issue_number = article_data['issue_number']
+        journal_id = article_data["bid"]
+        journal_volume = article_data["volume"]
+        journal_issue_number = article_data["issue_number"]
 
         # check if journal was already processed
-        journal_uri = self.find_existing_uri(
-            journal_id,
-            "bibliographic_resource"
-        )
+        journal_uri = self.find_existing_uri(journal_id, "bibliographic_resource")
 
         # if it does not exist, create it
         if journal_uri is None:
-            j = self._create_bibliographic_resource(article_data, 'journal')
-            self._save([j])
+            j = self._create_bibliographic_resource(article_data, "journal")
+            journal_prov = self._create_provenance_record(j, api_url)
+            self._save([j] + journal_prov)
             journal_uri = j.uri
 
         # check if journal volume was already processed
         journal_volume_uri = self.find_existing_uri(
-            f"{journal_id}-{journal_volume}",
-            "bibliographic_resource"
+            f"{journal_id}-{journal_volume}", "bibliographic_resource"
         )
 
         # if journal volume does not exist, create it
         if journal_volume_uri is None:
             jv = self._create_bibliographic_resource(
-                article_data,
-                'journal_volume',
-                part_of=journal_uri
+                article_data, "journal_volume", part_of=journal_uri
             )
-            self._save([jv])
+            journal_volume_prov = self._create_provenance_record(jv, api_url)
+            self._save([jv] + journal_volume_prov)
             journal_volume_uri = jv.uri
 
         # TODO: handle journal issue
@@ -840,31 +842,27 @@ class RDFExporter(object):
         # create entities for journal article itself
         a = self._create_bibliographic_resource(
             article_data,
-            'journal_article',
-            part_of=journal_volume_uri if journal_volume is not None else None
+            "journal_article",
+            part_of=journal_volume_uri if journal_volume is not None else None,
         )
-        new_entities.append(a)
+        journal_article_prov = self._create_provenance_record(a, api_url)
+        self._save([a] + journal_article_prov)
+        return
 
-        self._save(new_entities)
-
-        # check if journal volume was already processed
-        # check if journal issue was already processed
-        # check if journal article was already processed
+    def _export_references(self, reference_data: List[dict]) -> None:
+        """
+        - create bibliographic references
+        - fetch citing pub entity from dataframe
+        - append bib refs to the graph of the entity
+        - ask the serializer to update the graph on disk
+        """
         pass
 
-    def _export_reference(self):
-        pass
-
-    def _export_primary_source(
-        self,
-        primary_source_data: dict,
-        api_url: str
-    ) -> None:
+    def _export_primary_source(self, primary_source_data: dict, api_url: str) -> None:
         """TODO"""
         new_entities = []
         ps_entity = self._create_bibliographic_resource(
-            primary_source_data,
-            'primary_source'
+            primary_source_data, "primary_source"
         )
         new_entities.append(ps_entity)
         new_entities += self._create_provenance_record(ps_entity, api_url)
@@ -884,31 +882,21 @@ def main():
     logger.setLevel(log_level)
     logging.getLogger("requests").setLevel(logging.WARNING)
 
-    handler = logging.FileHandler(filename=log_file, mode='w')\
-        if log_file is not None else logging.StreamHandler()
-
-    formatter = logging.Formatter(
-        '%(asctime)s %(name)-12s %(levelname)-8s %(message)s'
+    handler = (
+        logging.FileHandler(filename=log_file, mode="w")
+        if log_file is not None
+        else logging.StreamHandler()
     )
+
+    formatter = logging.Formatter("%(asctime)s %(name)-12s %(levelname)-8s %(message)s")
 
     handler.setFormatter(formatter)
     logger.addHandler(handler)
 
     # let's get down to businnes
-    serializer = OCCSerializer(
-        out_dir,
-        json_context=OCC_CONTEXT_URI,
-        queue_size=10
-    )
-    exporter = RDFExporter(
-        api_base_uri,
-        rdf_base_uri,
-        DATASET_PREFIX,
-        serializer
-    )
+    serializer = OCCSerializer(out_dir, json_context=OCC_CONTEXT_URI, queue_size=100)
+    exporter = RDFExporter(api_base_uri, rdf_base_uri, DATASET_PREFIX, serializer)
     exporter.export()
-    serializer.flush()
-    pdb.set_trace()
 
 
 if __name__ == "__main__":

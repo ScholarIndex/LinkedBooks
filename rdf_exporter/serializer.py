@@ -8,6 +8,7 @@ from typing import List
 from rdflib import Graph
 
 from helpers import Entity, ProvenanceEntity, TYPE_MAPPINGS, PREFIX_MAPPINGS
+
 logger = logging.getLogger(__name__)
 
 
@@ -19,8 +20,8 @@ class OCCSerializer(object):
         self._context = json_context
         self._known_entity_types = []
         self._location_index = {}
-        self._queues = {} # a dict of lists
-        self._prov_queues = {} # a dict of lists
+        self._queues = {}  # a dict of lists
+        self._prov_queues = {}  # a dict of lists
         self._global_counters = {}
         self._queue_size = queue_size
 
@@ -64,7 +65,7 @@ class OCCSerializer(object):
                 self._serialize(entity_type, self._queues[entity_type])
                 self._queues[entity_type] = []
 
-    # TODO: support named graph
+    # TODO: support named graphs
     def to_jsonld(self, entities: List, output_path: str) -> None:
         """TODO"""
         # the graph to be written is the concatenation of all single
@@ -77,33 +78,26 @@ class OCCSerializer(object):
             # was serialized, in case it needs to be updated later on
             self._location_index[e.uri] = output_path
 
-        with codecs.open(output_path, 'wb') as out_file:
-            logger.debug(f'Writing {len(entities)} entities to {output_path}')
-            out_file.write(output_graph.serialize(
-                format="json-ld",
-                context=self._context)
+        with codecs.open(output_path, "wb") as out_file:
+            logger.debug(f"Writing {len(entities)} entities to {output_path}")
+            out_file.write(
+                output_graph.serialize(format="json-ld", context=self._context)
             )
         return
 
     def _serialize_provenance(
-        self,
-        entity_type: str,
-        described_entities: List[Entity],
-        output_dir: str
+        self, entity_type: str, described_entities: List[Entity], output_dir: str
     ):
-        described_resource_ids = [
-            entity.resource_id
-            for entity in described_entities
-        ]
+        described_resource_ids = [entity.resource_id for entity in described_entities]
 
         try:
             pathlib.Path(output_dir).mkdir(parents=True)
         except FileExistsError:
-            logger.debug(f'Output directory {output_dir} already exists.')
+            logger.debug(f"Output directory {output_dir} already exists.")
 
         for prov_entity_type in self._prov_queues:
 
-            if prov_entity_type == 'provenance_agent':
+            if prov_entity_type == "provenance_agent":
                 continue
 
             # not all provenance entities need to be serialized
@@ -126,19 +120,17 @@ class OCCSerializer(object):
             # the json-ld output file is named with the corresponding entity
             # type prefix (e.g. `ca` for `curation_agent_uri`, etc.)
             output_path = os.path.join(
-                output_dir,
-                f"{TYPE_MAPPINGS[prov_entity_type]}.json"
+                output_dir, f"{TYPE_MAPPINGS[prov_entity_type]}.json"
             )
             self.to_jsonld(relevant_prov_entities, output_path)
             logger.debug(
                 f"Serialized {len(relevant_prov_entities)} provenance "
                 f"entities of type {prov_entity_type} for "
-                f"{len(described_entities)} entities of type \'"
-                f"{entity_type}\' to file {output_path}"
+                f"{len(described_entities)} entities of type '"
+                f"{entity_type}' to file {output_path}"
             )
         return
 
-    # TODO: finish implementation
     def _serialize(self, entity_type: str, entities: List):
         """Serializes a list of entities to disk following OCDM's format."""
         records_chunk = self._queue_size * 10
@@ -157,29 +149,20 @@ class OCCSerializer(object):
         else:
             currdir = str(chunk_end)
         basedir = os.path.join(
-            self._output_directory,
-            TYPE_MAPPINGS[entity_type],
-            currdir
+            self._output_directory, TYPE_MAPPINGS[entity_type], currdir
         )
 
         # the output file for non provenance entities
         if len(entities) < self._queue_size:
-            n = (self._global_counters[entity_type] // self._queue_size)
+            n = self._global_counters[entity_type] // self._queue_size
             filename = (n + 1) * self._queue_size
         else:
             filename = self._global_counters[entity_type]
 
-        output_path = os.path.join(
-            basedir,
-            f"{filename}.json"
-        )
+        output_path = os.path.join(basedir, f"{filename}.json")
 
         # the base directory for provenance entities
-        provenance_dir = os.path.join(
-            basedir,
-            str(filename),
-            "prov"
-        )
+        provenance_dir = os.path.join(basedir, str(filename), "prov")
 
         #########################
         # write triples to disk #
@@ -188,7 +171,7 @@ class OCCSerializer(object):
         try:
             pathlib.Path(basedir).mkdir(parents=True)
         except FileExistsError:
-            logger.debug(f'Output directory {basedir} already exists.')
+            logger.debug(f"Output directory {basedir} already exists.")
 
         self.to_jsonld(entities, output_path)
 
@@ -209,8 +192,18 @@ class OCCSerializer(object):
             if entity_type not in self._global_counters:
                 self._global_counters[entity_type] = 0
 
-            self._global_counters[entity_type] += len(
-                self._queues[entity_type]
-            )
+            self._global_counters[entity_type] += len(self._queues[entity_type])
 
             self._serialize(entity_type, self._queues[entity_type])
+
+        # serialize provenance agents, which get a special treatment
+        # compared to the other provenance entities
+        pa_output_dir = os.path.join(self._output_directory, "prov", "pa")
+        try:
+            pathlib.Path(pa_output_dir).mkdir(parents=True)
+        except FileExistsError:
+            logger.debug(f"Output directory {pa_output_dir} already exists.")
+
+        for n, pa in enumerate(self._prov_queues["provenance_agent"]):
+            output_path = os.path.join(pa_output_dir, f"{n + 1}.json")
+            self.to_jsonld([pa], output_path)

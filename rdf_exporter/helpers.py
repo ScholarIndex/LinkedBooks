@@ -6,24 +6,19 @@ LOGGER = logging.getLogger(__name__)
 
 
 ProvenanceEntity = namedtuple(
-    "ProvenanceEntity", [
-        'resource_id',
-        'type',
-        'uri',
-        'graph',
-        'described_resource_id',
-        'described_resource_type'
-    ]
+    "ProvenanceEntity",
+    [
+        "resource_id",
+        "type",
+        "uri",
+        "graph",
+        "described_resource_id",
+        "described_resource_type",
+    ],
 )
 
 Entity = namedtuple(
-    "Entity", [
-        'resource_id',
-        'mongo_id',  # do we need it
-        'type',
-        'uri',
-        'graph',
-    ]
+    "Entity", ["resource_id", "mongo_id", "type", "uri", "graph",]  # do we need it
 )
 
 PREFIX_MAPPINGS = {
@@ -33,7 +28,8 @@ PREFIX_MAPPINGS = {
     "ca": "curatorial_activity",
     "ar": "agent_role",
     "se": "snapshot_entity_metadata",
-    "cr": "curatorial_role"
+    "cr": "curatorial_role",
+    "be": "bibliographic_reference",
 }
 
 TYPE_MAPPINGS = {
@@ -43,8 +39,10 @@ TYPE_MAPPINGS = {
     "curatorial_activity": "ca",
     "agent_role": "ar",
     "snapshot_entity_metadata": "se",
-    "curatorial_role": "cr"
+    "curatorial_role": "cr",
+    "bibliographic_reference": "be",
 }
+
 
 class APIWrapper(object):
     """A Python wrapper for the ScholarIndex API v1."""
@@ -68,14 +66,10 @@ class APIWrapper(object):
         self._primary_sources_endpoint = "{}/primary_sources/{}".format(
             self._api_base, "%s"
         )
-        self._reference_endpoint = "{}/references/{}".format(
-            self._api_base, "%s"
-        )
+        self._reference_endpoint = "{}/references/{}".format(self._api_base, "%s")
         self._references_endpoint = "{}/references/".format(self._api_base)
         self._stats_endpoint = "{}/stats/".format(self._api_base)
-        LOGGER.debug(
-            "Initialised endpoints with base {}".format(self._api_base)
-        )
+        LOGGER.debug("Initialised endpoints with base {}".format(self._api_base))
         return
 
     def get_authors(self):
@@ -83,8 +77,7 @@ class APIWrapper(object):
         offset = 0
         limit = 3
         r = requests.get(
-            self._authors_endpoint,
-            params={'offset': offset, 'limit': limit}
+            self._authors_endpoint, params={"offset": offset, "limit": limit}
         )
         authors_data = r.json()
         return authors_data
