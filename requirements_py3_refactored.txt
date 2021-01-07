@@ -63,7 +63,7 @@ jupyter-core==4.4.0
 lazy-object-proxy==1.2.2
 leather==0.3.3
 locket==0.2.0
-lxml==3.7.2
+lxml==4.6.2
 MarkupSafe==1.0
 matplotlib==2.0.0
 mccabe==0.6.1
