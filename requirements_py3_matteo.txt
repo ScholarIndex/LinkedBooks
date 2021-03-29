@@ -68,7 +68,7 @@ psutil==5.2.2
 ptyprocess==0.5.1
 py==1.4.32
 pyes==0.99.6
-Pygments==2.2.0
+Pygments==2.7.4
 pylint==1.6.5
 pymongo==3.5.1
 pyparsing==2.1.10
